@@ -1,0 +1,879 @@
+{
+  "meta": {
+    "title": "SF Late Night",
+    "origin": "21st Ave & Judah St, San Francisco, CA 94122",
+    "threshold": "Open past 11:00 PM on Friday, Saturday, or Sunday",
+    "verifiedOn": "2026-09-05",
+    "recordCount": 20,
+    "scopeNote": "Static, source-linked directory. Hours are transcribed from each venue's official site; the site does not claim live availability.",
+    "transitNote": "Transit labels are screening notes, not turn-by-turn directions. Use the live route link and check SFMTA/BART service before leaving.",
+    "planningSources": [
+      {
+        "label": "SFMTA routes",
+        "url": "https://www.sfmta.com/routes"
+      },
+      {
+        "label": "BART station directory",
+        "url": "https://www.bart.gov/stations"
+      },
+      {
+        "label": "511 Bay Area trip planner",
+        "url": "https://511.org/"
+      }
+    ]
+  },
+  "venues": [
+    {
+      "id": "emporium-sf",
+      "name": "Emporium SF",
+      "category": "Arcade bar",
+      "neighborhood": "Divisadero / NoPa",
+      "address": "616 Divisadero St, San Francisco, CA 94117",
+      "officialUrl": "https://www.emporiumarcadebar.com/locations/san-francisco/",
+      "hours": {
+        "Monday": "4:00 PM–2:00 AM",
+        "Tuesday": "4:00 PM–2:00 AM",
+        "Wednesday": "4:00 PM–2:00 AM",
+        "Thursday": "4:00 PM–2:00 AM",
+        "Friday": "4:00 PM–2:00 AM",
+        "Saturday": "2:00 PM–2:00 AM",
+        "Sunday": "2:00 PM–2:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "N Judah / Muni + walk",
+        "detail": "Use the live route link for the last mile; Divisadero is served by Muni connections from the N Judah corridor.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official San Francisco location page",
+        "url": "https://www.emporiumarcadebar.com/locations/san-francisco/",
+        "quote": "616 Divisadero St. San Francisco, California 94117. General Hours: Monday 4PM-2AM; Tuesday 4PM-2AM; Wednesday 4PM-2AM; Thursday 4PM-2AM; Friday 4PM-2AM; Saturday 2PM-2AM; Sunday 2PM-2AM."
+      },
+      "flags": [
+        "21+ venue; event nights can add a cover or change entry conditions."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "zeitgeist",
+      "name": "Zeitgeist",
+      "category": "Beer garden / bar",
+      "neighborhood": "Mission / Valencia",
+      "address": "199 Valencia St, San Francisco, CA 94103",
+      "officialUrl": "https://www.zeitgeistsf.com/",
+      "hours": {
+        "Monday": "2:00 PM–11:00 PM",
+        "Tuesday": "2:00 PM–11:00 PM",
+        "Wednesday": "2:00 PM–11:00 PM",
+        "Thursday": "2:00 PM–12:00 AM",
+        "Friday": "2:00 PM–1:00 AM",
+        "Saturday": "12:00 PM–1:00 AM",
+        "Sunday": "11:00 AM–9:30 PM"
+      },
+      "qualifyingDays": ["Friday", "Saturday"],
+      "access": {
+        "summary": "Muni / BART Mission corridor",
+        "detail": "Use a live planner to compare N Judah plus a walk with the 16th St BART / Mission bus corridor.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          },
+          {
+            "label": "BART 16th Street station",
+            "url": "https://www.bart.gov/stations/16th"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official venue home page",
+        "url": "https://www.zeitgeistsf.com/",
+        "quote": "Zeitgeist is a German Beergarden ... located at 199 Valencia Street, San Francisco, CA 94103. Mon 2 PM–11 PM; Tues 2 PM–11 PM; Wed 2 PM–11 PM; Thurs 2 PM–12 AM; Fri 2 PM–1 AM; Sat 12 PM–1 AM; Sun 11 AM–9:30 PM."
+      },
+      "flags": [
+        "Kitchen closes one hour before the bar; the late-night match is for the venue/bar, not the kitchen."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official home page checked for address and day-by-day hours; Friday and Saturday close after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "make-out-room",
+      "name": "Make-Out Room",
+      "category": "Music venue / bar",
+      "neighborhood": "Mission",
+      "address": "3225 22nd St at Mission, San Francisco, CA 94110",
+      "officialUrl": "https://www.makeoutroom.com/contact.html",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "6:00 PM–2:00 AM",
+        "Wednesday": "6:00 PM–2:00 AM",
+        "Thursday": "6:00 PM–2:00 AM",
+        "Friday": "6:00 PM–2:00 AM",
+        "Saturday": "6:00 PM–2:00 AM",
+        "Sunday": "6:00 PM–2:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "24th & Mission BART + short walk",
+        "detail": "The venue's own directions name BART 24th & Mission and the #49/#14 Mission buses stopping on Mission at 22nd Street.",
+        "sources": [
+          {
+            "label": "Venue transit directions",
+            "url": "https://www.makeoutroom.com/contact.html"
+          },
+          {
+            "label": "BART 24th Street station",
+            "url": "https://www.bart.gov/stations/24th"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official contact and directions page",
+        "url": "https://www.makeoutroom.com/contact.html",
+        "quote": "MAKE OUT ROOM, 3225 22nd Street @ Mission, San Francisco, California 94110. OPEN 6pm–2am Tuesday–Saturday; 6pm–2am Sunday (plus occasional matinee shows Noon–5pm); Closed Monday. Walking: BART 24th & Mission Street Station; #49 & #14 Mission buses stop on Mission at 22nd Street."
+      },
+      "flags": [
+        "Strictly 21+; occasional matinees are separately noted by the venue."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official page checked line by line for name, address, hours, and transit note; all three requested weekend days end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "specs",
+      "name": "Specs' Twelve Adler Museum Cafe",
+      "category": "Historic bar / music",
+      "neighborhood": "North Beach",
+      "address": "12 William Saroyan Place, San Francisco, CA 94133",
+      "officialUrl": "https://www.specsbarsf.com/",
+      "hours": {
+        "Monday": "4:00 PM–1:00 AM",
+        "Tuesday": "4:00 PM–1:00 AM",
+        "Wednesday": "4:00 PM–1:00 AM",
+        "Thursday": "4:00 PM–2:00 AM",
+        "Friday": "4:00 PM–2:00 AM",
+        "Saturday": "4:00 PM–2:00 AM",
+        "Sunday": "4:00 PM–1:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "Muni North Beach corridor",
+        "detail": "Plan a live Muni route via the Columbus/Grant North Beach corridor, then walk the final block(s).",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official venue home page",
+        "url": "https://www.specsbarsf.com/",
+        "quote": "Welcome to Specs’ Twelve Adler Museum Cafe ... in North Beach, SF since 1968! Open Sun-Wed 4pm-1am, Thurs-Sat 4pm-2am. Specs’ Twelve Adler Museum Cafe, 12 William Saroyan Place, San Francisco, CA 94133."
+      },
+      "flags": [
+        "North Beach location is in a pedestrian-heavy area; check the return transit plan before going late."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official home page checked for name, address, and grouped weekly hours; Sunday closes at 1 AM.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "casements",
+      "name": "Casements Bar",
+      "category": "Irish bar / food",
+      "neighborhood": "Mission",
+      "address": "2351 Mission St, San Francisco, CA 94110",
+      "officialUrl": "https://casementsbar.com/",
+      "hours": {
+        "Monday": "4:00 PM–2:00 AM",
+        "Tuesday": "4:00 PM–2:00 AM",
+        "Wednesday": "4:00 PM–2:00 AM",
+        "Thursday": "4:00 PM–2:00 AM",
+        "Friday": "3:00 PM–2:00 AM",
+        "Saturday": "2:00 PM–2:00 AM",
+        "Sunday": "2:00 PM–2:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "24th & Mission BART + short walk",
+        "detail": "Mission Street location; check a live planner for 24th St BART or Mission bus service and the last-mile walk.",
+        "sources": [
+          {
+            "label": "BART 24th Street station",
+            "url": "https://www.bart.gov/stations/24th"
+          },
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official Casements location and hours",
+        "url": "https://casementsbar.com/",
+        "quote": "Casements Bar, 2351 Mission Street, San Francisco, CA 94110. Mon 4pm–2am; Tue 4pm–2am; Wed 4pm–2am; Thu 4pm–2am; Fri 3pm–2am; Sat 2pm–2am; Sun 2pm–2am."
+      },
+      "flags": [
+        "Food service is earlier than the bar: the official menu page says kitchen until 9 PM Monday–Saturday and 8 PM Sunday."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site checked for the address and full hours; all three requested weekend days close at 2 AM.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "the-mint",
+      "name": "The Mint Karaoke Lounge",
+      "category": "Karaoke bar",
+      "neighborhood": "Market / Duboce Triangle",
+      "address": "1942 Market St, San Francisco, CA 94102",
+      "officialUrl": "https://themint.net/",
+      "hours": {
+        "Monday": "5:00 PM–2:00 AM",
+        "Tuesday": "Private events only",
+        "Wednesday": "5:00 PM–2:00 AM",
+        "Thursday": "5:00 PM–2:00 AM",
+        "Friday": "5:00 PM–2:00 AM",
+        "Saturday": "4:00 PM–2:00 AM",
+        "Sunday": "4:00 PM–2:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "Muni Metro / Market corridor",
+        "detail": "Use the live planner for N Judah/Muni Metro or BART plus a walk; the venue is on Market Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official reservations and contact page",
+        "url": "https://themint.net/san-francisco-karaoke-reservations/",
+        "quote": "Same-day reservations by phone only ... Hours: Mon-Fri 5PM-2AM; Sat-Sun 4PM-2AM; Tues: Available for private events only. Contact info: 1942 Market St, San Francisco, CA 94102."
+      },
+      "flags": [
+        "Tuesday is listed as private events only; it is not used for late-night eligibility."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official reservations page checked for address and public-hour wording; Friday, Saturday, and Sunday all end at 2 AM.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "pilsner-inn",
+      "name": "Pilsner Inn",
+      "category": "LGBTQ+ neighborhood bar",
+      "neighborhood": "Castro / Duboce",
+      "address": "225 Church St, San Francisco, CA 94114",
+      "officialUrl": "https://www.pilsnerinn.com/",
+      "hours": {
+        "Monday": "1:00 PM–2:00 AM",
+        "Tuesday": "1:00 PM–2:00 AM",
+        "Wednesday": "1:00 PM–2:00 AM",
+        "Thursday": "1:00 PM–2:00 AM",
+        "Friday": "12:00 PM–2:00 AM",
+        "Saturday": "12:00 PM–2:00 AM",
+        "Sunday": "12:00 PM–2:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "Church St Muni / N Judah + short walk",
+        "detail": "The venue identifies itself at the Castro, Mission, and Duboce Triangle intersection; use the live planner for Church St Muni/N Judah connections.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official site and location page",
+        "url": "https://www.pilsnerinn.com/location",
+        "quote": "225 Church Street, San Francisco, CA 94114. The official location listing states 1:00p–2:00a Monday–Thursday and 12:00p–2:00a Friday–Sunday; the current home page also states open until 2AM."
+      },
+      "flags": [
+        "The current home page emphasizes the closing time rather than repeating the full weekly table; the location-page schedule is retained here for review."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site checked for address and late closing; location schedule and home-page closing statement agree on 2 AM.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "midnight-sun",
+      "name": "Midnight Sun",
+      "category": "LGBTQ+ video bar",
+      "neighborhood": "Castro",
+      "address": "4067 18th St, San Francisco, CA 94114",
+      "officialUrl": "https://www.midnightsunsf.com/",
+      "hours": {
+        "Monday": "2:00 PM–12:00 AM",
+        "Tuesday": "2:00 PM–12:00 AM",
+        "Wednesday": "2:00 PM–12:00 AM",
+        "Thursday": "2:00 PM–2:00 AM",
+        "Friday": "2:00 PM–2:00 AM",
+        "Saturday": "12:30 PM–2:00 AM",
+        "Sunday": "1:00 PM–12:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "N Judah / Castro Muni + walk",
+        "detail": "Use a live route from the N Judah corridor to Castro/18th; the last mile is a neighborhood walk.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official venue home page",
+        "url": "https://www.midnightsunsf.com/",
+        "quote": "Midnight Sun ... current location ... 4067 18th Street, San Francisco, CA 94114. Opening Hours: Thu–Fri 2pm–2am; Sat 12:30pm–2am; Sun 1pm–12am; Mon–Wed 2pm–12am."
+      },
+      "flags": [
+        "Sunday closes at midnight; midnight is included because it is later than the requested 11 PM threshold."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official home page checked for current address and grouped hours; Friday/Saturday close at 2 AM and Sunday at midnight.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "alchemist",
+      "name": "Alchemist Bar & Lounge",
+      "category": "Cocktail bar",
+      "neighborhood": "SOMA / 3rd Street",
+      "address": "679 3rd St, San Francisco, CA 94107",
+      "officialUrl": "https://alchemistsf.com/",
+      "hours": {
+        "Monday": "4:30 PM–11:00 PM",
+        "Tuesday": "4:30 PM–11:00 PM",
+        "Wednesday": "4:30 PM–11:00 PM",
+        "Thursday": "4:30 PM–2:00 AM",
+        "Friday": "4:30 PM–2:00 AM",
+        "Saturday": "5:00 PM–2:00 AM",
+        "Sunday": "5:00 PM–11:00 PM"
+      },
+      "qualifyingDays": ["Friday", "Saturday"],
+      "access": {
+        "summary": "T Third / Caltrain + walk",
+        "detail": "Use a live planner for the T Third, Caltrain, or N Judah-to-downtown connection and the final walk on 3rd Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official home and contact pages",
+        "url": "https://alchemistsf.com/",
+        "quote": "Find Us: 679 3rd Street, San Francisco, CA 94107. Open hours: Mon 4:30pm–11pm; Tues 4:30pm–11pm; Wed 4:30pm–11pm; Thurs 4:30pm–2am; Fri 4:30pm–2am; Sat 5pm–2am; Sun 5pm–11pm."
+      },
+      "flags": [
+        "Sunday closes at 11 PM exactly and therefore is not counted; Friday and Saturday qualify."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site checked for address and day-by-day bar hours; qualifying days end at 2 AM.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "owl-tree",
+      "name": "Owl Tree",
+      "category": "Bar / lounge",
+      "neighborhood": "Lower Nob Hill",
+      "address": "601 Post St at Taylor, San Francisco, CA 94109",
+      "officialUrl": "https://www.owltreesf.com/contact-us",
+      "hours": {
+        "Monday": "6:00 PM–2:00 AM",
+        "Tuesday": "4:00 PM–2:00 AM",
+        "Wednesday": "4:00 PM–2:00 AM",
+        "Thursday": "4:00 PM–2:00 AM",
+        "Friday": "3:00 PM–2:00 AM",
+        "Saturday": "3:00 PM–2:00 AM",
+        "Sunday": "6:00 PM–2:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "Powell BART / Muni + walk",
+        "detail": "Use the live planner from Powell Street transit connections toward Post and Taylor.",
+        "sources": [
+          {
+            "label": "BART station directory",
+            "url": "https://www.bart.gov/stations"
+          },
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official contact page",
+        "url": "https://www.owltreesf.com/contact-us",
+        "quote": "Hours: Sun–Mon, 6pm–2am; Tue–Thurs, 4pm–2am; Fri–Sat, 3pm–2am. Address: 601 Post Street (@ Taylor), San Francisco, CA 94109."
+      },
+      "flags": [
+        "21+ nightlife venue; reservation and event conditions can change the door experience."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official contact page checked for address and full hours; all requested weekend days close at 2 AM.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "the-saloon",
+      "name": "The Saloon",
+      "category": "Historic live-music bar",
+      "neighborhood": "North Beach",
+      "address": "1232 Grant Ave, San Francisco, CA 94133",
+      "officialUrl": "https://thesaloonsf.com/",
+      "hours": {
+        "Monday": "12:00 PM–2:00 AM",
+        "Tuesday": "12:00 PM–2:00 AM",
+        "Wednesday": "12:00 PM–2:00 AM",
+        "Thursday": "12:00 PM–2:00 AM",
+        "Friday": "12:00 PM–2:00 AM",
+        "Saturday": "12:00 PM–2:00 AM",
+        "Sunday": "12:00 PM–2:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "Muni North Beach corridor",
+        "detail": "Plan a live Muni route via Grant/Columbus and walk the final block(s); check late return service.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official venue home page",
+        "url": "https://thesaloonsf.com/",
+        "quote": "The Saloon, 1232 Grant Avenue, San Francisco, California 94133. Open Daily: 12:00 pm–02:00 am."
+      },
+      "flags": [
+        "The venue advertises live music in separate time blocks; check the official calendar for a specific night."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official page checked for address and open-daily hours; Friday, Saturday, and Sunday all qualify.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "the-detour",
+      "name": "The Detour",
+      "category": "Games bar",
+      "neighborhood": "Duboce Triangle / Castro",
+      "address": "2200 Market St, Suite A, San Francisco, CA 94114",
+      "officialUrl": "https://www.detoursf.com/location/the-detour/",
+      "hours": {
+        "Monday": "5:00 PM–11:30 PM",
+        "Tuesday": "5:00 PM–11:30 PM",
+        "Wednesday": "5:00 PM–11:30 PM",
+        "Thursday": "5:00 PM–11:30 PM",
+        "Friday": "5:00 PM–1:00 AM",
+        "Saturday": "2:00 PM–1:00 AM",
+        "Sunday": "1:00 PM–12:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "Muni Metro / Market corridor",
+        "detail": "Use the live planner for N Judah/Muni Metro to Market Street and the final walk to Suite A.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official hours and location page",
+        "url": "https://www.detoursf.com/location/the-detour/",
+        "quote": "2200 Market St, Suite A, San Francisco, CA 94114. Monday 5pm–11:30pm; Tuesday 5pm–11:30pm; Wednesday 5pm–11:30pm; Thursday 5pm–11:30pm; Friday 5pm–1am; Saturday 2pm–1am; Sunday 1pm–12am."
+      },
+      "flags": [
+        "21+ with government-issued ID or passport; Saturday is all ages only from 2–6 PM."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official location page checked for address and all seven day ranges; each requested weekend day closes after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "the-beehive",
+      "name": "The Beehive",
+      "category": "Cocktail bar / food",
+      "neighborhood": "Mission / Valencia",
+      "address": "842 Valencia St at 19th, San Francisco, CA 94110",
+      "officialUrl": "https://www.thebeehivesf.com/contact-2",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "4:00 PM–12:00 AM",
+        "Wednesday": "4:00 PM–12:00 AM",
+        "Thursday": "4:00 PM–12:00 AM",
+        "Friday": "4:00 PM–2:00 AM",
+        "Saturday": "2:00 PM–2:00 AM",
+        "Sunday": "2:00 PM–10:00 PM"
+      },
+      "qualifyingDays": ["Friday", "Saturday"],
+      "access": {
+        "summary": "16th St BART / Mission buses + walk",
+        "detail": "Use a live planner for 16th St BART or the 14/49 Mission corridor, then walk on Valencia Street.",
+        "sources": [
+          {
+            "label": "BART 16th Street station",
+            "url": "https://www.bart.gov/stations/16th"
+          },
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official contact page",
+        "url": "https://www.thebeehivesf.com/contact-2",
+        "quote": "842 Valencia Street (at 19th), San Francisco, CA 94110. Tues–Thurs 4pm to Midnight; Friday 4pm to 2am; Saturday 2pm to 2am; Sunday 2pm to 10pm. Food is served until one hour prior to close."
+      },
+      "flags": [
+        "Food service ends one hour before close; Sunday does not meet the late-night threshold."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official contact page checked for address, hours, and food cutoff; Friday and Saturday qualify.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "vesuvio-cafe",
+      "name": "Vesuvio Cafe",
+      "category": "Historic cafe / saloon",
+      "neighborhood": "North Beach",
+      "address": "255 Columbus Ave at Jack Kerouac Alley, San Francisco, CA 94133",
+      "officialUrl": "https://vesuvio.com/",
+      "hours": {
+        "Monday": "11:00 AM–1:00 AM",
+        "Tuesday": "11:00 AM–1:00 AM",
+        "Wednesday": "11:00 AM–1:00 AM",
+        "Thursday": "11:00 AM–1:00 AM",
+        "Friday": "11:00 AM–2:00 AM",
+        "Saturday": "11:00 AM–2:00 AM",
+        "Sunday": "11:00 AM–1:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "Muni North Beach corridor",
+        "detail": "Use a live planner for Muni connections through Columbus/Grant, then walk Jack Kerouac Alley/Columbus.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official Vesuvio site",
+        "url": "https://vesuvio.com/",
+        "quote": "Vesuvio Cafe, 255 Columbus @ Jack Kerouac Alley, North Beach San Francisco California. Hours: Sun–Thurs 11–1 and Fri–Sat 11–2."
+      },
+      "flags": [
+        "Sunday is grouped with Sun–Thurs on the official site; it is transcribed as 11 AM–1 AM here."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official current site checked for address and grouped schedule; Friday/Saturday close at 2 AM and Sunday at 1 AM.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "el-farolito-mission",
+      "name": "El Farolito — Mission Street flagship",
+      "category": "Taqueria / restaurant",
+      "neighborhood": "Mission",
+      "address": "2779 Mission St, San Francisco, CA 94110",
+      "officialUrl": "https://elfarolitosf.com/locations/",
+      "hours": {
+        "Monday": "10:00 AM–3:00 AM",
+        "Tuesday": "10:00 AM–3:00 AM",
+        "Wednesday": "10:00 AM–3:00 AM",
+        "Thursday": "10:00 AM–3:30 AM",
+        "Friday": "10:00 AM–3:30 AM",
+        "Saturday": "10:00 AM–3:00 AM",
+        "Sunday": "10:00 AM–12:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "24th St BART / Mission buses + walk",
+        "detail": "The official locations page places the flagship on Mission; use the live planner for BART/Mission transit and the final walk.",
+        "sources": [
+          {
+            "label": "BART 24th Street station",
+            "url": "https://www.bart.gov/stations/24th"
+          },
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official locations and hours page",
+        "url": "https://elfarolitosf.com/locations/",
+        "quote": "Mission Street (Flagship), 2779 Mission St, San Francisco, CA 94110. Mon 10:00 AM–3:00 AM; Tue 10:00 AM–3:00 AM; Wed 10:00 AM–3:00 AM; Thu 10:00 AM–3:30 AM; Fri 10:00 AM–3:30 AM; Sat 10:00 AM–3:00 AM; Sun 10:00 AM–12:00 AM."
+      },
+      "flags": [
+        "Official page says all locations are cash only and walk-in; hours are location-specific, so do not substitute a different El Farolito branch."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official locations page checked for the exact flagship address and schedule; all requested weekend days qualify.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "pinecrest-diner",
+      "name": "Pinecrest Diner",
+      "category": "Diner / restaurant",
+      "neighborhood": "Union Square",
+      "address": "401 Geary St, San Francisco, CA 94102",
+      "officialUrl": "https://pinecrestdiner.com/",
+      "hours": {
+        "Monday": "7:00 AM–11:00 PM",
+        "Tuesday": "7:00 AM–11:00 PM",
+        "Wednesday": "Open 24 hours",
+        "Thursday": "Open 24 hours",
+        "Friday": "Open 24 hours",
+        "Saturday": "Open 24 hours",
+        "Sunday": "7:00 AM–11:00 PM"
+      },
+      "qualifyingDays": ["Friday", "Saturday"],
+      "access": {
+        "summary": "Powell BART / Muni + walk",
+        "detail": "Use the live planner from Powell Street transit connections and walk east/north to Geary Street.",
+        "sources": [
+          {
+            "label": "BART station directory",
+            "url": "https://www.bart.gov/stations"
+          },
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official Pinecrest Diner home page",
+        "url": "https://pinecrestdiner.com/",
+        "quote": "PINECREST DINER, 401 Geary St, San Francisco, CA 94102, USA. Hours: Monday & Tuesday 7am–11pm; Wednesday, Thursday, Friday & Saturday 24hrs; Sunday 7am–11pm."
+      },
+      "flags": [
+        "The official page notes that it is slowly moving back toward normal hours after the pandemic; confirm before a late Friday/Saturday visit."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official page checked for exact address and current published hours; Friday and Saturday are explicitly 24 hours.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "harper-and-rye",
+      "name": "Harper & Rye",
+      "category": "Neighborhood cocktail bar",
+      "neighborhood": "Polk Gulch",
+      "address": "1695 Polk St, San Francisco, CA 94109",
+      "officialUrl": "https://www.harperandrye.com/",
+      "hours": {
+        "Monday": "3:00 PM–2:00 AM",
+        "Tuesday": "3:00 PM–2:00 AM",
+        "Wednesday": "3:00 PM–2:00 AM",
+        "Thursday": "3:00 PM–2:00 AM",
+        "Friday": "3:00 PM–2:00 AM",
+        "Saturday": "3:00 PM–2:00 AM",
+        "Sunday": "3:00 PM–2:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "Muni Polk / Van Ness corridor",
+        "detail": "Use a live planner for Polk/Van Ness Muni connections and walk the final blocks to 1695 Polk.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official Harper & Rye home page",
+        "url": "https://www.harperandrye.com/",
+        "quote": "Harper & Rye, 1695 Polk St. SF. Open daily 3PM–2AM."
+      },
+      "flags": [
+        "The current official page states open daily and the full daily range, but does not publish a phone number on the visible page."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official home page and indexed location metadata checked for address and daily hours; all weekend days qualify.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "abv",
+      "name": "ABV",
+      "category": "Cocktail bar / food",
+      "neighborhood": "Mission / 16th Street",
+      "address": "3174 16th St, San Francisco, CA 94103",
+      "officialUrl": "https://www.abvsf.com/",
+      "hours": {
+        "Monday": "4:00 PM–2:00 AM",
+        "Tuesday": "4:00 PM–2:00 AM",
+        "Wednesday": "4:00 PM–2:00 AM",
+        "Thursday": "4:00 PM–2:00 AM",
+        "Friday": "4:00 PM–2:00 AM",
+        "Saturday": "4:00 PM–2:00 AM",
+        "Sunday": "4:00 PM–2:00 AM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "16th St BART / Mission buses + walk",
+        "detail": "Use a live planner for 16th St BART or Mission buses and the final walk to 16th Street.",
+        "sources": [
+          {
+            "label": "BART 16th Street station",
+            "url": "https://www.bart.gov/stations/16th"
+          },
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official home and contact pages",
+        "url": "https://www.abvsf.com/",
+        "quote": "ABV, 3174 16th St, San Francisco, CA 94103. Hours: 4 pm–2 am every day. Kitchen until midnight daily."
+      },
+      "flags": [
+        "The 2 AM schedule is for the bar; the kitchen is published as open only until midnight."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official home/contact pages checked for the exact address and bar schedule; all requested weekend days qualify.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "tupelo",
+      "name": "Tupelo",
+      "category": "Restaurant / live-music bar",
+      "neighborhood": "North Beach",
+      "address": "1337 Grant Ave, San Francisco, CA 94133",
+      "officialUrl": "https://tupelosf.com/",
+      "hours": {
+        "Monday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM",
+        "Tuesday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM",
+        "Wednesday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM",
+        "Thursday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM",
+        "Friday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM",
+        "Saturday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM",
+        "Sunday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "Muni North Beach corridor",
+        "detail": "Use a live planner for Grant/Columbus Muni connections, then walk the final blocks to Grant Avenue.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official Tupelo home page",
+        "url": "https://tupelosf.com/",
+        "quote": "Located at 1337 Grant Ave, in the heart of North Beach, San Francisco. Bar hours: 1:00PM–2:00AM every day. Kitchen hours: 1:00PM–10:00PM every day."
+      },
+      "flags": [
+        "Late-night eligibility is for the bar/live-music venue; the official kitchen hours end at 10 PM."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official page checked for address, bar hours, and kitchen hours; all requested weekend bar hours end at 2 AM.",
+        "verifiedOn": "2026-09-05"
+      }
+    },
+    {
+      "id": "the-mix",
+      "name": "The Mix",
+      "category": "LGBTQ+ neighborhood bar",
+      "neighborhood": "Castro",
+      "address": "4086 18th St, San Francisco, CA 94114",
+      "officialUrl": "https://themix.bar/",
+      "hours": {
+        "Monday": "Open until 2:00 AM; opening time not stated",
+        "Tuesday": "Open until 2:00 AM; opening time not stated",
+        "Wednesday": "Open until 2:00 AM; opening time not stated",
+        "Thursday": "Open until 2:00 AM; opening time not stated",
+        "Friday": "Open until 2:00 AM; opening time not stated",
+        "Saturday": "Open until 2:00 AM; opening time not stated",
+        "Sunday": "Open until 2:00 AM; opening time not stated"
+      },
+      "qualifyingDays": ["Friday", "Saturday", "Sunday"],
+      "access": {
+        "summary": "Castro / Muni + walk",
+        "detail": "Use a live planner for N Judah/Muni Metro to the Castro/18th area and the final walk.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "source": {
+        "label": "Official Mix home page",
+        "url": "https://themix.bar/",
+        "quote": "4086 18th St, San Francisco, CA. The Mix ... OPEN until 2am Daily!"
+      },
+      "flags": [
+        "The current official page publishes the daily closing time but not a daily opening time; do not infer one."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official current home page checked for address and the published daily closing statement; qualifying close is verified, opening time is intentionally left unspecified.",
+        "verifiedOn": "2026-09-05"
+      }
+    }
+  ]
+}
