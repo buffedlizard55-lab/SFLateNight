@@ -6,8 +6,8 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Origin:** 21st Ave & Judah St, San Francisco, CA 94122.
 - **Threshold:** the venue or bar must publish a close later than 11:00 PM on Friday, Saturday, or Sunday. A midnight close is later than 11 PM.
-- **Transit:** access text is intentionally a planning aid, not a promise of a particular trip. The site links to live transit planning and official SFMTA/BART directories.
-- **Operational honesty:** kitchen, private-event, event-night, grouped-hour, and missing-opening-time notes remain visible as flags.
+- **Transit:** access text is intentionally a planning aid, not a promise of a particular trip. Each row now maps to official SFMTA route pages and the dated Saturday service windows recorded in [`TRANSIT_VERIFICATION.md`](TRANSIT_VERIFICATION.md).
+- **Operational honesty:** kitchen, private-event, event-night, grouped-hour, missing-opening-time, and transit-return notes remain visible as flags.
 
 ## Record-by-record checks
 
@@ -23,7 +23,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 4:00 PM–2:00 AM; Saturday: 2:00 PM–2:00 AM; Sunday: 2:00 PM–2:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** N Judah / Muni + walk — Use the live route link for the last mile; Divisadero is served by Muni connections from the N Judah corridor.
+- **Transit screen:** 24 Divisadero / 5 Fulton + walk — The official route stop lists place both lines at Divisadero & McAllister; use the dated service window and live planner for the final blocks to 616 Divisadero.
 
 - **Manual review flags:** 21+ venue; event nights can add a cover or change entry conditions.
 
@@ -41,7 +41,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 2:00 PM–1:00 AM; Saturday: 12:00 PM–1:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** Muni / BART Mission corridor — Use a live planner to compare N Judah plus a walk with the 16th St BART / Mission bus corridor.
+- **Transit screen:** 14 Mission / 22 Fillmore + walk — 22 Fillmore serves 16th St & Valencia and 14 Mission serves the Mission corridor; use the dated service window and live planner for the final walk to Valencia Street.
 
 - **Manual review flags:** Kitchen closes one hour before the bar; the late-night match is for the venue/bar, not the kitchen.
 
@@ -59,7 +59,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 6:00 PM–2:00 AM; Saturday: 6:00 PM–2:00 AM; Sunday: 6:00 PM–2:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** 24th & Mission BART + short walk — The venue's own directions name BART 24th & Mission and the #49/#14 Mission buses stopping on Mission at 22nd Street.
+- **Transit screen:** 14 Mission / 49 Van Ness-Mission + short walk — The venue names the #49 and #14 Mission buses at Mission and 22nd; use the dated route window and live planner for the exact stop and return leg.
 
 - **Manual review flags:** Strictly 21+; occasional matinees are separately noted by the venue.
 
@@ -77,7 +77,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 4:00 PM–2:00 AM; Saturday: 4:00 PM–2:00 AM; Sunday: 4:00 PM–1:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** Muni North Beach corridor — Plan a live Muni route via the Columbus/Grant North Beach corridor, then walk the final block(s).
+- **Transit screen:** 30 Stockton + walk — Use the dated 30 Stockton service window via the Columbus/Grant North Beach corridor, then check the final walk and late return service.
 
 - **Manual review flags:** North Beach location is in a pedestrian-heavy area; check the return transit plan before going late.
 
@@ -95,7 +95,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 3:00 PM–2:00 AM; Saturday: 2:00 PM–2:00 AM; Sunday: 2:00 PM–2:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** 24th & Mission BART + short walk — Mission Street location; check a live planner for 24th St BART or Mission bus service and the last-mile walk.
+- **Transit screen:** 14 Mission / 49 Van Ness-Mission + short walk — Use the dated Mission corridor service window and live planner for 24th Street, the exact stop, and the final walk.
 
 - **Manual review flags:** Food service is earlier than the bar: the official menu page says kitchen until 9 PM Monday–Saturday and 8 PM Sunday.
 
@@ -113,7 +113,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 5:00 PM–2:00 AM; Saturday: 4:00 PM–2:00 AM; Sunday: 4:00 PM–2:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** Muni Metro / Market corridor — Use the live planner for N Judah/Muni Metro or BART plus a walk; the venue is on Market Street.
+- **Transit screen:** N Judah / 22 Fillmore + walk — Use the dated route windows for N Judah and 22 Fillmore to the Market/Church corridor, then verify the last walk to 1942 Market.
 
 - **Manual review flags:** Tuesday is listed as private events only; it is not used for late-night eligibility.
 
@@ -131,7 +131,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 12:00 PM–2:00 AM; Saturday: 12:00 PM–2:00 AM; Sunday: 12:00 PM–2:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** Church St Muni / N Judah + short walk — The venue identifies itself at the Castro, Mission, and Duboce Triangle intersection; use the live planner for Church St Muni/N Judah connections.
+- **Transit screen:** N Judah / 22 Fillmore + short walk — Use the dated route windows for the Church/Market corridor, then confirm the last walk to 225 Church Street.
 
 - **Manual review flags:** The current home page emphasizes the closing time rather than repeating the full weekly table; the location-page schedule is retained here for review.
 
@@ -149,7 +149,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 2:00 PM–2:00 AM; Saturday: 12:30 PM–2:00 AM; Sunday: 1:00 PM–12:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** N Judah / Castro Muni + walk — Use a live route from the N Judah corridor to Castro/18th; the last mile is a neighborhood walk.
+- **Transit screen:** 24 Divisadero / N Judah + walk — 24 Divisadero lists a Castro St & 18th St stop; use the dated windows and live planner to confirm the final walk to 18th Street.
 
 - **Manual review flags:** Sunday closes at midnight; midnight is included because it is later than the requested 11 PM threshold.
 
@@ -167,7 +167,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 4:30 PM–2:00 AM; Saturday: 5:00 PM–2:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** T Third / Caltrain + walk — Use a live planner for the T Third, Caltrain, or N Judah-to-downtown connection and the final walk on 3rd Street.
+- **Transit screen:** T Third / 91 Owl + walk — Use the dated T Third window for the 3rd Street corridor and 91 Owl for overnight coverage; confirm the final walk to 679 3rd Street.
 
 - **Manual review flags:** Sunday closes at 11 PM exactly and therefore is not counted; Friday and Saturday qualify.
 
@@ -185,7 +185,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 3:00 PM–2:00 AM; Saturday: 3:00 PM–2:00 AM; Sunday: 6:00 PM–2:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** Powell BART / Muni + walk — Use the live planner from Powell Street transit connections toward Post and Taylor.
+- **Transit screen:** 38 Geary / 30 Stockton + walk — Use the dated Powell-area windows for both lines and the live planner for the final walk toward Post and Taylor.
 
 - **Manual review flags:** 21+ nightlife venue; reservation and event conditions can change the door experience.
 
@@ -203,7 +203,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 12:00 PM–2:00 AM; Saturday: 12:00 PM–2:00 AM; Sunday: 12:00 PM–2:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** Muni North Beach corridor — Plan a live Muni route via Grant/Columbus and walk the final block(s); check late return service.
+- **Transit screen:** 30 Stockton + walk — Use the dated 30 Stockton window via the Columbus corridor, then check the final walk and late return service.
 
 - **Manual review flags:** The venue advertises live music in separate time blocks; check the official calendar for a specific night.
 
@@ -221,7 +221,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 5:00 PM–1:00 AM; Saturday: 2:00 PM–1:00 AM; Sunday: 1:00 PM–12:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** Muni Metro / Market corridor — Use the live planner for N Judah/Muni Metro to Market Street and the final walk to Suite A.
+- **Transit screen:** N Judah / 22 Fillmore + walk — Use the dated Market corridor windows and live planner for the final walk to Suite A.
 
 - **Manual review flags:** 21+ with government-issued ID or passport; Saturday is all ages only from 2–6 PM.
 
@@ -239,7 +239,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 4:00 PM–2:00 AM; Saturday: 2:00 PM–2:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** 16th St BART / Mission buses + walk — Use a live planner for 16th St BART or the 14/49 Mission corridor, then walk on Valencia Street.
+- **Transit screen:** 22 Fillmore + walk — 22 Fillmore lists 16th St & Valencia; use its dated window and the live planner for the last several blocks to 842 Valencia.
 
 - **Manual review flags:** Food service ends one hour before close; Sunday does not meet the late-night threshold.
 
@@ -257,7 +257,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 11:00 AM–2:00 AM; Saturday: 11:00 AM–2:00 AM; Sunday: 11:00 AM–1:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** Muni North Beach corridor — Use a live planner for Muni connections through Columbus/Grant, then walk Jack Kerouac Alley/Columbus.
+- **Transit screen:** 30 Stockton + walk — Use the dated 30 Stockton window through Columbus/Grant, then walk the final blocks and check late return service.
 
 - **Manual review flags:** Sunday is grouped with Sun–Thurs on the official site; it is transcribed as 11 AM–1 AM here.
 
@@ -275,7 +275,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 10:00 AM–3:30 AM; Saturday: 10:00 AM–3:00 AM; Sunday: 10:00 AM–12:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** 24th St BART / Mission buses + walk — The official locations page places the flagship on Mission; use the live planner for BART/Mission transit and the final walk.
+- **Transit screen:** 14 Mission / 49 Van Ness-Mission + walk — Use the dated Mission corridor windows and live planner for the exact stop and final walk to 2779 Mission.
 
 - **Manual review flags:** Official page says all locations are cash only and walk-in; hours are location-specific, so do not substitute a different El Farolito branch.
 
@@ -293,7 +293,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: Open 24 hours; Saturday: Open 24 hours. This is why the record passes the >11 PM test.
 
-- **Transit screen:** Powell BART / Muni + walk — Use the live planner from Powell Street transit connections and walk east/north to Geary Street.
+- **Transit screen:** 38 Geary / 30 Stockton + walk — Use the dated Powell/Geary windows and live planner for the final walk to Geary Street; do not infer a specific last vehicle.
 
 - **Manual review flags:** The official page notes that it is slowly moving back toward normal hours after the pandemic; confirm before a late Friday/Saturday visit.
 
@@ -311,7 +311,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 3:00 PM–2:00 AM; Saturday: 3:00 PM–2:00 AM; Sunday: 3:00 PM–2:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** Muni Polk / Van Ness corridor — Use a live planner for Polk/Van Ness Muni connections and walk the final blocks to 1695 Polk.
+- **Transit screen:** 38 Geary / 49 Van Ness-Mission + walk — Use the dated route windows and live planner for the final blocks to 1695 Polk.
 
 - **Manual review flags:** The current official page states open daily and the full daily range, but does not publish a phone number on the visible page.
 
@@ -329,7 +329,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: 4:00 PM–2:00 AM; Saturday: 4:00 PM–2:00 AM; Sunday: 4:00 PM–2:00 AM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** 16th St BART / Mission buses + walk — Use a live planner for 16th St BART or Mission buses and the final walk to 16th Street.
+- **Transit screen:** 14 Mission / 22 Fillmore / 33 Ashbury + walk — Use the dated windows for the Mission/16th/18th corridors and confirm the final walk to 3174 16th; 33 has no late-night service listed.
 
 - **Manual review flags:** The 2 AM schedule is for the bar; the kitchen is published as open only until midnight.
 
@@ -347,7 +347,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM; Saturday: Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM; Sunday: Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM. This is why the record passes the >11 PM test.
 
-- **Transit screen:** Muni North Beach corridor — Use a live planner for Grant/Columbus Muni connections, then walk the final blocks to Grant Avenue.
+- **Transit screen:** 30 Stockton + walk — Use the dated 30 Stockton window through Columbus/Grant, then check the final walk and late return service.
 
 - **Manual review flags:** Late-night eligibility is for the bar/live-music venue; the official kitchen hours end at 10 PM.
 
@@ -365,7 +365,7 @@ This log records the manual source check for the 20 records in [`data/venues.jso
 
 - **Late-night result:** Friday: Open until 2:00 AM; opening time not stated; Saturday: Open until 2:00 AM; opening time not stated; Sunday: Open until 2:00 AM; opening time not stated. This is why the record passes the >11 PM test.
 
-- **Transit screen:** Castro / Muni + walk — Use a live planner for N Judah/Muni Metro to the Castro/18th area and the final walk.
+- **Transit screen:** 24 Divisadero / N Judah + walk — Use the dated Castro corridor windows and the live planner for the final walk to 4086 18th; do not infer a specific last vehicle.
 
 - **Manual review flags:** The current official page publishes the daily closing time but not a daily opening time; do not infer one.
 

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#101b2d" />
-    <meta name="description" content="A source-first directory of San Francisco restaurants, bars, and hangouts open after 11 PM on Friday, Saturday, or Sunday, starting from 21st Ave and Judah St." />
+    <meta name="description" content="A source-first directory of 20 San Francisco restaurants, bars, and hangouts open after 11 PM on Friday, Saturday, or Sunday, grouped by neighborhood with official hours and dated Muni service windows from 21st Ave and Judah St." />
     <title>SF Late Night — verified transit-friendly places</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
@@ -20,6 +20,7 @@
         </a>
         <nav class="site-nav" aria-label="Primary navigation">
           <a href="#directory">Directory</a>
+          <a href="#transit">Transit</a>
           <a href="#method">Method</a>
           <a href="#flags">Flags</a>
         </nav>
@@ -36,7 +37,7 @@
           <div class="hero-copy">
             <p class="eyebrow"><span class="eyebrow-line"></span>Source-first night index</p>
             <h1 id="page-title">Late nights,<br /><em>starting at Judah.</em></h1>
-            <p class="hero-lede">A hand-checked shortlist of San Francisco places that stay open past 11 PM on a Friday, Saturday, or Sunday—with the official hours, address, and a live transit route for every row.</p>
+            <p class="hero-lede">A source-checked 20-record master list of San Francisco places that stay open past 11 PM on a Friday, Saturday, or Sunday—with official hours, address, neighborhood cluster, and a dated Muni service screen for every row.</p>
             <div class="origin-lockup">
               <span class="origin-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" role="img"><path d="M12 21s7-6.2 7-12A7 7 0 1 0 5 9c0 5.8 7 12 7 12Z"></path><circle cx="12" cy="9" r="2.5"></circle></svg>
@@ -72,6 +73,32 @@
         <a href="#method" class="text-link">How this was checked <span aria-hidden="true">↓</span></a>
       </section>
 
+      <section class="transit-section" id="transit" aria-labelledby="transit-title">
+        <div class="transit-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span>Saturday service screen</p>
+            <h2 id="transit-title">Transit windows, not guesses.</h2>
+            <p class="transit-lede">Published Muni route windows for the current snapshot date. Tap a route for its official schedule; use the live planner for exact stops, transfers, walking time, and disruptions.</p>
+          </div>
+          <div class="transit-date-card">
+            <span class="mini-label">Snapshot</span>
+            <strong id="transit-date">September 5, 2026</strong>
+            <span id="transit-day">Saturday service</span>
+            <a href="TRANSIT_VERIFICATION.md">Read transit verification ↗</a>
+          </div>
+        </div>
+        <div class="transit-origin-bar">
+          <span class="transit-origin-pin" aria-hidden="true">●</span>
+          <span id="transit-origin-note">From 21st Ave &amp; Judah St · closest practical N Judah boarding is around Judah St &amp; 19th Ave.</span>
+          <span class="transit-origin-actions">
+            <a href="https://511.org/" target="_blank" rel="noopener noreferrer">Open 511 planner ↗</a>
+            <a href="https://www.sfmta.com/getting-around/muni/muni-alerts" target="_blank" rel="noopener noreferrer">SFMTA alerts ↗</a>
+          </span>
+        </div>
+        <div class="transit-alert" id="transit-alert" hidden></div>
+        <div class="transit-grid" id="transit-grid"></div>
+      </section>
+
       <section class="directory-section" id="directory" aria-labelledby="directory-title">
         <div class="section-heading">
           <div>
@@ -105,6 +132,13 @@
             </select>
             <span class="select-chevron" aria-hidden="true">⌄</span>
           </label>
+          <label class="select-control">
+            <span class="sr-only">Filter by neighborhood</span>
+            <select id="neighborhood-select">
+              <option value="all">All neighborhoods</option>
+            </select>
+            <span class="select-chevron" aria-hidden="true">⌄</span>
+          </label>
           <label class="review-toggle">
             <input id="review-toggle" type="checkbox" />
             <span class="toggle-ui" aria-hidden="true"></span>
@@ -120,7 +154,7 @@
 
         <div class="table-wrap">
           <table class="venue-table">
-            <caption class="sr-only">San Francisco late-night venues with official hours, locations, and transit notes</caption>
+            <caption class="sr-only">San Francisco late-night venues grouped by neighborhood with official hours, locations, and transit service windows</caption>
             <thead>
               <tr>
                 <th scope="col" class="place-col">Place</th>
@@ -152,7 +186,7 @@
         <div class="method-intro">
           <p class="eyebrow"><span class="eyebrow-line"></span>Research log</p>
           <h2 id="method-title">No guesswork in the table.</h2>
-          <p>This is a curated static index, not a live scraper. The goal is to make the claim on each row auditable: open the official page, compare the quoted line, then check the live transit plan.</p>
+          <p>This is a curated static index, not a live scraper or a claim that every city business is open. The current master list contains 20 records grouped by neighborhood; open the official page, compare the quoted line, then check the current transit plan.</p>
           <a class="button button-primary" href="VERIFICATION.md">Read the verification log <span aria-hidden="true">↗</span></a>
         </div>
         <div class="method-steps">
@@ -168,8 +202,8 @@
           </article>
           <article class="method-step">
             <span class="step-number">03</span>
-            <h3>Transit is a prompt</h3>
-            <p>Neighborhood access notes are deliberately conservative. The live route button is the final check for service and walking conditions.</p>
+            <h3>Transit is a dated screen</h3>
+            <p>Published route windows are shown for the snapshot date. The live route button is the final check for service, transfers, and walking conditions.</p>
           </article>
         </div>
       </section>
@@ -194,8 +228,10 @@
         </div>
         <div class="footer-links">
           <a href="#directory">Directory</a>
+          <a href="#transit">Transit</a>
           <a href="#method">Method</a>
           <a href="data/venues.json">Raw data</a>
+          <a href="TRANSIT_VERIFICATION.md">Transit sources</a>
           <a href="https://www.sfmta.com/routes" target="_blank" rel="noopener noreferrer">SFMTA ↗</a>
           <a href="https://www.bart.gov/stations" target="_blank" rel="noopener noreferrer">BART ↗</a>
         </div>
