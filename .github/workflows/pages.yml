@@ -3,7 +3,7 @@ name: Deploy SF Late Night to GitHub Pages
 on:
   push:
     branches:
-      - arena/01a07364-sflatenight
+      - main
   workflow_dispatch:
 
 permissions:
@@ -18,7 +18,7 @@ concurrency:
 jobs:
   deploy:
     environment:
-      name: sflatenight-pages
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:

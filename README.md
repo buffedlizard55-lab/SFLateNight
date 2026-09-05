@@ -34,7 +34,7 @@ The guardrail checks that there are exactly 20 records, every record has a seven
 
 ## GitHub Pages
 
-The repository includes [`.github/workflows/pages.yml`](.github/workflows/pages.yml). After GitHub Pages is configured to use **GitHub Actions**, a push to the session branch deploys the static site automatically.
+The repository includes [`.github/workflows/pages.yml`](.github/workflows/pages.yml). After GitHub Pages is configured to use **GitHub Actions**, merging this branch into the repository's `main` branch deploys the static site automatically. The current repository environment only permits Pages deployments from `main`; the source branch is intentionally not used to bypass that protection.
 
 ## Source policy
 
