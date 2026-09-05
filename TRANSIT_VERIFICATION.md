@@ -103,6 +103,43 @@ The closest practical rail boarding point for the requested origin is the N Juda
 - **Saturday frequency used in the site:** 30 minutes late night / Owl.
 - **Coverage note:** The 91 page is the official overnight route linked from the T and 30 pages. Its actual path and stop direction should be checked against the destination and return leg.
 
+### 7 Haight/Noriega (added in the second pass)
+
+- **Official route page:** [SFMTA 7 Haight/Noriega](https://www.sfmta.com/routes/7-haightnoriega)
+- **Saturday schedule page:** [7 Saturday schedule](https://www.sfmta.com/routes/schedule/7?direction_id=0&service_id=2&date=20260905)
+- **Published line:** Selected-stop Saturday table shows outbound trips roughly every 12-20 minutes from 5:00 AM, with the final departure at 12:00 AM (Market & Van Ness 12:14 AM; Haight & Masonic 12:24 AM; Lincoln Way & 19th Ave 12:34 AM; Ortega & 48th 12:47 AM).
+- **Saturday frequency used in the site:** every 12-20 minutes.
+- **Coverage note:** Used for the Haight Street cluster (Toronado). The last midnight trip passes within a few blocks of the origin area (Lincoln Way & 19th Ave); nothing later appears on this schedule page.
+
+### 12 Folsom/Pacific (added in the second pass)
+
+- **Official route page:** [SFMTA 12 Folsom/Pacific](https://www.sfmta.com/routes/12-folsompacific)
+- **Saturday schedule page:** [12 Saturday schedule](https://www.sfmta.com/routes/schedule/12?direction_id=0&service_id=2&date=20260905)
+- **Published line:** Selected-stop Saturday table shows outbound service roughly every 10-20 minutes from 6:00 AM with the final trip at 10:00 PM (Pacific Ave & Powell St 10:12 PM; Folsom St & 11th St 10:33 PM; Folsom St & 24th St 10:40 PM).
+- **Saturday frequency used in the site:** every 10-20 minutes.
+- **Coverage note:** Used for Jackson Square/Chinatown edge, the Kearny Street corridor, and the Folsom & 11th Street club cluster. It ends at 10:00 PM — late-night SoMa returns must use another line.
+
+### 19 Polk (added in the second pass)
+
+- **Official route page:** [SFMTA 19 Polk](https://www.sfmta.com/routes/19-polk)
+- **Saturday schedule page:** [19 Saturday schedule](https://www.sfmta.com/routes/schedule/19?direction_id=0&service_id=2&date=20260905)
+- **Published line:** Selected-stop Saturday table shows outbound trips roughly every 20 minutes from 5:05 AM with the final trip at 10:00 PM (Polk & Sacramento 10:08 PM; Polk & Sutter 10:11 PM; 8th & Mission 10:21 PM).
+- **Saturday frequency used in the site:** every 20 minutes.
+- **Coverage note:** Used for the Polk Street record (Bob's Donuts) and as a secondary walk option for Geary/Turk Street Tenderloin records. Ends at 10:00 PM outbound.
+
+### 43 Masonic (added in the second pass)
+
+- **Official route page:** [SFMTA 43 Masonic](https://www.sfmta.com/routes/43-masonic)
+- **Saturday schedule page:** [43 Saturday schedule](https://www.sfmta.com/routes/schedule/43?direction_id=0&service_id=2&date=20260905)
+- **Published line:** Selected-stop Saturday table shows outbound trips roughly every 20 minutes from 5:00 AM with the final trip at 11:50 PM (Presidio Ave & California St 12:13 AM; Masonic Ave & Haight St 12:22 AM; 9th Ave & Judah St 12:27 AM; Munich St & Geneva 12:50 AM).
+- **Saturday frequency used in the site:** every 20 minutes.
+- **Coverage note:** Used for the Presidio (Presidio Bowl) and as a secondary line for Haight/Inner Sunset records; its 9th Ave & Judah stop is close to the origin area's N Judah corridor.
+
+### Lines checked but not added
+
+- **41 Union:** SFMTA's schedule page returns "Content Not Found" as of this snapshot, so the Columbus Avenue corridor is served in this directory by the 30 Stockton and 12 Folsom/Pacific instead. No 41-based access text is used.
+- **2 Sutter:** the current 2 runs Steuart St to The Richmond via Sutter Street and Presidio Ave & California St. It was verified but not used by any record; Clement and Geary records use the 38 Geary corridor with a short walk.
+
 ## Re-check policy
 
 The venue hours and this transit snapshot are separate claims. A venue can remain open while a regular line is disrupted, short-turned, or replaced. Before a specific Friday, Saturday, or Sunday trip, open the official venue source, the official SFMTA route page, the [Muni alerts page](https://www.sfmta.com/getting-around/muni/muni-alerts), and the live planner.

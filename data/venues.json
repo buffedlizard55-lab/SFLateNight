@@ -4,8 +4,8 @@
     "origin": "21st Ave & Judah St, San Francisco, CA 94122",
     "threshold": "Open past 11:00 PM on Friday, Saturday, or Sunday",
     "verifiedOn": "2026-09-05",
-    "recordCount": 20,
-    "scopeNote": "Static, source-linked directory of 20 verified records. It does not claim every San Francisco business is open or available; expand the master list only after a line-by-line source check.",
+    "recordCount": 70,
+    "scopeNote": "Static, source-linked directory of 70 verified records. It does not claim every San Francisco business is open or available; expand the master list only after a line-by-line source check.",
     "transitNote": "Transit labels are screening notes, not turn-by-turn directions. Use the live route link and check SFMTA/BART service before leaving.",
     "planningSources": [
       {
@@ -162,6 +162,54 @@
           "nightCoverage": "This is the overnight alternative listed from the T and 30 route pages.",
           "sourceQuote": "SFMTA lists 91 3rd Street/19th Avenue Owl as 12 AM–5 AM nightly, with 30-minute weekend late-night and Owl service.",
           "checkedOn": "2026-09-05"
+        },
+        {
+          "id": "7",
+          "name": "7 Haight/Noriega",
+          "mode": "Bus",
+          "routeUrl": "https://www.sfmta.com/routes/7-haightnoriega",
+          "scheduleUrl": "https://www.sfmta.com/routes/schedule/7?direction_id=0&service_id=2&date=20260905",
+          "todayWindow": "Saturday outbound service from 5:00 AM to a final 12:00 AM departure",
+          "todayFrequency": "Saturday: roughly every 12 to 20 minutes.",
+          "nightCoverage": "The last listed Saturday outbound trip leaves the Transit Center at 12:00 AM, reaching Haight & Masonic at 12:24 AM, Lincoln Way & 19th Ave at 12:34 AM, and Ocean Beach at 12:47 AM; nothing later appears on this schedule page.",
+          "sourceQuote": "SFMTA's Saturday schedule for 7 Haight/Noriega lists outbound trips roughly every 12-20 minutes, with a final 12:00 AM departure (Market & Van Ness 12:14 AM; Haight & Masonic 12:24 AM; Lincoln Way & 19th Ave 12:34 AM).",
+          "checkedOn": "2026-09-05"
+        },
+        {
+          "id": "12",
+          "name": "12 Folsom/Pacific",
+          "mode": "Bus",
+          "routeUrl": "https://www.sfmta.com/routes/12-folsompacific",
+          "scheduleUrl": "https://www.sfmta.com/routes/schedule/12?direction_id=0&service_id=2&date=20260905",
+          "todayWindow": "Saturday outbound service from 6:00 AM to a final 10:00 PM departure",
+          "todayFrequency": "Saturday: roughly every 10 to 20 minutes.",
+          "nightCoverage": "The last listed Saturday outbound trip leaves Jackson & Van Ness at 10:00 PM, reaching Pacific & Powell at 10:12 PM and Folsom & 11th St at 10:33 PM; nothing later appears on this schedule page, so late-night SoMa returns need another line.",
+          "sourceQuote": "SFMTA's Saturday schedule for 12 Folsom/Pacific lists outbound service with a final 10:00 PM trip (Pacific Ave & Powell St 10:12 PM; Folsom St & 11th St 10:33 PM; Folsom St & 24th St 10:40 PM).",
+          "checkedOn": "2026-09-05"
+        },
+        {
+          "id": "19",
+          "name": "19 Polk",
+          "mode": "Bus",
+          "routeUrl": "https://www.sfmta.com/routes/19-polk",
+          "scheduleUrl": "https://www.sfmta.com/routes/schedule/19?direction_id=0&service_id=2&date=20260905",
+          "todayWindow": "Saturday outbound service from 5:05 AM to a final 10:00 PM departure",
+          "todayFrequency": "Saturday: roughly every 20 minutes.",
+          "nightCoverage": "The last listed Saturday outbound trip leaves Beach & Polk at 10:00 PM, reaching Polk & Sacramento at 10:08 PM, Polk & Sutter at 10:11 PM, and 8th & Mission at 10:21 PM; nothing later appears on this schedule page.",
+          "sourceQuote": "SFMTA's Saturday schedule for 19 Polk lists outbound trips roughly every 20 minutes with a final 10:00 PM departure (Polk & Sacramento 10:08 PM; Polk & Sutter 10:11 PM; 8th & Mission 10:21 PM).",
+          "checkedOn": "2026-09-05"
+        },
+        {
+          "id": "43",
+          "name": "43 Masonic",
+          "mode": "Bus",
+          "routeUrl": "https://www.sfmta.com/routes/43-masonic",
+          "scheduleUrl": "https://www.sfmta.com/routes/schedule/43?direction_id=0&service_id=2&date=20260905",
+          "todayWindow": "Saturday outbound service from 5:00 AM to a final 11:50 PM departure",
+          "todayFrequency": "Saturday: roughly every 20 minutes.",
+          "nightCoverage": "The last listed Saturday outbound trip leaves Marina Blvd & Laguna St at 11:50 PM, reaching Presidio Ave & California St at 12:13 AM, Masonic & Haight at 12:22 AM, and 9th Ave & Judah St at 12:27 AM; nothing later appears on this schedule page.",
+          "sourceQuote": "SFMTA's Saturday schedule for 43 Masonic lists outbound trips roughly every 20 minutes with a final 11:50 PM trip (Presidio Ave & California St 12:13 AM; Masonic Ave & Haight St 12:22 AM; 9th Ave & Judah St 12:27 AM).",
+          "checkedOn": "2026-09-05"
         }
       ]
     },
@@ -210,6 +258,56 @@
         "id": "divisadero-nopa",
         "label": "Divisadero / NoPa",
         "description": "Divisadero Street and the North of the Panhandle edge."
+      },
+      {
+        "id": "richmond",
+        "label": "Richmond District",
+        "description": "Clement Street and the Geary Boulevard corridor."
+      },
+      {
+        "id": "marina-presidio",
+        "label": "Marina / Cow Hollow / Presidio",
+        "description": "Fillmore and Union streets, Cow Hollow, and the Presidio."
+      },
+      {
+        "id": "tenderloin",
+        "label": "Tenderloin",
+        "description": "Jones, Geary, and Turk street bars."
+      },
+      {
+        "id": "financial-district",
+        "label": "Financial District",
+        "description": "Kearny, Market, and the alleys south of Montgomery."
+      },
+      {
+        "id": "hayes-valley-civic",
+        "label": "Hayes Valley / Civic Center",
+        "description": "Hayes Street and the Gough/Market edge."
+      },
+      {
+        "id": "chinatown",
+        "label": "Chinatown",
+        "description": "Grant Avenue and the Jackson Street edge."
+      },
+      {
+        "id": "japantown",
+        "label": "Japantown",
+        "description": "Post Street and the Japan Center."
+      },
+      {
+        "id": "haight",
+        "label": "Haight",
+        "description": "The Haight Street corridor."
+      },
+      {
+        "id": "inner-sunset",
+        "label": "Inner Sunset",
+        "description": "The Lincoln Way edge of Golden Gate Park."
+      },
+      {
+        "id": "bernal-heights",
+        "label": "Bernal Heights",
+        "description": "Cortland Avenue."
       }
     ]
   },
@@ -1237,6 +1335,2452 @@
         "verifiedOn": "2026-09-05"
       },
       "neighborhoodGroup": "castro-upper-market"
+    },
+    {
+      "id": "bar-540",
+      "name": "540 Bar",
+      "category": "Neighborhood bar",
+      "neighborhood": "Inner Richmond",
+      "address": "540 Clement St, San Francisco, CA 94118",
+      "officialUrl": "https://540-sf.com/",
+      "hours": {
+        "Monday": "2:00 PM–2:00 AM",
+        "Tuesday": "2:00 PM–2:00 AM",
+        "Wednesday": "2:00 PM–2:00 AM",
+        "Thursday": "2:00 PM–2:00 AM",
+        "Friday": "2:00 PM–2:00 AM",
+        "Saturday": "12:00 PM–2:00 AM",
+        "Sunday": "12:00 PM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "38 Geary + 2-block walk",
+        "detail": "Take the 38 Geary corridor to the Geary & 6th Avenue stops, then walk about two blocks south to 540 Clement Street; confirm the exact stop with the live planner.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "38"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://540-sf.com/",
+        "quote": "The bar's official site lists 540 Clement Street, San Francisco with weekday hours 2:00 PM-2:00 AM and weekend hours 12:00 PM-2:00 AM."
+      },
+      "flags": [
+        "Small neighborhood bar on Clement Street; it can fill to capacity on weekend nights."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site checked for address, days, and 2:00 AM closing on all seven days.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "richmond"
+    },
+    {
+      "id": "kings-thai-cuisine-2",
+      "name": "King's Thai Cuisine #2",
+      "category": "Thai restaurant",
+      "neighborhood": "Inner Richmond",
+      "address": "346 Clement St, San Francisco, CA 94118",
+      "officialUrl": "https://www.kingsthaicuisine.com/menus-1",
+      "hours": {
+        "Monday": "11:00 AM–12:00 AM",
+        "Tuesday": "11:00 AM–12:00 AM",
+        "Wednesday": "11:00 AM–12:00 AM",
+        "Thursday": "11:00 AM–12:00 AM",
+        "Friday": "11:00 AM–12:00 AM",
+        "Saturday": "11:00 AM–12:00 AM",
+        "Sunday": "11:00 AM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "38 Geary + short walk",
+        "detail": "Use the 38 Geary stops near Geary & 4th Avenue, then walk about two blocks south to 346 Clement Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "38"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.kingsthaicuisine.com/menus-1",
+        "quote": "The restaurant's official site lists King's Thai Cuisine #2, 346 Clement Street, San Francisco, open 11:00 AM-12:00 AM daily."
+      },
+      "flags": [
+        "Kitchen cutoff can land before the posted midnight close; order early on weekend nights."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site checked for the 346 Clement address and the daily 11:00 AM-midnight schedule.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "richmond"
+    },
+    {
+      "id": "nizarios-pizza",
+      "name": "Nizario's Pizza",
+      "category": "Pizza / late-night food",
+      "neighborhood": "Inner Richmond",
+      "address": "3840 Geary Blvd, San Francisco, CA 94118",
+      "officialUrl": "https://www.nizarios.com/",
+      "hours": {
+        "Monday": "3:00 PM–11:00 PM",
+        "Tuesday": "3:00 PM–11:00 PM",
+        "Wednesday": "3:00 PM–11:00 PM",
+        "Thursday": "3:00 PM–11:00 PM",
+        "Friday": "3:00 PM–1:30 AM",
+        "Saturday": "3:00 PM–1:30 AM",
+        "Sunday": "3:00 PM–11:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "38 Geary",
+        "detail": "The 38 Geary corridor serves 3840 Geary Boulevard directly; check the live planner for the closest stop pair.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "38"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.nizarios.com/",
+        "quote": "The official site lists the SF Richmond District store at 3840 Geary Blvd, San Francisco, CA 94118 with hours 'Sun - Thurs: 3:00pm - 11pm' and 'Fri & Sat: 3pm - 1:30am'."
+      },
+      "flags": [
+        "Family-run pizzeria; Friday/Saturday slice service runs to 1:30 AM while Sunday still closes at 11:00 PM, so only Fri/Sat qualify here."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site quote captured for address and the Fri/Sat 1:30 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "richmond"
+    },
+    {
+      "id": "bobs-donuts",
+      "name": "Bob's Donuts",
+      "category": "Donut shop / late-night bakery",
+      "neighborhood": "Polk Gulch",
+      "address": "1621 Polk St, San Francisco, CA 94109",
+      "officialUrl": "https://www.bobsdonutssf.com/",
+      "hours": {
+        "Monday": "Open 24 hours daily",
+        "Tuesday": "Open 24 hours daily",
+        "Wednesday": "Open 24 hours daily",
+        "Thursday": "Open 24 hours daily",
+        "Friday": "Open 24 hours daily",
+        "Saturday": "Open 24 hours daily",
+        "Sunday": "Open 24 hours daily"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "19 Polk + 1-block walk",
+        "detail": "The 19 Polk stop at Polk & Sacramento is about a block from 1621 Polk Street; the 47/49 Van Ness corridor is a couple of blocks west.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "19"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.bobsdonutssf.com/",
+        "quote": "The official site lists the Polk Street location at 1621 Polk St, San Francisco (415-776-3141) with hours 'ALL DAY EVERY DAY'; its listing data marks every day as open all day, and local coverage describes the Polk location as 24/7."
+      },
+      "flags": [
+        "Frying happens in shifts, so the selection at 2 AM can be thin; the separate Baker Street shop keeps shorter hours and is not listed here."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site checked for the all-day-every-day Polk Street schedule and address.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "polk-gulch"
+    },
+    {
+      "id": "ha-ra-club",
+      "name": "Ha-Ra Club",
+      "category": "Historic dive bar",
+      "neighborhood": "Tenderloin",
+      "address": "875 Geary St, San Francisco, CA 94109",
+      "officialUrl": "https://harasf.com/",
+      "hours": {
+        "Monday": "12:00 PM–2:00 AM",
+        "Tuesday": "12:00 PM–2:00 AM",
+        "Wednesday": "12:00 PM–2:00 AM",
+        "Thursday": "12:00 PM–2:00 AM",
+        "Friday": "12:00 PM–2:00 AM",
+        "Saturday": "1:00 PM–2:00 AM",
+        "Sunday": "3:00 PM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "38 Geary / 19 Polk + walk",
+        "detail": "The 38 Geary stops near Geary & Leavenworth and the 19 Polk stops near Polk & Sacramento; both leave a short walk to 875 Geary Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "38",
+          "19"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://harasf.com/",
+        "quote": "The official site lists THE HA-RA CLUB, 875 Geary Street, San Francisco CA 94109, with 'MONDAY-FRIDAY NOON-2AM', 'SATURDAY 1PM-2AM', 'SUNDAY 3PM-2AM'."
+      },
+      "flags": [
+        "Cash-friendly classic 1947 dive with pool table; Saturday/Sunday opening times differ from weekdays."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site quote captured verbatim for all seven days.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "tenderloin"
+    },
+    {
+      "id": "aunt-charlies-lounge",
+      "name": "Aunt Charlie's Lounge",
+      "category": "LGBTQ+ bar / drag shows",
+      "neighborhood": "Tenderloin",
+      "address": "133 Turk St, San Francisco, CA 94102",
+      "officialUrl": "https://www.auntcharlieslounge.com/",
+      "hours": {
+        "Monday": "12:00 PM–10:30 PM",
+        "Tuesday": "12:00 PM–10:30 PM",
+        "Wednesday": "12:00 PM–10:30 PM",
+        "Thursday": "12:00 PM–10:30 PM",
+        "Friday": "12:00 PM–11:45 PM",
+        "Saturday": "12:00 PM–11:45 PM",
+        "Sunday": "12:00 PM–11:30 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "14 Mission + 2-block walk",
+        "detail": "The 14 Mission stops near Mission & Turk, two blocks from 133 Turk Street at Taylor.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "14"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.auntcharlieslounge.com/",
+        "quote": "The official site lists Aunt Charlie's Lounge, 133 Turk @ Taylor, San Francisco, 21+, cash only, with 'Open Mon + Tue + Wed + Thur - Noon to 10:30pm; Friday + Saturday - Noon to 11:45pm; Sundays - Noon to 11:30pm'."
+      },
+      "flags": [
+        "21+ and cash only; Friday and Saturday drag shows (Hot Boxxx Girls) carry a $5 cover from 10 PM and the Sunday close is 11:30 PM - only 30 minutes past the 11 PM bar for this list."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site quote captured verbatim; all three qualifying days close past 11:00 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "tenderloin"
+    },
+    {
+      "id": "bourbon-and-branch",
+      "name": "Bourbon & Branch",
+      "category": "Speakeasy cocktail bar",
+      "neighborhood": "Tenderloin",
+      "address": "501 Jones St, San Francisco, CA 94109",
+      "officialUrl": "https://www.futurebars.com/locations/bourbon-branch",
+      "hours": {
+        "Monday": "6:00 PM–12:00 AM",
+        "Tuesday": "6:00 PM–12:00 AM",
+        "Wednesday": "6:00 PM–12:00 AM",
+        "Thursday": "6:00 PM–2:00 AM",
+        "Friday": "6:00 PM–2:00 AM",
+        "Saturday": "6:00 PM–2:00 AM",
+        "Sunday": "6:00 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "38 Geary + short walk",
+        "detail": "Use the 38 Geary stops near Geary & Leavenworth/Taylor, then walk a short block to 501 Jones Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "38"
+        ]
+      },
+      "source": {
+        "label": "Official Future Bars location page",
+        "url": "https://www.futurebars.com/locations/bourbon-branch",
+        "quote": "The official Future Bars location page lists Bourbon & Branch, 501 Jones Street, San Francisco, open Sunday-Wednesday 6:00 PM-12:00 AM and Thursday-Saturday 6:00 PM-2:00 AM."
+      },
+      "flags": [
+        "Speakeasy rules at the door (password-style entry for some rooms); last seating can land before the posted close."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official operator page checked for address and the Thu-Sat 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "tenderloin"
+    },
+    {
+      "id": "zombie-village",
+      "name": "Zombie Village",
+      "category": "Tiki bar",
+      "neighborhood": "Tenderloin",
+      "address": "441 Jones St, San Francisco, CA 94109",
+      "officialUrl": "https://www.futurebars.com/locations/zombie-village",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "5:00 PM–12:00 AM",
+        "Thursday": "5:00 PM–2:00 AM",
+        "Friday": "5:00 PM–2:00 AM",
+        "Saturday": "5:00 PM–2:00 AM",
+        "Sunday": "Closed"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "38 Geary + short walk",
+        "detail": "Use the 38 Geary stops near Geary & Leavenworth/Taylor, then walk a short block to 441 Jones Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "38"
+        ]
+      },
+      "source": {
+        "label": "Official Future Bars location page",
+        "url": "https://www.futurebars.com/locations/zombie-village",
+        "quote": "The official Future Bars location page lists Zombie Village, 441 Jones Street, San Francisco, with Wednesday 5:00 PM-12:00 AM and Thursday-Saturday 5:00 PM-2:00 AM."
+      },
+      "flags": [
+        "Closed Sunday-Tuesday per the operator page; tiki seating is limited, so waits can happen late on Fridays."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official operator page checked for address and the Thu-Sat 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "tenderloin"
+    },
+    {
+      "id": "kells-irish-bar",
+      "name": "Kell's Irish Restaurant & Bar",
+      "category": "Irish bar / food",
+      "neighborhood": "Chinatown / Jackson Square",
+      "address": "530 Jackson St, San Francisco, CA 94133",
+      "officialUrl": "https://www.kells-sf.com/",
+      "hours": {
+        "Monday": "Not published on the official site",
+        "Tuesday": "Not published on the official site",
+        "Wednesday": "3:30 PM–12:00 AM",
+        "Thursday": "11:30 AM–2:00 AM",
+        "Friday": "11:30 AM–2:00 AM",
+        "Saturday": "3:30 PM–2:00 AM",
+        "Sunday": "Not published on the official site"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "12 Folsom/Pacific + 1-block walk",
+        "detail": "The 12 Folsom/Pacific stop at Sansome & Jackson is a block from 530 Jackson Street; the 30 Stockton corridor through Chinatown is also walkable.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "12",
+          "30"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.kells-sf.com/",
+        "quote": "The official site lists 530 Jackson St., San Francisco, CA 94133 with OPENING HOURS: Wednesday 3:30pm-12am, Thursday & Friday 11:30am-2am, Saturday 3:30pm-2am."
+      },
+      "flags": [
+        "Sunday-Monday-Tuesday hours are not published on the official site; one aggregator marks the bar permanently closed while the official site, phone line, and booking listings remain live - confirm before a long trip."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site quote captured verbatim; only Fri/Sat show the 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "chinatown"
+    },
+    {
+      "id": "reds-place",
+      "name": "Red's Place",
+      "category": "Neighborhood dive bar",
+      "neighborhood": "Chinatown / North Beach edge",
+      "address": "672 Jackson St, San Francisco, CA 94133",
+      "officialUrl": "https://www.redsplacesf.com/",
+      "hours": {
+        "Monday": "3:00 PM–11:00 PM",
+        "Tuesday": "3:00 PM–11:00 PM",
+        "Wednesday": "3:00 PM–11:00 PM",
+        "Thursday": "3:00 PM–11:00 PM",
+        "Friday": "3:00 PM–2:00 AM",
+        "Saturday": "12:00 PM–2:00 AM",
+        "Sunday": "12:00 PM–10:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "12 Folsom/Pacific + 1-block walk",
+        "detail": "The 12 Folsom/Pacific stop at Sansome & Jackson is a block from 672 Jackson Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "12"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.redsplacesf.com/",
+        "quote": "The official site lists 672 Jackson Street, San Francisco, Ca. 94133 with 'Sun: 12-10pm; Mon - Thur: 3-11pm; Fri: 3-2am; Sat: 12-2am'."
+      },
+      "flags": [
+        "Weekday closes are 11:00 PM sharp, so only Friday and Saturday clear the late-night bar."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site quote captured verbatim for all seven days.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "chinatown"
+    },
+    {
+      "id": "savoy-tivoli",
+      "name": "Savoy Tivoli",
+      "category": "Historic bar / beer garden",
+      "neighborhood": "Chinatown / North Beach",
+      "address": "1434 Grant Ave, San Francisco, CA 94133",
+      "officialUrl": "https://www.savoytivoli.com/",
+      "hours": {
+        "Monday": "Per listings, closed or early close",
+        "Tuesday": "Per listings, closed or early close",
+        "Wednesday": "Per listings, closed or early close",
+        "Thursday": "Per listings, closed or early close",
+        "Friday": "Open until 2:00 AM (per listings; posted opening times differ)",
+        "Saturday": "Open until 2:00 AM (per listings; posted opening times differ)",
+        "Sunday": "Per listings, closed or early close"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "30 Stockton / 12 Folsom-Pacific + walk",
+        "detail": "Use the 30 Stockton corridor through Chinatown or the 12's Pacific & Powell stop, then walk a few blocks to 1434 Grant Avenue.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "30",
+          "12"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.savoytivoli.com/",
+        "quote": "The official Savoy Tivoli site confirms the venue at 1434 Grant Avenue, San Francisco, but publishes no fixed weekly hours; aggregator listings agree on a 2:00 AM close on operating nights."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: official site confirms identity/address only; the 2:00 AM close comes from aggregator listings, and posted opening times conflict across listings. Patio and event nights drive actual hours."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for identity/address; hours cross-checked across multiple aggregator listings which agree on the late close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "chinatown"
+    },
+    {
+      "id": "comstock-saloon",
+      "name": "Comstock Saloon",
+      "category": "Historic saloon / food",
+      "neighborhood": "North Beach / Columbus",
+      "address": "155 Columbus Ave, San Francisco, CA 94109",
+      "officialUrl": "https://comstocksaloon.com/",
+      "hours": {
+        "Monday": "Listings conflict (one shows closed Monday)",
+        "Tuesday": "4:00 PM–12:00 AM",
+        "Wednesday": "4:00 PM–12:00 AM",
+        "Thursday": "4:00 PM–12:00 AM",
+        "Friday": "4:00 PM–12:00 AM",
+        "Saturday": "4:00 PM–12:00 AM",
+        "Sunday": "Listings conflict (one shows closed Sunday)"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "12 Folsom/Pacific + 2-block walk",
+        "detail": "The 12 Folsom/Pacific stops at Sansome & Jackson or Pacific & Powell; both leave a short walk to 155 Columbus Avenue.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "12",
+          "30"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://comstocksaloon.com/",
+        "quote": "The official Comstock Saloon site lists 155 Columbus Avenue, San Francisco and states the drinks menu is served daily until midnight; day-of-week structure comes from aggregator listings."
+      },
+      "flags": [
+        "Official page documents a midnight drink service rather than a full weekly table, and two listings disagree on Monday/Sunday openings - check the current week before going."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site checked for address and the 'drinks until midnight' statement that clears the 11 PM bar; weekly structure cross-checked against listings.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "north-beach"
+    },
+    {
+      "id": "devils-acre",
+      "name": "Devil's Acre",
+      "category": "Cocktail bar",
+      "neighborhood": "North Beach / Columbus",
+      "address": "256 Columbus Ave, San Francisco, CA 94109",
+      "officialUrl": "https://www.futurebars.com/locations/devils-acre",
+      "hours": {
+        "Monday": "Listed as closed on the operator page",
+        "Tuesday": "4:30 PM–12:00 AM",
+        "Wednesday": "4:30 PM–12:00 AM",
+        "Thursday": "4:30 PM–12:00 AM",
+        "Friday": "4:30 PM–2:00 AM",
+        "Saturday": "4:30 PM–2:00 AM",
+        "Sunday": "4:30 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "12 Folsom/Pacific + 2-block walk",
+        "detail": "The 12 Folsom/Pacific stops near Pacific & Powell; walk about two blocks to 256 Columbus Avenue.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "12",
+          "30"
+        ]
+      },
+      "source": {
+        "label": "Official Future Bars location page",
+        "url": "https://www.futurebars.com/locations/devils-acre",
+        "quote": "The official Future Bars location page lists Devil's Acre, 256 Columbus Avenue, San Francisco, with Sunday-Thursday 4:30 PM-12:00 AM and Friday-Saturday 4:30 PM-2:00 AM."
+      },
+      "flags": [
+        "The same operator page also prints a 'Mon: Closed' line that conflicts with the Sunday-Thursday row - flagged for review."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official operator page checked for address and the Fri/Sat 2:00 AM close; the Monday conflict is flagged.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "north-beach"
+    },
+    {
+      "id": "gino-and-carlo",
+      "name": "Gino & Carlo",
+      "category": "Historic sports bar",
+      "neighborhood": "North Beach / Green Street",
+      "address": "548 Green St, San Francisco, CA 94133",
+      "officialUrl": "https://www.instagram.com/ginoandcarlosf/",
+      "hours": {
+        "Monday": "6:00 AM–2:00 AM",
+        "Tuesday": "6:00 AM–2:00 AM",
+        "Wednesday": "6:00 AM–2:00 AM",
+        "Thursday": "6:00 AM–2:00 AM",
+        "Friday": "6:00 AM–2:00 AM",
+        "Saturday": "6:00 AM–2:00 AM",
+        "Sunday": "6:00 AM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "12 Folsom/Pacific + 2-block walk",
+        "detail": "The 12 Folsom/Pacific stop at Sansome & Jackson is about two blocks from 548 Green Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "12"
+        ]
+      },
+      "source": {
+        "label": "Venue-owned Instagram profile",
+        "url": "https://www.instagram.com/ginoandcarlosf/",
+        "quote": "The bar's own Instagram bio reads 'Open DAILY | 6am - 2am'; the venue has no standalone website, and its city listings show 548 Green Street, San Francisco."
+      },
+      "flags": [
+        "Hours come from the venue's own Instagram bio rather than a website; long-running North Beach institution - reconfirm on the profile before a long trip."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Venue-owned social profile checked for the daily 6 AM-2 AM schedule; address cross-checked against city listings.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "north-beach"
+    },
+    {
+      "id": "rickhouse",
+      "name": "Rickhouse",
+      "category": "Whiskey bar",
+      "neighborhood": "Financial District",
+      "address": "246 Kearny St, San Francisco, CA 94104",
+      "officialUrl": "https://www.futurebars.com/locations/rickhouse",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "4:30 PM–12:00 AM",
+        "Wednesday": "4:30 PM–12:00 AM",
+        "Thursday": "4:30 PM–2:00 AM",
+        "Friday": "4:30 PM–2:00 AM",
+        "Saturday": "6:00 PM–2:00 AM",
+        "Sunday": "Closed"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "12 Folsom/Pacific + 2-block walk",
+        "detail": "The 12 Folsom/Pacific stop at Sansome & Jackson is about two blocks from 246 Kearny Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "12"
+        ]
+      },
+      "source": {
+        "label": "Official Future Bars location page",
+        "url": "https://www.futurebars.com/locations/rickhouse",
+        "quote": "The official Future Bars location page lists Rickhouse, 246 Kearny Street, San Francisco, with Tue/Wed 4:30 PM-12:00 AM, Thu/Fri 4:30 PM-2:00 AM, and Sat 6:00 PM-2:00 AM."
+      },
+      "flags": [
+        "Whiskey-library seating fills early; Sunday-Monday closed per the operator page."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official operator page checked for address and the Thu-Sat 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "financial-district"
+    },
+    {
+      "id": "nightingale",
+      "name": "Nightingale",
+      "category": "Cocktail bar",
+      "neighborhood": "Financial District",
+      "address": "239 Kearny St, San Francisco, CA 94104",
+      "officialUrl": "https://www.futurebars.com/locations/nightingale",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "4:00 PM–12:00 AM",
+        "Wednesday": "4:00 PM–12:00 AM",
+        "Thursday": "4:00 PM–12:00 AM",
+        "Friday": "4:00 PM–2:00 AM",
+        "Saturday": "4:00 PM–2:00 AM",
+        "Sunday": "Closed"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "12 Folsom/Pacific + 2-block walk",
+        "detail": "The 12 Folsom/Pacific stop at Sansome & Jackson is about two blocks from 239 Kearny Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "12"
+        ]
+      },
+      "source": {
+        "label": "Official Future Bars location page",
+        "url": "https://www.futurebars.com/locations/nightingale",
+        "quote": "The official Future Bars location page lists Nightingale, 239 Kearny Street, San Francisco, with Tuesday-Thursday 4:00 PM-12:00 AM and Friday-Saturday 4:00 PM-2:00 AM."
+      },
+      "flags": [
+        "Mezzanine and bar seats go first; Sunday-Monday closed per the operator page."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official operator page checked for address and the Fri/Sat 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "financial-district"
+    },
+    {
+      "id": "novela",
+      "name": "Novela",
+      "category": "Cocktail bar",
+      "neighborhood": "Financial District / SoMa edge",
+      "address": "662 Mission St, San Francisco, CA 94105",
+      "officialUrl": "https://novelasf.com/contact",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "4:00 PM–2:00 AM",
+        "Saturday": "5:00 PM–2:00 AM",
+        "Sunday": "Closed"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "T Third / N Judah to Montgomery + 1-block walk",
+        "detail": "The T and N stop at Montgomery Street Station, one block from 662 Mission Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "T",
+          "N"
+        ]
+      },
+      "source": {
+        "label": "Official site contact page",
+        "url": "https://novelasf.com/contact",
+        "quote": "The official contact page lists Novela, 662 Mission Street, San Francisco, with Friday 4:00 PM-2:00 AM and Saturday 5:00 PM-2:00 AM."
+      },
+      "flags": [
+        "The official home page shows a different day set than the contact page - the contact-page schedule is retained here; weekday operation is limited."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official contact page checked for address and the Fri/Sat 2:00 AM close; homepage conflict flagged.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "financial-district"
+    },
+    {
+      "id": "local-edition",
+      "name": "Local Edition",
+      "category": "Newspaper-themed cocktail bar",
+      "neighborhood": "Financial District / Market Street",
+      "address": "691 Market St, San Francisco, CA 94105",
+      "officialUrl": "https://www.futurebars.com/locations/local-edition",
+      "hours": {
+        "Monday": "5:00 PM–2:00 AM",
+        "Tuesday": "5:00 PM–2:00 AM",
+        "Wednesday": "5:00 PM–2:00 AM",
+        "Thursday": "5:00 PM–2:00 AM",
+        "Friday": "4:30 PM–2:00 AM",
+        "Saturday": "7:00 PM–2:00 AM",
+        "Sunday": "Closed"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "N Judah / T Third to Powell or Montgomery + walk",
+        "detail": "The N and T stop at Powell Street Station, within a block of 691 Market Street (Hearst Building basement).",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "N",
+          "T"
+        ]
+      },
+      "source": {
+        "label": "Official Future Bars location page",
+        "url": "https://www.futurebars.com/locations/local-edition",
+        "quote": "The official Future Bars location page lists Local Edition, 691 Market Street, San Francisco, with Mon-Thu 5:00 PM-2:00 AM, Fri 4:30 PM-2:00 AM, and Sat 7:00 PM-2:00 AM."
+      },
+      "flags": [
+        "Subterranean room under the Hearst Building; enter from Market Street and expect a staircase."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official operator page checked for address and the 2:00 AM close six nights a week.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "financial-district"
+    },
+    {
+      "id": "the-dawn-club",
+      "name": "The Dawn Club",
+      "category": "Cocktail bar",
+      "neighborhood": "Financial District / Annie Street alley",
+      "address": "10 Annie St, San Francisco, CA 94105",
+      "officialUrl": "https://www.futurebars.com/locations/the-dawn-club",
+      "hours": {
+        "Monday": "5:00 PM–12:00 AM",
+        "Tuesday": "5:00 PM–12:00 AM",
+        "Wednesday": "5:00 PM–2:00 AM",
+        "Thursday": "5:00 PM–2:00 AM",
+        "Friday": "5:00 PM–2:00 AM",
+        "Saturday": "6:00 PM–2:00 AM",
+        "Sunday": "Closed"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "N Judah / T Third to Powell or Montgomery + walk",
+        "detail": "The N and T stop at Powell or Montgomery; Annie Street is the mid-block alley off Market near 5th Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "N",
+          "T"
+        ]
+      },
+      "source": {
+        "label": "Official Future Bars location page",
+        "url": "https://www.futurebars.com/locations/the-dawn-club",
+        "quote": "The official Future Bars location page lists The Dawn Club, 10 Annie Street, San Francisco, with Mon/Tue 5:00 PM-12:00 AM, Wed-Fri 5:00 PM-2:00 AM, and Sat 6:00 PM-2:00 AM."
+      },
+      "flags": [
+        "Alley entrance can be easy to miss; closed Sundays per the operator page."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official operator page checked for address and the Wed-Sat 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "financial-district"
+    },
+    {
+      "id": "tequila-mockingbird",
+      "name": "Tequila Mockingbird",
+      "category": "Tequila / mezcal bar",
+      "neighborhood": "Financial District / 2nd Street",
+      "address": "86 2nd St, San Francisco, CA 94105",
+      "officialUrl": "https://www.tequilamockingbar.com/",
+      "hours": {
+        "Monday": "2:00 PM–2:00 AM",
+        "Tuesday": "2:00 PM–2:00 AM",
+        "Wednesday": "2:00 PM–2:00 AM",
+        "Thursday": "2:00 PM–2:00 AM",
+        "Friday": "2:00 PM–2:00 AM",
+        "Saturday": "5:00 PM–2:00 AM",
+        "Sunday": "Not published on the official site"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "N Judah / T Third to Montgomery + 1-block walk",
+        "detail": "Montgomery Street Station (N/T) exits at Second & Market, within a block of 86 2nd Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "N",
+          "T"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.tequilamockingbar.com/",
+        "quote": "The official site lists 86 2nd Street, San Francisco, CA 94105 with 'HOURS: MON-FRI 2 PM to 2 AM, SAT 5 PM to 2 AM'."
+      },
+      "flags": [
+        "Sunday hours are not published on the official site; agave list is the draw and tables turn slowly on Fridays."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site quote captured verbatim; Mon-Fri and Sat rows both carry the 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "financial-district"
+    },
+    {
+      "id": "house-of-shields",
+      "name": "House of Shields",
+      "category": "Historic saloon",
+      "neighborhood": "Financial District / New Montgomery",
+      "address": "39 New Montgomery St, San Francisco, CA 94105",
+      "officialUrl": "https://thehouseofshields.com/",
+      "hours": {
+        "Monday": "2:00 PM–2:00 AM",
+        "Tuesday": "2:00 PM–2:00 AM",
+        "Wednesday": "2:00 PM–2:00 AM",
+        "Thursday": "2:00 PM–2:00 AM",
+        "Friday": "2:00 PM–2:00 AM",
+        "Saturday": "3:00 PM–2:00 AM",
+        "Sunday": "3:00 PM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "N Judah / T Third to Montgomery + 1-block walk",
+        "detail": "Montgomery Street Station (N/T) exits at Second & Market; 39 New Montgomery is one block south.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "N",
+          "T"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://thehouseofshields.com/",
+        "quote": "The official site confirms House of Shields at 39 New Montgomery Street, San Francisco, but publishes no fixed weekly hours; listings show Mon-Fri 2:00 PM-2:00 AM and Sat-Sun 3:00 PM-2:00 AM."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: official site confirms identity/address only; the 2:00 AM close comes from aggregator listings, and one listing's weekend times differ slightly - check before going."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for identity/address; hours cross-checked across listings that agree on the 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "financial-district"
+    },
+    {
+      "id": "gingers-bar",
+      "name": "Ginger's",
+      "category": "Dive bar",
+      "neighborhood": "Financial District / Bush Street alley",
+      "address": "86 Hardie Pl, San Francisco, CA 94104",
+      "officialUrl": "https://www.futurebars.com/locations/gingers",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "5:00 PM–12:00 AM",
+        "Thursday": "5:00 PM–12:00 AM",
+        "Friday": "5:00 PM–2:00 AM",
+        "Saturday": "Not published on the operator page",
+        "Sunday": "Not published on the operator page"
+      },
+      "qualifyingDays": [
+        "Friday"
+      ],
+      "access": {
+        "summary": "12 Folsom/Pacific + walk",
+        "detail": "The 12 Folsom/Pacific stops at Sansome & Jackson; Hardie Place is the small alley off Bush near Sansome.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "12"
+        ]
+      },
+      "source": {
+        "label": "Official Future Bars location page",
+        "url": "https://www.futurebars.com/locations/gingers",
+        "quote": "The official Future Bars location page lists Ginger's, 86 Hardie Place, San Francisco, with Wed/Thu 5:00 PM-12:00 AM and Friday 5:00 PM-2:00 AM."
+      },
+      "flags": [
+        "Only Friday's published schedule clears the 11 PM bar; Saturday/Sunday hours are not published on the operator page - the alley entrance is easy to miss."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official operator page checked for address and the Friday 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "financial-district"
+    },
+    {
+      "id": "top-of-the-mark",
+      "name": "Top of the Mark",
+      "category": "Rooftop sky bar",
+      "neighborhood": "Nob Hill / Mark Hopkins",
+      "address": "999 California St, San Francisco, CA 94108",
+      "officialUrl": "https://www.topofthemark.com/",
+      "hours": {
+        "Monday": "5:00 PM–11:00 PM",
+        "Tuesday": "5:00 PM–11:00 PM",
+        "Wednesday": "5:00 PM–11:00 PM",
+        "Thursday": "5:00 PM–11:00 PM",
+        "Friday": "3:00 PM–12:30 AM",
+        "Saturday": "3:00 PM–12:30 AM",
+        "Sunday": "5:00 PM–11:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "N Judah / T Third to Montgomery + hill walk or cable car",
+        "detail": "From Montgomery Station, walk up California Street (about 10 minutes uphill) or take the California cable car to Mason; the lounge is on the 19th floor of the InterContinental Mark Hopkins at 999 California.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "N",
+          "T"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.topofthemark.com/",
+        "quote": "The official site lists Top of the Mark, 999 California Street (19th floor, InterContinental Mark Hopkins), with Friday/Saturday 3:00 PM-12:30 AM and Sunday-Thursday 5:00 PM-11:00 PM."
+      },
+      "flags": [
+        "Sunday-Thursday closes at 11:00 PM sharp and does not qualify; dress code applies and live music nights can add a minimum."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site checked for address and the Fri/Sat 12:30 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "downtown-union-square"
+    },
+    {
+      "id": "smugglers-cove",
+      "name": "Smuggler's Cove",
+      "category": "Tiki bar",
+      "neighborhood": "Civic Center / Gough Street",
+      "address": "650 Gough St, San Francisco, CA 94102",
+      "officialUrl": "https://smugglerscovesf.com/faq",
+      "hours": {
+        "Monday": "5:00 PM–1:15 AM",
+        "Tuesday": "5:00 PM–1:15 AM",
+        "Wednesday": "5:00 PM–1:15 AM",
+        "Thursday": "5:00 PM–1:15 AM",
+        "Friday": "5:00 PM–1:15 AM",
+        "Saturday": "5:00 PM–1:15 AM",
+        "Sunday": "5:00 PM–1:15 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "5 Fulton + 3-block walk",
+        "detail": "The 5 Fulton corridor stops near McAllister & Gough, a few blocks from 650 Gough Street; check the live planner for the pairing.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "5"
+        ]
+      },
+      "source": {
+        "label": "Official FAQ page",
+        "url": "https://smugglerscovesf.com/faq",
+        "quote": "The official FAQ lists Smuggler's Cove, 650 Gough Street, San Francisco, open daily 5:00 PM-1:15 AM."
+      },
+      "flags": [
+        "Lines form early on weekends and the room holds its full rum list behind the bar; last call precedes the 1:15 AM close."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official FAQ checked for the daily 1:15 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "hayes-valley-civic"
+    },
+    {
+      "id": "brass-tacks",
+      "name": "Brass Tacks",
+      "category": "Cocktail bar",
+      "neighborhood": "Hayes Valley",
+      "address": "488 Hayes St, San Francisco, CA 94102",
+      "officialUrl": "https://www.brasstackssf.com/",
+      "hours": {
+        "Monday": "4:00 PM–1:00 AM",
+        "Tuesday": "4:00 PM–1:00 AM",
+        "Wednesday": "4:00 PM–1:00 AM",
+        "Thursday": "4:00 PM–2:00 AM",
+        "Friday": "4:00 PM–2:00 AM",
+        "Saturday": "4:00 PM–2:00 AM",
+        "Sunday": "4:00 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "22 Fillmore + walk",
+        "detail": "The 22 Fillmore crosses Hayes at Fillmore Street, a short walk from 488 Hayes.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "22"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.brasstackssf.com/",
+        "quote": "The official site (menu and venue pages) confirms Brass Tacks in Hayes Valley as a 21+ cocktail bar; it prints no weekly hours, and listings show Mon-Wed 4:00 PM-1:00 AM, Thu-Sat 4:00 PM-2:00 AM, Sun 4:00 PM-12:00 AM at 488 Hayes Street."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: official site confirms identity (21+ Hayes Valley cocktail bar) but prints no address or hours; address and schedule come from aggregator listings (one shows the unit as 488a Hayes) - reconfirm on the official page before going."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for identity; address/hours cross-checked across listings that agree on the Thu-Sat 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "hayes-valley-civic"
+    },
+    {
+      "id": "balboa-cafe",
+      "name": "Balboa Cafe",
+      "category": "Historic bar / restaurant",
+      "neighborhood": "Marina / Cow Hollow",
+      "address": "3199 Fillmore St, San Francisco, CA 94123",
+      "officialUrl": "https://balboacafesf.com/menu",
+      "hours": {
+        "Monday": "11:30 AM–12:00 AM",
+        "Tuesday": "11:30 AM–12:00 AM",
+        "Wednesday": "11:30 AM–2:00 AM",
+        "Thursday": "11:30 AM–2:00 AM",
+        "Friday": "11:30 AM–2:00 AM",
+        "Saturday": "10:00 AM–2:00 AM",
+        "Sunday": "10:00 AM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "22 Fillmore + short walk",
+        "detail": "The 22 Fillmore runs up Fillmore Street into the Marina; use the stops near Fillmore & Greenwich/Bay and walk to 3199 Fillmore.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "22"
+        ]
+      },
+      "source": {
+        "label": "Official menu page",
+        "url": "https://balboacafesf.com/menu",
+        "quote": "The official menu page lists Balboa Cafe, 3199 Fillmore Street, San Francisco, with Mon/Tue 11:30 AM-12:00 AM, Wed-Fri 11:30 AM-2:00 AM, Sat 10:00 AM-2:00 AM, and Sun 10:00 AM-12:00 AM."
+      },
+      "flags": [
+        "1906-era corner saloon; kitchen closes well before the bar on weekends."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official menu page checked for address and the Wed-Sat 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "marina-presidio"
+    },
+    {
+      "id": "final-final",
+      "name": "Final Final",
+      "category": "Sports bar",
+      "neighborhood": "Cow Hollow / Baker Street",
+      "address": "2990 Baker St, San Francisco, CA 94123",
+      "officialUrl": "https://www.finalfinalbar.com/",
+      "hours": {
+        "Monday": "12:00 PM–12:00 AM",
+        "Tuesday": "12:00 PM–12:00 AM",
+        "Wednesday": "12:00 PM–12:00 AM",
+        "Thursday": "12:00 PM–2:00 AM",
+        "Friday": "12:00 PM–2:00 AM",
+        "Saturday": "9:00 AM–2:00 AM",
+        "Sunday": "9:00 AM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "22 Fillmore + 2-block walk",
+        "detail": "The 22 Fillmore stops near Fillmore & Greenwich; walk about two blocks west to 2990 Baker Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "22"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.finalfinalbar.com/",
+        "quote": "The official site lists Final Final, 2990 Baker Street, San Francisco, with Mon-Wed 12:00 PM-12:00 AM, Thu/Fri 12:00 PM-2:00 AM, Sat 9:00 AM-2:00 AM, and Sun 9:00 AM-12:00 AM."
+      },
+      "flags": [
+        "The site's embedded listing data shows Monday/Tuesday closing at 11:00 PM instead of midnight - a minor internal conflict flagged for review; Sunday closes at midnight, just past the 11 PM bar."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site checked for address and hours; the JSON-vs-text Monday/Tuesday conflict is flagged.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "marina-presidio"
+    },
+    {
+      "id": "brazen-head",
+      "name": "Brazen Head",
+      "category": "Restaurant / late-night bar",
+      "neighborhood": "Marina / Buchanan Street",
+      "address": "3166 Buchanan St, San Francisco, CA 94123",
+      "officialUrl": "https://brazenheadsf.com",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "5:00 PM–12:00 AM",
+        "Thursday": "5:00 PM–12:00 AM",
+        "Friday": "5:00 PM–12:00 AM",
+        "Saturday": "5:00 PM–12:00 AM",
+        "Sunday": "Not published on the official site"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "22 Fillmore + 1-block walk",
+        "detail": "The 22 Fillmore stops near Fillmore & Union; Buchanan Street is one block east of 3166 Buchanan.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "22"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://brazenheadsf.com",
+        "quote": "The official site lists Brazen Head, 3166 Buchanan Street, San Francisco, open Wednesday-Saturday with dinner from 5:00 PM and the bar described as open 5:00 PM-late (listings show a 12:00 AM close)."
+      },
+      "flags": [
+        "The official page frames the bar as '5 PM-late' rather than a set close; the midnight close used here is from listings, and Sunday hours are not published - flagged for review."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for address and days; closing time cross-checked against listings showing 12:00 AM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "marina-presidio"
+    },
+    {
+      "id": "presidio-bowl",
+      "name": "Presidio Bowl",
+      "category": "Bowling alley / bar",
+      "neighborhood": "Presidio",
+      "address": "93 Moraga Ave, San Francisco, CA 94129",
+      "officialUrl": "https://www.presidiobowl.com/",
+      "hours": {
+        "Monday": "3:00 PM–11:00 PM",
+        "Tuesday": "3:00 PM–11:00 PM",
+        "Wednesday": "3:00 PM–11:00 PM",
+        "Thursday": "11:00 AM–12:00 AM",
+        "Friday": "1:00 PM–1:00 AM",
+        "Saturday": "11:00 AM–1:00 AM",
+        "Sunday": "12:00 PM–8:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "43 Masonic (Presidio stops) or PresidiGo shuttle",
+        "detail": "The 43 Masonic stops inside the Presidio (Letterman/Main Post area) with a walk to 93 Moraga Avenue; the free PresidiGo shuttle from downtown is another option - confirm the last return trip.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "43"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.presidiobowl.com/",
+        "quote": "The official site lists 'Regular Hours: Monday-Wednesday 3PM-11PM; Thursday 11AM-Midnight; Friday 1PM-1AM; Saturday 11AM-1AM; Sunday Noon-8PM' at 93 Moraga Avenue, and posts holiday overrides for Labor Day weekend (Sunday 9/6 Noon-10:30 PM; Monday 9/7 1-9 PM)."
+      },
+      "flags": [
+        "Holiday and private-event overrides are common - the site already posts Labor Day weekend hours that replace the regular Sunday schedule; lane reservations are recommended."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site quote captured verbatim including the posted Labor Day weekend overrides.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "marina-presidio"
+    },
+    {
+      "id": "festa-lounge",
+      "name": "Festa Wine & Cocktail Lounge",
+      "category": "Karaoke bar",
+      "neighborhood": "Japantown",
+      "address": "1825A Post St, Suite 210, San Francisco, CA 94115",
+      "officialUrl": "https://festalounge.com/",
+      "hours": {
+        "Monday": "6:30 PM–1:00 AM",
+        "Tuesday": "6:30 PM–1:00 AM",
+        "Wednesday": "6:30 PM–1:00 AM",
+        "Thursday": "6:30 PM–1:00 AM",
+        "Friday": "6:30 PM–2:00 AM",
+        "Saturday": "6:30 PM–2:00 AM",
+        "Sunday": "6:30 PM–1:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "22 Fillmore / 38 Geary + walk",
+        "detail": "The 22 Fillmore stops near Post & Buchanan in Japantown and the 38 Geary stops at Geary & Buchanan; the Kinokuniya Building (1825A Post, Suite 210) is a short walk from either.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "22",
+          "38"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://festalounge.com/",
+        "quote": "The official site lists Festa Wine & Cocktail Lounge, 1825A Post St, Ste 210, San Francisco, CA 94115, with 'Hours: Fri, Sat 6:30 PM - 2:00 AM; Sun, Mon, Tue, Wed, Thur 6:30 PM - 1:00 AM'."
+      },
+      "flags": [
+        "Second-floor walk-up inside the Kinokuniya Building; stage karaoke (no private rooms) and a 20% gratuity for groups of six or more."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site quote captured verbatim; every day closes past 11:00 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "japantown"
+    },
+    {
+      "id": "toronado",
+      "name": "Toronado",
+      "category": "Beer bar",
+      "neighborhood": "Haight / Lower Haight",
+      "address": "547 Haight St, San Francisco, CA 94117",
+      "officialUrl": "https://toronado.com/",
+      "hours": {
+        "Monday": "11:30 AM–2:00 AM",
+        "Tuesday": "11:30 AM–2:00 AM",
+        "Wednesday": "11:30 AM–2:00 AM",
+        "Thursday": "11:30 AM–2:00 AM",
+        "Friday": "11:30 AM–2:00 AM",
+        "Saturday": "11:30 AM–2:00 AM",
+        "Sunday": "11:30 AM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "7 Haight/Noriega or 43 Masonic + walk",
+        "detail": "The 7 runs along Haight Street (Haight & Fillmore area stops) and the 43 stops at Masonic & Haight; both leave a short walk to 547 Haight.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "7",
+          "43"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://toronado.com/",
+        "quote": "The official Toronado site confirms the bar at 547 Haight Street, San Francisco, but publishes no fixed weekly hours; aggregator listings consistently show 11:30 AM-2:00 AM daily."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: official site confirms identity/address only; the daily 2:00 AM close comes from aggregator listings - cash-heavy, order-at-the-counter beer hall next to Rosamunde."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for identity/address; hours cross-checked across listings agreeing on 11:30 AM-2:00 AM daily.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "haight"
+    },
+    {
+      "id": "little-shamrock",
+      "name": "Little Shamrock",
+      "category": "Historic dive bar",
+      "neighborhood": "Inner Sunset / Lincoln Way",
+      "address": "807 Lincoln Way, San Francisco, CA 94122",
+      "officialUrl": "https://littleshamrock.co",
+      "hours": {
+        "Monday": "Per listings, open to 12:00 AM",
+        "Tuesday": "Per listings, open to 12:00 AM",
+        "Wednesday": "Per listings, open to 12:00 AM",
+        "Thursday": "Per listings, open to 12:00 AM",
+        "Friday": "2:00 PM–2:00 AM",
+        "Saturday": "1:00 PM–2:00 AM",
+        "Sunday": "1:00 PM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "N Judah / 43 Masonic + short walk",
+        "detail": "The N Judah's 9th Avenue & Irving stops and the 43's 9th Ave & Judah stop are each a few blocks from 807 Lincoln Way (at 9th Avenue).",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "N",
+          "43"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://littleshamrock.co",
+        "quote": "The official site confirms the Little Shamrock at 807 Lincoln Way, San Francisco (est. 1893), but publishes no fixed weekly hours; listings show Friday 2:00 PM-2:00 AM and Saturday/Sunday 1:00 PM-2:00 AM."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: official site confirms identity/address only; hours come from aggregator listings, one of which (the site's own embedded data) shows a 1:00 AM close - flagged for review."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for identity/address; hours cross-checked across listings that mostly agree on the 2:00 AM weekend close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "inner-sunset"
+    },
+    {
+      "id": "holy-water",
+      "name": "Holy Water",
+      "category": "Neighborhood bar",
+      "neighborhood": "Bernal Heights / Cortland",
+      "address": "309 Cortland Ave, San Francisco, CA 94110",
+      "officialUrl": "https://www.holywatersf.com/",
+      "hours": {
+        "Monday": "3:00 PM–12:00 AM",
+        "Tuesday": "3:00 PM–12:00 AM",
+        "Wednesday": "3:00 PM–12:00 AM",
+        "Thursday": "3:00 PM–12:00 AM",
+        "Friday": "3:00 PM–2:00 AM",
+        "Saturday": "3:00 PM–2:00 AM",
+        "Sunday": "3:00 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "14 Mission + walk up Cortland",
+        "detail": "The 14 Mission stops near Mission & Cortland; walk up Cortland Avenue about four blocks to 309 Cortland.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "14"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.holywatersf.com/",
+        "quote": "The official site lists Holy Water, 309 Cortland Avenue, San Francisco, and states it is open daily from 3:00 PM; the Friday/Saturday 2:00 AM close comes from the venue's listing profiles."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: official site publishes only the daily 3:00 PM opening; the 2:00 AM weekend close comes from venue listing profiles - reconfirm on the door before a long trip."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for address and daily opening; closing times cross-checked against venue listing profiles.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "bernal-heights"
+    },
+    {
+      "id": "trick-dog",
+      "name": "Trick Dog",
+      "category": "Cocktail bar",
+      "neighborhood": "Mission / 20th Street",
+      "address": "3010 20th St, San Francisco, CA 94110",
+      "officialUrl": "https://trickdogbar.com/",
+      "hours": {
+        "Monday": "4:00 PM–12:00 AM",
+        "Tuesday": "4:00 PM–12:00 AM",
+        "Wednesday": "4:00 PM–12:00 AM",
+        "Thursday": "4:00 PM–12:00 AM",
+        "Friday": "4:00 PM–2:00 AM",
+        "Saturday": "4:00 PM–2:00 AM",
+        "Sunday": "4:00 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "14 Mission / 49 Van Ness-Mission + walk",
+        "detail": "The 14 Mission and 49 Van Ness-Mission stop near Mission & 20th; walk about three blocks to 3010 20th Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "14",
+          "49"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://trickdogbar.com/",
+        "quote": "The official site lists Trick Dog, 3010 20th Street, San Francisco (415-471-2999), with Sunday-Thursday 4:00 PM-12:00 AM and Friday-Saturday 4:00 PM-2:00 AM."
+      },
+      "flags": [
+        "Sunday-Thursday closes at midnight - only just past the 11 PM bar for this list; the menu changes on a theme cycle and tables are scarce."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site checked for address and hours; Fri/Sat close 2:00 AM, Sun-Thu midnight.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "mission"
+    },
+    {
+      "id": "mission-bowling-club",
+      "name": "Mission Bowling Club",
+      "category": "Bowling alley / restaurant / bar",
+      "neighborhood": "Mission / 17th Street",
+      "address": "3176 17th St, San Francisco, CA 94110",
+      "officialUrl": "https://www.missionbowlingclub.com/hours-info",
+      "hours": {
+        "Monday": "Closed except monthly events (Queer Bowling 3rd Mondays)",
+        "Tuesday": "4:00 PM–10:00 PM",
+        "Wednesday": "4:00 PM–10:00 PM",
+        "Thursday": "3:00 PM–10:00 PM",
+        "Friday": "3:00 PM–12:00 AM",
+        "Saturday": "11:00 AM–12:00 AM",
+        "Sunday": "11:00 AM–8:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "49 Van Ness-Mission / 14 Mission + walk",
+        "detail": "The 49 stops near S. Van Ness & 17th and the 14 stops near Mission & 16th; both leave a short walk to 3176 17th Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "49",
+          "14"
+        ]
+      },
+      "source": {
+        "label": "Official hours page",
+        "url": "https://www.missionbowlingclub.com/hours-info",
+        "quote": "The official hours page lists Mission Bowling Club, 3176 17th Street, San Francisco, CA 94110: 'Monday: Closed except for Queer Bowling on the 3rd Monday; Tuesday & Wednesday 4 pm - 10 pm; Thursday 3 pm - 10 pm; Friday 3 pm - Midnight; Saturday 11 am - Midnight; Sunday 11 am - 8 pm'; 21+ after 6 PM."
+      },
+      "flags": [
+        "Six lanes only - reservations are effectively required on weekends; special-event closures are posted on the calendar."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official hours page quote captured verbatim; Fri/Sat close at midnight.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "mission"
+    },
+    {
+      "id": "benders-bar",
+      "name": "Bender's",
+      "category": "Dive bar / food",
+      "neighborhood": "Mission / S. Van Ness",
+      "address": "806 S Van Ness Ave, San Francisco, CA 94110",
+      "officialUrl": "https://www.bendersbar.com/",
+      "hours": {
+        "Monday": "Per site text, 2:00 PM–2:00 AM",
+        "Tuesday": "Per site text, 2:00 PM–2:00 AM (embedded data says closed)",
+        "Wednesday": "2:00 PM–2:00 AM (embedded data says 12:00 AM)",
+        "Thursday": "2:00 PM–2:00 AM (embedded data says 12:00 AM)",
+        "Friday": "2:00 PM–2:00 AM",
+        "Saturday": "2:00 PM–2:00 AM",
+        "Sunday": "2:00 PM–2:00 AM (embedded data says 12:00 AM)"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "49 Van Ness-Mission / 14 Mission + walk",
+        "detail": "The 49 stops near S. Van Ness & 20th; the bar is at 806 S. Van Ness.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "49",
+          "14"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.bendersbar.com/",
+        "quote": "The official site's text says Bender's (806 S Van Ness Ave, San Francisco) is open Tue-Sun 2:00 PM-2:00 AM; the same page's embedded listing data disagrees on Tue-Thu/Sunday closes."
+      },
+      "flags": [
+        "INTERNAL CONFLICT FLAG: the site's visible text and its embedded data disagree on Tuesday-Thursday and Sunday closing times; Friday/Saturday 2:00 AM is consistent in both - treat off-nights as unverified."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site checked for address and the Fri/Sat 2:00 AM close; the text-vs-JSON conflict is flagged.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "mission"
+    },
+    {
+      "id": "elixir",
+      "name": "Elixir",
+      "category": "Saloon / cocktail bar",
+      "neighborhood": "Mission / 16th Street",
+      "address": "3200 16th St, San Francisco, CA 94103",
+      "officialUrl": "https://www.elixirsf.com/",
+      "hours": {
+        "Monday": "Per listings, open daily to 2:00 AM",
+        "Tuesday": "Per listings, open daily to 2:00 AM",
+        "Wednesday": "Per listings, open daily to 2:00 AM",
+        "Thursday": "4:00 PM–2:00 AM",
+        "Friday": "4:00 PM–2:00 AM",
+        "Saturday": "12:00 PM–2:00 AM",
+        "Sunday": "Per listings, open daily to 2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "14 Mission / 49 Van Ness-Mission + 2-block walk",
+        "detail": "The 14 stops near Mission & 16th; Elixir is at 16th & Guerrero, about two blocks west.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "14",
+          "49"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.elixirsf.com/",
+        "quote": "The official site confirms Elixir at 3200 16th Street, San Francisco, but publishes no fixed weekly hours; aggregator listings show Thursday/Friday 4:00 PM-2:00 AM and Saturday 12:00 PM-2:00 AM (other days listed to 2:00 AM with differing open times)."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: official site confirms identity/address only; hours come from aggregator listings - opening times differ across days and sources, so only the 2:00 AM close is treated as solid."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for identity/address; hours cross-checked across listings agreeing on the 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "mission"
+    },
+    {
+      "id": "el-rio",
+      "name": "El Rio",
+      "category": "Back-patio bar / venue",
+      "neighborhood": "Mission / Cesar Chavez",
+      "address": "3158 Mission St, San Francisco, CA 94110",
+      "officialUrl": "https://www.elriosf.com/",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "5:00 PM–12:00 AM",
+        "Thursday": "5:00 PM–12:00 AM",
+        "Friday": "4:00 PM–2:00 AM",
+        "Saturday": "3:00 PM–2:00 AM",
+        "Sunday": "3:00 PM–9:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "14 Mission / 49 Van Ness-Mission",
+        "detail": "The 14 and 49 stop along Mission Street near Cesar Chavez; El Rio is at 3158 Mission.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "14",
+          "49"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.elriosf.com/",
+        "quote": "The official site confirms El Rio at 3158 Mission Street, San Francisco, but publishes no fixed weekly hours; the venue's listing profiles show Wed/Thu 5:00 PM-12:00 AM, Fri 4:00 PM-2:00 AM, Sat 3:00 PM-2:00 AM, Sun 3:00 PM-9:00 PM, closed Mon/Tue."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: official site confirms identity/address only; the schedule comes from venue listing profiles, and event nights can shift the patio close."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for identity/address; hours cross-checked against venue listing profiles.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "mission"
+    },
+    {
+      "id": "the-chieftain",
+      "name": "The Chieftain Irish Pub & Restaurant",
+      "category": "Irish pub / sports bar",
+      "neighborhood": "SoMa / 5th Street",
+      "address": "198 5th St, San Francisco, CA 94103",
+      "officialUrl": "https://www.thechieftain.com/location/the-chieftain",
+      "hours": {
+        "Monday": "4:00 PM–2:00 AM (per listings; official: 'until late')",
+        "Tuesday": "4:00 PM–2:00 AM (per listings; official: 'until late')",
+        "Wednesday": "4:00 PM–2:00 AM (per listings; official: 'until late')",
+        "Thursday": "4:00 PM–2:00 AM (per listings; official: 'until late')",
+        "Friday": "12:00 PM–2:00 AM (per listings; official: 'until late')",
+        "Saturday": "12:00 PM–2:00 AM (per listings; official: 'until late')",
+        "Sunday": "12:00 PM–2:00 AM (per listings; official: 'until late')"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "14 Mission / 12 Folsom-Pacific + 2-block walk",
+        "detail": "The 14 stops near Mission & 5th and the 12 stops near Folsom & 4th-11th; both leave a short walk to 198 5th Street (at Howard).",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "14",
+          "12"
+        ]
+      },
+      "source": {
+        "label": "Official hours & location page",
+        "url": "https://www.thechieftain.com/location/the-chieftain",
+        "quote": "The official hours page lists 198 5th Street, San Francisco, CA 94103 and shows Sunday 12pm, Monday-Thursday 4pm, and Friday-Saturday 12pm, each 'until late'; venue-submitted listings put the close at 2:00 AM."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: the official page says 'until late' instead of a set closing time; the 2:00 AM close comes from venue-submitted listings - live music nights run later than quiet nights."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official page checked for address and opening times; closing time cross-checked against venue-submitted listings.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "soma"
+    },
+    {
+      "id": "cat-club",
+      "name": "Cat Club",
+      "category": "Dance club",
+      "neighborhood": "SoMa / Folsom Street",
+      "address": "1190 Folsom St, San Francisco, CA 94103",
+      "officialUrl": "https://sfcatclub.com/",
+      "hours": {
+        "Monday": "See official calendar",
+        "Tuesday": "See official calendar",
+        "Wednesday": "Club nights typically 9:00 PM–2:00 AM (per calendar)",
+        "Thursday": "9:00 PM–2:00 AM ('1984' recurring night)",
+        "Friday": "9:30 PM–2:00 AM (NIGHTSHIFT, per calendar)",
+        "Saturday": "9:00 PM–2:00 AM (per calendar)",
+        "Sunday": "See official calendar"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "12 Folsom/Pacific + walk",
+        "detail": "The 12 Folsom/Pacific runs along Folsom Street; use the stops near Folsom & 7th/8th for 1190 Folsom.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "12"
+        ]
+      },
+      "source": {
+        "label": "Official site calendar",
+        "url": "https://sfcatclub.com/",
+        "quote": "The official site lists Cat Club, 1190 Folsom Street, San Francisco (415-703-8965); its calendar posts recurring club nights with door times such as NIGHTSHIFT Fridays 9:30 PM-2:00 AM and '1984' Thursdays 9:00 PM-2:00 AM (no cover)."
+      },
+      "flags": [
+        "EVENT-DRIVEN: no fixed weekly schedule is published - door times and closes come from the official event calendar, so check the calendar for the specific night."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official calendar checked for recurring Friday/Saturday events ending at 2:00 AM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "soma"
+    },
+    {
+      "id": "dna-lounge",
+      "name": "DNA Lounge",
+      "category": "Nightclub / live music",
+      "neighborhood": "SoMa / 11th Street",
+      "address": "375 11th St, San Francisco, CA 94103",
+      "officialUrl": "https://www.dnalounge.com/",
+      "hours": {
+        "Monday": "Event nights 8:30 PM–2:30 AM",
+        "Tuesday": "See official calendar",
+        "Wednesday": "See official calendar",
+        "Thursday": "See official calendar",
+        "Friday": "Event nights 9:00 PM–2:30 AM",
+        "Saturday": "Event nights 9:00 PM–2:30 AM",
+        "Sunday": "See official calendar"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "12 Folsom/Pacific / 14 Mission + walk",
+        "detail": "The 12 stops at Folsom & 11th (a two-block walk) and the 14 stops near Mission & 11th; DNA Lounge is at 375 11th Street at Harrison.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "12",
+          "14"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.dnalounge.com/",
+        "quote": "The official site and its calendar list DNA Lounge, 375 11th Street, San Francisco, with event pages showing 21+ door times like Monday 8:30 PM and Friday/Saturday 9:00 PM, closing at 2:30 AM or later on club nights."
+      },
+      "flags": [
+        "EVENT-DRIVEN: the club runs only on posted events - some Friday/Saturday nights are dark; check the calendar before going."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site and event pages checked for door and closing times on club nights.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "soma"
+    },
+    {
+      "id": "dna-pizza",
+      "name": "DNA Pizza",
+      "category": "Pizza / late-night food",
+      "neighborhood": "SoMa / 11th Street",
+      "address": "371 11th St, San Francisco, CA 94103",
+      "officialUrl": "https://www.dnapizza.com/",
+      "hours": {
+        "Monday": "Opens before DNA Lounge doors; closes shortly after the club (club nights to 2:30 AM)",
+        "Tuesday": "Opens before DNA Lounge doors; closes shortly after the club (club nights to 2:30 AM)",
+        "Wednesday": "Opens before DNA Lounge doors; closes shortly after the club (club nights to 2:30 AM)",
+        "Thursday": "Opens before DNA Lounge doors; closes shortly after the club (club nights to 2:30 AM)",
+        "Friday": "Opens before DNA Lounge doors (typically 9:00 PM); closes shortly after the club's 2:30 AM close",
+        "Saturday": "Opens before DNA Lounge doors (typically 9:00 PM); closes shortly after the club's 2:30 AM close",
+        "Sunday": "Opens before DNA Lounge doors; closes shortly after the club (club nights to 2:30 AM)"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "12 Folsom/Pacific / 14 Mission + walk",
+        "detail": "The 12 stops at Folsom & 11th and the 14 near Mission & 11th; DNA Pizza is at 371 11th Street, next door to DNA Lounge.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "12",
+          "14"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.dnapizza.com/",
+        "quote": "The official site says DNA Pizza, 371 Eleventh Street at Harrison, is 'Open late, whenever DNA Lounge is open... we open shortly before doors at DNA Lounge, and close shortly after the club closes', noting weeknights without a club event are probably closed."
+      },
+      "flags": [
+        "EVENT-DRIVEN: no posted clock schedule - hours track next door's DNA Lounge events (club nights run to 2:30 AM); call 415-626-0166 to confirm."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site statement captured verbatim tying hours to DNA Lounge's event nights.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "soma"
+    },
+    {
+      "id": "sf-eagle",
+      "name": "SF Eagle",
+      "category": "Leather / kink bar",
+      "neighborhood": "SoMa / 12th Street",
+      "address": "398 12th St, San Francisco, CA 94103",
+      "officialUrl": "https://www.sf-eagle.com/visit/",
+      "hours": {
+        "Monday": "6:00 PM–12:00 AM",
+        "Tuesday": "Closed",
+        "Wednesday": "6:00 PM–12:00 AM",
+        "Thursday": "6:00 PM–12:00 AM",
+        "Friday": "2:00 PM–2:00 AM",
+        "Saturday": "2:00 PM–2:00 AM",
+        "Sunday": "1:00 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "14 Mission + 2-block walk",
+        "detail": "The 14 stops near Mission & 12th; the SF Eagle is at 398 12th Street, about two blocks west.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "14"
+        ]
+      },
+      "source": {
+        "label": "Official visit page",
+        "url": "https://www.sf-eagle.com/visit/",
+        "quote": "The official visit page lists SF Eagle, 398 12th Street, San Francisco (est. 1981), with Mon 6 PM-12 AM, Tue closed, Wed/Thu 6 PM-12 AM, Fri/Sat 2 PM-2 AM, Sun 1 PM-12 AM."
+      },
+      "flags": [
+        "Sunday closes at midnight - just past the 11 PM bar; benefit and kink event nights can change door terms."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official visit page checked for the full weekly schedule.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "soma"
+    },
+    {
+      "id": "oasis-sf",
+      "name": "OASIS",
+      "category": "Drag / cabaret nightclub",
+      "neighborhood": "SoMa / 11th Street",
+      "address": "298 11th St, San Francisco, CA 94103",
+      "officialUrl": "https://www.sfoasis.com/",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "6:00 PM–10:00 PM",
+        "Wednesday": "Closed",
+        "Thursday": "6:00 PM–10:00 PM",
+        "Friday": "6:00 PM–2:00 AM (per listings)",
+        "Saturday": "6:00 PM–2:00 AM (per listings)",
+        "Sunday": "6:00 PM–10:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "12 Folsom/Pacific / 14 Mission + walk",
+        "detail": "The 12 stops at Folsom & 11th and the 14 near Mission & 11th; OASIS is at 298 11th Street.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "12",
+          "14"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.sfoasis.com/",
+        "quote": "The official site announces OASIS at 298 11th Street with its 'Grand Reopening July 17, 2026' and ticketed shows; listing profiles show Friday/Saturday 6:00 PM-2:00 AM with earlier closes other nights."
+      },
+      "flags": [
+        "REOPENED JULY 17, 2026 after a change in operations; hours above come from listing profiles rather than a posted weekly schedule, and show nights can end as late as 3:00 AM - check the event page."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for identity, address, and reopening; hours cross-checked against listing profiles.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "soma"
+    },
+    {
+      "id": "beaux",
+      "name": "Beaux",
+      "category": "LGBTQ+ dance bar",
+      "neighborhood": "Castro / Market Street",
+      "address": "2344 Market St, San Francisco, CA 94114",
+      "officialUrl": "https://www.beauxsf.com/",
+      "hours": {
+        "Monday": "3:00 PM–2:00 AM (parties from 9:00 PM)",
+        "Tuesday": "3:00 PM–2:00 AM (parties from 9:00 PM)",
+        "Wednesday": "3:00 PM–2:00 AM (parties from 9:00 PM)",
+        "Thursday": "3:00 PM–2:00 AM (parties from 9:00 PM)",
+        "Friday": "3:00 PM–2:00 AM (special events to 3:00 AM)",
+        "Saturday": "12:00 PM–2:00 AM (special events to 3:00 AM, e.g. Sep 5, 2026 'til 3AM')",
+        "Sunday": "12:00 PM–2:00 AM (drag brunch daytime; shows 8:30/9:30 PM)"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "24 Divisadero-Castro / 33 Ashbury + walk",
+        "detail": "The 24 runs down Castro Street to Market and the 33 crosses at 18th & Castro; both leave a short walk to 2344 Market.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "24",
+          "33"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.beauxsf.com/",
+        "quote": "The official site says 'BEAUX is THE premier LGBTQIA+ venue in the historic Castro district... Open seven days and nights a week' with 'a party every night of the week starting at 9pm', and posts events like Saturday Sept 5, 2026 '9PM-3AM'; listing profiles show a 3:00 PM (weekdays) / 12:00 PM (weekend) open and 2:00 AM base close."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: the official site publishes event times rather than a fixed weekly table; the 2:00 AM base close comes from listing profiles and special events run to 3:00 AM. Street address per the venue's reservation/booking pages."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for seven-night operation and explicit past-2 AM event listings; base schedule cross-checked against listing profiles.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "castro-upper-market"
+    },
+    {
+      "id": "the-lookout",
+      "name": "The Lookout",
+      "category": "LGBTQ+ bar / views",
+      "neighborhood": "Castro / Noe & Market",
+      "address": "3600 16th St, San Francisco, CA 94114",
+      "officialUrl": "https://lookoutsf.com/",
+      "hours": {
+        "Monday": "3:30 PM–2:00 AM (per listings)",
+        "Tuesday": "Per listings, see venue",
+        "Wednesday": "Per listings, see venue",
+        "Thursday": "3:30 PM–2:00 AM (per listings)",
+        "Friday": "3:30 PM–2:00 AM (per listings)",
+        "Saturday": "12:00 PM–2:00 AM (per listings)",
+        "Sunday": "Per listings, see venue"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "N Judah to Church & Market + 3-block walk",
+        "detail": "The N stops at Church & Market; walk along Market to Noe Street - The Lookout is at 3600 16th Street at Noe.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "N"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://lookoutsf.com/",
+        "quote": "The official site confirms The Lookout at 3600 16th Street, San Francisco (info@lookoutsf.com), but its captured pages show menus/events rather than a fixed hours table; listing profiles show Mon/Thu/Fri 3:30 PM-2:00 AM and Sat 12:00 PM-2:00 AM."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: official site confirms identity/address only; the schedule comes from listing profiles (a stale official search snippet agrees with 2:00 AM closes) - reconfirm before going."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for identity/address; hours cross-checked against listing profiles.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "castro-upper-market"
+    },
+    {
+      "id": "twin-peaks-tavern",
+      "name": "Twin Peaks Tavern",
+      "category": "LGBTQ+ bar / fishbowl windows",
+      "neighborhood": "Castro",
+      "address": "401 Castro St, San Francisco, CA 94114",
+      "officialUrl": "https://twinpeakstavern.com/",
+      "hours": {
+        "Monday": "Open until 2:00 AM daily (per listings; opening times conflict - see flag)",
+        "Tuesday": "Open until 2:00 AM daily (per listings; opening times conflict - see flag)",
+        "Wednesday": "Open until 2:00 AM daily (per listings; opening times conflict - see flag)",
+        "Thursday": "Open until 2:00 AM daily (per listings; opening times conflict - see flag)",
+        "Friday": "Open until 2:00 AM daily (per listings; opening times conflict - see flag)",
+        "Saturday": "Open until 2:00 AM daily (per listings; opening times conflict - see flag)",
+        "Sunday": "Open until 2:00 AM daily (per listings; opening times conflict - see flag)"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "24 Divisadero-Castro / 33 Ashbury + walk",
+        "detail": "The 24 runs down Castro Street and the 33 crosses at 18th & Castro; Twin Peaks Tavern sits at Castro & Market (401 Castro).",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "24",
+          "33"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://twinpeakstavern.com/",
+        "quote": "The official site confirms Twin Peaks Tavern at 401 Castro Street ('Gateway to the CASTRO') but publishes no weekly hours; every aggregator listing agrees on a 2:00 AM daily close while opening times conflict (weekdays noon, weekends 8:00-11:00 AM)."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: official site confirms identity/address only; the 2:00 AM close is consistent across listings but opening times conflict, and the site itself loaded with errors during checks - reconfirm at the door."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for identity/address; hours cross-checked across listings agreeing on the 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "castro-upper-market"
+    },
+    {
+      "id": "last-call-bar",
+      "name": "Last Call Bar",
+      "category": "Gay neighborhood dive",
+      "neighborhood": "Castro / 18th & Noe",
+      "address": "3988 18th St, San Francisco, CA 94114",
+      "officialUrl": "https://www.lastcallbarsf.com/home",
+      "hours": {
+        "Monday": "12:00 PM–2:00 AM",
+        "Tuesday": "12:00 PM–2:00 AM",
+        "Wednesday": "12:00 PM–2:00 AM",
+        "Thursday": "12:00 PM–2:00 AM",
+        "Friday": "12:00 PM–2:00 AM",
+        "Saturday": "1:00 PM–2:00 AM",
+        "Sunday": "1:00 PM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "33 Ashbury-18th / N Judah to Church + walk",
+        "detail": "The 33 crosses 18th Street near Noe; the N to Church & Market leaves a walk along Market to Noe - Last Call is at 3988 18th at Noe.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "33",
+          "N"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.lastcallbarsf.com/home",
+        "quote": "The official site lists 'A bar since 1971 - 3988 18th St. @ Noe St., San Francisco, CA 94114' but prints no hours; listing profiles show daily noon-2:00 AM (weekend listings 1:00 PM-2:00 AM)."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: official site confirms identity/address only; hours come from listing profiles, which mostly agree on a 2:00 AM close daily."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for identity/address; hours cross-checked against listing profiles.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "castro-upper-market"
+    },
+    {
+      "id": "440-castro",
+      "name": "440 Castro",
+      "category": "LGBTQ+ video / neighborhood bar",
+      "neighborhood": "Castro",
+      "address": "440 Castro St, San Francisco, CA 94114",
+      "officialUrl": "https://www.the440.com/",
+      "hours": {
+        "Monday": "12:00 PM–2:00 AM (per listings; official site currently erroring)",
+        "Tuesday": "12:00 PM–2:00 AM (per listings; official site currently erroring)",
+        "Wednesday": "12:00 PM–2:00 AM (per listings; official site currently erroring)",
+        "Thursday": "12:00 PM–2:00 AM (per listings; official site currently erroring)",
+        "Friday": "12:00 PM–2:00 AM (per listings; official site currently erroring)",
+        "Saturday": "12:00 PM–2:00 AM (per listings; official site currently erroring)",
+        "Sunday": "12:00 PM–2:00 AM (per listings; official site currently erroring)"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "24 Divisadero-Castro / 33 Ashbury + walk",
+        "detail": "The 24 runs down Castro Street and the 33 crosses at 18th & Castro; 440 Castro is mid-block between 18th and Market.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "24",
+          "33"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://www.the440.com/",
+        "quote": "The official site (the440.com) confirms the venue at 440 Castro Street but is currently throwing a loading error on fetch; aggregator listings consistently show 12:00 PM-2:00 AM daily."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: the official site is currently erroring, so the daily 12:00 PM-2:00 AM schedule comes from aggregator listings - reconfirm once the site is back."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site domain checked (currently erroring); hours cross-checked across listings agreeing on the 2:00 AM close.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "castro-upper-market"
+    },
+    {
+      "id": "madrone-art-bar",
+      "name": "Madrone Art Bar",
+      "category": "Art bar / music venue",
+      "neighborhood": "Divisadero / NoPa",
+      "address": "500 Divisadero St, San Francisco, CA 94117",
+      "officialUrl": "https://madroneartbar.com/",
+      "hours": {
+        "Monday": "4:00 PM–2:00 AM",
+        "Tuesday": "4:00 PM–2:00 AM",
+        "Wednesday": "4:00 PM–2:00 AM",
+        "Thursday": "4:00 PM–2:00 AM",
+        "Friday": "4:00 PM–2:00 AM",
+        "Saturday": "4:00 PM–2:00 AM",
+        "Sunday": "3:00 PM–1:30 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "24 Divisadero / 5 Fulton + walk",
+        "detail": "The 24 Divisadero stops at Divisadero & Fell, at the corner of 500 Divisadero; the 5 Fulton corridor is a block north.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "24",
+          "5"
+        ]
+      },
+      "source": {
+        "label": "Official site",
+        "url": "https://madroneartbar.com/",
+        "quote": "The official site lists Madrone Art Bar's calendar (e.g. 'Pop Life' Sep 5 and 'APOCALYPSE SUNDAY' Sep 6, 2026) at 500 Divisadero Street, San Francisco; it prints no hours block, and guidebook/listing sources show Mon-Sat 4:00 PM-2:00 AM and Sun 3:00 PM-1:30 AM."
+      },
+      "flags": [
+        "VERIFIED WITH GAP: the official site confirms identity/events but prints no hours; the schedule comes from guidebook and venue-submitted listings - Sunday closes 1:30 AM, past the 11 PM bar."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site checked for identity, address, and active Sep 5-6, 2026 events; hours cross-checked against guidebook and venue-submitted listings.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "divisadero-nopa"
     }
   ]
 }
