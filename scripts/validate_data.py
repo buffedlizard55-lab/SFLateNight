@@ -30,8 +30,8 @@ def has_late_close(value: str) -> bool:
     text = value.lower()
     if "24 hour" in text:
         return True
-    # This directory uses 12 AM / 1 AM / 2 AM / 3 AM to represent a next-day close.
-    return bool(re.search(r"(?:until\s+)?(?:12|1|2|3)(?::\d{2})?\s*am", text))
+    # This directory uses 12 AM through 4 AM to represent a next-day close.
+    return bool(re.search(r"(?:until\s+)?(?:12|1|2|3|4)(?::\d{2})?\s*am", text))
 
 
 def validate_transit(meta: dict, venues: list[dict]) -> None:
@@ -91,8 +91,8 @@ def main() -> None:
     meta = data.get("meta", {})
     if len(venues) != meta.get("recordCount"):
         fail("meta.recordCount does not match the number of venue records")
-    if len(venues) != 20:
-        fail(f"expected exactly 20 new records, found {len(venues)}")
+    if len(venues) != 54:
+        fail(f"expected exactly 54 records, found {len(venues)}")
 
     validate_transit(meta, venues)
 
