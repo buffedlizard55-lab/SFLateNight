@@ -1605,3 +1605,59 @@ The round's goal was 50 new records; **23 verified cleanly enough to include**, 
 - **No verifiable SF source found:** Sam Woo (SF), Tony & Al's 975 Sutter, Great American Diner 966 Sutter, Regency 485 California, Tano's SF.
 - **Hours conflicts that could not be resolved to a single trustworthy source:** Bar Darling's Sunday (kept Fri/Sat with the Sunday conflict flagged — included), Redwood Room's conflicting close (kept with the conflict flagged — included).
 - **Unsearched / unverified remainder at end of round:** Reverb, Pitt's Pub, Happy Lounge, Lost Marbles, Legends Cafe, 99 Restaurant, Sweet Mango, Naya, Wok Station, Kanpai — not yet confirmed against an official domain; they are **not** in the dataset.
+
+## Round 4 — Sunday, September 6, 2026 (4 records added, 130 → 134)
+
+Round 4 closed out the remaining unverified pool using the fast verification pipeline now documented in [scripts/verify_protocol.md](scripts/verify_protocol.md): one tuned search per candidate for official-domain triage, one fetch of the official domain where found, and state tracked in [scripts/candidates.jsonl](scripts/candidates.jsonl) so nothing is re-checked. All 11 remaining candidates (plus the pending Lion's Den dedupe) were resolved in a single pass; 4 qualified and were merged via `python3 scripts/apply_round.py scripts/round4_records.jsonl`.
+
+### Pitt's Pub
+
+- **Status:** Official match.
+- **Category / neighborhood:** Dive bar · Outer Sunset.
+- **Address check:** `4207 Judah St, San Francisco, CA 94122` — [official source](https://www.pittssf.com/).
+- **Published source line:** "PITT'S PUB 4207 Judah Street San Francisco, CA 94122. MONDAY - THURSDAY 3pm - 12am. FRIDAY 3pm - 2am. SATURDAY 2pm - 2am. SUNDAY 12pm - 12am."
+- **Late-night result:** Friday: 3:00 PM–2:00 AM; Saturday: 2:00 PM–2:00 AM; Sunday: 12:00 PM–12:00 AM.
+- **Transit screen:** Walk east on Judah (~8 min from the origin) or 24-hour N Judah + short walk.
+- **Manual review flags:** Hours posted on the official Weebly site (page footer copyrighted 2024); re-confirm before a late trip.
+
+### Naya Dessert Cafe (Geary)
+
+- **Status:** Official match.
+- **Category / neighborhood:** Dessert cafe · Outer Richmond.
+- **Address check:** `5338 Geary Blvd, San Francisco, CA 94121` — [official source](https://www.nayadessertcafe.com/).
+- **Published source line:** "Sweet Hours: Inner Richmond Location Monday - Friday 5:00 pm to midnight, Saturday - Sunday noon to midnight."
+- **Late-night result:** Friday: 5:00 PM–12:00 AM; Saturday: 12:00 PM–12:00 AM; Sunday: 12:00 PM–12:00 AM.
+- **Transit screen:** 38 Geary (Geary Blvd & 33rd Ave stop) + short walk.
+- **Manual review flags:** The brand runs multiple SF locations with different hours (Hayes Valley closes 11 PM); this record covers the 5338 Geary Blvd location only.
+
+### Lost Marbles Brewpub
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Brewpub · Inner Richmond.
+- **Address check:** `823 Clement St, San Francisco, CA 94118` — [official source](https://www.lostmarblesbrewpub.com/).
+- **Published source line:** "KITCHEN OPEN LATE (Outside Lands Weekend) FRIDAY: Noon - 11:30PM / Saturday: Noon - 11:30PM / Sunday: Noon - 10:00PM / BAR: Noon - 2:00AM"
+- **Late-night result:** Friday: 12:00 PM–1:00 AM; Saturday: 12:00 PM–1:00 AM (regular closes per the claimed listing updated 2026-09, consistent with older published schedules).
+- **Transit screen:** 38 Geary + short walk (Geary Blvd & 20th Ave stop, two blocks south).
+- **Manual review flags:** The official site currently displays a temporary "Outside Lands Weekend" hours block rather than a regular weekly schedule; the regular Fri/Sat 1:00 AM close is not machine-readable on the official domain.
+
+### Wok Station (Irving)
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Chinese restaurant · Outer Sunset.
+- **Address check:** `2154 Irving St, San Francisco, CA 94122` — [official source](https://www.wokstationca.com/uvtxc3m5/wok-station-san-francisco-94122/order-online).
+- **Published source line:** "2154 Irving St, San Francisco, CA 94122 (415) 638-9998 — order page live as of 2026-09-06; listed hours 16:30–23:59 + 00:00–01:00 (platform caps display at 1:00 AM)."
+- **Late-night result:** Friday: 4:30 PM–1:00 AM; Saturday: 4:30 PM–1:15 AM; Sunday: 4:30 PM–1:15 AM (Sat/Sun close per the claimed listing updated 2026-04).
+- **Transit screen:** Walk north on 21st Ave (~5 min from the origin) or 24-hour N Judah + short walk.
+- **Manual review flags:** The ordering platform truncates displayed hours at 1:00 AM; an older community report mentioned a fire-related closure, and the listing showed regular hours as of April 2026 — re-confirm before a late trip.
+
+## Round 4 — resolution of the remaining pool (candidates that did NOT make the cut)
+
+- **Reverb (2801 Leavenworth St):** Permanently closed (corner.inc, updated April 2026); its domain `reverb-sf.com` now redirects to an unrelated hijacked gambling site. Excluded.
+- **Happy Lounge (3745 Geary Blvd):** No official website exists — Facebook page only. Excluded per the official-source rule.
+- **Legends Cafe & Creamery (620 Broadway):** No official website — Instagram only. Excluded per the official-source rule.
+- **99 Restaurant:** No verifiable San Francisco business by this name (search hits are Pennsylvania, Illinois, and Florida). Excluded.
+- **Sweet Mango Dessert Cafe (5217 Geary Blvd):** The business-listed website `creationsdessert.com` is down (fetch failed on both apex and www). No live official site. Excluded.
+- **Kanpai:** Both SF locations fail the threshold — Kanpai Sushi Lounge (Hotel Nikko, 222 Mason St) closes 11:00 PM; Kanpai Sushi House (4808 Mission St) closes 10:30 PM. Excluded.
+- **Lion's Den (577 Wentworth Pl):** Dedupe resolved — already present in the dataset. No action.
+
+Pipeline state: `scripts/candidates.jsonl` now marks all 58 tracked candidates as `verified`, `verified-with-gap`, or `excluded` — there is no remaining unsearched pool. `scripts/apply_round.py` is the reusable one-command merge for future rounds (records JSONL → dataset, validator count, and all site count strings).

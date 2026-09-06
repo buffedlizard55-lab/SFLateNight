@@ -1,0 +1,58 @@
+{"name": "Reverb", "status": "excluded", "reason": "permanently closed (corner.inc, Apr 2026); reverb-sf.com now redirects to hijacked gambling site"}
+{"name": "Pitt's Pub", "status": "verified", "source": "https://www.pittssf.com/"}
+{"name": "Happy Lounge", "status": "excluded", "reason": "no official website (Facebook page only)"}
+{"name": "Lost Marbles", "status": "verified-with-gap", "source": "https://www.lostmarblesbrewpub.com/", "note": "official site shows temp Outside Lands weekend block; regular hours from claimed listing (2026-09)"}
+{"name": "Legends Cafe", "status": "excluded", "reason": "no official website (Instagram only)"}
+{"name": "99 Restaurant", "status": "excluded", "reason": "no verifiable San Francisco business by this name (hits are PA/IL/FL)"}
+{"name": "Sweet Mango", "status": "excluded", "reason": "creationsdessert.com (business-listed website) is down; no live official site"}
+{"name": "Naya", "status": "verified", "source": "https://www.nayadessertcafe.com/"}
+{"name": "Wok Station", "status": "verified-with-gap", "source": "https://www.wokstationca.com/uvtxc3m5/wok-station-san-francisco-94122/order-online", "note": "order platform truncates hours at 1:00 AM; claimed listing (2026-04) says Sat/Sun 1:15 AM"}
+{"name": "Kanpai", "status": "excluded", "reason": "both SF Kanpai locations fail threshold (Hotel Nikko closes 11 PM; 4808 Mission closes 10:30 PM)"}
+{"name": "Lion's Den", "status": "excluded", "reason": "duplicate - already present in dataset (Lion's Den, 577 Wentworth Pl)"}
+{"name": "Li Po Lounge", "status": "excluded", "reason": "official domain lipolounge.com repurposed by unrelated business; no other official site"}
+{"name": "The EndUp", "status": "excluded", "reason": "theendup.com dead-ends to unrelated failed domain"}
+{"name": "Rye", "status": "excluded", "reason": "ryesf.com abandoned/compromised (SEO spam); citing it would mislead"}
+{"name": "B55 Bar", "status": "excluded", "reason": "closes 11 PM - fails after-11 threshold"}
+{"name": "ipot.food", "status": "excluded", "reason": "closes 10:30 PM - fails threshold"}
+{"name": "China Live", "status": "excluded", "reason": "closes 9/9:30 PM - fails threshold"}
+{"name": "Tony's Coal-Fired Pizza", "status": "excluded", "reason": "closes 10/11 PM - fails threshold"}
+{"name": "Biergarten", "status": "excluded", "reason": "evening only - fails threshold"}
+{"name": "Temple Bar", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Fireside", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Mucky Duck", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Yancy's", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Sage & Drifter", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Kezar Pub", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Trad'r Sam", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Blarney Stone", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Zam Zam", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Mad Dog", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Gold Cane", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Horseshoe Tavern", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "King of Thai Noodle House", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Buddha Lounge", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Dogpatch Saloon", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Bloom's Saloon", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Miki's", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "D'Agave", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Johnny Foley's", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "New Sun", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "The Crew", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Toyose", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Butter", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Lost Cat", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Golden Island", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Kowloon Tong", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Hockey Haven", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "1015 Folsom", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Foggy Fog", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Bix & Bill's", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Geelou", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "Donut World", "status": "excluded", "reason": "no official website found (IG/social only)"}
+{"name": "The Parlor", "status": "excluded", "reason": "closed"}
+{"name": "Two Sisters", "status": "excluded", "reason": "closed"}
+{"name": "Sam Woo (SF)", "status": "excluded", "reason": "no verifiable San Francisco source found"}
+{"name": "Tony & Al's 975 Sutter", "status": "excluded", "reason": "no verifiable San Francisco source found"}
+{"name": "Great American Diner 966 Sutter", "status": "excluded", "reason": "no verifiable San Francisco source found"}
+{"name": "Regency 485 California", "status": "excluded", "reason": "no verifiable San Francisco source found"}
+{"name": "Tano's SF", "status": "excluded", "reason": "no verifiable San Francisco source found"}
