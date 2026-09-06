@@ -1,6 +1,9 @@
 # Transit verification log
 
-This file records the official SFMTA route pages used for the transit service snapshot in [`data/venues.json`](data/venues.json). The snapshot was checked on **September 5, 2026**, the user's local date in **America/Los_Angeles**, which is a Saturday.
+This file records the official SFMTA route pages used for the transit service snapshot in [`data/venues.json`](data/venues.json).
+
+- **Current snapshot (live in the site data):** Sunday **September 6, 2026**, re-verified line-by-line from official SFMTA route pages on 2026-09-06. See the [Sunday service snapshot](#sunday-service-snapshot--2026-09-06-round-3-re-verification) section below.
+- **Retained history:** the original Saturday **September 5, 2026** snapshot is kept below (its `service_id=2` schedule links no longer match `data/venues.json`, which now points at `service_id=3` Sunday service).
 
 ## Important limits
 
@@ -168,3 +171,172 @@ Each line below was read from its official SFMTA route page on 2026-09-05 (a Sat
 - **Saturday frequency used in the site:** Saturday: 20 min morning, midday, evening, and late night. No Owl listed.
 - **Coverage note:** No Owl service is listed; SFMTA shows service ending at midnight on weekends.
 
+
+
+## Sunday service snapshot — 2026-09-06 (Round 3 re-verification)
+
+All 20 lines below were re-checked on **Sunday, September 6, 2026** (America/Los_Angeles) from the official SFMTA route page for each line. Service discovery notes:
+
+- The SFMTA schedule pages' service switcher shows **service_id=3 = Sunday Service**, service_id=2 = Saturday, M11 = school day; the `date=` parameter does not auto-select the service, so the schedule links in `data/venues.json` now use `service_id=3&date=20260906`.
+- The schedule page lists **Labor Day 2026-09-07 under the same Sunday service ID**, so tomorrow's service matches today's snapshot.
+- The schedule tables paginate client-side (only the first column is in the static HTML), so first/last trips at a specific stop still require the live planner; the route-page service window and frequency rows (used here) are fully static.
+
+### N Judah
+
+- **Official route page:** [SFMTA N Judah](https://www.sfmta.com/routes/n-judah)
+- **Sunday schedule page:** [N Bus Sunday schedule](https://www.sfmta.com/routes/schedule/NBUS?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "24 hours daily."
+- **Sunday frequency used in the site:** 12 minutes in morning, midday, and evening; 20 minutes late night; Owl 30 minutes.
+- **Coverage note:** SFMTA says to use the N Bus between subway hours and Owl service.
+
+### 5 Fulton
+
+- **Official route page:** [SFMTA 5 Fulton](https://www.sfmta.com/routes/5-fulton)
+- **Sunday schedule page:** [5 Fulton Sunday schedule](https://www.sfmta.com/routes/schedule/5?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "24 hours daily."
+- **Sunday frequency used in the site:** 7 minutes in morning and midday; 12 minutes in the evening; 20 minutes late night; Owl 30 minutes (Ocean Beach to 4th & Market).
+- **Coverage note:** The 5R Fulton Rapid supplement applies only on weekdays 7 a.m.–7 p.m., so it does not affect Sunday.
+
+### 14 Mission
+
+- **Official route page:** [SFMTA 14 Mission](https://www.sfmta.com/routes/14-mission)
+- **Sunday schedule page:** [14 Mission Sunday schedule](https://www.sfmta.com/routes/schedule/14?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "24 hours daily."
+- **Sunday frequency used in the site:** 8 minutes in morning and midday; 10 minutes in the evening; 15 minutes late night and Owl.
+- **Coverage note:** Runs 24 hours on Sunday with 15-minute late-night and Owl service.
+
+### 22 Fillmore
+
+- **Official route page:** [SFMTA 22 Fillmore](https://www.sfmta.com/routes/22-fillmore)
+- **Sunday schedule page:** [22 Fillmore Sunday schedule](https://www.sfmta.com/routes/schedule/22?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "24 hours daily."
+- **Sunday frequency used in the site:** 10 minutes morning; 8 minutes midday and evening; 15 minutes late night; Owl 30 minutes.
+- **Coverage note:** The route page lists Muni service changes effective Saturday, August 29, 2026 — check the alerts page before riding.
+
+### 24 Divisadero
+
+- **Official route page:** [SFMTA 24 Divisadero](https://www.sfmta.com/routes/24-divisadero)
+- **Sunday schedule page:** [24 Divisadero Sunday schedule](https://www.sfmta.com/routes/schedule/24?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "24 hours daily."
+- **Sunday frequency used in the site:** 12 minutes in morning, midday, and evening; 20 minutes late night; Owl 30 minutes.
+- **Coverage note:** Runs 24 hours; Owl every 30 minutes after regular late-night service.
+
+### 30 Stockton
+
+- **Official route page:** [SFMTA 30 Stockton](https://www.sfmta.com/routes/30-stockton)
+- **Sunday schedule page:** [30 Stockton Sunday schedule](https://www.sfmta.com/routes/schedule/30?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "Weekdays 5 a.m. - 12 a.m.; Weekends 6 a.m. - 12 a.m." — i.e., **6 a.m. to 12 a.m. on Sunday**.
+- **Sunday frequency used in the site:** long route 20 min morning, 15 min midday and evening, 20 min late night; short route 12 min morning, 8 min midday and evening, 20 min late night; Owl: see 91 Owl.
+- **Coverage note:** After 8 p.m. the 30 terminates at Divisadero & Chestnut; late-night riders transfer to the 91 Owl or other 24-hour lines.
+
+### 33 Ashbury/18th Street
+
+- **Official route page:** [SFMTA 33 Ashbury/18th Street](https://www.sfmta.com/routes/33-ashbury18th-street)
+- **Sunday schedule page:** [33 Sunday schedule](https://www.sfmta.com/routes/schedule/33?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "5 a.m. - 10 p.m. daily."
+- **Sunday frequency used in the site:** 30 minutes in the morning; 20 minutes in midday and evening; no late-night or Owl service.
+- **Coverage note:** Sunday service ends around 10 p.m.; after that use 38 Geary or other 24-hour lines.
+
+### 38 Geary
+
+- **Official route page:** [SFMTA 38 Geary](https://www.sfmta.com/routes/38-geary)
+- **Sunday schedule page:** [38 Geary Sunday schedule](https://www.sfmta.com/routes/schedule/38?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "24 hours daily."
+- **Sunday frequency used in the site:** east of 32nd Ave 15 min morning, 10 min midday and evening, 15 min late night; west of 32nd Ave 20 minutes in all periods; Owl 30 minutes.
+- **Coverage note:** Runs 24 hours in both directions; Owl every 30 minutes.
+
+### 49 Van Ness/Mission
+
+- **Official route page:** [SFMTA 49 Van Ness/Mission](https://www.sfmta.com/routes/49-van-nessmission)
+- **Sunday schedule page:** [49 Sunday schedule](https://www.sfmta.com/routes/schedule/49?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "5 a.m. - 12 a.m. daily."
+- **Sunday frequency used in the site:** 8 minutes in morning, midday, and evening; 13 minutes late night; Owl: see 14 Mission and 90 Owl.
+- **Coverage note:** The 49 stops at 12 a.m. on Sunday; after that use 14 Mission or 90 Owl on the same corridors.
+
+### T Third Street
+
+- **Official route page:** [SFMTA T Third Street](https://www.sfmta.com/routes/t-third-street)
+- **Sunday schedule page:** [T Sunday schedule](https://www.sfmta.com/routes/schedule/T?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "Weekdays 6 a.m. - 12 a.m.; Weekends 8 a.m. - 12 a.m." — i.e., **8 a.m. to 12 a.m. on Sunday**.
+- **Sunday frequency used in the site:** 12 minutes in morning, midday, and evening; 20 minutes late night; Owl: see 91 Owl.
+- **Coverage note:** SFMTA points riders to the T Bus between subway hours and Owl service; after 12 a.m. the 91 Owl covers the same corridor.
+
+### 91 3rd Street/19th Avenue Owl
+
+- **Official route page:** [SFMTA 91 Owl](https://www.sfmta.com/routes/91-3rd-street19th-avenue-owl)
+- **Sunday schedule page:** [91 Sunday schedule](https://www.sfmta.com/routes/schedule/91?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "12 a.m. - 5 a.m. nightly."
+- **Sunday frequency used in the site:** 30 minutes late night and Owl.
+- **Coverage note:** Owl-only line; runs 12 a.m.–5 a.m. every night, including Sunday.
+
+### 7 Haight/Noriega
+
+- **Official route page:** [SFMTA 7 Haight/Noriega](https://www.sfmta.com/routes/7-haightnoriega)
+- **Sunday schedule page:** [7 Sunday schedule](https://www.sfmta.com/routes/schedule/7?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "5 a.m. - 12 a.m. daily."
+- **Sunday frequency used in the site:** 15 minutes in the morning; 12 minutes in midday and evening; 25 minutes late night; no Owl.
+- **Coverage note:** Stops at 12 a.m. on Sunday; after that use N Judah or other 24-hour lines for the Haight.
+
+### 12 Folsom/Pacific
+
+- **Official route page:** [SFMTA 12 Folsom/Pacific](https://www.sfmta.com/routes/12-folsompacific)
+- **Sunday schedule page:** [12 Sunday schedule](https://www.sfmta.com/routes/schedule/12?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "6 a.m. - 10 p.m. daily."
+- **Sunday frequency used in the site:** north of Main & Folsom 20 min morning, 10 min midday and evening; south of Main & Folsom 20 minutes in all periods; no Owl.
+- **Coverage note:** Stops at 10 p.m. on Sunday; after that use 14 Mission, 90/91 Owl, or T-line corridors.
+
+### 19 Polk
+
+- **Official route page:** [SFMTA 19 Polk](https://www.sfmta.com/routes/19-polk)
+- **Sunday schedule page:** [19 Sunday schedule](https://www.sfmta.com/routes/schedule/19?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "5 a.m. - 10 p.m. daily."
+- **Sunday frequency used in the site:** 20 minutes in morning, midday, and evening; no late-night or Owl service.
+- **Coverage note:** Stops at 10 p.m. on Sunday; after that use 14 Mission, 90 Owl, or 91 Owl on nearby corridors.
+
+### 43 Masonic
+
+- **Official route page:** [SFMTA 43 Masonic](https://www.sfmta.com/routes/43-masonic)
+- **Sunday schedule page:** [43 Sunday schedule](https://www.sfmta.com/routes/schedule/43?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "5 a.m. - 12 a.m. daily."
+- **Sunday frequency used in the site:** 20 minutes in morning, midday, and evening; 25 minutes late night; no Owl.
+- **Coverage note:** Stops at 12 a.m. on Sunday; after that use 38 Geary or other 24-hour lines for the Richmond.
+
+### 1 California
+
+- **Official route page:** [SFMTA 1 California](https://www.sfmta.com/routes/1-california)
+- **Sunday schedule page:** [1 Sunday schedule](https://www.sfmta.com/routes/schedule/1?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "5 a.m. - 12 a.m. daily."
+- **Sunday frequency used in the site:** 10 minutes in morning, midday, and evening; 15 minutes late night (both sides of Presidio Avenue); no Owl.
+- **Coverage note:** Stops at 12 a.m. on Sunday; after that use 38 Geary or 5 Fulton in the Richmond.
+
+### 6 Hayes/Parnassus
+
+- **Official route page:** [SFMTA 6 Hayes/Parnassus](https://www.sfmta.com/routes/6-hayesparnassus)
+- **Sunday schedule page:** [6 Sunday schedule](https://www.sfmta.com/routes/schedule/6?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "Weekdays 5 a.m. - 12 a.m.; Weekends 5 a.m. - 12 a.m." — i.e., **5 a.m. to 12 a.m. on Sunday**.
+- **Sunday frequency used in the site:** 20 minutes in morning, midday, and evening; 20 minutes late night; no Owl.
+- **Coverage note:** Stops at 12 a.m. on Sunday; after that use 22 Fillmore, 7 Haight, or N Judah in Hayes Valley.
+
+### 8 Bayshore
+
+- **Official route page:** [SFMTA 8 Bayshore](https://www.sfmta.com/routes/8-bayshore)
+- **Sunday schedule page:** [8 Sunday schedule](https://www.sfmta.com/routes/schedule/8?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "5 a.m. - 12 a.m. daily."
+- **Sunday frequency used in the site:** 10 minutes in the morning; 7 minutes in midday; 8 minutes in the evening; 15 minutes late night; no Owl.
+- **Coverage note:** Stops at 12 a.m. on Sunday; the weekday 8AX/8BX express gaps do not apply on Sunday.
+
+### 45 Union/Stockton
+
+- **Official route page:** [SFMTA 45 Union/Stockton](https://www.sfmta.com/routes/45-unionstockton)
+- **Sunday schedule page:** [45 Sunday schedule](https://www.sfmta.com/routes/schedule/45?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "5 a.m. - 10 p.m. daily."
+- **Sunday frequency used in the site:** 15 minutes in morning, midday, and evening; no late-night or Owl service.
+- **Coverage note:** Stops at 10 p.m. on Sunday; after that use N Judah or other 24-hour lines for the Marina.
+
+### 90 San Bruno Owl
+
+- **Official route page:** [SFMTA 90 San Bruno Owl](https://www.sfmta.com/routes/90-san-bruno-owl)
+- **Sunday schedule page:** [90 Sunday schedule](https://www.sfmta.com/routes/schedule/90?direction_id=0&service_id=3&date=20260906)
+- **Published line:** "12 a.m. - 5 a.m. nightly."
+- **Sunday frequency used in the site:** 30 minutes late night and Owl.
+- **Coverage note:** Owl-only line; runs 12 a.m.–5 a.m. every night, including Sunday.

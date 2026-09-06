@@ -324,7 +324,7 @@ function renderTransitDirectory() {
       <strong class="transit-window">${escapeHtml(line.todayWindow)}</strong>
       <p class="transit-frequency">${escapeHtml(line.todayFrequency)}</p>
       <p class="transit-night"><span>Night coverage</span>${escapeHtml(line.nightCoverage)}</p>
-      <div class="transit-card-links"><a href="${escapeHtml(line.routeUrl)}" target="_blank" rel="noopener noreferrer">Official route ↗</a><a href="${escapeHtml(line.scheduleUrl)}" target="_blank" rel="noopener noreferrer">Saturday timetable ↗</a></div>
+      <div class="transit-card-links"><a href="${escapeHtml(line.routeUrl)}" target="_blank" rel="noopener noreferrer">Official route ↗</a><a href="${escapeHtml(line.scheduleUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(transit.snapshotDay || "Service")} timetable ↗</a></div>
     </article>
   `).join('');
 }

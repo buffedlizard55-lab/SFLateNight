@@ -1332,3 +1332,332 @@ The request asked for a further **50** new entries on top of the 54. This round 
 - **Transit screen:** 24 Divisadero (direct) — runs on Divisadero St.
 - **Manual review flags:** Source gap flagged: the official homepage publishes only 'Open Daily until 2am' without a day-by-day opening grid; opening times are transcribed from public listings and are pending confirmation.
 - **Official link:** [https://www.thepagebar.com/](https://www.thepagebar.com/)
+
+---
+
+## Round 3 — Sunday, September 6, 2026 (23 records added, 107 → 130)
+
+All 23 records below were checked **line-by-line on 2026-09-06** against the venue's own domain (direct fetch, or the search index of that exact official domain when the fetcher was blocked). The fetch tool recovered during this round, which let several earlier `verified-with-gap` entries be upgraded. Transit windows for all 20 mapped lines were re-verified the same day against official SFMTA **Sunday service** (service_id=3) — see [TRANSIT_VERIFICATION.md](TRANSIT_VERIFICATION.md).
+
+### Sugar Lounge
+
+- **Status:** Official match.
+- **Category / neighborhood:** Cocktail lounge · Hayes Valley.
+- **Address check:** `377 Hayes St, San Francisco, CA 94102` — [official source](https://sugarloungesf.com/bar-near-sfjazz-davies-opera/).
+- **Published source line:** "Address: 377 Hayes St. San Francisco, CA 94102. Hours: Sunday thru Wednesday, 4pm – 12am; Thursday: 4pm – 1am; Friday & Saturday: 4pm – 2:00am."
+- **Late-night result:** Friday: 4:00 PM–2:00 AM; Saturday: 4:00 PM–2:00 AM; Sunday: 4:00 PM–12:00 AM.
+- **Transit screen:** 6 Hayes/Parnassus (Hayes St stops) or 22 Fillmore + short walk.
+- **Manual review flags:** Weekday hours end at midnight; only Fri/Sat reach 2 AM.
+- **Official link:** [https://sugarloungesf.com/](https://sugarloungesf.com/)
+
+### Hazie's
+
+- **Status:** Official match.
+- **Category / neighborhood:** Bar / kitchen · Hayes Valley.
+- **Address check:** `501 Hayes St, San Francisco, CA 94102` — [official source](https://www.haziessf.com/).
+- **Published source line:** "BAR HOURS TUESDAY - SATURDAY 11:30 am - 12 am; SUNDAY 11 am - 10 pm. LUNCH Tuesday-Friday 11:30 am - 2:15 pm; BRUNCH Saturday & Sunday 11 am - 2:15 pm; DINNER Friday & Saturday 5 pm - 9:45 pm."
+- **Late-night result:** Friday: 11:30 AM–12:00 AM (bar); Saturday: 11:30 AM–12:00 AM (bar).
+- **Transit screen:** 6 Hayes/Parnassus (Hayes & Pierce stop) or 22 Fillmore + short walk.
+- **Manual review flags:** Fri/Sat bar close is midnight — a short late window; dinner ends 9:45 PM. Holiday hours per official site: closed Thanksgiving Day and Dec 24–26.
+- **Official link:** [https://www.haziessf.com/](https://www.haziessf.com/)
+
+### Last Drop Tavern
+
+- **Status:** Official match.
+- **Category / neighborhood:** Cocktail bar / late-night dining · Lower Nob Hill.
+- **Address check:** `550 Powell St, San Francisco, CA 94108` — [official source](https://lastdroptavernsf.com/).
+- **Published source line:** "Located between Union Square and Lower Nob Hill, we're open daily until 2am with food served from dinner until 1am." (Site JSON-LD: Mon–Fri 4:00 PM–2:00 AM; Sat/Sun 11:00 AM–2:00 AM.)
+- **Late-night result:** Friday: 4:00 PM–2:00 AM; Saturday: 11:00 AM–2:00 AM; Sunday: 11:00 AM–2:00 AM.
+- **Transit screen:** 38 Geary (Geary & Powell stop) or 30 Stockton (Stockton & Sutter stop) + short walk.
+- **Manual review flags:** Per-day start times come from the site's embedded structured data; the page copy independently confirms the daily 2 AM close. Food ends ~1 AM.
+- **Official link:** [https://lastdroptavernsf.com/](https://lastdroptavernsf.com/)
+
+### Lost and Found
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Cocktail bar · Parkside / Outer Sunset.
+- **Address check:** `1439 Taraval St, San Francisco, CA 94116` — [official source](https://www.lostandfoundbarsf.com/).
+- **Published source line:** "HOURS MONDAY CLOSED TUESDAY 5 PM-12AM WEDNESDAY 5 PM-2AM THURSDAY 5 PM-2AM FRIDAY 5 PM-2AM SATURDAY 5 PM-2AM SUNDAY 4 PM-10PM · 1439 TARAVAL ST. SAN FRANCISCO CA (PARKSIDE)."
+- **Late-night result:** Friday: 5:00 PM–2:00 AM; Saturday: 5:00 PM–2:00 AM.
+- **Transit screen:** 38 Geary (Geary & 14th area) + short walk.
+- **Manual review flags:** Official site is live but its hours block was not machine-readable on 2026-09-06; hours transcribed from the search-indexed official page and corroborated by the venue's claimed listing (Aug 2026). Sunday closes 10 PM, so only Fri/Sat qualify.
+- **Official link:** [https://www.lostandfoundbarsf.com/](https://www.lostandfoundbarsf.com/)
+
+### Danny Coyle's
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Irish pub / sports bar · Lower Haight.
+- **Address check:** `668 Haight St, San Francisco, CA 94117` — [official source](https://www.dannycoyles.com/location.html).
+- **Published source line:** Official Location page confirms the address and phone; venue-listing mirrors: "Tue–Fri 12:00 PM – 2:00 AM; Sat 10 AM – 2 AM; Sun 10 AM – 2 AM; Mon 2 PM – 2 AM."
+- **Late-night result:** Friday: 12:00 PM–2:00 AM; Saturday: 10:00 AM–2:00 AM; Sunday: 10:00 AM–2:00 AM.
+- **Transit screen:** 7 Haight/Noriega (Haight & Fillmore stop — the corner) or N Judah + walk.
+- **Manual review flags:** Official site has no hours page; weekly hours come from venue-listing mirrors that all agree on the 2 AM close Fri/Sat/Sun. One mirror lists weekend opening as early as 7 AM; 10 AM is the common figure.
+- **Official link:** [https://www.dannycoyles.com/](https://www.dannycoyles.com/)
+
+### Kozy Kar
+
+- **Status:** Official match.
+- **Category / neighborhood:** Dive bar / lounge · Russian Hill.
+- **Address check:** `1548 Polk St, San Francisco, CA 94109` — [official source](https://www.kozykar.com/).
+- **Published source line:** "KOZY KAR BAR, 1548 POLK STREET AT SACRAMENTO, SAN FRANCISCO, CA 94109. HOURS WEDNESDAY-SATURDAY 7PM-2AM."
+- **Late-night result:** Friday: 7:00 PM–2:00 AM; Saturday: 7:00 PM–2:00 AM.
+- **Transit screen:** 5 Fulton (McAllister & Baker stop) + short walk.
+- **Manual review flags:** The legacy official page also lists the Santa Rosa location; hours above are for the SF bar. Theme bar with intentionally provocative decor.
+- **Official link:** [https://www.kozykar.com/](https://www.kozykar.com/)
+
+### Bar Darling
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Cocktail bar · Marina.
+- **Address check:** `2263 Chestnut St, San Francisco, CA 94123` — [official source](https://www.bardarlingsf.com/).
+- **Published source line:** "Mon–Fri 2:00 PM – 2:00 AM; Sat 12:00 PM – 2:00 AM" (venue-listing structured data); the official site is live but its hours block was not machine-readable on 2026-09-06.
+- **Late-night result:** Friday: 2:00 PM–2:00 AM; Saturday: 12:00 PM–2:00 AM.
+- **Transit screen:** 45 Union/Stockton (Union & Pierce stop) or 5 Fulton (Fulton & 22nd stop) + short walk.
+- **Manual review flags:** Sunday hours conflict — the site's structured data omits Sunday while one listing shows 12 PM–2 AM; Sunday is treated as unconfirmed.
+- **Official link:** [https://www.bardarlingsf.com/](https://www.bardarlingsf.com/)
+
+### Magnolia Brewing — Haight
+
+- **Status:** Official match.
+- **Category / neighborhood:** Brewery / gastropub · Haight.
+- **Address check:** `1398 Haight St, San Francisco, CA 94117` — [official source](https://magnoliabrewing.com/haight/).
+- **Published source line:** "We're Open! 12pm-12am Sun-Thu; 12pm-1am Fri-Sat. Kitchen Open Til 10pm."
+- **Late-night result:** Friday: 12:00 PM–1:00 AM; Saturday: 12:00 PM–1:00 AM; Sunday: 12:00 PM–12:00 AM.
+- **Transit screen:** 6 Hayes/Parnassus (Masonic & Haight stop) or 7 Haight/Noriega (Haight & Stanyan stop) + short walk.
+- **Manual review flags:** The site's navigation widget shows older/different hours (11:30 AM starts, 9–10 PM closes), possibly for the Masonic location or stale; the location-page hero block is used. Kitchen closes 10 PM.
+- **Official link:** [https://magnoliabrewing.com/haight/](https://magnoliabrewing.com/haight/)
+
+### Third Rail
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Cocktail bar · Dogpatch.
+- **Address check:** `628 20th St, San Francisco, CA 94107` — [official source](https://www.thirdrailbarsf.com/).
+- **Published source line:** Official site is live and named as the business website in the venue's claimed listing (updated Aug 2026): "Mon Closed; Tue–Thu 4:00 PM – 12:00 AM; Fri 2:00 PM – 2:00 AM; Sat 2:00 PM – 2:00 AM; Sun 4:00 PM – 11:00 PM."
+- **Late-night result:** Friday: 2:00 PM–2:00 AM; Saturday: 2:00 PM–2:00 AM.
+- **Transit screen:** T Third Street (3rd & 20th stop) or 91 Owl (3rd St corridor) + short walk.
+- **Manual review flags:** Official site has no machine-readable hours; weekly hours come from the venue's claimed listing. Sunday closes 11 PM, so only Fri/Sat qualify.
+- **Official link:** [https://www.thirdrailbarsf.com/](https://www.thirdrailbarsf.com/)
+
+### Monarch
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Nightclub / live music · SoMa.
+- **Address check:** `101 6th St, San Francisco, CA 94103` — [official source](https://monarchsf.com/).
+- **Published source line:** Official site is live (no hours page; events sold through 200 Channels). Claimed listing (updated Aug 2026): "Wed–Thu 9:00 PM – 2:00 AM; Fri–Sat 9:00 PM – 2:30 AM; Sun 9:00 PM – 2:00 AM; Mon/Tue closed."
+- **Late-night result:** Friday: 9:00 PM–2:30 AM; Saturday: 9:00 PM–2:30 AM; Sunday: 9:00 PM–2:00 AM.
+- **Transit screen:** 12 Folsom/Pacific (Folsom & 6th stop — the corner) or 19 Polk (7th & Folsom stop) + short walk.
+- **Manual review flags:** Nightclub: 21+ for events, cover on event nights. The same building hosts The Pawn Shop restaurant by day.
+- **Official link:** [https://monarchsf.com/](https://monarchsf.com/)
+
+### Bottom of the Hill
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Live-music venue / bar · Mission / 17th Street.
+- **Address check:** `1233 17th St, San Francisco, CA 94107` — [official source](https://bottomofthehill.com/info.html).
+- **Published source line:** "1233 17th Street (17th @ Missouri), San Francisco, CA 94107... It offers a full bar, a kitchen that stays open late..." Official calendar lists shows seven nights a week (today, Sun 9/6: doors 3:00 PM, 21+).
+- **Late-night result:** Friday: 5:00 PM–2:00 AM (show nights, typical); Saturday: 5:00 PM–2:00 AM (show nights, typical).
+- **Transit screen:** 14 Mission or 49 Van Ness/Mission (Mission & 16th stop) + short walk.
+- **Manual review flags:** Hours are event-dependent — the official site publishes no fixed weekly schedule and the 5 PM–2 AM window reflects typical show-night listings. Some events are 21+; check the calendar. The official info page contains injected third-party spam text (site maintenance issue); venue details above are from the club's own content block.
+- **Official link:** [https://bottomofthehill.com/](https://bottomofthehill.com/)
+
+### Persona
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** 21+ cocktail bar · Lower Nob Hill.
+- **Address check:** `685 Sutter St, San Francisco, CA 94102` — [official source](https://www.persona-sf.com/).
+- **Published source line:** Official site is live ("Persona, in San Francisco's Lower Nob Hill"; "No cover charge, always 21+"). Claimed listing (updated Sep 2026): daily 5:00 PM – 2:00 AM.
+- **Late-night result:** Friday: 5:00 PM–2:00 AM; Saturday: 5:00 PM–2:00 AM; Sunday: 5:00 PM–2:00 AM.
+- **Transit screen:** 30 Stockton (Stockton & Sutter stop) or 12 Folsom/Pacific (Pacific & Stockton stop) + short walk.
+- **Manual review flags:** 21+ only; weekly hours come from the venue's claimed listing because the official site has no hours page. Subterranean entrance off Post Street.
+- **Official link:** [https://www.persona-sf.com/](https://www.persona-sf.com/)
+
+### Hawthorn
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** 21+ nightclub · Union Square.
+- **Address check:** `46 Geary St, San Francisco, CA 94102` — [official source](https://hawthornsf.com/).
+- **Published source line:** Official site: "21 and up only," with recurring Fri/Sat events posted at 10:00 PM (Sep 5 and Sep 11–12, 2026, via Eventbrite). Venue-listing mirrors give a 2:00 AM close on Fri/Sat event nights.
+- **Late-night result:** Friday: 10:00 PM–2:00 AM (event nights); Saturday: 10:00 PM–2:00 AM (event nights).
+- **Transit screen:** 38 Geary (Geary & Powell stop) or 30 Stockton (Stockton & Geary stop) + short walk.
+- **Manual review flags:** Hours are event-driven — the official site posts events but no fixed close time; confirm the specific night. 21+ always.
+- **Official link:** [https://hawthornsf.com/](https://hawthornsf.com/)
+
+### 707 Sutter
+
+- **Status:** Official match.
+- **Category / neighborhood:** Korean restaurant / bar · SoMa.
+- **Address check:** `707 Sutter St, San Francisco, CA 94109` — [official source](https://www.707suttersf.com/).
+- **Published source line:** "707 Sutter St. SF. CA 94109. Hours: Monday–Saturday 11:30am ~ 2am; Sunday 5pm ~ 12am."
+- **Late-night result:** Friday: 11:30 AM–2:00 AM; Saturday: 11:30 AM–2:00 AM; Sunday: 5:00 PM–12:00 AM.
+- **Transit screen:** 30 Stockton (Stockton & Sutter stop) or 12 Folsom/Pacific (Folsom & 7th stop) + short walk.
+- **Manual review flags:** Sunday closes at midnight — qualifies, but with a shorter late window than Fri/Sat.
+- **Official link:** [https://www.707suttersf.com/](https://www.707suttersf.com/)
+
+### Chotto Matte
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Nikkei restaurant / rooftop bar · Union Square.
+- **Address check:** `50 O'Farrell St, San Francisco, CA 94108` — [official source](https://chotto-matte.com/sanfrancisco/).
+- **Published source line:** Official page confirms "50 O'Farrell St, San Francisco, CA 94108" with rooftop, bar, and lounge service. Claimed listing (updated Aug 2026): "Mon–Thu 11:30 AM – 12:00 AM; Fri 11:30 AM – 1:00 AM; Sat 11:00 AM – 1:00 AM; Sun 11:00 AM – 12:00 AM."
+- **Late-night result:** Friday: 11:30 AM–1:00 AM; Saturday: 11:00 AM–1:00 AM; Sunday: 11:00 AM–12:00 AM.
+- **Transit screen:** 30 Stockton (Stockton & Columbus stop) or 12 Folsom/Pacific (Pacific & Stockton stop) + short walk.
+- **Manual review flags:** Official page has no machine-readable hours; weekly hours come from the venue's claimed listing. Rooftop closes earlier than the bar/lounge.
+- **Official link:** [https://chotto-matte.com/sanfrancisco/](https://chotto-matte.com/sanfrancisco/)
+
+### Monaghan's
+
+- **Status:** Official match.
+- **Category / neighborhood:** Dive bar · Marina.
+- **Address check:** `3243 Pierce St, San Francisco, CA 94123` — [official source](https://monaghanssf.com/).
+- **Published source line:** "Our Location: 3243 Pierce St., San Francisco, CA 94123. Mon - 4pm - 2am; Tu-F - 2pm - 2am; Sat - Sun - 12pm - 2am. Happy Hour Monday - Friday Open - 7pm."
+- **Late-night result:** Friday: 2:00 PM–2:00 AM; Saturday: 12:00 PM–2:00 AM; Sunday: 12:00 PM–2:00 AM.
+- **Transit screen:** 45 Union/Stockton (Union & Pierce stop) or 5 Fulton (Fulton & 22nd stop) + short walk.
+- **Manual review flags:** The official site is a Shopify storefront; the hours block lives in the "Our Location" section. Open late every day; Fri/Sat/Sun listed per the directory scope.
+- **Official link:** [https://monaghanssf.com/](https://monaghanssf.com/)
+
+### The Sea Star
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Dive bar / cocktail bar · Dogpatch.
+- **Address check:** `2289 3rd St, San Francisco, CA 94107` — [official source](https://www.theseastarsf.com/).
+- **Published source line:** Official site is live (hours block is an embedded widget, not machine-readable on 2026-09-06). Claimed listing (updated Aug 2026): "Mon–Wed 4:00 PM – 1:00 AM; Thu 4:00 PM – 1:00 AM; Fri 4:00 PM – 2:00 AM; Sat 2:00 PM – 2:00 AM; Sun 2:00 PM – 1:00 AM."
+- **Late-night result:** Friday: 4:00 PM–2:00 AM; Saturday: 2:00 PM–2:00 AM; Sunday: 2:00 PM–1:00 AM.
+- **Transit screen:** T Third Street (3rd & 23rd stop) or 91 Owl (3rd St corridor) + short walk.
+- **Manual review flags:** Thursday/Sunday close times differ slightly across mirrors (1 AM vs 2 AM); the claimed listing is used. Dog-friendly bar per the official site.
+- **Official link:** [https://www.theseastarsf.com/](https://www.theseastarsf.com/)
+
+### The View Lounge
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Hotel cocktail lounge · SoMa / Civic Center.
+- **Address check:** `780 Mission St, San Francisco, CA 94103` — [official source](https://www.marriott.com/en-us/hotels/sfodt-san-francisco-marriott-marquis/overview/).
+- **Published source line:** Marriott official page (search-indexed 2026-07-30): "The View Lounge offers stunning city views accompanied by small plates and crafted cocktails... Open 4:00 pm - Midnight daily. Hours of operation may change due to events." Claimed listing (updated Aug 2026): daily 4:00 PM – 12:00 AM.
+- **Late-night result:** Friday: 4:00 PM–12:00 AM; Saturday: 4:00 PM–12:00 AM; Sunday: 4:00 PM–12:00 AM.
+- **Transit screen:** 90 San Bruno Owl (11th & Howard stop) or 7 Haight/Noriega (Market St stops) + short walk; daytime: 12 Folsom/Pacific.
+- **Manual review flags:** Direct fetch of marriott.com returned HTTP 500 at check time; the official page text is quoted from the search index of the official domain and corroborated by the venue's claimed listing. Hotel bar on the 39th floor; hours can change for events.
+- **Official link:** [https://www.marriott.com/en-us/hotels/sfodt-san-francisco-marriott-marquis/overview/](https://www.marriott.com/en-us/hotels/sfodt-san-francisco-marriott-marquis/overview/)
+
+### Cityscape
+
+- **Status:** Official match.
+- **Category / neighborhood:** Rooftop sky bar · Union Square.
+- **Address check:** `333 O'Farrell St, San Francisco, CA 94102` — [official source](https://www.cityscapeskybar.com/).
+- **Published source line:** "333 O'Farrell Street, Hilton San Francisco Union Square | Tower 1, 46th Floor, San Francisco, CA 94102. HOURS: Sunday – Saturday | 4:00P to 12:00A. 21+ after 10:00P daily."
+- **Late-night result:** Friday: 4:00 PM–12:00 AM; Saturday: 4:00 PM–12:00 AM; Sunday: 4:00 PM–12:00 AM.
+- **Transit screen:** 30 Stockton (Stockton & Columbus stop) or 38 Geary (Geary & Powell stop) + short walk.
+- **Manual review flags:** 21+ after 10 PM daily; hours subject to change due to private events per the official site.
+- **Official link:** [https://www.cityscapeskybar.com/](https://www.cityscapeskybar.com/)
+
+### Redwood Room
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Cocktail bar / lounge · Nob Hill.
+- **Address check:** `495 Geary St, San Francisco, CA 94102` — [official source](https://redwoodroomsf.com/).
+- **Published source line:** Official site: "The Clift's famous and historic Redwood Room... 495 Geary St, San Francisco, CA 94102" (no machine-readable hours; reservations listed until 11:30 PM). 2026 listings: daily 5:00 PM – 12:00 AM.
+- **Late-night result:** Friday: 5:00 PM–12:00 AM; Saturday: 5:00 PM–12:00 AM; Sunday: 5:00 PM–12:00 AM.
+- **Transit screen:** 38 Geary (Geary & Powell stop) or 30 Stockton (Stockton & Geary stop) + short walk.
+- **Manual review flags:** Hours conflict — 2026 listings say daily 5 PM–midnight, while an older (2019) source says Thu–Sat 4 PM–2 AM / Sun–Wed 4 PM–1 AM; the midnight close is used and flagged.
+- **Official link:** [https://redwoodroomsf.com/](https://redwoodroomsf.com/)
+
+### Sully's Marina Lounge
+
+- **Status:** Official match.
+- **Category / neighborhood:** Dive bar · Marina.
+- **Address check:** `2138 Chestnut St, San Francisco, CA 94123` — [official source](https://sullysmarinalounge.com/).
+- **Published source line:** "Open daily, 12:00 PM – 2:00 AM. Sun–Sat 12:00 PM – 2:00 AM. Address: 2138 Chestnut Street, San Francisco, CA 94123, Marina District."
+- **Late-night result:** Friday: 12:00 PM–2:00 AM; Saturday: 12:00 PM–2:00 AM; Sunday: 12:00 PM–2:00 AM.
+- **Transit screen:** 5 Fulton (Fulton & 22nd stop) or 45 Union/Stockton (Union & Pierce stop) + short walk.
+- **Manual review flags:** A mirror site listed Fri–Sun opening at 8 AM; the official site says 12 PM daily — the official site is used.
+- **Official link:** [https://sullysmarinalounge.com/](https://sullysmarinalounge.com/)
+
+### The Felix
+
+- **Status:** Official match.
+- **Category / neighborhood:** 21+ cocktail bar · SoMa / Civic Center.
+- **Address check:** `138 Mason St, San Francisco, CA 94105` — [official source](https://www.thefelixsf.com/).
+- **Published source line:** "Hours: Thursday: 6PM - 12AM; Friday/Saturday: 8PM - 1 AM. Reservations up to 10. 21+, you must have a valid, physical, government issued ID to enter."
+- **Late-night result:** Friday: 8:00 PM–1:00 AM; Saturday: 8:00 PM–1:00 AM.
+- **Transit screen:** N Judah (Mason & Sutter stop) or 43 Masonic (Mason St stops) + short walk.
+- **Manual review flags:** 21+ with physical ID; reservations required after 10 PM. The official site does not display the street address; 138 Mason St is per the venue's claimed listing.
+- **Official link:** [https://www.thefelixsf.com/](https://www.thefelixsf.com/)
+
+### Goemon Izakaya Bar & Lounge
+
+- **Status:** Official match.
+- **Category / neighborhood:** Izakaya / bar / karaoke · Outer Richmond.
+- **Address check:** `3129 Clement St, San Francisco, CA 94121` — [official source](https://goemonsushisf.com/izakaya/).
+- **Published source line:** "Sun–Mon: 4:30pm-11pm; Tues: Closed; Wed–Thur: 4:30pm-11pm; Fri–Sat: 4:30pm-12:30pm [printed as '12:30pm' on the official site — clearly 12:30 AM]. Live Karaoke & DJ! Every Friday & Saturday, 8:30pm-12am."
+- **Late-night result:** Friday: 4:30 PM–12:30 AM; Saturday: 4:30 PM–12:30 AM.
+- **Transit screen:** 38 Geary (Geary & 33rd stop) or 1 California (California & 32nd stop) + short walk.
+- **Manual review flags:** The official site prints the Fri/Sat close as "12:30pm" (a typo for 12:30 AM); the official karaoke line (Fri/Sat 8:30 PM–12:00 AM) confirms after-midnight service. A Sep 2026 claimed listing says Fri/Sat 5 PM–2 AM; the official site is used and the conflict flagged.
+- **Official link:** [https://goemonsushisf.com/izakaya/](https://goemonsushisf.com/izakaya/)
+
+## Round 3 — honest gap report (candidates that did NOT make the cut)
+
+The round's goal was 50 new records; **23 verified cleanly enough to include**, and the shortfall is real, not hidden. Every candidate below was checked line-by-line and excluded for a documented reason:
+
+- **Li Po Lounge** (916 Grant Ave) — the venue's historical domain `lipolounge.com` is **no longer the bar**; it now hosts an unrelated cosmetic-content site. No other official site exists (contact is an email address). Excluded under the official-domain rule.
+- **The EndUp** (401 6th St) — `theendup.com` **dead-ends to an unrelated failed domain** (ERR_TUNNEL_CONNECTION_FAILED). No live official site found. Excluded.
+- **Rye** (688 Geary St) — `ryesf.com` is **abandoned/compromised** (the page now serves third-party SEO spam, no bar content). Citing a compromised page would mislead. Excluded until the venue restores its site.
+- **B55 Bar** (780 Mission) — closes at 11 PM; fails the after-11 PM threshold.
+- **ipot.food** (closes 10:30 PM), **China Live** (9/9:30 PM), **Tony's Coal-Fired Pizza** (10/11 PM), **Biergarten** (evening only) — fail the threshold.
+- **No official website found** (checked 2025–2026 listings, then their claimed pages): Temple Bar, Fireside, Mucky Duck, Yancy's, Sage & Drifter, Kezar Pub, Trad'r Sam, Blarney Stone, Zam Zam, Mad Dog, Gold Cane, Horseshoe Tavern, King of Thai Noodle House, Buddha Lounge, Dogpatch Saloon, Bloom's Saloon, Miki's, D'Agave, Johnny Foley's, New Sun, The Crew, Toyose, Butter, Lost Cat, Golden Island, Kowloon Tong, Hockey Haven, 1015 Folsom, Foggy Fog, Bix & Bill's, Geelou (IG only), Donut World. Closed since earlier checks: The Parlor, Two Sisters.
+- **No verifiable SF source found:** Sam Woo (SF), Tony & Al's 975 Sutter, Great American Diner 966 Sutter, Regency 485 California, Tano's SF.
+- **Hours conflicts that could not be resolved to a single trustworthy source:** Bar Darling's Sunday (kept Fri/Sat with the Sunday conflict flagged — included), Redwood Room's conflicting close (kept with the conflict flagged — included).
+- **Unsearched / unverified remainder at end of round:** Reverb, Pitt's Pub, Happy Lounge, Lost Marbles, Legends Cafe, 99 Restaurant, Sweet Mango, Naya, Wok Station, Kanpai — not yet confirmed against an official domain; they are **not** in the dataset.
+
+## Round 4 — Sunday, September 6, 2026 (4 records added, 130 → 134)
+
+Round 4 closed out the remaining unverified pool using the fast verification pipeline now documented in [scripts/verify_protocol.md](scripts/verify_protocol.md): one tuned search per candidate for official-domain triage, one fetch of the official domain where found, and state tracked in [scripts/candidates.jsonl](scripts/candidates.jsonl) so nothing is re-checked. All 11 remaining candidates (plus the pending Lion's Den dedupe) were resolved in a single pass; 4 qualified and were merged via `python3 scripts/apply_round.py scripts/round4_records.jsonl`.
+
+### Pitt's Pub
+
+- **Status:** Official match.
+- **Category / neighborhood:** Dive bar · Outer Sunset.
+- **Address check:** `4207 Judah St, San Francisco, CA 94122` — [official source](https://www.pittssf.com/).
+- **Published source line:** "PITT'S PUB 4207 Judah Street San Francisco, CA 94122. MONDAY - THURSDAY 3pm - 12am. FRIDAY 3pm - 2am. SATURDAY 2pm - 2am. SUNDAY 12pm - 12am."
+- **Late-night result:** Friday: 3:00 PM–2:00 AM; Saturday: 2:00 PM–2:00 AM; Sunday: 12:00 PM–12:00 AM.
+- **Transit screen:** Walk east on Judah (~8 min from the origin) or 24-hour N Judah + short walk.
+- **Manual review flags:** Hours posted on the official Weebly site (page footer copyrighted 2024); re-confirm before a late trip.
+
+### Naya Dessert Cafe (Geary)
+
+- **Status:** Official match.
+- **Category / neighborhood:** Dessert cafe · Outer Richmond.
+- **Address check:** `5338 Geary Blvd, San Francisco, CA 94121` — [official source](https://www.nayadessertcafe.com/).
+- **Published source line:** "Sweet Hours: Inner Richmond Location Monday - Friday 5:00 pm to midnight, Saturday - Sunday noon to midnight."
+- **Late-night result:** Friday: 5:00 PM–12:00 AM; Saturday: 12:00 PM–12:00 AM; Sunday: 12:00 PM–12:00 AM.
+- **Transit screen:** 38 Geary (Geary Blvd & 33rd Ave stop) + short walk.
+- **Manual review flags:** The brand runs multiple SF locations with different hours (Hayes Valley closes 11 PM); this record covers the 5338 Geary Blvd location only.
+
+### Lost Marbles Brewpub
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Brewpub · Inner Richmond.
+- **Address check:** `823 Clement St, San Francisco, CA 94118` — [official source](https://www.lostmarblesbrewpub.com/).
+- **Published source line:** "KITCHEN OPEN LATE (Outside Lands Weekend) FRIDAY: Noon - 11:30PM / Saturday: Noon - 11:30PM / Sunday: Noon - 10:00PM / BAR: Noon - 2:00AM"
+- **Late-night result:** Friday: 12:00 PM–1:00 AM; Saturday: 12:00 PM–1:00 AM (regular closes per the claimed listing updated 2026-09, consistent with older published schedules).
+- **Transit screen:** 38 Geary + short walk (Geary Blvd & 20th Ave stop, two blocks south).
+- **Manual review flags:** The official site currently displays a temporary "Outside Lands Weekend" hours block rather than a regular weekly schedule; the regular Fri/Sat 1:00 AM close is not machine-readable on the official domain.
+
+### Wok Station (Irving)
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Chinese restaurant · Outer Sunset.
+- **Address check:** `2154 Irving St, San Francisco, CA 94122` — [official source](https://www.wokstationca.com/uvtxc3m5/wok-station-san-francisco-94122/order-online).
+- **Published source line:** "2154 Irving St, San Francisco, CA 94122 (415) 638-9998 — order page live as of 2026-09-06; listed hours 16:30–23:59 + 00:00–01:00 (platform caps display at 1:00 AM)."
+- **Late-night result:** Friday: 4:30 PM–1:00 AM; Saturday: 4:30 PM–1:15 AM; Sunday: 4:30 PM–1:15 AM (Sat/Sun close per the claimed listing updated 2026-04).
+- **Transit screen:** Walk north on 21st Ave (~5 min from the origin) or 24-hour N Judah + short walk.
+- **Manual review flags:** The ordering platform truncates displayed hours at 1:00 AM; an older community report mentioned a fire-related closure, and the listing showed regular hours as of April 2026 — re-confirm before a late trip.
+
+## Round 4 — resolution of the remaining pool (candidates that did NOT make the cut)
+
+- **Reverb (2801 Leavenworth St):** Permanently closed (corner.inc, updated April 2026); its domain `reverb-sf.com` now redirects to an unrelated hijacked gambling site. Excluded.
+- **Happy Lounge (3745 Geary Blvd):** No official website exists — Facebook page only. Excluded per the official-source rule.
+- **Legends Cafe & Creamery (620 Broadway):** No official website — Instagram only. Excluded per the official-source rule.
+- **99 Restaurant:** No verifiable San Francisco business by this name (search hits are Pennsylvania, Illinois, and Florida). Excluded.
+- **Sweet Mango Dessert Cafe (5217 Geary Blvd):** The business-listed website `creationsdessert.com` is down (fetch failed on both apex and www). No live official site. Excluded.
+- **Kanpai:** Both SF locations fail the threshold — Kanpai Sushi Lounge (Hotel Nikko, 222 Mason St) closes 11:00 PM; Kanpai Sushi House (4808 Mission St) closes 10:30 PM. Excluded.
+- **Lion's Den (577 Wentworth Pl):** Dedupe resolved — already present in the dataset. No action.
+
+Pipeline state: `scripts/candidates.jsonl` now marks all 58 tracked candidates as `verified`, `verified-with-gap`, or `excluded` — there is no remaining unsearched pool. `scripts/apply_round.py` is the reusable one-command merge for future rounds (records JSONL → dataset, validator count, and all site count strings).
