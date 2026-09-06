@@ -1838,3 +1838,160 @@ closures, domain hijacking/lapse, exactly-11:00 PM closes, event-only schedules,
 official hours text, ordering-platform-only pages, or an existing row. Nothing was
 backfilled from Yelp/Google/Wanderlog; those listings were used only as leads and
 corroboration markers, never as the row's source.
+
+## Round 7 — added 2026-09-06
+
+Four new records passed line-by-line verification against the venue's own website
+(address + published hours read on the official domain on 2026-09-06).
+
+| Venue | Address | Official source | Quoted hours evidence |
+| --- | --- | --- | --- |
+| Lone Star Saloon | 1354 Harrison St, SF 94103 | https://www.lonestarsf.com/ | "1354 Harrison St … **Mon-Sat** 4p–2a **Sun** 2p–2a" |
+| Escape From New York Pizza — Haight | 1737 Haight St, SF 94117 | https://escapefromnewyorkpizza.com/ | "1737 Haight Street … Fri - Sat 10:30a - 1:30a" |
+| Escape From New York Pizza — Downtown | 333 Bush St #104, SF 94104 | https://escapefromnewyorkpizza.com/ | "333 Bush Street #104 … Friday 10:30a - 2:00a / Saturday 5:00p - 2:00a / Sunday 5:00p - 1:00a" |
+| Shotwell's | 3349 20th St, SF 94110 | https://www.shotwellsbar.com/ | "Sunday – Wednesday 3:30 p.m. – 11:30 p.m. / Thursday – Saturday 3:30 p.m. – 12:00 a.m." |
+
+### Rejected this round (with reason)
+
+Candidates screened and **not** added, so they are not re-mined later:
+
+* **Closes at or before 11 PM:** Pagan (9 PM), Southern Pacific Brewing (11 PM), Perry's Union Street
+  (9 PM, all locations same operator), Underdogs Too, Palm City, Golden Boy Pizza, The Dark Horse Inn,
+  Pizzeria Avellino (9:40 PM), PizzaHacker Mission-Bernal (9:30 PM Fri), Rosamunde Sausage Grill (10 PM).
+* **Already in the dataset** (found again during mining): Zeitgeist, Churchill, The Saloon, Bender's,
+  Kilowatt, The Willows, The Sycamore, Pinecrest Diner, Rock Bar, Pilsner Inn, El Rio, Hawthorn.
+* **Sunday-only-late / does not clear threshold:** Last Rites (Sun closes exactly 11 PM; Fri–Sat 6p–2a
+  qualify but the venue is already covered by the Mission cluster pending an address confirmation).
+* **Event-calendar only, no published day hours:** Rickshaw Stop, Black Cat, The Valencia Room,
+  Whitechapel (private events), Dalva, Wildhawk.
+* **Hijacked, parked, expired or wrong-entity domains — never cite:** thecastlesf.com (→ chaturbate.com),
+  harringtonsbarandgrill.com (→ gambling site), harryslounge.com (GoDaddy), thehouseofprimerib.com
+  (expired-domain listing; the real site is houseofprimerib.net), dogpatchsaloon.com (Name.com placeholder),
+  hobsonschoice.com (GoDaddy), taqueriacancun.com (HugeDomains), thegrandsf.com and dobbsferrysf.com
+  (Squarespace expired), gyrokingsf.com (SEO spam), thecrepehousesf.com (redirects to a gambling site),
+  sabrosatacos.com and bardarling.com (different businesses in other cities), hi-dive.com (Denver).
+* **Unreachable on 2026-09-06 (HTTP 500 / DNS):** thelibertiessf.com, playlandsf.com, rooster-sf.com,
+  pinesf.com, johnfoleysirishhouse.com, dellataverna.com, holytidesf.com, thegoldenfleecesf.com,
+  thewreckroomsf.com, thecoinopsf.com, emmysspaghetti.com, jaysbarsf.com, buckshotsf.com, hardwatersf.com,
+  thelaststrawsf.com, marufukuramen.com (no hours block), osharestaurant.com, zaozaosf.com.
+
+**Manual-review note for the user:** this round produced only four additions rather than the fifty
+requested. The SF late-night long tail has been largely exhausted by rounds 1–6 (204 records now), and
+the remaining unmined names overwhelmingly fail one of the checks above — most commonly a dead or
+hijacked domain, or a venue that publishes no hours on its own site. Every rejection above is listed so
+the screening can be re-checked by hand.
+
+## Round 8 — added 2026-09-06
+
+Continued mining after the round 7 pass. Two more records cleared verification against the
+venue's own website (address + published hours read on the official domain on 2026-09-06).
+
+| Venue | Address | Official source | Quoted hours evidence |
+| --- | --- | --- | --- |
+| Fly Bar | 762 Divisadero St, SF 94117 | https://www.flybardivis.com/ | "762 Divisadero St … HOURS: Open Everyday to 2 am"; menu block "Mon-Thurs: 2 pm - 2 am / Sat: 12 pm - 2 am / Sun: 10 am - 2 am" |
+| Johnny Foley's | 243 O'Farrell St, SF 94102 | https://www.johnnyfoleys.com/contact | "BAR HOURS … Friday 3:00pm - 1:30am / Saturday 11:00am - 1:30am / Sunday 11:00am - midnight / CLOSED Monday & Tuesday" |
+
+### Flagged irregularity
+
+* **Fly Bar** — the official page states a blanket "Open Everyday to 2 am" but its hours block lists
+  Mon–Thurs, Sat and Sun only, with **no Friday opening time published**. The 2 AM close is explicit
+  for every day, so the record qualifies, but the Friday opening hour is recorded as unpublished
+  rather than guessed. Marked `verified-with-gap`.
+* **Johnny Foley's** — bar runs to 1:30 AM Fri/Sat but the kitchen stops at 10:00 PM nightly, and the
+  venue is closed Monday and Tuesday. Both noted on the record.
+
+### Rejected this round (with reason)
+
+* **Already in the dataset:** Zeitgeist, Smuggler's Cove, The Café, Blackbird Bar, Rock Bar,
+  Buena Vista Cafe, Zombie Village, Bourbon & Branch, Little Shamrock, Emporium SF, Madrone Art Bar.
+* **Closes at or before 11 PM:** Beach Chalet, Java Beach Café, Ocean Beach Café (6 PM),
+  Caffe Trieste (10 PM), The Grove SF (10 PM), The Village (2 PM, brunch only), The Pawn Shop
+  (10 PM Fri/Sat), Rosamunde Sausage Grill, Pizzeria Avellino, PizzaHacker.
+* **Event-calendar only, no published day hours:** Cafe du Nord, Audio SF, Rickshaw Stop, Black Cat,
+  Harmonic Brewing (event listings + a pointer to its Google page, which is not an official source
+  under this project's policy).
+* **Out of scope / wrong entity:** Rocca Pizzeria (Baton Rouge, LA), Hi-Dive (Denver),
+  Bar Darling (Montreal), Pizzeria Delfina (takeout-only Mission listing, no late hours),
+  The Laurel (an apartment building, not a bar), Barebottle (no per-location hours on the landing page).
+* **Temporarily closed:** The Snug (below-floor plumbing failure; official site announces an
+  indefinite closure).
+* **Hijacked, parked, expired or for-sale domains — never cite:** badlandssf.com (Hostinger parked),
+  mikkellerbar.com (GoDaddy $5,000), buenavistacafe.com (GoDaddy — the real site is thebuenavista.com),
+  sunrisedeli.com (GoDaddy), thecinch.com (GoDaddy), hobsonschoice.com (GoDaddy),
+  taqueriacancun.com (HugeDomains), qbarsf.com (Indonesian link-farm), arlequincafe.com (casino spam),
+  thegoldencatsf.com (gambling redirect), hobsons.com (unrelated PowerSchool product),
+  bloodhoundsf.com / thegrandsf.com / dobbsferrysf.com (Squarespace expired),
+  thehearthsf.com / thetradercollective.com (Squarespace "coming soon"),
+  socialkitchenandbrewery.com (Squarespace unclaimed), dearmomsf.com (suspended),
+  originalusrestaurant.com (404), gyrokingsf.com (SEO spam).
+* **Unreachable on 2026-09-06 (HTTP 500 / DNS failure):** muckyducksf.com, teeoffsf.com,
+  pigandwhistlesf.com, irelands32sf.com, martinmackssf.com, mobydicksf.com, polkgulchsf.com,
+  rnmsf.com, thecastroclub.com, hockeyhaven.net, bluesixbar.com, marketbarsf.com, thebeergarden.com,
+  parksidesf.com, thelittleshamrocksf.com, dragonbeauxsf.com, hongkonglounge2.com,
+  sunsetreservoirbrewing.com, thewoodssf.com, hollowsf.com, yanciyssf.com, deliriumsf.com,
+  nihon-sf.com, emperornortonsf.com, twosistersbarandbooks.com, bullittsf.com, theritespotcafe.com,
+  laszlobar.com, thecastrotheatre.com, marlenasbarsf.com, hitopssf.com, streetbarsf.com,
+  thelookoutsf.com, thephoenixsf.com, royalexchangesf.com, puborangesf.com, thetreasuresf.com,
+  thetempletonsf.com, sfbeerhall.com, thecraftybar.com, publicworkssf.com, thebiglebowskibar.com,
+  hogandrocks.com, velvetcantinasf.com, slateyardsf.com, thecavesf.com, thevaultsteakhouse.com,
+  charmaines-sf.com, spectorbar.com, pancholvillasf.com, gangwaybarsf.com, latinbarsf.com,
+  polkstationsf.com, gooddoggiesf.com, tonykansaspizza.com.
+
+**Manual-review note:** across rounds 7 and 8 combined I screened roughly 150 additional candidate
+domains to produce 6 verified additions. The binding constraint is no longer effort — it is that the
+verifiable, venue-published late-night inventory in San Francisco is close to fully enumerated at 206
+records under this project's sourcing rules. Options to genuinely expand are listed in the README.
+
+## Round 9 — added 2026-09-06
+
+Ninth mining pass over the remaining unscreened San Francisco late-night pool. **1 record accepted (206 → 207).** The candidate pool is now demonstrably exhausted at this verification standard; the detail below is the evidence for that claim.
+
+### Accepted
+
+| Venue | Address | Neighborhood | Qualifying nights | Official source | Verbatim evidence | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| Harrington's Bar & Grill | 245 Front St, San Francisco, CA 94111 | Financial District | Friday | https://www.harringtonssf.com/ | "245 Front Street San Francisco, SF 94103 — Hours: MON - FRI: 10am -12am. CLOSED SATURDAYS & SUNDAYS." | verified-with-gap |
+
+**Flagged for manual review (Harrington's):**
+
+1. **Weekend closure.** This is a Financial District after-work pub. Friday is the only qualifying night in scope; Saturday and Sunday it is closed outright. It is listed because Friday midnight clears the 11 PM threshold, but do not plan a Saturday night around it.
+2. **ZIP typo on the venue's own page.** The site footer prints "San Francisco, SF 94103". 245 Front Street is in **94111** (94103 is SoMa). The record stores 94111; the discrepancy is the venue's, not ours, and is recorded here rather than silently corrected.
+3. **Domain warning.** `harringtonsbarandgrill.com` — the address that appears in many third-party listings — is **not** controlled by the business any more. `harringtonssf.com` is the live official Squarespace site and is the only domain cited here.
+
+### Verified as already present (no duplicate created)
+
+Churchill (198 Church St), Beaux (2344 Market St), Jolene's (2700 16th St), Novela, Local Edition, Left Door, SF Eagle, Blondie's Bar. Round 9 independently re-derived hours for Churchill ("sun-thur 4pm-12am fri-sat 4pm-2am"), Local Edition ("Thurs-FRI: 4:30pm - 2am / Sat: 6pm - 2am / Sun: closed") and Left Door ("Friday–Saturday 5pm–1am") from their official sites; all three match the records already in `data/venues.json`. No changes required.
+
+### Rejected in round 9, with the reason
+
+**Closes at or before 11 PM**
+- Pagan Restaurant, 3199 Clement St — official site: "Friday: 5–8:30 PM … Saturday: 11:30 AM–2:30 PM, 5–9 PM … Sunday: 11:30 AM–2:30 PM, 5–9 PM". Nowhere near the threshold.
+
+**Live official site, but no operating hours published anywhere on it**
+- Wildhawk (checked the homepage and the /about-the-birds page — copy, team bios and a Tuesday martini promo, no hours)
+- Tommy's Mexican Restaurant (history and awards only)
+- Marufuku Ramen (menu and franchising only; hours live behind a third-party ordering widget)
+- The Social Study (homepage is a 2020-era archive; the only hours quoted are pandemic "12-6PM" Instagram captions — stale, not usable)
+- Overproof, Jolene's, The Laundromat SF (carried over from earlier in this pass)
+- The Valencia Room (event calendar only, no standing hours)
+- The Cavalier (SoMa; homepage links reservations and menus but publishes no hours)
+
+**Domain is parked, for sale, hijacked, or a different business — never cite these**
+- `hardwaterbar.com` → redirects to `carpaldoctors.com`, an Indonesian gambling/"toto macau" spam page. **Hijacked.**
+- `sfeagle.com` → serves a Tallinn, Estonia hotel-booking site wrapping a scraped copy of a ~2007 Eagle Tavern page. The real SF Eagle record correctly uses `sf-eagle.com`.
+- `blondiesbar.com` → Blondie's Bar in The Villages, **Florida** ("Spanish Springs Town Square", "3PM – 10PM"). The SF record correctly uses `blondiesbarsf.com`.
+- `hongkonglounge.com` → GoDaddy, $1,895.
+- `zombievillage.com` → GoDaddy, $295.
+
+**Unreachable (DNS failure or HTTP 500) on this pass**
+theharlequinsf.com, pierfortythree.com, thebellsf.com, rosenbergssf.com, thetradersf.com, bluebottlebarsf.com, thebrixtonsf.com, thehiddenvinesf.com, oasissf.com, tempestsf.com, moboxsf.com, doublestandardsf.com, thewestbarsf.com, hobsonsbar.com, thebarleysf.com, mothershipsf.com, thecornerstoresf.com, parlorsf.com, thephoenixirishbar.com, mrbings.com, rickhouse-sf.com, hi-topsbar.com, pinecrestdinersf.com, thepublicbarsf.com.
+
+### Why this round returned 1 and not 50
+
+Across rounds 7, 8 and 9 roughly 190 distinct candidate venues have now been screened against the project's rule: *the venue's own website must state, in its own words, a closing time later than 11:00 PM on a Friday, Saturday or Sunday.* The remaining pool fails for three structural reasons, none of which more searching will fix:
+
+1. **Small SF bars have stopped publishing hours on the web.** They post them to Instagram Stories, or to their Google Business Profile — a source this project does not cite.
+2. **A large share of legacy SF bar domains have lapsed** and been bought by domain squatters or, worse, redirected to gambling spam (see the list above). Three separate confirmed hijacks turned up in this round alone.
+3. **The genuinely late, genuinely documented venues are already in the dataset.** Round 9 hit eight already-listed venues in a single batch — the hit rate against existing records is now higher than the hit rate against new ones, which is the clearest possible signal of saturation.
+
+Reaching +50 from here would require relaxing one of the standing rules. The three options previously put to the user remain open and none has been adopted unilaterally: extend the radius past 30 minutes (Oakland Uptown, Daly City), admit venues that close at exactly 11:00 PM, or accept a venue's own Instagram bio as an official source when it is the only page the business operates.

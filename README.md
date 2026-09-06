@@ -4,7 +4,7 @@ A clean, source-first GitHub Pages directory for late-night restaurants, bars, a
 
 ## What is included
 
-- 200 San Francisco venue records (verified line-by-line against official venue pages).
+- 207 San Francisco venue records (verified line-by-line against official venue pages).
 - Official venue links for manual review.
 - Officially published address and weekly hours transcribed into a searchable table.
 - Inclusion only when the published venue schedule ends after 11:00 PM on at least one Friday, Saturday, or Sunday. Midnight counts as later than 11 PM.
@@ -13,9 +13,9 @@ A clean, source-first GitHub Pages directory for late-night restaurants, bars, a
 - A visible review queue for kitchen cutoffs, grouped hours, missing opening times, 21+ rules, transit gaps, and other operational details.
 - Venue verification in [`VERIFICATION.md`](VERIFICATION.md) and transit verification in [`TRANSIT_VERIFICATION.md`](TRANSIT_VERIFICATION.md).
 
-This is intentionally a **static, source-linked index**, not a fake live-search service or a claim that every San Francisco business is represented. The current master list is exactly 200 verified records; the site never invents hours or implies that a venue is open right now. Hours and transit service can change, so the official source, SFMTA alerts, and day-of route check are part of the product.
+This is intentionally a **static, source-linked index**, not a fake live-search service or a claim that every San Francisco business is represented. The current master list is exactly 207 verified records; the site never invents hours or implies that a venue is open right now. Hours and transit service can change, so the official source, SFMTA alerts, and day-of route check are part of the product.
 
-**Expansion status (latest round):** the 2026-09-06 pass re-fetched every candidate's live official page and added **26 net-new records** (20 fully verified, 6 verified-with-gap), bringing the list to **200**. The +50 goal was not honestly reachable: dozens of candidates failed the source policy (no venue-controlled domain with published hours, parked/hijacked domains, event-calendar-only schedules, closes at exactly 11:00 PM, duplicates of existing rows, or ordering-platform-only pages). Each rejected candidate is listed, with its reason, in [`VERIFICATION.md`](VERIFICATION.md) — none was backfilled from review sites or memory.
+**Expansion status (latest rounds, 2026-09-06):** rounds 7, 8 and 9 re-fetched every remaining candidate's live official page and added **7 net-new records**, bringing the list to **207**. The repeated +50 goal was not honestly reachable in these rounds: the SF late-night long tail is exhausted at this verification standard. Round 9 screened another 40 domains and produced exactly one accept (Harrington's Bar & Grill) while re-hitting eight venues already in the list — every other name failed one of four checks: it closes at or before 11:00 PM, its domain is dead/parked/hijacked (three confirmed hijacks this round, including one SF bar domain now serving gambling spam), it publishes no hours on any venue-controlled page, or it is a same-name business in another state. Every rejected candidate is listed by name, with its reason, in [`VERIFICATION.md`](VERIFICATION.md) — none was backfilled from review sites or memory.
 
 ## Run locally
 
@@ -35,7 +35,7 @@ Then open <http://localhost:8000>.
 python3 scripts/validate_data.py
 ```
 
-The guardrail checks that there are exactly 200 records, every record has a seven-day schedule, each official source is HTTPS and not a review directory, qualifying days have a late close, every row carries a neighborhood and mapped transit line, and every transit line has an official service window and source quote for the snapshot date.
+The guardrail checks that there are exactly 207 records, every record has a seven-day schedule, each official source is HTTPS and not a review directory, qualifying days have a late close, every row carries a neighborhood and mapped transit line, and every transit line has an official service window and source quote for the snapshot date.
 
 ## GitHub Pages
 
