@@ -1708,3 +1708,52 @@ Sources this round: official venue sites fetched directly; where a site was down
 - **Darts Coffee** — only the Santa Barbara "Dart Coffee" surfaces; no SF location evidence.
 
 Pipeline: `scripts/apply_round.py` merged `round5_records.jsonl` (24) + `round5_records_extra.jsonl` (2); validator expects 160 and passes; 98 clean official matches, 62 documented gaps; 20 transit lines (Sunday 2026-09-06 snapshot) unchanged — every new venue mapped onto already-verified lines, no new line data required this round.
+
+## Round 5b — second sweep (2026-09-06, +14 → 174 records)
+
+Follow-on batch after Round 5's 26, same protocol (1–2 tool calls per candidate; official
+domain first; venue-claimed listings only as corroborated gap rows; midnight = 12:00 AM).
+
+### Newly verified rows
+
+Verified from official, static (server-rendered) text — `verified`:
+
+| id | venue | hours evidence (verbatim, abridged) |
+|---|---|---|
+| ithai | iThai Bangkok Street Food, 720 Post St | ithaisf.com: "Friday – Saturday 5.00 PM–1.00 AM; Sunday – Thursday 5.00 PM–12.00 AM" |
+| family-billiards | Family Billiards, 2807 Geary Blvd | familybilliards-sf.com: "Sunday - Thursday 11:30 AM - Midnight; Friday & Saturday 11:30 AM - 2:00 AM" |
+| hilo-club | Hi-Lo Club, 1423 Polk St | hilosf.com: "open Tuesday - Sunday from 4pm - 12am (2am on Thursdays, Fridays & Saturdays)" |
+| finnegans-wake | Finnegans Wake, 937 Cole St | finneganssf.com: "Mon 11:30am-2:00am … Sun 10:00am-2:00am" (Yelp's Sun-midnight drift flagged) |
+| zekis-bar | Zeki's Bar, 1319 California St | zekisbar.com: "Saturday noon - 2am … Tuesday-Friday 4pm-2am; Mon/Sun to midnight" |
+| chief-sullivans | Chief Sullivan's, 622 Green St | chiefsullivans.com: "Friday 11:30am - 2am / Saturday 10:30am - 2am / Sunday 10:30am - 1am; CLOSED Monday" |
+| beretta | Beretta Valencia, 1199 Valencia St | berettasf.com/location/valencia: "Friday 5PM - 11:30PM Saturday 11AM - 11:30PM"; page-meta says 12am — internal conflict flagged, visible grid used |
+
+Official domain live but hours client-rendered — gap rows (hours from business-managed
+listings, flagged): `paris-75` (515 Broadway, relocated from 2214 Market; Tue–Sat to 2 AM),
+`mythic-pizza` (551 Haight; Fri/Sat to 3 AM), `natoma-cabana` (90 Natoma; 2 PM–2 AM daily),
+`hot-cookie` (407 Castro; Fri/Sat to 2 AM), `the-function` (1414 Market, relocated from
+1707 Harrison; Fri/Sat to 2 AM, event-dependent), `nickies` (466 Haight; Fri/Sat/Sun 2 AM;
+site widget showed midnight — drift flagged), `rockwell` (3200 Fillmore, relocated from
+1130 Folsom; Thu–Sat 9 PM–2 AM).
+
+Re-confirmed: `noc-noc` — nocnocs.com fetched again 2026-09-06; "Fri – Sat 5 pm – 2 am"
+identical to the Round 5 quote; verifiedOn refreshed.
+
+### Excluded this sweep (do not re-mine)
+
+Melt (themelt.com JS-only + SEO mirrors only); Clooney's (1401 Valencia; only a realtor owns the old domain);
+Intl Sports Bar (dead business.site); Hawaii West, Marigold Event Space (mirror-only / event-booking venue);
+The Library 510 O'Farrell, Jaxson 3231 Fillmore, Level2 Karaoke 1504B Fillmore, The Lucky Horseshoe 453 Cortland,
+Shanghai Kelly's 2064 Polk (claimed listings show late closes but no official domain; goto-where/gasland auto-mirrors disallowed);
+Ireland's 32 3920 Geary (irelands32.com is a Van Nuys pub — name collision); Fresco Pizza (ordering-platform page only);
+Stoa Bar (site says only "Open Daily 4pm"; closing time never published); Naked Lunch, Club Deluxe, Edinburgh Castle,
+Uncle Benny's, Monk's Kettle (moved to Oakland), Hog Farm, Beltline, Buster's, Columbus Cafe, La Torita, Tres Caes,
+Tropicle, Ithaka, Vegas Lounge, Durty Nelly's — closed, relocated-nonqualifying, or unresolvable; claimed grids noted in candidates file.
+Hi-Lo and Noc Noc initially looked like new leads; both already had rows (Hi-Lo re-verified above, noc-noc row retained).
+
+### Scorecard vs. the +50 goal
+
+Round 5 + 5b add 40 records (134 → 174). The remaining gap to 184 is attrition, not unmined
+leads: ~30 of the ~44 candidates surfaced in this sweep died on the protocol's own rules
+(no official domain, name collisions, closures, or non-qualifying hours). Candidate file
+scripts/round5_candidates.jsonl carries a final status + reason per entry.
