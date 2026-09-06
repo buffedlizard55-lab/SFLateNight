@@ -1757,3 +1757,84 @@ Round 5 + 5b add 40 records (134 → 174). The remaining gap to 184 is attrition
 leads: ~30 of the ~44 candidates surfaced in this sweep died on the protocol's own rules
 (no official domain, name collisions, closures, or non-qualifying hours). Candidate file
 scripts/round5_candidates.jsonl carries a final status + reason per entry.
+
+---
+
+## Round 6 — 2026-09-06 (Sunday snapshot)
+
+Scope: +26 net-new records (174 → 200), every candidate re-fetched live against its
+venue-controlled page during this pass. Verified wording below is transcribed from the
+official page text captured on 2026-09-06. Two earlier-round exclusions were re-reviewed:
+`columbus-cafe` is now ADMITTED (its official domain columbuscafesf.com is live with printed
+hours); **Fresco Pizza Shawarma stays EXCLUDED** (R5 rule: ordering-platform page only) and
+**Chaat Corner is excluded for the same reason** (Beyond Menu white-label ordering domain).
+
+### Accepted — fully verified on the live official page
+
+| id | venue | hours evidence (verbatim, abridged) |
+|---|---|---|
+| blackthorn-tavern | Blackthorn Tavern, 834 Irving St (Inner Sunset, N) | blackthornsf.com/contact.html: "Hours - M-F 1pm to 2am, Sat Noon to 2am, Sun 10am to 2am (9:30 am to 2am during Football Season)" |
+| the-bitter-end | The Bitter End, 441 Clement St (Richmond, 38) | thebitterendsf.com: "Location 441 Clement Street San Francisco — Hours Mon - Fri 4pm – 2am, Sat + Sun noon – 2am" |
+| club-waziema | Club Waziema, 543 Divisadero St (NoPa, 24/5) | clubwaziemasf.com: "Opening Hours. Dine In or Take Away — Sunday - Monday: closed — Tuesday - Saturday: 6pm - 2am" |
+| horsefeather | Horsefeather, 528 Divisadero St (NoPa, 24/5) | horsefeather.com/sf/book: "HOURS: MONDAY-THURSDAY 2p-12a (kitchen 11:30pm); FRIDAY 2p-2a (kitchen 1:00am); SATURDAY 11a-2a (kitchen 1:00am); SUNDAY 11a-12a (kitchen 11:30pm)" |
+| rock-bar | Rock Bar, 80 29th St (Bernal, 14/24) | rockbarsf.com: "open Mon-Thu 4pm-12am, Fri-Sat 4pm-2am, Sun 10am-12am" |
+| tony-niks | Tony Nik's Cafe, 1534 Stockton St (North Beach, 30/45) | tonyniks.com/contact/: "Mon-Thurs: 4PM-1AM — Fridays: 3PM-2AM — Saturday: 2PM-2AM — Sunday: 2PM-1AM" |
+| tommys-joynt | Tommy's Joynt, 1101 Geary Blvd (Van Ness, 38/49) | tommysjoynt.com: "Sun & Mon 12 – 8 PM; Tue & Wed 12 – 9 PM; Thu & Fri 12 Noon – 12 Midnight; Saturday 1 PM – 12 Midnight" |
+| the-deluxe | The Deluxe, 1511 Haight St (Haight, 7/43) | thedeluxesf.com: "Mon-Thu 6:00 p.m. – 11:00 p.m. — Fri & Sat 5:00 p.m. – 1:00 a.m. — Sun 2:30 p.m. – 10:00 p.m." |
+| temple-sf | Temple SF, 540 Howard St (SoMa, 12/14) | templesf.com: "Hours — Friday: 10:00 pm - 2:00 am; Saturday: 10:00 pm - 2:00 am; Sundays: Please check Calendar" |
+| true-laurel | True Laurel, 753 Alabama St (Mission, 33/14) | truelaurelsf.com: "open: tues/wed: 4pm-10pm, thursday: 4pm-11pm, friday: 4pm-midnight, saturday: 11am-midnight, sunday: 11am-10pm" |
+| woods-lowside | Woods Lowside, 530 Haight St (Lower Haight, 7) | woodsbeer.com/lowside: "BAR Hours — Monday - Wednesday: 5pm to 11pm; Thursday: 5pm to 11pm; Friday: 4pm to 12am; Saturday: 1pm to 12am; Sunday: 1pm to 10pm" |
+| standard-deviant | Standard Deviant Brewing, 280 14th St (Mission, 14) | standarddeviantbrewing.com/28014thst: "Tuesday 4-9pm; Wednesday 4-10pm; Thursday 4-10pm; Friday 3pm-12am; Saturday 12pm-12am; Sunday 10am-9pm" |
+| hotel-utah-saloon | Hotel Utah Saloon, 500 4th St (SoMa, 12) | hotelutah.com: "Open Daily at 11:00 AM — bar open until midnight (or later on show nights) — Kitchen hours 11:00AM to 11PM" |
+| the-edge | The Edge, 4149 18th St (Castro, 24) | edgesf.com: "Mon: 2pm-2am; Tues: 2pm-1am; Wed: 2pm-2am; Thurs: 2pm-1am; Fri: 2pm-2am; Sat-Sun: 12pm-2am" |
+| hole-in-the-wall-saloon | Hole in the Wall Saloon, 1369 Folsom St (SoMa, 12) | blackwolfmetal.com (venue-controlled): "1369 Folsom Street, SF — Open MON > FRI 2pm 'til 2am SAT + SUN > noon 'til 2am" |
+| columbus-cafe | Columbus Cafe, 562 Green St (North Beach, 30/45) | columbuscafesf.com: "Hours — Monday–Friday 2 PM–2 AM; Saturday–Sunday 12 PM–2 AM — Open 365 days a year." |
+| jolenes | Jolene's, 2700 16th St (Mission, 22/14) | jolenessf.com/hours: "HOURS thursday 7pm - 2am, friday 7pm - 2am, saturday 7pm - 2am — location 2700 16th st. san francisco, ca 94103" |
+| kaiyo-rooftop | Kaiyō Rooftop, 701 3rd St Fl 12 (SoMa, T) | kaiyosf.com/rooftop: "Monday 4:00PM - 10:00PM … Friday 4:00PM – 1:00AM Saturday 11:00AM – 1:00AM Sunday 11:00AM – 10:00PM" |
+| woods-polk-station | Woods Polk Station, 2255 Polk St (Polk Gulch, 19/49) | woodsbeer.com/polk-station: "Hours — Monday - Thursday 4pm to 10pm; Friday - Saturday 1pm to 12am; Sunday 1pm to 8pm" |
+
+### Accepted — verified-with-gap (venue-controlled domain live; partial page evidence, flagged)
+
+| id | venue | gap |
+|---|---|---|
+| wild-side-west | Wild Side West, 424 Cortland Ave (Bernal, 24) | Page prints the single window "Open from 2PM - 2AM" with no per-day breakdown. |
+| richmond-republic | Richmond Republic, 642 Clement St (Richmond, 38) | Live Wix page renders no plain-text weekly grid; Fri/Sat midnight close taken from the official-domain indexed hours snippet. |
+| the-knockout | The Knockout, 3223 Mission St (Mission, 14) | Homepage event grid is stale (Sept 2023); daily 6pm–2am hours from the official-domain indexed snippet. |
+| beauty-bar-sf | Beauty Bar, 2299 Mission St (Mission, 14) | beautybarsf.com live but image-only; "Open Daily 2 pm - 2 am" from the official-domain indexed text. |
+| brixton | The Brixton, 2140 Union St (Cow Hollow / Union, 45) | Weekly grid only in the domain's JSON-LD (Su 10:00-22:00; Tu/We 16:00-22:00; Th 16:00-00:00; Fr 16:00-01:30; Sa 10:00-01:30); TripAdvisor's ~10 PM dinner grid conflicts — structured data used, flagged. |
+| mcteagues | McTeague's, 1237 Polk St (Polk Gulch, 19/49) | Hours printed on sfmcteagues.com ("Tuesday – Friday 12 pm – 2 am; Saturday – Sunday 7 am – 2 am; Mondays: Open Monday during World Cup"), but the street address is NOT printed on the site; 1237 Polk corroborated via the venue's linked listings — flagged. |
+| barbarossa | Barbarossa Lounge, 714 Montgomery St (FiDi/North Beach, 30/45) | Same official page carries two weekend closes: card "Late Night Fri-Sat 8PM-2AM" vs body "open till 12:30am Thu-Sat" — conflict flagged verbatim; both clear the threshold. |
+
+### Manual-review flags raised this round
+
+- `the-deluxe` — official page prints ZIP "94107" for 1511 Haight St; correct ZIP is 94117 (page typo).
+- `hotel-utah-saloon` — close is "midnight (or later on show nights)"; the later close is show-dependent.
+- `hole-in-the-wall-saloon` — venue page is hosted on the owner's metalwork domain (blackwolfmetal.com); content is the bar's own.
+- `barbarossa`, `brixton` — internal/source conflicts captured verbatim above rather than resolved by guessing.
+- Hijacked/lapsed domains observed this round (do NOT link): 500clubsf.com (500 Club → Indonesian togel page), goldcanesf.com (Gold Cane → Australian builder blog), clubcocomo.com (Club Cocomo → domain for sale; venue presumed closed), clubwaziema.com (lapsed; current official is clubwaziemasf.com).
+
+### Excluded this round (fresh rejections; do not re-mine)
+
+- 540 Bar (540 Clement) — already in the list as `bar-540`; near-duplicate lead closed.
+- Fresco Pizza Shawarma (1338 Polk; daily 8 AM–5/5:30 AM) — ordering-platform page only (R5 precedent repeated).
+- Chaat Corner (320 3rd; Fri→2 AM) — Beyond Menu white-label ordering domain only (same precedent).
+- Toyose (3814 Noriega) — official Wix page carries menu/address but NO hours text.
+- Bite (912 Sutter; daily→2 AM per listings) — venue's GoDaddy site has no hours text.
+- Woods Outbound (Fri/Sat→11 PM) and Woods Cole Valley-side check — close at exactly 11:00 PM, fails threshold.
+- Woods Sunset Reservoir — domain fetch failed during sweep.
+- Sushi Hon (2598 Harrison) — closes 11:00 PM, fails threshold.
+- El Techo de Lolinda (2518 Mission) — no venue-controlled page with weekly hours (third-party close ~midnight unadopted).
+- Thee Parkside (1600 17th) — published grids top out at midnight and lack a venue-controlled weekly text; excluded.
+- Red's Place (672 Jackson; Fri/Sat→1:30 AM), Buddha Lounge (901 Grant; Fri/Sat→2 AM), Club Waziema's old lapsed domain — no venue-controlled source found.
+- Grant & Green Saloon (1371 Grant) — venue closed; the 1401 Grant "Grant & Green Market" listing is a different business (name collision avoided).
+- Club Cocomo (650 Indiana) — domain expired/for sale.
+- Earlier sweep rejects still binding: 500 Club (jacked domain), Gold Cane (jacked), Union Street Ale House (site error), The Homestead (521), Thieves Tavern/Stray Bar/Trax/Philosopher's Club/Jasper's Corner/Cinch/Sam Wo/Yuet Lee/Bar 821 (fetch or 500/521 failures), F8 + Mr. Tipple's + The Stud pattern (event-calendar only, no weekly published close), Lucky Horseshoe & Chubby Noodle (official pages with no hours text), Dark Horse Inn (pop-up-only, no fixed SF address), Zeke's Diamond Bar 600 3rd / Edinburgh Castle / Rasselas / Broken Record (closed), Molotov's & The Bell Tower (no official site).
+
+### Scorecard vs. the +50 goal
+
+Round 6 adds 26 (174 → 200). The remaining gap to the goal again reflects the source
+policy, not missing effort: of ~60 fresh candidates re-screened this round, 34 failed on
+closures, domain hijacking/lapse, exactly-11:00 PM closes, event-only schedules, missing
+official hours text, ordering-platform-only pages, or an existing row. Nothing was
+backfilled from Yelp/Google/Wanderlog; those listings were used only as leads and
+corroboration markers, never as the row's source.
