@@ -4,8 +4,8 @@
     "origin": "21st Ave & Judah St, San Francisco, CA 94122",
     "threshold": "Open past 11:00 PM on Friday, Saturday, or Sunday",
     "verifiedOn": "2026-09-05",
-    "recordCount": 68,
-    "scopeNote": "Static, source-linked directory of 68 verified records. It does not claim every San Francisco business is open or available; expand the master list only after a line-by-line source check.",
+    "recordCount": 110,
+    "scopeNote": "Static, source-linked directory of 110 verified records. It does not claim every San Francisco business is open or available; expand the master list only after a line-by-line source check.",
     "transitNote": "Transit labels are screening notes, not turn-by-turn directions. Use the live route link and check SFMTA/BART service before leaving.",
     "planningSources": [
       {
@@ -51,7 +51,7 @@
           "scheduleUrl": "https://www.sfmta.com/routes/schedule/5?direction_id=0&service_id=2&date=20260905",
           "todayWindow": "24 hours daily",
           "todayFrequency": "Saturday: 7 min morning and midday; 12 min evening; 20 min late night; Owl 30 min.",
-          "nightCoverage": "SFMTA says weekend service runs Ocean Beach–Downtown 5 AM–midnight, with 5 Owl from midnight–5 AM.",
+          "nightCoverage": "SFMTA says weekend service runs Ocean Beach\u2013Downtown 5 AM\u2013midnight, with 5 Owl from midnight\u20135 AM.",
           "sourceQuote": "SFMTA lists 5 Fulton as 24 hours daily. The weekend frequency row lists 7 minutes morning and midday, 12 minutes evening, 20 minutes late night, and 30-minute Owl service.",
           "checkedOn": "2026-09-05"
         },
@@ -97,10 +97,10 @@
           "mode": "Muni bus",
           "routeUrl": "https://www.sfmta.com/routes/30-stockton",
           "scheduleUrl": "https://www.sfmta.com/routes/schedule/30?direction_id=0&service_id=2&date=20260905",
-          "todayWindow": "6:00 AM–12:00 AM on weekends",
+          "todayWindow": "6:00 AM\u201312:00 AM on weekends",
           "todayFrequency": "Saturday long route: 20 min morning; 15 min midday and evening; 20 min late night. Short route differs.",
           "nightCoverage": "SFMTA points riders to 91 Owl for overnight service.",
-          "sourceQuote": "SFMTA lists 30 Stockton as weekdays 5 AM–12 AM and weekends 6 AM–12 AM. The weekend long-route frequency row lists 20, 15, 15, and 20 minutes across the service periods.",
+          "sourceQuote": "SFMTA lists 30 Stockton as weekdays 5 AM\u201312 AM and weekends 6 AM\u201312 AM. The weekend long-route frequency row lists 20, 15, 15, and 20 minutes across the service periods.",
           "checkedOn": "2026-09-05"
         },
         {
@@ -109,10 +109,10 @@
           "mode": "Muni bus",
           "routeUrl": "https://www.sfmta.com/routes/33-ashbury18th-street",
           "scheduleUrl": "https://www.sfmta.com/routes/schedule/33?direction_id=0&service_id=2&date=20260905",
-          "todayWindow": "5:00 AM–10:00 PM daily",
+          "todayWindow": "5:00 AM\u201310:00 PM daily",
           "todayFrequency": "Saturday: 30 min morning; 20 min midday and evening; no late-night or Owl service listed.",
           "nightCoverage": "No late-night service is listed on the official route page; do not use it as the return leg after 10 PM.",
-          "sourceQuote": "SFMTA lists 33 Ashbury/18th Street as 5 AM–10 PM daily. Its weekend row lists 30 minutes morning, 20 minutes midday and evening, and no late-night or Owl service.",
+          "sourceQuote": "SFMTA lists 33 Ashbury/18th Street as 5 AM\u201310 PM daily. Its weekend row lists 30 minutes morning, 20 minutes midday and evening, and no late-night or Owl service.",
           "checkedOn": "2026-09-05"
         },
         {
@@ -133,10 +133,10 @@
           "mode": "Muni bus",
           "routeUrl": "https://www.sfmta.com/routes/49-van-nessmission",
           "scheduleUrl": "https://www.sfmta.com/routes/schedule/49?direction_id=0&service_id=2&date=20260905",
-          "todayWindow": "5:00 AM–12:00 AM daily",
+          "todayWindow": "5:00 AM\u201312:00 AM daily",
           "todayFrequency": "Saturday: 8 min morning, midday, and evening; 13 min late night.",
           "nightCoverage": "SFMTA lists Owl alternatives 14 and 90; the 49 itself is not listed as an Owl route.",
-          "sourceQuote": "SFMTA lists 49 Van Ness/Mission as 5 AM–12 AM daily. Its weekend frequency row lists 8 minutes morning, midday, and evening, and 13 minutes late night.",
+          "sourceQuote": "SFMTA lists 49 Van Ness/Mission as 5 AM\u201312 AM daily. Its weekend frequency row lists 8 minutes morning, midday, and evening, and 13 minutes late night.",
           "checkedOn": "2026-09-05"
         },
         {
@@ -145,10 +145,10 @@
           "mode": "Muni Metro",
           "routeUrl": "https://www.sfmta.com/routes/t-third-street",
           "scheduleUrl": "https://www.sfmta.com/routes/schedule/T?direction_id=0&service_id=2&date=20260905",
-          "todayWindow": "8:00 AM–12:00 AM on weekends",
+          "todayWindow": "8:00 AM\u201312:00 AM on weekends",
           "todayFrequency": "Saturday: 12 min morning, midday, and evening; 20 min late night; Owl 30 min.",
-          "nightCoverage": "For the early morning gap, SFMTA points to the T Bus and 91 Owl; T Bus has weekend 5–8 AM service plus late-night northbound trips.",
-          "sourceQuote": "SFMTA lists T Third Street as weekdays 6 AM–12 AM and weekends 8 AM–12 AM. Its weekend frequency row lists 12 minutes morning, midday, and evening, 20 minutes late night, and 91 Owl service.",
+          "nightCoverage": "For the early morning gap, SFMTA points to the T Bus and 91 Owl; T Bus has weekend 5\u20138 AM service plus late-night northbound trips.",
+          "sourceQuote": "SFMTA lists T Third Street as weekdays 6 AM\u201312 AM and weekends 8 AM\u201312 AM. Its weekend frequency row lists 12 minutes morning, midday, and evening, 20 minutes late night, and 91 Owl service.",
           "checkedOn": "2026-09-05"
         },
         {
@@ -157,10 +157,10 @@
           "mode": "Muni Owl bus",
           "routeUrl": "https://www.sfmta.com/routes/91-3rd-street19th-avenue-owl",
           "scheduleUrl": "https://www.sfmta.com/routes/schedule/91?direction_id=0&service_id=2&date=20260905",
-          "todayWindow": "12:00 AM–5:00 AM nightly",
+          "todayWindow": "12:00 AM\u20135:00 AM nightly",
           "todayFrequency": "Saturday: 30 min late night / Owl.",
           "nightCoverage": "This is the overnight alternative listed from the T and 30 route pages.",
-          "sourceQuote": "SFMTA lists 91 3rd Street/19th Avenue Owl as 12 AM–5 AM nightly, with 30-minute weekend late-night and Owl service.",
+          "sourceQuote": "SFMTA lists 91 3rd Street/19th Avenue Owl as 12 AM\u20135 AM nightly, with 30-minute weekend late-night and Owl service.",
           "checkedOn": "2026-09-05"
         },
         {
@@ -217,7 +217,7 @@
           "mode": "Muni bus",
           "routeUrl": "https://www.sfmta.com/routes/1-california",
           "scheduleUrl": "https://www.sfmta.com/routes/schedule/1?direction_id=0&service_id=2&date=20260905",
-          "todayWindow": "5:00 AM–12:00 AM daily",
+          "todayWindow": "5:00 AM\u201312:00 AM daily",
           "todayFrequency": "Saturday: 10 min morning, midday, and evening west and east of Presidio Ave; 15 min late night. No Owl listed.",
           "nightCoverage": "No Owl service is listed on the route page; use the 38 Geary or 90 Owl after midnight.",
           "sourceQuote": "SFMTA lists 1 California as \"5 a.m. - 12 a.m. daily\". Its weekend rows list 10 minutes morning, midday, and evening and 15 minutes late night, with no Owl service.",
@@ -229,7 +229,7 @@
           "mode": "Muni bus",
           "routeUrl": "https://www.sfmta.com/routes/6-hayesparnassus",
           "scheduleUrl": "https://www.sfmta.com/routes/schedule/6?direction_id=0&service_id=2&date=20260905",
-          "todayWindow": "5:00 AM–12:00 AM daily",
+          "todayWindow": "5:00 AM\u201312:00 AM daily",
           "todayFrequency": "Saturday: 20 min morning, midday, evening, and late night. No Owl listed.",
           "nightCoverage": "No Owl service is listed; SFMTA shows service ending at midnight on weekends.",
           "sourceQuote": "SFMTA lists 6 Hayes/Parnassus as \"Weekdays 5 a.m. - 12 a.m.; Weekends 5 a.m. - 12 a.m.\" Its weekend row lists 20 minutes across morning, midday, evening, and late night with no Owl.",
@@ -241,7 +241,7 @@
           "mode": "Muni bus",
           "routeUrl": "https://www.sfmta.com/routes/8-bayshore",
           "scheduleUrl": "https://www.sfmta.com/routes/schedule/8?direction_id=0&service_id=2&date=20260905",
-          "todayWindow": "5:00 AM–12:00 AM daily",
+          "todayWindow": "5:00 AM\u201312:00 AM daily",
           "todayFrequency": "Saturday: 10 min morning; 7 min midday; 8 min evening; 15 min late night. No Owl listed.",
           "nightCoverage": "No Owl service is listed; the 90 San Bruno Owl covers part of the corridor overnight.",
           "sourceQuote": "SFMTA lists 8 Bayshore as \"5 a.m. - 12 a.m. daily\". Its weekend row lists 10 minutes morning, 7 minutes midday, 8 minutes evening, and 15 minutes late night, with no Owl.",
@@ -253,7 +253,7 @@
           "mode": "Muni bus",
           "routeUrl": "https://www.sfmta.com/routes/45-unionstockton",
           "scheduleUrl": "https://www.sfmta.com/routes/schedule/45?direction_id=0&service_id=2&date=20260905",
-          "todayWindow": "5:00 AM–10:00 PM daily",
+          "todayWindow": "5:00 AM\u201310:00 PM daily",
           "todayFrequency": "Saturday: 15 min morning, midday, and evening; no late-night or Owl service listed.",
           "nightCoverage": "Service ends at 10 PM; this line cannot be used as a late-night return leg.",
           "sourceQuote": "SFMTA lists 45 Union/Stockton as \"5 a.m. - 10 p.m. daily\". Its weekend row lists 15 minutes morning, midday, and evening with no late-night or Owl service.",
@@ -265,7 +265,7 @@
           "mode": "Muni Owl bus",
           "routeUrl": "https://www.sfmta.com/routes/90-san-bruno-owl",
           "scheduleUrl": "https://www.sfmta.com/routes/schedule/90?direction_id=0&service_id=2&date=20260905",
-          "todayWindow": "12:00 AM–5:00 AM nightly",
+          "todayWindow": "12:00 AM\u20135:00 AM nightly",
           "todayFrequency": "Saturday: 30 min late night and Owl.",
           "nightCoverage": "Overnight Owl route through SoMa, Van Ness, and the Mission listed by SFMTA.",
           "sourceQuote": "SFMTA lists 90 San Bruno Owl as \"12 a.m. - 5 a.m. nightly\", with 30-minute weekend late-night and Owl service.",
@@ -277,7 +277,7 @@
       {
         "id": "mission",
         "label": "Mission",
-        "description": "Mission Street, Valencia, and 16th–24th Street cluster."
+        "description": "Mission Street, Valencia, and 16th\u201324th Street cluster."
       },
       {
         "id": "castro-upper-market",
@@ -400,13 +400,13 @@
       "address": "616 Divisadero St, San Francisco, CA 94117",
       "officialUrl": "https://www.emporiumarcadebar.com/locations/san-francisco/",
       "hours": {
-        "Monday": "4:00 PM–2:00 AM",
-        "Tuesday": "4:00 PM–2:00 AM",
-        "Wednesday": "4:00 PM–2:00 AM",
-        "Thursday": "4:00 PM–2:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "2:00 PM–2:00 AM",
-        "Sunday": "2:00 PM–2:00 AM"
+        "Monday": "4:00 PM\u20132:00 AM",
+        "Tuesday": "4:00 PM\u20132:00 AM",
+        "Wednesday": "4:00 PM\u20132:00 AM",
+        "Thursday": "4:00 PM\u20132:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "2:00 PM\u20132:00 AM",
+        "Sunday": "2:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -450,13 +450,13 @@
       "address": "199 Valencia St, San Francisco, CA 94103",
       "officialUrl": "https://www.zeitgeistsf.com/",
       "hours": {
-        "Monday": "2:00 PM–11:00 PM",
-        "Tuesday": "2:00 PM–11:00 PM",
-        "Wednesday": "2:00 PM–11:00 PM",
-        "Thursday": "2:00 PM–12:00 AM",
-        "Friday": "2:00 PM–1:00 AM",
-        "Saturday": "12:00 PM–1:00 AM",
-        "Sunday": "11:00 AM–9:30 PM"
+        "Monday": "2:00 PM\u201311:00 PM",
+        "Tuesday": "2:00 PM\u201311:00 PM",
+        "Wednesday": "2:00 PM\u201311:00 PM",
+        "Thursday": "2:00 PM\u201312:00 AM",
+        "Friday": "2:00 PM\u20131:00 AM",
+        "Saturday": "12:00 PM\u20131:00 AM",
+        "Sunday": "11:00 AM\u20139:30 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -483,7 +483,7 @@
       "source": {
         "label": "Official venue home page",
         "url": "https://www.zeitgeistsf.com/",
-        "quote": "Zeitgeist is a German Beergarden ... located at 199 Valencia Street, San Francisco, CA 94103. Mon 2 PM–11 PM; Tues 2 PM–11 PM; Wed 2 PM–11 PM; Thurs 2 PM–12 AM; Fri 2 PM–1 AM; Sat 12 PM–1 AM; Sun 11 AM–9:30 PM."
+        "quote": "Zeitgeist is a German Beergarden ... located at 199 Valencia Street, San Francisco, CA 94103. Mon 2 PM\u201311 PM; Tues 2 PM\u201311 PM; Wed 2 PM\u201311 PM; Thurs 2 PM\u201312 AM; Fri 2 PM\u20131 AM; Sat 12 PM\u20131 AM; Sun 11 AM\u20139:30 PM."
       },
       "flags": [
         "Kitchen closes one hour before the bar; the late-night match is for the venue/bar, not the kitchen."
@@ -504,12 +504,12 @@
       "officialUrl": "https://www.makeoutroom.com/contact.html",
       "hours": {
         "Monday": "Closed",
-        "Tuesday": "6:00 PM–2:00 AM",
-        "Wednesday": "6:00 PM–2:00 AM",
-        "Thursday": "6:00 PM–2:00 AM",
-        "Friday": "6:00 PM–2:00 AM",
-        "Saturday": "6:00 PM–2:00 AM",
-        "Sunday": "6:00 PM–2:00 AM"
+        "Tuesday": "6:00 PM\u20132:00 AM",
+        "Wednesday": "6:00 PM\u20132:00 AM",
+        "Thursday": "6:00 PM\u20132:00 AM",
+        "Friday": "6:00 PM\u20132:00 AM",
+        "Saturday": "6:00 PM\u20132:00 AM",
+        "Sunday": "6:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -537,7 +537,7 @@
       "source": {
         "label": "Official contact and directions page",
         "url": "https://www.makeoutroom.com/contact.html",
-        "quote": "MAKE OUT ROOM, 3225 22nd Street @ Mission, San Francisco, California 94110. OPEN 6pm–2am Tuesday–Saturday; 6pm–2am Sunday (plus occasional matinee shows Noon–5pm); Closed Monday. Walking: BART 24th & Mission Street Station; #49 & #14 Mission buses stop on Mission at 22nd Street."
+        "quote": "MAKE OUT ROOM, 3225 22nd Street @ Mission, San Francisco, California 94110. OPEN 6pm\u20132am Tuesday\u2013Saturday; 6pm\u20132am Sunday (plus occasional matinee shows Noon\u20135pm); Closed Monday. Walking: BART 24th & Mission Street Station; #49 & #14 Mission buses stop on Mission at 22nd Street."
       },
       "flags": [
         "Strictly 21+; occasional matinees are separately noted by the venue."
@@ -557,13 +557,13 @@
       "address": "12 William Saroyan Place, San Francisco, CA 94133",
       "officialUrl": "https://www.specsbarsf.com/",
       "hours": {
-        "Monday": "4:00 PM–1:00 AM",
-        "Tuesday": "4:00 PM–1:00 AM",
-        "Wednesday": "4:00 PM–1:00 AM",
-        "Thursday": "4:00 PM–2:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "4:00 PM–2:00 AM",
-        "Sunday": "4:00 PM–1:00 AM"
+        "Monday": "4:00 PM\u20131:00 AM",
+        "Tuesday": "4:00 PM\u20131:00 AM",
+        "Wednesday": "4:00 PM\u20131:00 AM",
+        "Thursday": "4:00 PM\u20132:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "4:00 PM\u20132:00 AM",
+        "Sunday": "4:00 PM\u20131:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -586,7 +586,7 @@
       "source": {
         "label": "Official venue home page",
         "url": "https://www.specsbarsf.com/",
-        "quote": "Welcome to Specs’ Twelve Adler Museum Cafe ... in North Beach, SF since 1968! Open Sun-Wed 4pm-1am, Thurs-Sat 4pm-2am. Specs’ Twelve Adler Museum Cafe, 12 William Saroyan Place, San Francisco, CA 94133."
+        "quote": "Welcome to Specs\u2019 Twelve Adler Museum Cafe ... in North Beach, SF since 1968! Open Sun-Wed 4pm-1am, Thurs-Sat 4pm-2am. Specs\u2019 Twelve Adler Museum Cafe, 12 William Saroyan Place, San Francisco, CA 94133."
       },
       "flags": [
         "North Beach location is in a pedestrian-heavy area; check the return transit plan before going late."
@@ -606,13 +606,13 @@
       "address": "2351 Mission St, San Francisco, CA 94110",
       "officialUrl": "https://casementsbar.com/",
       "hours": {
-        "Monday": "4:00 PM–2:00 AM",
-        "Tuesday": "4:00 PM–2:00 AM",
-        "Wednesday": "4:00 PM–2:00 AM",
-        "Thursday": "4:00 PM–2:00 AM",
-        "Friday": "3:00 PM–2:00 AM",
-        "Saturday": "2:00 PM–2:00 AM",
-        "Sunday": "2:00 PM–2:00 AM"
+        "Monday": "4:00 PM\u20132:00 AM",
+        "Tuesday": "4:00 PM\u20132:00 AM",
+        "Wednesday": "4:00 PM\u20132:00 AM",
+        "Thursday": "4:00 PM\u20132:00 AM",
+        "Friday": "3:00 PM\u20132:00 AM",
+        "Saturday": "2:00 PM\u20132:00 AM",
+        "Sunday": "2:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -640,10 +640,10 @@
       "source": {
         "label": "Official Casements location and hours",
         "url": "https://casementsbar.com/",
-        "quote": "Casements Bar, 2351 Mission Street, San Francisco, CA 94110. Mon 4pm–2am; Tue 4pm–2am; Wed 4pm–2am; Thu 4pm–2am; Fri 3pm–2am; Sat 2pm–2am; Sun 2pm–2am."
+        "quote": "Casements Bar, 2351 Mission Street, San Francisco, CA 94110. Mon 4pm\u20132am; Tue 4pm\u20132am; Wed 4pm\u20132am; Thu 4pm\u20132am; Fri 3pm\u20132am; Sat 2pm\u20132am; Sun 2pm\u20132am."
       },
       "flags": [
-        "Food service is earlier than the bar: the official menu page says kitchen until 9 PM Monday–Saturday and 8 PM Sunday."
+        "Food service is earlier than the bar: the official menu page says kitchen until 9 PM Monday\u2013Saturday and 8 PM Sunday."
       ],
       "verification": {
         "status": "verified",
@@ -660,13 +660,13 @@
       "address": "1942 Market St, San Francisco, CA 94102",
       "officialUrl": "https://themint.net/",
       "hours": {
-        "Monday": "5:00 PM–2:00 AM",
+        "Monday": "5:00 PM\u20132:00 AM",
         "Tuesday": "Private events only",
-        "Wednesday": "5:00 PM–2:00 AM",
-        "Thursday": "5:00 PM–2:00 AM",
-        "Friday": "5:00 PM–2:00 AM",
-        "Saturday": "4:00 PM–2:00 AM",
-        "Sunday": "4:00 PM–2:00 AM"
+        "Wednesday": "5:00 PM\u20132:00 AM",
+        "Thursday": "5:00 PM\u20132:00 AM",
+        "Friday": "5:00 PM\u20132:00 AM",
+        "Saturday": "4:00 PM\u20132:00 AM",
+        "Sunday": "4:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -710,13 +710,13 @@
       "address": "225 Church St, San Francisco, CA 94114",
       "officialUrl": "https://www.pilsnerinn.com/",
       "hours": {
-        "Monday": "1:00 PM–2:00 AM",
-        "Tuesday": "1:00 PM–2:00 AM",
-        "Wednesday": "1:00 PM–2:00 AM",
-        "Thursday": "1:00 PM–2:00 AM",
-        "Friday": "12:00 PM–2:00 AM",
-        "Saturday": "12:00 PM–2:00 AM",
-        "Sunday": "12:00 PM–2:00 AM"
+        "Monday": "1:00 PM\u20132:00 AM",
+        "Tuesday": "1:00 PM\u20132:00 AM",
+        "Wednesday": "1:00 PM\u20132:00 AM",
+        "Thursday": "1:00 PM\u20132:00 AM",
+        "Friday": "12:00 PM\u20132:00 AM",
+        "Saturday": "12:00 PM\u20132:00 AM",
+        "Sunday": "12:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -740,7 +740,7 @@
       "source": {
         "label": "Official site and location page",
         "url": "https://www.pilsnerinn.com/location",
-        "quote": "225 Church Street, San Francisco, CA 94114. The official location listing states 1:00p–2:00a Monday–Thursday and 12:00p–2:00a Friday–Sunday; the current home page also states open until 2AM."
+        "quote": "225 Church Street, San Francisco, CA 94114. The official location listing states 1:00p\u20132:00a Monday\u2013Thursday and 12:00p\u20132:00a Friday\u2013Sunday; the current home page also states open until 2AM."
       },
       "flags": [
         "The current home page emphasizes the closing time rather than repeating the full weekly table; the location-page schedule is retained here for review."
@@ -760,13 +760,13 @@
       "address": "4067 18th St, San Francisco, CA 94114",
       "officialUrl": "https://www.midnightsunsf.com/",
       "hours": {
-        "Monday": "2:00 PM–12:00 AM",
-        "Tuesday": "2:00 PM–12:00 AM",
-        "Wednesday": "2:00 PM–12:00 AM",
-        "Thursday": "2:00 PM–2:00 AM",
-        "Friday": "2:00 PM–2:00 AM",
-        "Saturday": "12:30 PM–2:00 AM",
-        "Sunday": "1:00 PM–12:00 AM"
+        "Monday": "2:00 PM\u201312:00 AM",
+        "Tuesday": "2:00 PM\u201312:00 AM",
+        "Wednesday": "2:00 PM\u201312:00 AM",
+        "Thursday": "2:00 PM\u20132:00 AM",
+        "Friday": "2:00 PM\u20132:00 AM",
+        "Saturday": "12:30 PM\u20132:00 AM",
+        "Sunday": "1:00 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -790,7 +790,7 @@
       "source": {
         "label": "Official venue home page",
         "url": "https://www.midnightsunsf.com/",
-        "quote": "Midnight Sun ... current location ... 4067 18th Street, San Francisco, CA 94114. Opening Hours: Thu–Fri 2pm–2am; Sat 12:30pm–2am; Sun 1pm–12am; Mon–Wed 2pm–12am."
+        "quote": "Midnight Sun ... current location ... 4067 18th Street, San Francisco, CA 94114. Opening Hours: Thu\u2013Fri 2pm\u20132am; Sat 12:30pm\u20132am; Sun 1pm\u201312am; Mon\u2013Wed 2pm\u201312am."
       },
       "flags": [
         "Sunday closes at midnight; midnight is included because it is later than the requested 11 PM threshold."
@@ -810,13 +810,13 @@
       "address": "679 3rd St, San Francisco, CA 94107",
       "officialUrl": "https://alchemistsf.com/",
       "hours": {
-        "Monday": "4:30 PM–11:00 PM",
-        "Tuesday": "4:30 PM–11:00 PM",
-        "Wednesday": "4:30 PM–11:00 PM",
-        "Thursday": "4:30 PM–2:00 AM",
-        "Friday": "4:30 PM–2:00 AM",
-        "Saturday": "5:00 PM–2:00 AM",
-        "Sunday": "5:00 PM–11:00 PM"
+        "Monday": "4:30 PM\u201311:00 PM",
+        "Tuesday": "4:30 PM\u201311:00 PM",
+        "Wednesday": "4:30 PM\u201311:00 PM",
+        "Thursday": "4:30 PM\u20132:00 AM",
+        "Friday": "4:30 PM\u20132:00 AM",
+        "Saturday": "5:00 PM\u20132:00 AM",
+        "Sunday": "5:00 PM\u201311:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -839,7 +839,7 @@
       "source": {
         "label": "Official home and contact pages",
         "url": "https://alchemistsf.com/",
-        "quote": "Find Us: 679 3rd Street, San Francisco, CA 94107. Open hours: Mon 4:30pm–11pm; Tues 4:30pm–11pm; Wed 4:30pm–11pm; Thurs 4:30pm–2am; Fri 4:30pm–2am; Sat 5pm–2am; Sun 5pm–11pm."
+        "quote": "Find Us: 679 3rd Street, San Francisco, CA 94107. Open hours: Mon 4:30pm\u201311pm; Tues 4:30pm\u201311pm; Wed 4:30pm\u201311pm; Thurs 4:30pm\u20132am; Fri 4:30pm\u20132am; Sat 5pm\u20132am; Sun 5pm\u201311pm."
       },
       "flags": [
         "Sunday closes at 11 PM exactly and therefore is not counted; Friday and Saturday qualify."
@@ -859,13 +859,13 @@
       "address": "601 Post St at Taylor, San Francisco, CA 94109",
       "officialUrl": "https://www.owltreesf.com/contact-us",
       "hours": {
-        "Monday": "6:00 PM–2:00 AM",
-        "Tuesday": "4:00 PM–2:00 AM",
-        "Wednesday": "4:00 PM–2:00 AM",
-        "Thursday": "4:00 PM–2:00 AM",
-        "Friday": "3:00 PM–2:00 AM",
-        "Saturday": "3:00 PM–2:00 AM",
-        "Sunday": "6:00 PM–2:00 AM"
+        "Monday": "6:00 PM\u20132:00 AM",
+        "Tuesday": "4:00 PM\u20132:00 AM",
+        "Wednesday": "4:00 PM\u20132:00 AM",
+        "Thursday": "4:00 PM\u20132:00 AM",
+        "Friday": "3:00 PM\u20132:00 AM",
+        "Saturday": "3:00 PM\u20132:00 AM",
+        "Sunday": "6:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -893,7 +893,7 @@
       "source": {
         "label": "Official contact page",
         "url": "https://www.owltreesf.com/contact-us",
-        "quote": "Hours: Sun–Mon, 6pm–2am; Tue–Thurs, 4pm–2am; Fri–Sat, 3pm–2am. Address: 601 Post Street (@ Taylor), San Francisco, CA 94109."
+        "quote": "Hours: Sun\u2013Mon, 6pm\u20132am; Tue\u2013Thurs, 4pm\u20132am; Fri\u2013Sat, 3pm\u20132am. Address: 601 Post Street (@ Taylor), San Francisco, CA 94109."
       },
       "flags": [
         "21+ nightlife venue; reservation and event conditions can change the door experience."
@@ -913,13 +913,13 @@
       "address": "1232 Grant Ave, San Francisco, CA 94133",
       "officialUrl": "https://thesaloonsf.com/",
       "hours": {
-        "Monday": "12:00 PM–2:00 AM",
-        "Tuesday": "12:00 PM–2:00 AM",
-        "Wednesday": "12:00 PM–2:00 AM",
-        "Thursday": "12:00 PM–2:00 AM",
-        "Friday": "12:00 PM–2:00 AM",
-        "Saturday": "12:00 PM–2:00 AM",
-        "Sunday": "12:00 PM–2:00 AM"
+        "Monday": "12:00 PM\u20132:00 AM",
+        "Tuesday": "12:00 PM\u20132:00 AM",
+        "Wednesday": "12:00 PM\u20132:00 AM",
+        "Thursday": "12:00 PM\u20132:00 AM",
+        "Friday": "12:00 PM\u20132:00 AM",
+        "Saturday": "12:00 PM\u20132:00 AM",
+        "Sunday": "12:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -942,7 +942,7 @@
       "source": {
         "label": "Official venue home page",
         "url": "https://thesaloonsf.com/",
-        "quote": "The Saloon, 1232 Grant Avenue, San Francisco, California 94133. Open Daily: 12:00 pm–02:00 am."
+        "quote": "The Saloon, 1232 Grant Avenue, San Francisco, California 94133. Open Daily: 12:00 pm\u201302:00 am."
       },
       "flags": [
         "The venue advertises live music in separate time blocks; check the official calendar for a specific night."
@@ -962,13 +962,13 @@
       "address": "2200 Market St, Suite A, San Francisco, CA 94114",
       "officialUrl": "https://www.detoursf.com/location/the-detour/",
       "hours": {
-        "Monday": "5:00 PM–11:30 PM",
-        "Tuesday": "5:00 PM–11:30 PM",
-        "Wednesday": "5:00 PM–11:30 PM",
-        "Thursday": "5:00 PM–11:30 PM",
-        "Friday": "5:00 PM–1:00 AM",
-        "Saturday": "2:00 PM–1:00 AM",
-        "Sunday": "1:00 PM–12:00 AM"
+        "Monday": "5:00 PM\u201311:30 PM",
+        "Tuesday": "5:00 PM\u201311:30 PM",
+        "Wednesday": "5:00 PM\u201311:30 PM",
+        "Thursday": "5:00 PM\u201311:30 PM",
+        "Friday": "5:00 PM\u20131:00 AM",
+        "Saturday": "2:00 PM\u20131:00 AM",
+        "Sunday": "1:00 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -992,10 +992,10 @@
       "source": {
         "label": "Official hours and location page",
         "url": "https://www.detoursf.com/location/the-detour/",
-        "quote": "2200 Market St, Suite A, San Francisco, CA 94114. Monday 5pm–11:30pm; Tuesday 5pm–11:30pm; Wednesday 5pm–11:30pm; Thursday 5pm–11:30pm; Friday 5pm–1am; Saturday 2pm–1am; Sunday 1pm–12am."
+        "quote": "2200 Market St, Suite A, San Francisco, CA 94114. Monday 5pm\u201311:30pm; Tuesday 5pm\u201311:30pm; Wednesday 5pm\u201311:30pm; Thursday 5pm\u201311:30pm; Friday 5pm\u20131am; Saturday 2pm\u20131am; Sunday 1pm\u201312am."
       },
       "flags": [
-        "21+ with government-issued ID or passport; Saturday is all ages only from 2–6 PM."
+        "21+ with government-issued ID or passport; Saturday is all ages only from 2\u20136 PM."
       ],
       "verification": {
         "status": "verified",
@@ -1013,12 +1013,12 @@
       "officialUrl": "https://www.thebeehivesf.com/contact-2",
       "hours": {
         "Monday": "Closed",
-        "Tuesday": "4:00 PM–12:00 AM",
-        "Wednesday": "4:00 PM–12:00 AM",
-        "Thursday": "4:00 PM–12:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "2:00 PM–2:00 AM",
-        "Sunday": "2:00 PM–10:00 PM"
+        "Tuesday": "4:00 PM\u201312:00 AM",
+        "Wednesday": "4:00 PM\u201312:00 AM",
+        "Thursday": "4:00 PM\u201312:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "2:00 PM\u20132:00 AM",
+        "Sunday": "2:00 PM\u201310:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1044,7 +1044,7 @@
       "source": {
         "label": "Official contact page",
         "url": "https://www.thebeehivesf.com/contact-2",
-        "quote": "842 Valencia Street (at 19th), San Francisco, CA 94110. Tues–Thurs 4pm to Midnight; Friday 4pm to 2am; Saturday 2pm to 2am; Sunday 2pm to 10pm. Food is served until one hour prior to close."
+        "quote": "842 Valencia Street (at 19th), San Francisco, CA 94110. Tues\u2013Thurs 4pm to Midnight; Friday 4pm to 2am; Saturday 2pm to 2am; Sunday 2pm to 10pm. Food is served until one hour prior to close."
       },
       "flags": [
         "Food service ends one hour before close; Sunday does not meet the late-night threshold."
@@ -1064,13 +1064,13 @@
       "address": "255 Columbus Ave at Jack Kerouac Alley, San Francisco, CA 94133",
       "officialUrl": "https://vesuvio.com/",
       "hours": {
-        "Monday": "11:00 AM–1:00 AM",
-        "Tuesday": "11:00 AM–1:00 AM",
-        "Wednesday": "11:00 AM–1:00 AM",
-        "Thursday": "11:00 AM–1:00 AM",
-        "Friday": "11:00 AM–2:00 AM",
-        "Saturday": "11:00 AM–2:00 AM",
-        "Sunday": "11:00 AM–1:00 AM"
+        "Monday": "11:00 AM\u20131:00 AM",
+        "Tuesday": "11:00 AM\u20131:00 AM",
+        "Wednesday": "11:00 AM\u20131:00 AM",
+        "Thursday": "11:00 AM\u20131:00 AM",
+        "Friday": "11:00 AM\u20132:00 AM",
+        "Saturday": "11:00 AM\u20132:00 AM",
+        "Sunday": "11:00 AM\u20131:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1093,10 +1093,10 @@
       "source": {
         "label": "Official Vesuvio site",
         "url": "https://vesuvio.com/",
-        "quote": "Vesuvio Cafe, 255 Columbus @ Jack Kerouac Alley, North Beach San Francisco California. Hours: Sun–Thurs 11–1 and Fri–Sat 11–2."
+        "quote": "Vesuvio Cafe, 255 Columbus @ Jack Kerouac Alley, North Beach San Francisco California. Hours: Sun\u2013Thurs 11\u20131 and Fri\u2013Sat 11\u20132."
       },
       "flags": [
-        "Sunday is grouped with Sun–Thurs on the official site; it is transcribed as 11 AM–1 AM here."
+        "Sunday is grouped with Sun\u2013Thurs on the official site; it is transcribed as 11 AM\u20131 AM here."
       ],
       "verification": {
         "status": "verified",
@@ -1107,19 +1107,19 @@
     },
     {
       "id": "el-farolito-mission",
-      "name": "El Farolito — Mission Street flagship",
+      "name": "El Farolito \u2014 Mission Street flagship",
       "category": "Taqueria / restaurant",
       "neighborhood": "Mission",
       "address": "2779 Mission St, San Francisco, CA 94110",
       "officialUrl": "https://elfarolitosf.com/locations/",
       "hours": {
-        "Monday": "10:00 AM–3:00 AM",
-        "Tuesday": "10:00 AM–3:00 AM",
-        "Wednesday": "10:00 AM–3:00 AM",
-        "Thursday": "10:00 AM–3:30 AM",
-        "Friday": "10:00 AM–3:30 AM",
-        "Saturday": "10:00 AM–3:00 AM",
-        "Sunday": "10:00 AM–12:00 AM"
+        "Monday": "10:00 AM\u20133:00 AM",
+        "Tuesday": "10:00 AM\u20133:00 AM",
+        "Wednesday": "10:00 AM\u20133:00 AM",
+        "Thursday": "10:00 AM\u20133:30 AM",
+        "Friday": "10:00 AM\u20133:30 AM",
+        "Saturday": "10:00 AM\u20133:00 AM",
+        "Sunday": "10:00 AM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1147,7 +1147,7 @@
       "source": {
         "label": "Official locations and hours page",
         "url": "https://elfarolitosf.com/locations/",
-        "quote": "Mission Street (Flagship), 2779 Mission St, San Francisco, CA 94110. Mon 10:00 AM–3:00 AM; Tue 10:00 AM–3:00 AM; Wed 10:00 AM–3:00 AM; Thu 10:00 AM–3:30 AM; Fri 10:00 AM–3:30 AM; Sat 10:00 AM–3:00 AM; Sun 10:00 AM–12:00 AM."
+        "quote": "Mission Street (Flagship), 2779 Mission St, San Francisco, CA 94110. Mon 10:00 AM\u20133:00 AM; Tue 10:00 AM\u20133:00 AM; Wed 10:00 AM\u20133:00 AM; Thu 10:00 AM\u20133:30 AM; Fri 10:00 AM\u20133:30 AM; Sat 10:00 AM\u20133:00 AM; Sun 10:00 AM\u201312:00 AM."
       },
       "flags": [
         "Official page says all locations are cash only and walk-in; hours are location-specific, so do not substitute a different El Farolito branch."
@@ -1167,13 +1167,13 @@
       "address": "401 Geary St, San Francisco, CA 94102",
       "officialUrl": "https://pinecrestdiner.com/",
       "hours": {
-        "Monday": "7:00 AM–11:00 PM",
-        "Tuesday": "7:00 AM–11:00 PM",
+        "Monday": "7:00 AM\u201311:00 PM",
+        "Tuesday": "7:00 AM\u201311:00 PM",
         "Wednesday": "Open 24 hours",
         "Thursday": "Open 24 hours",
         "Friday": "Open 24 hours",
         "Saturday": "Open 24 hours",
-        "Sunday": "7:00 AM–11:00 PM"
+        "Sunday": "7:00 AM\u201311:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1181,7 +1181,7 @@
       ],
       "access": {
         "summary": "38 Geary / 30 Stockton + walk",
-        "detail": "38 Geary serves the Powell/OʼFarrell area and 30 Stockton serves Stockton/Geary; use the live planner for the final walk to Geary Street.",
+        "detail": "38 Geary serves the Powell/O\u02bcFarrell area and 30 Stockton serves Stockton/Geary; use the live planner for the final walk to Geary Street.",
         "sources": [
           {
             "label": "BART station directory",
@@ -1200,7 +1200,7 @@
       "source": {
         "label": "Official Pinecrest Diner home page",
         "url": "https://pinecrestdiner.com/",
-        "quote": "PINECREST DINER, 401 Geary St, San Francisco, CA 94102, USA. Hours: Monday & Tuesday 7am–11pm; Wednesday, Thursday, Friday & Saturday 24hrs; Sunday 7am–11pm."
+        "quote": "PINECREST DINER, 401 Geary St, San Francisco, CA 94102, USA. Hours: Monday & Tuesday 7am\u201311pm; Wednesday, Thursday, Friday & Saturday 24hrs; Sunday 7am\u201311pm."
       },
       "flags": [
         "The official page notes that it is slowly moving back toward normal hours after the pandemic; confirm before a late Friday/Saturday visit."
@@ -1220,13 +1220,13 @@
       "address": "1695 Polk St, San Francisco, CA 94109",
       "officialUrl": "https://www.harperandrye.com/",
       "hours": {
-        "Monday": "3:00 PM–2:00 AM",
-        "Tuesday": "3:00 PM–2:00 AM",
-        "Wednesday": "3:00 PM–2:00 AM",
-        "Thursday": "3:00 PM–2:00 AM",
-        "Friday": "3:00 PM–2:00 AM",
-        "Saturday": "3:00 PM–2:00 AM",
-        "Sunday": "3:00 PM–2:00 AM"
+        "Monday": "3:00 PM\u20132:00 AM",
+        "Tuesday": "3:00 PM\u20132:00 AM",
+        "Wednesday": "3:00 PM\u20132:00 AM",
+        "Thursday": "3:00 PM\u20132:00 AM",
+        "Friday": "3:00 PM\u20132:00 AM",
+        "Saturday": "3:00 PM\u20132:00 AM",
+        "Sunday": "3:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1250,7 +1250,7 @@
       "source": {
         "label": "Official Harper & Rye home page",
         "url": "https://www.harperandrye.com/",
-        "quote": "Harper & Rye, 1695 Polk St. SF. Open daily 3PM–2AM."
+        "quote": "Harper & Rye, 1695 Polk St. SF. Open daily 3PM\u20132AM."
       },
       "flags": [
         "The current official page states open daily and the full daily range, but does not publish a phone number on the visible page."
@@ -1270,13 +1270,13 @@
       "address": "3174 16th St, San Francisco, CA 94103",
       "officialUrl": "https://www.abvsf.com/",
       "hours": {
-        "Monday": "4:00 PM–2:00 AM",
-        "Tuesday": "4:00 PM–2:00 AM",
-        "Wednesday": "4:00 PM–2:00 AM",
-        "Thursday": "4:00 PM–2:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "4:00 PM–2:00 AM",
-        "Sunday": "4:00 PM–2:00 AM"
+        "Monday": "4:00 PM\u20132:00 AM",
+        "Tuesday": "4:00 PM\u20132:00 AM",
+        "Wednesday": "4:00 PM\u20132:00 AM",
+        "Thursday": "4:00 PM\u20132:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "4:00 PM\u20132:00 AM",
+        "Sunday": "4:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1305,7 +1305,7 @@
       "source": {
         "label": "Official home and contact pages",
         "url": "https://www.abvsf.com/",
-        "quote": "ABV, 3174 16th St, San Francisco, CA 94103. Hours: 4 pm–2 am every day. Kitchen until midnight daily."
+        "quote": "ABV, 3174 16th St, San Francisco, CA 94103. Hours: 4 pm\u20132 am every day. Kitchen until midnight daily."
       },
       "flags": [
         "The 2 AM schedule is for the bar; the kitchen is published as open only until midnight."
@@ -1325,13 +1325,13 @@
       "address": "1337 Grant Ave, San Francisco, CA 94133",
       "officialUrl": "https://tupelosf.com/",
       "hours": {
-        "Monday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM",
-        "Tuesday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM",
-        "Wednesday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM",
-        "Thursday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM",
-        "Friday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM",
-        "Saturday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM",
-        "Sunday": "Bar 1:00 PM–2:00 AM; kitchen 1:00 PM–10:00 PM"
+        "Monday": "Bar 1:00 PM\u20132:00 AM; kitchen 1:00 PM\u201310:00 PM",
+        "Tuesday": "Bar 1:00 PM\u20132:00 AM; kitchen 1:00 PM\u201310:00 PM",
+        "Wednesday": "Bar 1:00 PM\u20132:00 AM; kitchen 1:00 PM\u201310:00 PM",
+        "Thursday": "Bar 1:00 PM\u20132:00 AM; kitchen 1:00 PM\u201310:00 PM",
+        "Friday": "Bar 1:00 PM\u20132:00 AM; kitchen 1:00 PM\u201310:00 PM",
+        "Saturday": "Bar 1:00 PM\u20132:00 AM; kitchen 1:00 PM\u201310:00 PM",
+        "Sunday": "Bar 1:00 PM\u20132:00 AM; kitchen 1:00 PM\u201310:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1354,7 +1354,7 @@
       "source": {
         "label": "Official Tupelo home page",
         "url": "https://tupelosf.com/",
-        "quote": "Located at 1337 Grant Ave, in the heart of North Beach, San Francisco. Bar hours: 1:00PM–2:00AM every day. Kitchen hours: 1:00PM–10:00PM every day."
+        "quote": "Located at 1337 Grant Ave, in the heart of North Beach, San Francisco. Bar hours: 1:00PM\u20132:00AM every day. Kitchen hours: 1:00PM\u201310:00PM every day."
       },
       "flags": [
         "Late-night eligibility is for the bar/live-music venue; the official kitchen hours end at 10 PM."
@@ -1424,13 +1424,13 @@
       "address": "540 Clement St, San Francisco, CA 94118",
       "officialUrl": "https://540-sf.com/",
       "hours": {
-        "Monday": "2:00 PM–2:00 AM",
-        "Tuesday": "2:00 PM–2:00 AM",
-        "Wednesday": "2:00 PM–2:00 AM",
-        "Thursday": "2:00 PM–2:00 AM",
-        "Friday": "2:00 PM–2:00 AM",
-        "Saturday": "12:00 PM–2:00 AM",
-        "Sunday": "12:00 PM–2:00 AM"
+        "Monday": "2:00 PM\u20132:00 AM",
+        "Tuesday": "2:00 PM\u20132:00 AM",
+        "Wednesday": "2:00 PM\u20132:00 AM",
+        "Thursday": "2:00 PM\u20132:00 AM",
+        "Friday": "2:00 PM\u20132:00 AM",
+        "Saturday": "12:00 PM\u20132:00 AM",
+        "Sunday": "12:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1473,13 +1473,13 @@
       "address": "346 Clement St, San Francisco, CA 94118",
       "officialUrl": "https://www.kingsthaicuisine.com/menus-1",
       "hours": {
-        "Monday": "11:00 AM–12:00 AM",
-        "Tuesday": "11:00 AM–12:00 AM",
-        "Wednesday": "11:00 AM–12:00 AM",
-        "Thursday": "11:00 AM–12:00 AM",
-        "Friday": "11:00 AM–12:00 AM",
-        "Saturday": "11:00 AM–12:00 AM",
-        "Sunday": "11:00 AM–12:00 AM"
+        "Monday": "11:00 AM\u201312:00 AM",
+        "Tuesday": "11:00 AM\u201312:00 AM",
+        "Wednesday": "11:00 AM\u201312:00 AM",
+        "Thursday": "11:00 AM\u201312:00 AM",
+        "Friday": "11:00 AM\u201312:00 AM",
+        "Saturday": "11:00 AM\u201312:00 AM",
+        "Sunday": "11:00 AM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1522,13 +1522,13 @@
       "address": "3840 Geary Blvd, San Francisco, CA 94118",
       "officialUrl": "https://www.nizarios.com/",
       "hours": {
-        "Monday": "3:00 PM–11:00 PM",
-        "Tuesday": "3:00 PM–11:00 PM",
-        "Wednesday": "3:00 PM–11:00 PM",
-        "Thursday": "3:00 PM–11:00 PM",
-        "Friday": "3:00 PM–1:30 AM",
-        "Saturday": "3:00 PM–1:30 AM",
-        "Sunday": "3:00 PM–11:00 PM"
+        "Monday": "3:00 PM\u201311:00 PM",
+        "Tuesday": "3:00 PM\u201311:00 PM",
+        "Wednesday": "3:00 PM\u201311:00 PM",
+        "Thursday": "3:00 PM\u201311:00 PM",
+        "Friday": "3:00 PM\u20131:30 AM",
+        "Saturday": "3:00 PM\u20131:30 AM",
+        "Sunday": "3:00 PM\u201311:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1619,13 +1619,13 @@
       "address": "875 Geary St, San Francisco, CA 94109",
       "officialUrl": "https://harasf.com/",
       "hours": {
-        "Monday": "12:00 PM–2:00 AM",
-        "Tuesday": "12:00 PM–2:00 AM",
-        "Wednesday": "12:00 PM–2:00 AM",
-        "Thursday": "12:00 PM–2:00 AM",
-        "Friday": "12:00 PM–2:00 AM",
-        "Saturday": "1:00 PM–2:00 AM",
-        "Sunday": "3:00 PM–2:00 AM"
+        "Monday": "12:00 PM\u20132:00 AM",
+        "Tuesday": "12:00 PM\u20132:00 AM",
+        "Wednesday": "12:00 PM\u20132:00 AM",
+        "Thursday": "12:00 PM\u20132:00 AM",
+        "Friday": "12:00 PM\u20132:00 AM",
+        "Saturday": "1:00 PM\u20132:00 AM",
+        "Sunday": "3:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1669,13 +1669,13 @@
       "address": "133 Turk St, San Francisco, CA 94102",
       "officialUrl": "https://www.auntcharlieslounge.com/",
       "hours": {
-        "Monday": "12:00 PM–10:30 PM",
-        "Tuesday": "12:00 PM–10:30 PM",
-        "Wednesday": "12:00 PM–10:30 PM",
-        "Thursday": "12:00 PM–10:30 PM",
-        "Friday": "12:00 PM–11:45 PM",
-        "Saturday": "12:00 PM–11:45 PM",
-        "Sunday": "12:00 PM–11:30 PM"
+        "Monday": "12:00 PM\u201310:30 PM",
+        "Tuesday": "12:00 PM\u201310:30 PM",
+        "Wednesday": "12:00 PM\u201310:30 PM",
+        "Thursday": "12:00 PM\u201310:30 PM",
+        "Friday": "12:00 PM\u201311:45 PM",
+        "Saturday": "12:00 PM\u201311:45 PM",
+        "Sunday": "12:00 PM\u201311:30 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1718,13 +1718,13 @@
       "address": "501 Jones St, San Francisco, CA 94109",
       "officialUrl": "https://www.futurebars.com/locations/bourbon-branch",
       "hours": {
-        "Monday": "6:00 PM–12:00 AM",
-        "Tuesday": "6:00 PM–12:00 AM",
-        "Wednesday": "6:00 PM–12:00 AM",
-        "Thursday": "6:00 PM–2:00 AM",
-        "Friday": "6:00 PM–2:00 AM",
-        "Saturday": "6:00 PM–2:00 AM",
-        "Sunday": "6:00 PM–12:00 AM"
+        "Monday": "6:00 PM\u201312:00 AM",
+        "Tuesday": "6:00 PM\u201312:00 AM",
+        "Wednesday": "6:00 PM\u201312:00 AM",
+        "Thursday": "6:00 PM\u20132:00 AM",
+        "Friday": "6:00 PM\u20132:00 AM",
+        "Saturday": "6:00 PM\u20132:00 AM",
+        "Sunday": "6:00 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1768,10 +1768,10 @@
       "hours": {
         "Monday": "Closed",
         "Tuesday": "Closed",
-        "Wednesday": "5:00 PM–12:00 AM",
-        "Thursday": "5:00 PM–2:00 AM",
-        "Friday": "5:00 PM–2:00 AM",
-        "Saturday": "5:00 PM–2:00 AM",
+        "Wednesday": "5:00 PM\u201312:00 AM",
+        "Thursday": "5:00 PM\u20132:00 AM",
+        "Friday": "5:00 PM\u20132:00 AM",
+        "Saturday": "5:00 PM\u20132:00 AM",
         "Sunday": "Closed"
       },
       "qualifyingDays": [
@@ -1816,10 +1816,10 @@
       "hours": {
         "Monday": "Not published on the official site",
         "Tuesday": "Not published on the official site",
-        "Wednesday": "3:30 PM–12:00 AM",
-        "Thursday": "11:30 AM–2:00 AM",
-        "Friday": "11:30 AM–2:00 AM",
-        "Saturday": "3:30 PM–2:00 AM",
+        "Wednesday": "3:30 PM\u201312:00 AM",
+        "Thursday": "11:30 AM\u20132:00 AM",
+        "Friday": "11:30 AM\u20132:00 AM",
+        "Saturday": "3:30 PM\u20132:00 AM",
         "Sunday": "Not published on the official site"
       },
       "qualifyingDays": [
@@ -1863,13 +1863,13 @@
       "address": "672 Jackson St, San Francisco, CA 94133",
       "officialUrl": "https://www.redsplacesf.com/",
       "hours": {
-        "Monday": "3:00 PM–11:00 PM",
-        "Tuesday": "3:00 PM–11:00 PM",
-        "Wednesday": "3:00 PM–11:00 PM",
-        "Thursday": "3:00 PM–11:00 PM",
-        "Friday": "3:00 PM–2:00 AM",
-        "Saturday": "12:00 PM–2:00 AM",
-        "Sunday": "12:00 PM–10:00 PM"
+        "Monday": "3:00 PM\u201311:00 PM",
+        "Tuesday": "3:00 PM\u201311:00 PM",
+        "Wednesday": "3:00 PM\u201311:00 PM",
+        "Thursday": "3:00 PM\u201311:00 PM",
+        "Friday": "3:00 PM\u20132:00 AM",
+        "Saturday": "12:00 PM\u20132:00 AM",
+        "Sunday": "12:00 PM\u201310:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -1961,11 +1961,11 @@
       "officialUrl": "https://comstocksaloon.com/",
       "hours": {
         "Monday": "Listings conflict (one shows closed Monday)",
-        "Tuesday": "4:00 PM–12:00 AM",
-        "Wednesday": "4:00 PM–12:00 AM",
-        "Thursday": "4:00 PM–12:00 AM",
-        "Friday": "4:00 PM–12:00 AM",
-        "Saturday": "4:00 PM–12:00 AM",
+        "Tuesday": "4:00 PM\u201312:00 AM",
+        "Wednesday": "4:00 PM\u201312:00 AM",
+        "Thursday": "4:00 PM\u201312:00 AM",
+        "Friday": "4:00 PM\u201312:00 AM",
+        "Saturday": "4:00 PM\u201312:00 AM",
         "Sunday": "Listings conflict (one shows closed Sunday)"
       },
       "qualifyingDays": [
@@ -2010,12 +2010,12 @@
       "officialUrl": "https://www.futurebars.com/locations/devils-acre",
       "hours": {
         "Monday": "Listed as closed on the operator page",
-        "Tuesday": "4:30 PM–12:00 AM",
-        "Wednesday": "4:30 PM–12:00 AM",
-        "Thursday": "4:30 PM–12:00 AM",
-        "Friday": "4:30 PM–2:00 AM",
-        "Saturday": "4:30 PM–2:00 AM",
-        "Sunday": "4:30 PM–12:00 AM"
+        "Tuesday": "4:30 PM\u201312:00 AM",
+        "Wednesday": "4:30 PM\u201312:00 AM",
+        "Thursday": "4:30 PM\u201312:00 AM",
+        "Friday": "4:30 PM\u20132:00 AM",
+        "Saturday": "4:30 PM\u20132:00 AM",
+        "Sunday": "4:30 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -2058,13 +2058,13 @@
       "address": "548 Green St, San Francisco, CA 94133",
       "officialUrl": "https://www.instagram.com/ginoandcarlosf/",
       "hours": {
-        "Monday": "6:00 AM–2:00 AM",
-        "Tuesday": "6:00 AM–2:00 AM",
-        "Wednesday": "6:00 AM–2:00 AM",
-        "Thursday": "6:00 AM–2:00 AM",
-        "Friday": "6:00 AM–2:00 AM",
-        "Saturday": "6:00 AM–2:00 AM",
-        "Sunday": "6:00 AM–2:00 AM"
+        "Monday": "6:00 AM\u20132:00 AM",
+        "Tuesday": "6:00 AM\u20132:00 AM",
+        "Wednesday": "6:00 AM\u20132:00 AM",
+        "Thursday": "6:00 AM\u20132:00 AM",
+        "Friday": "6:00 AM\u20132:00 AM",
+        "Saturday": "6:00 AM\u20132:00 AM",
+        "Sunday": "6:00 AM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -2108,11 +2108,11 @@
       "officialUrl": "https://www.futurebars.com/locations/rickhouse",
       "hours": {
         "Monday": "Closed",
-        "Tuesday": "4:30 PM–12:00 AM",
-        "Wednesday": "4:30 PM–12:00 AM",
-        "Thursday": "4:30 PM–2:00 AM",
-        "Friday": "4:30 PM–2:00 AM",
-        "Saturday": "6:00 PM–2:00 AM",
+        "Tuesday": "4:30 PM\u201312:00 AM",
+        "Wednesday": "4:30 PM\u201312:00 AM",
+        "Thursday": "4:30 PM\u20132:00 AM",
+        "Friday": "4:30 PM\u20132:00 AM",
+        "Saturday": "6:00 PM\u20132:00 AM",
         "Sunday": "Closed"
       },
       "qualifyingDays": [
@@ -2156,11 +2156,11 @@
       "officialUrl": "https://www.futurebars.com/locations/nightingale",
       "hours": {
         "Monday": "Closed",
-        "Tuesday": "4:00 PM–12:00 AM",
-        "Wednesday": "4:00 PM–12:00 AM",
-        "Thursday": "4:00 PM–12:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "4:00 PM–2:00 AM",
+        "Tuesday": "4:00 PM\u201312:00 AM",
+        "Wednesday": "4:00 PM\u201312:00 AM",
+        "Thursday": "4:00 PM\u201312:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "4:00 PM\u20132:00 AM",
         "Sunday": "Closed"
       },
       "qualifyingDays": [
@@ -2207,8 +2207,8 @@
         "Tuesday": "Closed",
         "Wednesday": "Closed",
         "Thursday": "Closed",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "5:00 PM–2:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "5:00 PM\u20132:00 AM",
         "Sunday": "Closed"
       },
       "qualifyingDays": [
@@ -2252,12 +2252,12 @@
       "address": "691 Market St, San Francisco, CA 94105",
       "officialUrl": "https://www.futurebars.com/locations/local-edition",
       "hours": {
-        "Monday": "5:00 PM–2:00 AM",
-        "Tuesday": "5:00 PM–2:00 AM",
-        "Wednesday": "5:00 PM–2:00 AM",
-        "Thursday": "5:00 PM–2:00 AM",
-        "Friday": "4:30 PM–2:00 AM",
-        "Saturday": "7:00 PM–2:00 AM",
+        "Monday": "5:00 PM\u20132:00 AM",
+        "Tuesday": "5:00 PM\u20132:00 AM",
+        "Wednesday": "5:00 PM\u20132:00 AM",
+        "Thursday": "5:00 PM\u20132:00 AM",
+        "Friday": "4:30 PM\u20132:00 AM",
+        "Saturday": "7:00 PM\u20132:00 AM",
         "Sunday": "Closed"
       },
       "qualifyingDays": [
@@ -2301,12 +2301,12 @@
       "address": "10 Annie St, San Francisco, CA 94105",
       "officialUrl": "https://www.futurebars.com/locations/the-dawn-club",
       "hours": {
-        "Monday": "5:00 PM–12:00 AM",
-        "Tuesday": "5:00 PM–12:00 AM",
-        "Wednesday": "5:00 PM–2:00 AM",
-        "Thursday": "5:00 PM–2:00 AM",
-        "Friday": "5:00 PM–2:00 AM",
-        "Saturday": "6:00 PM–2:00 AM",
+        "Monday": "5:00 PM\u201312:00 AM",
+        "Tuesday": "5:00 PM\u201312:00 AM",
+        "Wednesday": "5:00 PM\u20132:00 AM",
+        "Thursday": "5:00 PM\u20132:00 AM",
+        "Friday": "5:00 PM\u20132:00 AM",
+        "Saturday": "6:00 PM\u20132:00 AM",
         "Sunday": "Closed"
       },
       "qualifyingDays": [
@@ -2350,12 +2350,12 @@
       "address": "86 2nd St, San Francisco, CA 94105",
       "officialUrl": "https://www.tequilamockingbar.com/",
       "hours": {
-        "Monday": "2:00 PM–2:00 AM",
-        "Tuesday": "2:00 PM–2:00 AM",
-        "Wednesday": "2:00 PM–2:00 AM",
-        "Thursday": "2:00 PM–2:00 AM",
-        "Friday": "2:00 PM–2:00 AM",
-        "Saturday": "5:00 PM–2:00 AM",
+        "Monday": "2:00 PM\u20132:00 AM",
+        "Tuesday": "2:00 PM\u20132:00 AM",
+        "Wednesday": "2:00 PM\u20132:00 AM",
+        "Thursday": "2:00 PM\u20132:00 AM",
+        "Friday": "2:00 PM\u20132:00 AM",
+        "Saturday": "5:00 PM\u20132:00 AM",
         "Sunday": "Not published on the official site"
       },
       "qualifyingDays": [
@@ -2399,13 +2399,13 @@
       "address": "39 New Montgomery St, San Francisco, CA 94105",
       "officialUrl": "https://thehouseofshields.com/",
       "hours": {
-        "Monday": "2:00 PM–2:00 AM",
-        "Tuesday": "2:00 PM–2:00 AM",
-        "Wednesday": "2:00 PM–2:00 AM",
-        "Thursday": "2:00 PM–2:00 AM",
-        "Friday": "2:00 PM–2:00 AM",
-        "Saturday": "3:00 PM–2:00 AM",
-        "Sunday": "3:00 PM–2:00 AM"
+        "Monday": "2:00 PM\u20132:00 AM",
+        "Tuesday": "2:00 PM\u20132:00 AM",
+        "Wednesday": "2:00 PM\u20132:00 AM",
+        "Thursday": "2:00 PM\u20132:00 AM",
+        "Friday": "2:00 PM\u20132:00 AM",
+        "Saturday": "3:00 PM\u20132:00 AM",
+        "Sunday": "3:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -2451,9 +2451,9 @@
       "hours": {
         "Monday": "Closed",
         "Tuesday": "Closed",
-        "Wednesday": "5:00 PM–12:00 AM",
-        "Thursday": "5:00 PM–12:00 AM",
-        "Friday": "5:00 PM–2:00 AM",
+        "Wednesday": "5:00 PM\u201312:00 AM",
+        "Thursday": "5:00 PM\u201312:00 AM",
+        "Friday": "5:00 PM\u20132:00 AM",
         "Saturday": "Not published on the operator page",
         "Sunday": "Not published on the operator page"
       },
@@ -2496,13 +2496,13 @@
       "address": "999 California St, San Francisco, CA 94108",
       "officialUrl": "https://www.topofthemark.com/",
       "hours": {
-        "Monday": "5:00 PM–11:00 PM",
-        "Tuesday": "5:00 PM–11:00 PM",
-        "Wednesday": "5:00 PM–11:00 PM",
-        "Thursday": "5:00 PM–11:00 PM",
-        "Friday": "3:00 PM–12:30 AM",
-        "Saturday": "3:00 PM–12:30 AM",
-        "Sunday": "5:00 PM–11:00 PM"
+        "Monday": "5:00 PM\u201311:00 PM",
+        "Tuesday": "5:00 PM\u201311:00 PM",
+        "Wednesday": "5:00 PM\u201311:00 PM",
+        "Thursday": "5:00 PM\u201311:00 PM",
+        "Friday": "3:00 PM\u201312:30 AM",
+        "Saturday": "3:00 PM\u201312:30 AM",
+        "Sunday": "5:00 PM\u201311:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -2545,13 +2545,13 @@
       "address": "650 Gough St, San Francisco, CA 94102",
       "officialUrl": "https://smugglerscovesf.com/faq",
       "hours": {
-        "Monday": "5:00 PM–1:15 AM",
-        "Tuesday": "5:00 PM–1:15 AM",
-        "Wednesday": "5:00 PM–1:15 AM",
-        "Thursday": "5:00 PM–1:15 AM",
-        "Friday": "5:00 PM–1:15 AM",
-        "Saturday": "5:00 PM–1:15 AM",
-        "Sunday": "5:00 PM–1:15 AM"
+        "Monday": "5:00 PM\u20131:15 AM",
+        "Tuesday": "5:00 PM\u20131:15 AM",
+        "Wednesday": "5:00 PM\u20131:15 AM",
+        "Thursday": "5:00 PM\u20131:15 AM",
+        "Friday": "5:00 PM\u20131:15 AM",
+        "Saturday": "5:00 PM\u20131:15 AM",
+        "Sunday": "5:00 PM\u20131:15 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -2594,13 +2594,13 @@
       "address": "488 Hayes St, San Francisco, CA 94102",
       "officialUrl": "https://www.brasstackssf.com/",
       "hours": {
-        "Monday": "4:00 PM–1:00 AM",
-        "Tuesday": "4:00 PM–1:00 AM",
-        "Wednesday": "4:00 PM–1:00 AM",
-        "Thursday": "4:00 PM–2:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "4:00 PM–2:00 AM",
-        "Sunday": "4:00 PM–12:00 AM"
+        "Monday": "4:00 PM\u20131:00 AM",
+        "Tuesday": "4:00 PM\u20131:00 AM",
+        "Wednesday": "4:00 PM\u20131:00 AM",
+        "Thursday": "4:00 PM\u20132:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "4:00 PM\u20132:00 AM",
+        "Sunday": "4:00 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -2642,13 +2642,13 @@
       "address": "3199 Fillmore St, San Francisco, CA 94123",
       "officialUrl": "https://balboacafesf.com/menu",
       "hours": {
-        "Monday": "11:30 AM–12:00 AM",
-        "Tuesday": "11:30 AM–12:00 AM",
-        "Wednesday": "11:30 AM–2:00 AM",
-        "Thursday": "11:30 AM–2:00 AM",
-        "Friday": "11:30 AM–2:00 AM",
-        "Saturday": "10:00 AM–2:00 AM",
-        "Sunday": "10:00 AM–12:00 AM"
+        "Monday": "11:30 AM\u201312:00 AM",
+        "Tuesday": "11:30 AM\u201312:00 AM",
+        "Wednesday": "11:30 AM\u20132:00 AM",
+        "Thursday": "11:30 AM\u20132:00 AM",
+        "Friday": "11:30 AM\u20132:00 AM",
+        "Saturday": "10:00 AM\u20132:00 AM",
+        "Sunday": "10:00 AM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -2690,13 +2690,13 @@
       "address": "2990 Baker St, San Francisco, CA 94123",
       "officialUrl": "https://www.finalfinalbar.com/",
       "hours": {
-        "Monday": "12:00 PM–12:00 AM",
-        "Tuesday": "12:00 PM–12:00 AM",
-        "Wednesday": "12:00 PM–12:00 AM",
-        "Thursday": "12:00 PM–2:00 AM",
-        "Friday": "12:00 PM–2:00 AM",
-        "Saturday": "9:00 AM–2:00 AM",
-        "Sunday": "9:00 AM–12:00 AM"
+        "Monday": "12:00 PM\u201312:00 AM",
+        "Tuesday": "12:00 PM\u201312:00 AM",
+        "Wednesday": "12:00 PM\u201312:00 AM",
+        "Thursday": "12:00 PM\u20132:00 AM",
+        "Friday": "12:00 PM\u20132:00 AM",
+        "Saturday": "9:00 AM\u20132:00 AM",
+        "Sunday": "9:00 AM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -2741,10 +2741,10 @@
       "hours": {
         "Monday": "Closed",
         "Tuesday": "Closed",
-        "Wednesday": "5:00 PM–12:00 AM",
-        "Thursday": "5:00 PM–12:00 AM",
-        "Friday": "5:00 PM–12:00 AM",
-        "Saturday": "5:00 PM–12:00 AM",
+        "Wednesday": "5:00 PM\u201312:00 AM",
+        "Thursday": "5:00 PM\u201312:00 AM",
+        "Friday": "5:00 PM\u201312:00 AM",
+        "Saturday": "5:00 PM\u201312:00 AM",
         "Sunday": "Not published on the official site"
       },
       "qualifyingDays": [
@@ -2787,13 +2787,13 @@
       "address": "93 Moraga Ave, San Francisco, CA 94129",
       "officialUrl": "https://www.presidiobowl.com/",
       "hours": {
-        "Monday": "3:00 PM–11:00 PM",
-        "Tuesday": "3:00 PM–11:00 PM",
-        "Wednesday": "3:00 PM–11:00 PM",
-        "Thursday": "11:00 AM–12:00 AM",
-        "Friday": "1:00 PM–1:00 AM",
-        "Saturday": "11:00 AM–1:00 AM",
-        "Sunday": "12:00 PM–8:00 PM"
+        "Monday": "3:00 PM\u201311:00 PM",
+        "Tuesday": "3:00 PM\u201311:00 PM",
+        "Wednesday": "3:00 PM\u201311:00 PM",
+        "Thursday": "11:00 AM\u201312:00 AM",
+        "Friday": "1:00 PM\u20131:00 AM",
+        "Saturday": "11:00 AM\u20131:00 AM",
+        "Sunday": "12:00 PM\u20138:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -2835,13 +2835,13 @@
       "address": "1825A Post St, Suite 210, San Francisco, CA 94115",
       "officialUrl": "https://festalounge.com/",
       "hours": {
-        "Monday": "6:30 PM–1:00 AM",
-        "Tuesday": "6:30 PM–1:00 AM",
-        "Wednesday": "6:30 PM–1:00 AM",
-        "Thursday": "6:30 PM–1:00 AM",
-        "Friday": "6:30 PM–2:00 AM",
-        "Saturday": "6:30 PM–2:00 AM",
-        "Sunday": "6:30 PM–1:00 AM"
+        "Monday": "6:30 PM\u20131:00 AM",
+        "Tuesday": "6:30 PM\u20131:00 AM",
+        "Wednesday": "6:30 PM\u20131:00 AM",
+        "Thursday": "6:30 PM\u20131:00 AM",
+        "Friday": "6:30 PM\u20132:00 AM",
+        "Saturday": "6:30 PM\u20132:00 AM",
+        "Sunday": "6:30 PM\u20131:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -2885,13 +2885,13 @@
       "address": "547 Haight St, San Francisco, CA 94117",
       "officialUrl": "https://toronado.com/",
       "hours": {
-        "Monday": "11:30 AM–2:00 AM",
-        "Tuesday": "11:30 AM–2:00 AM",
-        "Wednesday": "11:30 AM–2:00 AM",
-        "Thursday": "11:30 AM–2:00 AM",
-        "Friday": "11:30 AM–2:00 AM",
-        "Saturday": "11:30 AM–2:00 AM",
-        "Sunday": "11:30 AM–2:00 AM"
+        "Monday": "11:30 AM\u20132:00 AM",
+        "Tuesday": "11:30 AM\u20132:00 AM",
+        "Wednesday": "11:30 AM\u20132:00 AM",
+        "Thursday": "11:30 AM\u20132:00 AM",
+        "Friday": "11:30 AM\u20132:00 AM",
+        "Saturday": "11:30 AM\u20132:00 AM",
+        "Sunday": "11:30 AM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -2939,9 +2939,9 @@
         "Tuesday": "Per listings, open to 12:00 AM",
         "Wednesday": "Per listings, open to 12:00 AM",
         "Thursday": "Per listings, open to 12:00 AM",
-        "Friday": "2:00 PM–2:00 AM",
-        "Saturday": "1:00 PM–2:00 AM",
-        "Sunday": "1:00 PM–2:00 AM"
+        "Friday": "2:00 PM\u20132:00 AM",
+        "Saturday": "1:00 PM\u20132:00 AM",
+        "Sunday": "1:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -2985,13 +2985,13 @@
       "address": "309 Cortland Ave, San Francisco, CA 94110",
       "officialUrl": "https://www.holywatersf.com/",
       "hours": {
-        "Monday": "3:00 PM–12:00 AM",
-        "Tuesday": "3:00 PM–12:00 AM",
-        "Wednesday": "3:00 PM–12:00 AM",
-        "Thursday": "3:00 PM–12:00 AM",
-        "Friday": "3:00 PM–2:00 AM",
-        "Saturday": "3:00 PM–2:00 AM",
-        "Sunday": "3:00 PM–12:00 AM"
+        "Monday": "3:00 PM\u201312:00 AM",
+        "Tuesday": "3:00 PM\u201312:00 AM",
+        "Wednesday": "3:00 PM\u201312:00 AM",
+        "Thursday": "3:00 PM\u201312:00 AM",
+        "Friday": "3:00 PM\u20132:00 AM",
+        "Saturday": "3:00 PM\u20132:00 AM",
+        "Sunday": "3:00 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -3033,13 +3033,13 @@
       "address": "3010 20th St, San Francisco, CA 94110",
       "officialUrl": "https://trickdogbar.com/",
       "hours": {
-        "Monday": "4:00 PM–12:00 AM",
-        "Tuesday": "4:00 PM–12:00 AM",
-        "Wednesday": "4:00 PM–12:00 AM",
-        "Thursday": "4:00 PM–12:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "4:00 PM–2:00 AM",
-        "Sunday": "4:00 PM–12:00 AM"
+        "Monday": "4:00 PM\u201312:00 AM",
+        "Tuesday": "4:00 PM\u201312:00 AM",
+        "Wednesday": "4:00 PM\u201312:00 AM",
+        "Thursday": "4:00 PM\u201312:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "4:00 PM\u20132:00 AM",
+        "Sunday": "4:00 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -3084,12 +3084,12 @@
       "officialUrl": "https://www.missionbowlingclub.com/hours-info",
       "hours": {
         "Monday": "Closed except monthly events (Queer Bowling 3rd Mondays)",
-        "Tuesday": "4:00 PM–10:00 PM",
-        "Wednesday": "4:00 PM–10:00 PM",
-        "Thursday": "3:00 PM–10:00 PM",
-        "Friday": "3:00 PM–12:00 AM",
-        "Saturday": "11:00 AM–12:00 AM",
-        "Sunday": "11:00 AM–8:00 PM"
+        "Tuesday": "4:00 PM\u201310:00 PM",
+        "Wednesday": "4:00 PM\u201310:00 PM",
+        "Thursday": "3:00 PM\u201310:00 PM",
+        "Friday": "3:00 PM\u201312:00 AM",
+        "Saturday": "11:00 AM\u201312:00 AM",
+        "Sunday": "11:00 AM\u20138:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -3132,13 +3132,13 @@
       "address": "806 S Van Ness Ave, San Francisco, CA 94110",
       "officialUrl": "https://www.bendersbar.com/",
       "hours": {
-        "Monday": "Per site text, 2:00 PM–2:00 AM",
-        "Tuesday": "Per site text, 2:00 PM–2:00 AM (embedded data says closed)",
-        "Wednesday": "2:00 PM–2:00 AM (embedded data says 12:00 AM)",
-        "Thursday": "2:00 PM–2:00 AM (embedded data says 12:00 AM)",
-        "Friday": "2:00 PM–2:00 AM",
-        "Saturday": "2:00 PM–2:00 AM",
-        "Sunday": "2:00 PM–2:00 AM (embedded data says 12:00 AM)"
+        "Monday": "Per site text, 2:00 PM\u20132:00 AM",
+        "Tuesday": "Per site text, 2:00 PM\u20132:00 AM (embedded data says closed)",
+        "Wednesday": "2:00 PM\u20132:00 AM (embedded data says 12:00 AM)",
+        "Thursday": "2:00 PM\u20132:00 AM (embedded data says 12:00 AM)",
+        "Friday": "2:00 PM\u20132:00 AM",
+        "Saturday": "2:00 PM\u20132:00 AM",
+        "Sunday": "2:00 PM\u20132:00 AM (embedded data says 12:00 AM)"
       },
       "qualifyingDays": [
         "Friday",
@@ -3184,9 +3184,9 @@
         "Monday": "Per listings, open daily to 2:00 AM",
         "Tuesday": "Per listings, open daily to 2:00 AM",
         "Wednesday": "Per listings, open daily to 2:00 AM",
-        "Thursday": "4:00 PM–2:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "12:00 PM–2:00 AM",
+        "Thursday": "4:00 PM\u20132:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "12:00 PM\u20132:00 AM",
         "Sunday": "Per listings, open daily to 2:00 AM"
       },
       "qualifyingDays": [
@@ -3232,11 +3232,11 @@
       "hours": {
         "Monday": "Closed",
         "Tuesday": "Closed",
-        "Wednesday": "5:00 PM–12:00 AM",
-        "Thursday": "5:00 PM–12:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "3:00 PM–2:00 AM",
-        "Sunday": "3:00 PM–9:00 PM"
+        "Wednesday": "5:00 PM\u201312:00 AM",
+        "Thursday": "5:00 PM\u201312:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "3:00 PM\u20132:00 AM",
+        "Sunday": "3:00 PM\u20139:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -3279,13 +3279,13 @@
       "address": "198 5th St, San Francisco, CA 94103",
       "officialUrl": "https://www.thechieftain.com/location/the-chieftain",
       "hours": {
-        "Monday": "4:00 PM–2:00 AM (per listings; official: 'until late')",
-        "Tuesday": "4:00 PM–2:00 AM (per listings; official: 'until late')",
-        "Wednesday": "4:00 PM–2:00 AM (per listings; official: 'until late')",
-        "Thursday": "4:00 PM–2:00 AM (per listings; official: 'until late')",
-        "Friday": "12:00 PM–2:00 AM (per listings; official: 'until late')",
-        "Saturday": "12:00 PM–2:00 AM (per listings; official: 'until late')",
-        "Sunday": "12:00 PM–2:00 AM (per listings; official: 'until late')"
+        "Monday": "4:00 PM\u20132:00 AM (per listings; official: 'until late')",
+        "Tuesday": "4:00 PM\u20132:00 AM (per listings; official: 'until late')",
+        "Wednesday": "4:00 PM\u20132:00 AM (per listings; official: 'until late')",
+        "Thursday": "4:00 PM\u20132:00 AM (per listings; official: 'until late')",
+        "Friday": "12:00 PM\u20132:00 AM (per listings; official: 'until late')",
+        "Saturday": "12:00 PM\u20132:00 AM (per listings; official: 'until late')",
+        "Sunday": "12:00 PM\u20132:00 AM (per listings; official: 'until late')"
       },
       "qualifyingDays": [
         "Friday",
@@ -3330,10 +3330,10 @@
       "hours": {
         "Monday": "See official calendar",
         "Tuesday": "See official calendar",
-        "Wednesday": "Club nights typically 9:00 PM–2:00 AM (per calendar)",
-        "Thursday": "9:00 PM–2:00 AM ('1984' recurring night)",
-        "Friday": "9:30 PM–2:00 AM (NIGHTSHIFT, per calendar)",
-        "Saturday": "9:00 PM–2:00 AM (per calendar)",
+        "Wednesday": "Club nights typically 9:00 PM\u20132:00 AM (per calendar)",
+        "Thursday": "9:00 PM\u20132:00 AM ('1984' recurring night)",
+        "Friday": "9:30 PM\u20132:00 AM (NIGHTSHIFT, per calendar)",
+        "Saturday": "9:00 PM\u20132:00 AM (per calendar)",
         "Sunday": "See official calendar"
       },
       "qualifyingDays": [
@@ -3376,12 +3376,12 @@
       "address": "375 11th St, San Francisco, CA 94103",
       "officialUrl": "https://www.dnalounge.com/",
       "hours": {
-        "Monday": "Event nights 8:30 PM–2:30 AM",
+        "Monday": "Event nights 8:30 PM\u20132:30 AM",
         "Tuesday": "See official calendar",
         "Wednesday": "See official calendar",
         "Thursday": "See official calendar",
-        "Friday": "Event nights 9:00 PM–2:30 AM",
-        "Saturday": "Event nights 9:00 PM–2:30 AM",
+        "Friday": "Event nights 9:00 PM\u20132:30 AM",
+        "Saturday": "Event nights 9:00 PM\u20132:30 AM",
         "Sunday": "See official calendar"
       },
       "qualifyingDays": [
@@ -3474,13 +3474,13 @@
       "address": "398 12th St, San Francisco, CA 94103",
       "officialUrl": "https://www.sf-eagle.com/visit/",
       "hours": {
-        "Monday": "6:00 PM–12:00 AM",
+        "Monday": "6:00 PM\u201312:00 AM",
         "Tuesday": "Closed",
-        "Wednesday": "6:00 PM–12:00 AM",
-        "Thursday": "6:00 PM–12:00 AM",
-        "Friday": "2:00 PM–2:00 AM",
-        "Saturday": "2:00 PM–2:00 AM",
-        "Sunday": "1:00 PM–12:00 AM"
+        "Wednesday": "6:00 PM\u201312:00 AM",
+        "Thursday": "6:00 PM\u201312:00 AM",
+        "Friday": "2:00 PM\u20132:00 AM",
+        "Saturday": "2:00 PM\u20132:00 AM",
+        "Sunday": "1:00 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -3524,12 +3524,12 @@
       "officialUrl": "https://www.sfoasis.com/",
       "hours": {
         "Monday": "Closed",
-        "Tuesday": "6:00 PM–10:00 PM",
+        "Tuesday": "6:00 PM\u201310:00 PM",
         "Wednesday": "Closed",
-        "Thursday": "6:00 PM–10:00 PM",
-        "Friday": "6:00 PM–2:00 AM (per listings)",
-        "Saturday": "6:00 PM–2:00 AM (per listings)",
-        "Sunday": "6:00 PM–10:00 PM"
+        "Thursday": "6:00 PM\u201310:00 PM",
+        "Friday": "6:00 PM\u20132:00 AM (per listings)",
+        "Saturday": "6:00 PM\u20132:00 AM (per listings)",
+        "Sunday": "6:00 PM\u201310:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -3572,13 +3572,13 @@
       "address": "2344 Market St, San Francisco, CA 94114",
       "officialUrl": "https://www.beauxsf.com/",
       "hours": {
-        "Monday": "3:00 PM–2:00 AM (parties from 9:00 PM)",
-        "Tuesday": "3:00 PM–2:00 AM (parties from 9:00 PM)",
-        "Wednesday": "3:00 PM–2:00 AM (parties from 9:00 PM)",
-        "Thursday": "3:00 PM–2:00 AM (parties from 9:00 PM)",
-        "Friday": "3:00 PM–2:00 AM (special events to 3:00 AM)",
-        "Saturday": "12:00 PM–2:00 AM (special events to 3:00 AM, e.g. Sep 5, 2026 'til 3AM')",
-        "Sunday": "12:00 PM–2:00 AM (drag brunch daytime; shows 8:30/9:30 PM)"
+        "Monday": "3:00 PM\u20132:00 AM (parties from 9:00 PM)",
+        "Tuesday": "3:00 PM\u20132:00 AM (parties from 9:00 PM)",
+        "Wednesday": "3:00 PM\u20132:00 AM (parties from 9:00 PM)",
+        "Thursday": "3:00 PM\u20132:00 AM (parties from 9:00 PM)",
+        "Friday": "3:00 PM\u20132:00 AM (special events to 3:00 AM)",
+        "Saturday": "12:00 PM\u20132:00 AM (special events to 3:00 AM, e.g. Sep 5, 2026 'til 3AM')",
+        "Sunday": "12:00 PM\u20132:00 AM (drag brunch daytime; shows 8:30/9:30 PM)"
       },
       "qualifyingDays": [
         "Friday",
@@ -3622,12 +3622,12 @@
       "address": "3600 16th St, San Francisco, CA 94114",
       "officialUrl": "https://lookoutsf.com/",
       "hours": {
-        "Monday": "3:30 PM–2:00 AM (per listings)",
+        "Monday": "3:30 PM\u20132:00 AM (per listings)",
         "Tuesday": "Per listings, see venue",
         "Wednesday": "Per listings, see venue",
-        "Thursday": "3:30 PM–2:00 AM (per listings)",
-        "Friday": "3:30 PM–2:00 AM (per listings)",
-        "Saturday": "12:00 PM–2:00 AM (per listings)",
+        "Thursday": "3:30 PM\u20132:00 AM (per listings)",
+        "Friday": "3:30 PM\u20132:00 AM (per listings)",
+        "Saturday": "12:00 PM\u20132:00 AM (per listings)",
         "Sunday": "Per listings, see venue"
       },
       "qualifyingDays": [
@@ -3720,13 +3720,13 @@
       "address": "3988 18th St, San Francisco, CA 94114",
       "officialUrl": "https://www.lastcallbarsf.com/home",
       "hours": {
-        "Monday": "12:00 PM–2:00 AM",
-        "Tuesday": "12:00 PM–2:00 AM",
-        "Wednesday": "12:00 PM–2:00 AM",
-        "Thursday": "12:00 PM–2:00 AM",
-        "Friday": "12:00 PM–2:00 AM",
-        "Saturday": "1:00 PM–2:00 AM",
-        "Sunday": "1:00 PM–2:00 AM"
+        "Monday": "12:00 PM\u20132:00 AM",
+        "Tuesday": "12:00 PM\u20132:00 AM",
+        "Wednesday": "12:00 PM\u20132:00 AM",
+        "Thursday": "12:00 PM\u20132:00 AM",
+        "Friday": "12:00 PM\u20132:00 AM",
+        "Saturday": "1:00 PM\u20132:00 AM",
+        "Sunday": "1:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -3770,13 +3770,13 @@
       "address": "440 Castro St, San Francisco, CA 94114",
       "officialUrl": "https://www.the440.com/",
       "hours": {
-        "Monday": "12:00 PM–2:00 AM (per listings; official site currently erroring)",
-        "Tuesday": "12:00 PM–2:00 AM (per listings; official site currently erroring)",
-        "Wednesday": "12:00 PM–2:00 AM (per listings; official site currently erroring)",
-        "Thursday": "12:00 PM–2:00 AM (per listings; official site currently erroring)",
-        "Friday": "12:00 PM–2:00 AM (per listings; official site currently erroring)",
-        "Saturday": "12:00 PM–2:00 AM (per listings; official site currently erroring)",
-        "Sunday": "12:00 PM–2:00 AM (per listings; official site currently erroring)"
+        "Monday": "12:00 PM\u20132:00 AM (per listings; official site currently erroring)",
+        "Tuesday": "12:00 PM\u20132:00 AM (per listings; official site currently erroring)",
+        "Wednesday": "12:00 PM\u20132:00 AM (per listings; official site currently erroring)",
+        "Thursday": "12:00 PM\u20132:00 AM (per listings; official site currently erroring)",
+        "Friday": "12:00 PM\u20132:00 AM (per listings; official site currently erroring)",
+        "Saturday": "12:00 PM\u20132:00 AM (per listings; official site currently erroring)",
+        "Sunday": "12:00 PM\u20132:00 AM (per listings; official site currently erroring)"
       },
       "qualifyingDays": [
         "Friday",
@@ -3820,13 +3820,13 @@
       "address": "500 Divisadero St, San Francisco, CA 94117",
       "officialUrl": "https://madroneartbar.com/",
       "hours": {
-        "Monday": "4:00 PM–2:00 AM",
-        "Tuesday": "4:00 PM–2:00 AM",
-        "Wednesday": "4:00 PM–2:00 AM",
-        "Thursday": "4:00 PM–2:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "4:00 PM–2:00 AM",
-        "Sunday": "3:00 PM–1:30 AM"
+        "Monday": "4:00 PM\u20132:00 AM",
+        "Tuesday": "4:00 PM\u20132:00 AM",
+        "Wednesday": "4:00 PM\u20132:00 AM",
+        "Thursday": "4:00 PM\u20132:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "4:00 PM\u20132:00 AM",
+        "Sunday": "3:00 PM\u20131:30 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -3864,19 +3864,19 @@
     },
     {
       "id": "mels-4th-mission",
-      "name": "Mel's Drive-In — 4th & Mission",
+      "name": "Mel's Drive-In \u2014 4th & Mission",
       "category": "Diner",
       "neighborhood": "SoMa",
       "address": "801 Mission St, San Francisco, CA 94103",
       "officialUrl": "https://melsdrive-in.com/restaurant/mels-4th-mission/",
       "hours": {
-        "Monday": "7:00 AM–11:00 PM",
-        "Tuesday": "7:00 AM–11:00 PM",
-        "Wednesday": "7:00 AM–11:00 PM",
-        "Thursday": "7:00 AM–12:00 AM",
-        "Friday": "7:00 AM–3:00 AM",
-        "Saturday": "7:00 AM–3:00 AM",
-        "Sunday": "7:00 AM–11:00 PM"
+        "Monday": "7:00 AM\u201311:00 PM",
+        "Tuesday": "7:00 AM\u201311:00 PM",
+        "Wednesday": "7:00 AM\u201311:00 PM",
+        "Thursday": "7:00 AM\u201312:00 AM",
+        "Friday": "7:00 AM\u20133:00 AM",
+        "Saturday": "7:00 AM\u20133:00 AM",
+        "Sunday": "7:00 AM\u201311:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -3916,19 +3916,19 @@
     },
     {
       "id": "mels-lombard",
-      "name": "Mel's Drive-In — Lombard Street",
+      "name": "Mel's Drive-In \u2014 Lombard Street",
       "category": "Diner",
       "neighborhood": "Marina",
       "address": "2165 Lombard St, San Francisco, CA 94123",
       "officialUrl": "https://melsdrive-in.com/restaurant/mels-lombard-street/",
       "hours": {
-        "Monday": "6:30 AM–12:00 AM",
-        "Tuesday": "6:30 AM–12:00 AM",
-        "Wednesday": "6:30 AM–12:00 AM",
-        "Thursday": "6:30 AM–12:00 AM",
-        "Friday": "6:30 AM–3:00 AM",
-        "Saturday": "6:30 AM–3:00 AM",
-        "Sunday": "6:30 AM–12:00 AM"
+        "Monday": "6:30 AM\u201312:00 AM",
+        "Tuesday": "6:30 AM\u201312:00 AM",
+        "Wednesday": "6:30 AM\u201312:00 AM",
+        "Thursday": "6:30 AM\u201312:00 AM",
+        "Friday": "6:30 AM\u20133:00 AM",
+        "Saturday": "6:30 AM\u20133:00 AM",
+        "Sunday": "6:30 AM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -3968,19 +3968,19 @@
     },
     {
       "id": "mels-geary",
-      "name": "Mel's Drive-In — Geary Boulevard",
+      "name": "Mel's Drive-In \u2014 Geary Boulevard",
       "category": "Diner",
       "neighborhood": "Richmond",
       "address": "3355 Geary Blvd, San Francisco, CA 94118",
       "officialUrl": "https://melsdrive-in.com/restaurant/mels-geary-boulevard-richmond-district/",
       "hours": {
-        "Monday": "7:00 AM–10:00 PM",
-        "Tuesday": "7:00 AM–10:00 PM",
-        "Wednesday": "7:00 AM–10:00 PM",
-        "Thursday": "7:00 AM–11:00 PM",
-        "Friday": "7:00 AM–1:00 AM",
-        "Saturday": "7:00 AM–1:00 AM",
-        "Sunday": "7:00 AM–11:00 PM"
+        "Monday": "7:00 AM\u201310:00 PM",
+        "Tuesday": "7:00 AM\u201310:00 PM",
+        "Wednesday": "7:00 AM\u201310:00 PM",
+        "Thursday": "7:00 AM\u201311:00 PM",
+        "Friday": "7:00 AM\u20131:00 AM",
+        "Saturday": "7:00 AM\u20131:00 AM",
+        "Sunday": "7:00 AM\u201311:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4081,10 +4081,10 @@
         "Monday": "Closed",
         "Tuesday": "Closed",
         "Wednesday": "Closed",
-        "Thursday": "4:00 PM–12:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "4:00 PM–2:00 AM",
-        "Sunday": "4:00 PM–12:00 AM"
+        "Thursday": "4:00 PM\u201312:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "4:00 PM\u20132:00 AM",
+        "Sunday": "4:00 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4133,11 +4133,11 @@
       "hours": {
         "Monday": "Closed",
         "Tuesday": "Closed",
-        "Wednesday": "5:30 PM–2:00 AM",
-        "Thursday": "5:30 PM–2:00 AM",
-        "Friday": "5:30 PM–4:00 AM",
-        "Saturday": "5:30 PM–4:00 AM",
-        "Sunday": "5:30 PM–2:00 AM"
+        "Wednesday": "5:30 PM\u20132:00 AM",
+        "Thursday": "5:30 PM\u20132:00 AM",
+        "Friday": "5:30 PM\u20134:00 AM",
+        "Saturday": "5:30 PM\u20134:00 AM",
+        "Sunday": "5:30 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4163,7 +4163,7 @@
       "source": {
         "label": "Official venue page",
         "url": "https://www.bissapbaobab.com/info",
-        "quote": "Hours and Directions. Open Hours: Wed–Sun 5:30pm til 2am; Fri-Sat 5:30pm til 4am. 2243 Mission Street, San Francisco, CA. Bart Station 16th or 24th St."
+        "quote": "Hours and Directions. Open Hours: Wed\u2013Sun 5:30pm til 2am; Fri-Sat 5:30pm til 4am. 2243 Mission Street, San Francisco, CA. Bart Station 16th or 24th St."
       },
       "flags": [
         "Irregularity for manual review: the venue's own menu page carries structured hours that end earlier than the hours printed on this contact page. Confirm before a very late visit."
@@ -4177,19 +4177,19 @@
     },
     {
       "id": "el-farolito-24th",
-      "name": "El Farolito — 24th Street",
+      "name": "El Farolito \u2014 24th Street",
       "category": "Taqueria",
       "neighborhood": "Mission",
       "address": "2950 24th St, San Francisco, CA 94110",
       "officialUrl": "https://elfarolitosf.com/locations/",
       "hours": {
-        "Monday": "10:00 AM–1:30 AM",
-        "Tuesday": "10:00 AM–1:30 AM",
-        "Wednesday": "10:00 AM–1:30 AM",
-        "Thursday": "10:00 AM–1:30 AM",
-        "Friday": "10:00 AM–2:30 AM",
-        "Saturday": "10:00 AM–2:30 AM",
-        "Sunday": "10:00 AM–1:30 AM"
+        "Monday": "10:00 AM\u20131:30 AM",
+        "Tuesday": "10:00 AM\u20131:30 AM",
+        "Wednesday": "10:00 AM\u20131:30 AM",
+        "Thursday": "10:00 AM\u20131:30 AM",
+        "Friday": "10:00 AM\u20132:30 AM",
+        "Saturday": "10:00 AM\u20132:30 AM",
+        "Sunday": "10:00 AM\u20131:30 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4215,7 +4215,7 @@
       "source": {
         "label": "Official venue page",
         "url": "https://elfarolitosf.com/locations/",
-        "quote": "24th Street, 2950 24th St, San Francisco, CA 94110. Mon–Thu 10:00 AM – 1:30 AM; Fri 10:00 AM – 2:30 AM; Sat 10:00 AM – 2:30 AM; Sun 10:00 AM – 1:30 AM."
+        "quote": "24th Street, 2950 24th St, San Francisco, CA 94110. Mon\u2013Thu 10:00 AM \u2013 1:30 AM; Fri 10:00 AM \u2013 2:30 AM; Sat 10:00 AM \u2013 2:30 AM; Sun 10:00 AM \u2013 1:30 AM."
       },
       "flags": [
         "Chain location: hours are published per address on one official page, so confirm the 24th Street row specifically."
@@ -4229,19 +4229,19 @@
     },
     {
       "id": "el-farolito-north-beach",
-      "name": "El Farolito — North Beach",
+      "name": "El Farolito \u2014 North Beach",
       "category": "Taqueria",
       "neighborhood": "North Beach",
       "address": "1230 Grant Ave, San Francisco, CA 94133",
       "officialUrl": "https://elfarolitosf.com/locations/",
       "hours": {
-        "Monday": "10:00 AM–2:00 AM",
-        "Tuesday": "10:00 AM–2:00 AM",
-        "Wednesday": "10:00 AM–2:00 AM",
-        "Thursday": "10:00 AM–2:00 AM",
-        "Friday": "10:00 AM–2:00 AM",
-        "Saturday": "10:00 AM–2:00 AM",
-        "Sunday": "10:00 AM–2:00 AM"
+        "Monday": "10:00 AM\u20132:00 AM",
+        "Tuesday": "10:00 AM\u20132:00 AM",
+        "Wednesday": "10:00 AM\u20132:00 AM",
+        "Thursday": "10:00 AM\u20132:00 AM",
+        "Friday": "10:00 AM\u20132:00 AM",
+        "Saturday": "10:00 AM\u20132:00 AM",
+        "Sunday": "10:00 AM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4267,7 +4267,7 @@
       "source": {
         "label": "Official venue page",
         "url": "https://elfarolitosf.com/locations/",
-        "quote": "North Beach (Grant Ave), 1230 Grant Ave, San Francisco, CA 94133. Mon through Sun 10:00 AM – 2:00 AM."
+        "quote": "North Beach (Grant Ave), 1230 Grant Ave, San Francisco, CA 94133. Mon through Sun 10:00 AM \u2013 2:00 AM."
       },
       "flags": [
         "Transit gap: the 30 and 8 stop at midnight while the taqueria is open until 2 AM.",
@@ -4282,19 +4282,19 @@
     },
     {
       "id": "el-farolito-excelsior",
-      "name": "El Farolito — 4817 Mission Street",
+      "name": "El Farolito \u2014 4817 Mission Street",
       "category": "Taqueria",
       "neighborhood": "Excelsior",
       "address": "4817 Mission St, San Francisco, CA 94112",
       "officialUrl": "https://elfarolitosf.com/locations/",
       "hours": {
-        "Monday": "10:00 AM–1:45 AM",
-        "Tuesday": "10:00 AM–1:45 AM",
-        "Wednesday": "9:00 AM–2:45 AM",
-        "Thursday": "9:00 AM–3:45 AM",
-        "Friday": "9:00 AM–3:45 AM",
-        "Saturday": "9:00 AM–2:45 AM",
-        "Sunday": "10:00 AM–1:45 AM"
+        "Monday": "10:00 AM\u20131:45 AM",
+        "Tuesday": "10:00 AM\u20131:45 AM",
+        "Wednesday": "9:00 AM\u20132:45 AM",
+        "Thursday": "9:00 AM\u20133:45 AM",
+        "Friday": "9:00 AM\u20133:45 AM",
+        "Saturday": "9:00 AM\u20132:45 AM",
+        "Sunday": "10:00 AM\u20131:45 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4320,7 +4320,7 @@
       "source": {
         "label": "Official venue page",
         "url": "https://elfarolitosf.com/locations/",
-        "quote": "4817 Mission Street, 4817 Mission St, San Francisco, CA 94112. Mon 10:00 AM – 1:45 AM; Tue 10:00 AM – 1:45 AM; Wed 9:00 AM – 2:45 AM; Thu 9:00 AM – 3:45 AM; Fri 9:00 AM – 3:45 AM; Sat 9:00 AM – 2:45 AM; Sun 10:00 AM – 1:45 AM."
+        "quote": "4817 Mission Street, 4817 Mission St, San Francisco, CA 94112. Mon 10:00 AM \u2013 1:45 AM; Tue 10:00 AM \u2013 1:45 AM; Wed 9:00 AM \u2013 2:45 AM; Thu 9:00 AM \u2013 3:45 AM; Fri 9:00 AM \u2013 3:45 AM; Sat 9:00 AM \u2013 2:45 AM; Sun 10:00 AM \u2013 1:45 AM."
       },
       "flags": [
         "Long transit trip from the origin; check the live planner for the fastest transfer.",
@@ -4341,13 +4341,13 @@
       "address": "2124 Market St, San Francisco, CA 94114",
       "officialUrl": "https://www.blackbirdbar.com/location/blackbird-bar/",
       "hours": {
-        "Monday": "5:00 PM–11:00 PM",
-        "Tuesday": "5:00 PM–12:00 AM",
-        "Wednesday": "5:00 PM–12:00 AM",
-        "Thursday": "5:00 PM–12:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "2:00 PM–2:00 AM",
-        "Sunday": "2:00 PM–11:00 PM"
+        "Monday": "5:00 PM\u201311:00 PM",
+        "Tuesday": "5:00 PM\u201312:00 AM",
+        "Wednesday": "5:00 PM\u201312:00 AM",
+        "Thursday": "5:00 PM\u201312:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "2:00 PM\u20132:00 AM",
+        "Sunday": "2:00 PM\u201311:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4372,7 +4372,7 @@
       "source": {
         "label": "Official venue page",
         "url": "https://www.blackbirdbar.com/location/blackbird-bar/",
-        "quote": "Hours & Location. 2124 Market Street, San Francisco, CA 94114. Monday 5pm-11pm; Tuesday 5pm-12pm; Wednesday 5pm–12pm; Thursday 5pm–12pm; Friday 4pm–2am; Saturday 2pm-2am; Sunday 2pm-11pm. Closed Thanksgiving & Christmas."
+        "quote": "Hours & Location. 2124 Market Street, San Francisco, CA 94114. Monday 5pm-11pm; Tuesday 5pm-12pm; Wednesday 5pm\u201312pm; Thursday 5pm\u201312pm; Friday 4pm\u20132am; Saturday 2pm-2am; Sunday 2pm-11pm. Closed Thanksgiving & Christmas."
       },
       "flags": [
         "Irregularity for manual review: the official hours list writes the Tuesday to Thursday close as \"12pm\", which reads as noon but sits in an evening range; only Friday and Saturday are counted here.",
@@ -4393,13 +4393,13 @@
       "address": "3160 16th St, San Francisco, CA 94103",
       "officialUrl": "https://kilowattbar.com/",
       "hours": {
-        "Monday": "5:00 PM–2:00 AM",
-        "Tuesday": "5:00 PM–2:00 AM",
-        "Wednesday": "5:00 PM–2:00 AM",
-        "Thursday": "5:00 PM–2:00 AM",
-        "Friday": "5:00 PM–2:00 AM",
-        "Saturday": "1:00 PM–2:00 AM",
-        "Sunday": "1:00 PM–2:00 AM"
+        "Monday": "5:00 PM\u20132:00 AM",
+        "Tuesday": "5:00 PM\u20132:00 AM",
+        "Wednesday": "5:00 PM\u20132:00 AM",
+        "Thursday": "5:00 PM\u20132:00 AM",
+        "Friday": "5:00 PM\u20132:00 AM",
+        "Saturday": "1:00 PM\u20132:00 AM",
+        "Sunday": "1:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4445,13 +4445,13 @@
       "address": "527 Valencia St, San Francisco, CA 94110",
       "officialUrl": "https://www.casanovasf.com/",
       "hours": {
-        "Monday": "5:00 PM–2:00 AM",
-        "Tuesday": "5:00 PM–2:00 AM",
-        "Wednesday": "5:00 PM–2:00 AM",
-        "Thursday": "5:00 PM–2:00 AM",
-        "Friday": "5:00 PM–2:00 AM",
-        "Saturday": "5:00 PM–2:00 AM",
-        "Sunday": "5:00 PM–2:00 AM"
+        "Monday": "5:00 PM\u20132:00 AM",
+        "Tuesday": "5:00 PM\u20132:00 AM",
+        "Wednesday": "5:00 PM\u20132:00 AM",
+        "Thursday": "5:00 PM\u20132:00 AM",
+        "Friday": "5:00 PM\u20132:00 AM",
+        "Saturday": "5:00 PM\u20132:00 AM",
+        "Sunday": "5:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4497,13 +4497,13 @@
       "address": "540 Valencia St, San Francisco, CA 94110",
       "officialUrl": "https://blondiesbarsf.com/",
       "hours": {
-        "Monday": "4:00 PM–2:00 AM",
-        "Tuesday": "4:00 PM–2:00 AM",
-        "Wednesday": "4:00 PM–2:00 AM",
-        "Thursday": "4:00 PM–2:00 AM",
-        "Friday": "2:00 PM–2:00 AM",
-        "Saturday": "2:00 PM–2:00 AM",
-        "Sunday": "2:00 PM–2:00 AM"
+        "Monday": "4:00 PM\u20132:00 AM",
+        "Tuesday": "4:00 PM\u20132:00 AM",
+        "Wednesday": "4:00 PM\u20132:00 AM",
+        "Thursday": "4:00 PM\u20132:00 AM",
+        "Friday": "2:00 PM\u20132:00 AM",
+        "Saturday": "2:00 PM\u20132:00 AM",
+        "Sunday": "2:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4529,7 +4529,7 @@
       "source": {
         "label": "Official venue page",
         "url": "https://blondiesbarsf.com/",
-        "quote": "Blondie's Bar, 540 Valencia Street, San Francisco, California 94110, United States. Hours: Mon 04:00 pm – 02:00 am; Tue 04:00 pm – 02:00 am; Wed 04:00 pm – 02:00 am; Thu 04:00 pm – 02:00 am; Fri 02:00 pm – 02:00 am; Sat 02:00 pm – 02:00 am; Sun 02:00 pm – 02:00 am."
+        "quote": "Blondie's Bar, 540 Valencia Street, San Francisco, California 94110, United States. Hours: Mon 04:00 pm \u2013 02:00 am; Tue 04:00 pm \u2013 02:00 am; Wed 04:00 pm \u2013 02:00 am; Thu 04:00 pm \u2013 02:00 am; Fri 02:00 pm \u2013 02:00 am; Sat 02:00 pm \u2013 02:00 am; Sun 02:00 pm \u2013 02:00 am."
       },
       "flags": [
         "The second bar, Blondie's Wetspot, is open only on Friday and Saturday nights per the official page.",
@@ -4550,13 +4550,13 @@
       "address": "557 Haight St, San Francisco, CA 94117",
       "officialUrl": "https://www.nocnocs.com/",
       "hours": {
-        "Monday": "5:00 PM–1:00 AM",
-        "Tuesday": "5:00 PM–1:00 AM",
-        "Wednesday": "5:00 PM–1:00 AM",
-        "Thursday": "5:00 PM–1:00 AM",
-        "Friday": "5:00 PM–2:00 AM",
-        "Saturday": "5:00 PM–2:00 AM",
-        "Sunday": "5:00 PM–1:00 AM"
+        "Monday": "5:00 PM\u20131:00 AM",
+        "Tuesday": "5:00 PM\u20131:00 AM",
+        "Wednesday": "5:00 PM\u20131:00 AM",
+        "Thursday": "5:00 PM\u20131:00 AM",
+        "Friday": "5:00 PM\u20132:00 AM",
+        "Saturday": "5:00 PM\u20132:00 AM",
+        "Sunday": "5:00 PM\u20131:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4582,11 +4582,11 @@
       "source": {
         "label": "Official venue page",
         "url": "https://www.nocnocs.com/",
-        "quote": "Hours of Operation. Sunday – Thursday 5 pm – 1 am. Friday – Saturday 5 pm – 2 am. 557 Haight St. San Francisco, CA 94117 (Between Fillmore and Steiner)."
+        "quote": "Hours of Operation. Sunday \u2013 Thursday 5 pm \u2013 1 am. Friday \u2013 Saturday 5 pm \u2013 2 am. 557 Haight St. San Francisco, CA 94117 (Between Fillmore and Steiner)."
       },
       "flags": [
         "Transit gap: the 7 and 6 both end at midnight, before the Friday and Saturday 2 AM close.",
-        "Beer, wine, and sake only — no spirits, per the official page."
+        "Beer, wine, and sake only \u2014 no spirits, per the official page."
       ],
       "verification": {
         "status": "verified",
@@ -4603,13 +4603,13 @@
       "address": "10 Mark Ln, San Francisco, CA 94108",
       "officialUrl": "https://www.theirishbank.com/",
       "hours": {
-        "Monday": "11:30 AM–12:00 AM",
-        "Tuesday": "11:30 AM–12:00 AM",
-        "Wednesday": "11:30 AM–12:00 AM",
-        "Thursday": "11:30 AM–12:00 AM",
-        "Friday": "11:30 AM–2:00 AM",
-        "Saturday": "11:30 AM–2:00 AM",
-        "Sunday": "11:30 AM–12:00 AM"
+        "Monday": "11:30 AM\u201312:00 AM",
+        "Tuesday": "11:30 AM\u201312:00 AM",
+        "Wednesday": "11:30 AM\u201312:00 AM",
+        "Thursday": "11:30 AM\u201312:00 AM",
+        "Friday": "11:30 AM\u20132:00 AM",
+        "Saturday": "11:30 AM\u20132:00 AM",
+        "Sunday": "11:30 AM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4655,13 +4655,13 @@
       "address": "198 Church St, San Francisco, CA 94114",
       "officialUrl": "https://www.churchillsf.com/",
       "hours": {
-        "Monday": "4:00 PM–12:00 AM",
-        "Tuesday": "4:00 PM–12:00 AM",
-        "Wednesday": "4:00 PM–12:00 AM",
-        "Thursday": "4:00 PM–12:00 AM",
-        "Friday": "4:00 PM–2:00 AM",
-        "Saturday": "4:00 PM–2:00 AM",
-        "Sunday": "4:00 PM–12:00 AM"
+        "Monday": "4:00 PM\u201312:00 AM",
+        "Tuesday": "4:00 PM\u201312:00 AM",
+        "Wednesday": "4:00 PM\u201312:00 AM",
+        "Thursday": "4:00 PM\u201312:00 AM",
+        "Friday": "4:00 PM\u20132:00 AM",
+        "Saturday": "4:00 PM\u20132:00 AM",
+        "Sunday": "4:00 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4706,13 +4706,13 @@
       "address": "298 Pacific Ave, San Francisco, CA 94111",
       "officialUrl": "https://theoldshipsf.com/",
       "hours": {
-        "Monday": "11:00 AM–2:00 AM",
-        "Tuesday": "11:00 AM–2:00 AM",
-        "Wednesday": "11:00 AM–2:00 AM",
-        "Thursday": "11:00 AM–2:00 AM",
-        "Friday": "11:00 AM–2:00 AM",
-        "Saturday": "11:00 AM–2:00 AM",
-        "Sunday": "11:00 AM–2:00 AM"
+        "Monday": "11:00 AM\u20132:00 AM",
+        "Tuesday": "11:00 AM\u20132:00 AM",
+        "Wednesday": "11:00 AM\u20132:00 AM",
+        "Thursday": "11:00 AM\u20132:00 AM",
+        "Friday": "11:00 AM\u20132:00 AM",
+        "Saturday": "11:00 AM\u20132:00 AM",
+        "Sunday": "11:00 AM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4738,7 +4738,7 @@
       "source": {
         "label": "Official venue page",
         "url": "https://theoldshipsf.com/",
-        "quote": "FIND US. 298 Pacific Ave. San Francisco, CA 94111. Open Daily. Monday – Sunday, 11am to 2am."
+        "quote": "FIND US. 298 Pacific Ave. San Francisco, CA 94111. Open Daily. Monday \u2013 Sunday, 11am to 2am."
       },
       "flags": [
         "Transit gap: the 8 and 30 stop at midnight while the saloon is open until 2 AM.",
@@ -4759,13 +4759,13 @@
       "address": "895 Bush St, San Francisco, CA 94108",
       "officialUrl": "https://www.stookeysclubmoderne.com/",
       "hours": {
-        "Monday": "5:00 PM–2:00 AM",
-        "Tuesday": "5:00 PM–2:00 AM",
-        "Wednesday": "5:00 PM–2:00 AM",
-        "Thursday": "5:00 PM–2:00 AM",
-        "Friday": "5:00 PM–2:00 AM",
-        "Saturday": "5:00 PM–2:00 AM",
-        "Sunday": "5:00 PM–2:00 AM"
+        "Monday": "5:00 PM\u20132:00 AM",
+        "Tuesday": "5:00 PM\u20132:00 AM",
+        "Wednesday": "5:00 PM\u20132:00 AM",
+        "Thursday": "5:00 PM\u20132:00 AM",
+        "Friday": "5:00 PM\u20132:00 AM",
+        "Saturday": "5:00 PM\u20132:00 AM",
+        "Sunday": "5:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4812,13 +4812,13 @@
       "address": "1582 Folsom St, San Francisco, CA 94103",
       "officialUrl": "https://thewillowssf.com/",
       "hours": {
-        "Monday": "11:30 AM–12:00 AM",
-        "Tuesday": "11:30 AM–12:00 AM",
-        "Wednesday": "11:30 AM–12:00 AM",
-        "Thursday": "11:30 AM–12:00 AM",
-        "Friday": "11:30 AM–2:00 AM",
-        "Saturday": "11:00 AM–2:00 AM",
-        "Sunday": "11:00 AM–12:00 AM"
+        "Monday": "11:30 AM\u201312:00 AM",
+        "Tuesday": "11:30 AM\u201312:00 AM",
+        "Wednesday": "11:30 AM\u201312:00 AM",
+        "Thursday": "11:30 AM\u201312:00 AM",
+        "Friday": "11:30 AM\u20132:00 AM",
+        "Saturday": "11:00 AM\u20132:00 AM",
+        "Sunday": "11:00 AM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4863,13 +4863,13 @@
       "address": "2140 Mission St, San Francisco, CA 94110",
       "officialUrl": "https://thesycamoresf.com/",
       "hours": {
-        "Monday": "3:00 PM–2:00 AM",
-        "Tuesday": "11:30 AM–2:00 AM",
-        "Wednesday": "11:30 AM–2:00 AM",
-        "Thursday": "11:30 AM–2:00 AM",
-        "Friday": "11:30 AM–2:00 AM",
-        "Saturday": "Brunch 10:00 AM–3:00 PM; later close not published",
-        "Sunday": "Brunch 10:00 AM–3:00 PM; later close not published"
+        "Monday": "3:00 PM\u20132:00 AM",
+        "Tuesday": "11:30 AM\u20132:00 AM",
+        "Wednesday": "11:30 AM\u20132:00 AM",
+        "Thursday": "11:30 AM\u20132:00 AM",
+        "Friday": "11:30 AM\u20132:00 AM",
+        "Saturday": "Brunch 10:00 AM\u20133:00 PM; later close not published",
+        "Sunday": "Brunch 10:00 AM\u20133:00 PM; later close not published"
       },
       "qualifyingDays": [
         "Friday"
@@ -4913,13 +4913,13 @@
       "address": "1268 Grant Ave, San Francisco, CA 94133",
       "officialUrl": "https://showdown.pourguys.com/north-beach-the-showdown-locations",
       "hours": {
-        "Monday": "3:00 PM–2:00 AM",
-        "Tuesday": "3:00 PM–2:00 AM",
-        "Wednesday": "12:00 PM–2:00 AM",
-        "Thursday": "12:00 PM–2:00 AM",
-        "Friday": "12:00 PM–2:00 AM",
-        "Saturday": "12:00 PM–2:00 AM",
-        "Sunday": "12:00 PM–2:00 AM"
+        "Monday": "3:00 PM\u20132:00 AM",
+        "Tuesday": "3:00 PM\u20132:00 AM",
+        "Wednesday": "12:00 PM\u20132:00 AM",
+        "Thursday": "12:00 PM\u20132:00 AM",
+        "Friday": "12:00 PM\u20132:00 AM",
+        "Saturday": "12:00 PM\u20132:00 AM",
+        "Sunday": "12:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4945,7 +4945,7 @@
       "source": {
         "label": "Official operator location page",
         "url": "https://showdown.pourguys.com/north-beach-the-showdown-locations",
-        "quote": "The Showdown. Address: 1268 Grant Ave, San Francisco, CA 94133, US. Location Hours: Monday, Tuesday: 3:00PM – 2:00AM; Wednesday, Thursday, Friday, Saturday, Sunday: 12:00PM - 2:00AM."
+        "quote": "The Showdown. Address: 1268 Grant Ave, San Francisco, CA 94133, US. Location Hours: Monday, Tuesday: 3:00PM \u2013 2:00AM; Wednesday, Thursday, Friday, Saturday, Sunday: 12:00PM - 2:00AM."
       },
       "flags": [
         "Operator-site source: hours come from the Pour Guys operator location page rather than a standalone venue website. Flagged for manual review.",
@@ -4966,13 +4966,13 @@
       "address": "431 Natoma St, San Francisco, CA 94103",
       "officialUrl": "https://showdown.pourguys.com/north-beach-the-showdown-locations",
       "hours": {
-        "Monday": "11:00 AM–2:00 AM",
-        "Tuesday": "11:00 AM–2:00 AM",
-        "Wednesday": "11:00 AM–2:00 AM",
-        "Thursday": "11:00 AM–2:00 AM",
-        "Friday": "11:00 AM–2:00 AM",
-        "Saturday": "12:00 PM–2:00 AM",
-        "Sunday": "12:00 PM–2:00 AM"
+        "Monday": "11:00 AM\u20132:00 AM",
+        "Tuesday": "11:00 AM\u20132:00 AM",
+        "Wednesday": "11:00 AM\u20132:00 AM",
+        "Thursday": "11:00 AM\u20132:00 AM",
+        "Friday": "11:00 AM\u20132:00 AM",
+        "Saturday": "12:00 PM\u20132:00 AM",
+        "Sunday": "12:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -4998,7 +4998,7 @@
       "source": {
         "label": "Official operator location page",
         "url": "https://showdown.pourguys.com/north-beach-the-showdown-locations",
-        "quote": "Tempest Bar & Box Kitchen. Address: 431 Natoma St, San Francisco, CA 94103, US. Location Hours: Monday, Tuesday, Wednesday: 11:00AM – 2:00AM; Thursday: 11:00AM - 2:00AM; Friday: 11:00AM - 2:00AM; Saturday, Sunday: 12:00PM - 2:00AM."
+        "quote": "Tempest Bar & Box Kitchen. Address: 431 Natoma St, San Francisco, CA 94103, US. Location Hours: Monday, Tuesday, Wednesday: 11:00AM \u2013 2:00AM; Thursday: 11:00AM - 2:00AM; Friday: 11:00AM - 2:00AM; Saturday, Sunday: 12:00PM - 2:00AM."
       },
       "flags": [
         "Operator-site source: hours come from the Pour Guys operator location page rather than a standalone venue website. Flagged for manual review.",
@@ -5019,12 +5019,12 @@
       "address": "55 Stevenson St, San Francisco, CA 94105",
       "officialUrl": "https://showdown.pourguys.com/north-beach-the-showdown-locations",
       "hours": {
-        "Monday": "11:00 AM–2:00 AM",
-        "Tuesday": "11:00 AM–2:00 AM",
-        "Wednesday": "11:00 AM–2:00 AM",
-        "Thursday": "11:00 AM–2:00 AM",
-        "Friday": "11:00 AM–2:00 AM",
-        "Saturday": "5:00 PM–2:00 AM",
+        "Monday": "11:00 AM\u20132:00 AM",
+        "Tuesday": "11:00 AM\u20132:00 AM",
+        "Wednesday": "11:00 AM\u20132:00 AM",
+        "Thursday": "11:00 AM\u20132:00 AM",
+        "Friday": "11:00 AM\u20132:00 AM",
+        "Saturday": "5:00 PM\u20132:00 AM",
         "Sunday": "Closed"
       },
       "qualifyingDays": [
@@ -5050,7 +5050,7 @@
       "source": {
         "label": "Official operator location page",
         "url": "https://showdown.pourguys.com/north-beach-the-showdown-locations",
-        "quote": "Louie's Bar. Address: 55 Stevenson St, San Francisco, CA 94105, US. Location Hours: Monday, Tuesday, Wednesday: 11:00AM – 2:00AM; Thursday: 11:00AM - 2:00AM, Friday: 11:00AM - 2:00AM; Saturday: 5:00PM - 2AM; Sunday: Closed."
+        "quote": "Louie's Bar. Address: 55 Stevenson St, San Francisco, CA 94105, US. Location Hours: Monday, Tuesday, Wednesday: 11:00AM \u2013 2:00AM; Thursday: 11:00AM - 2:00AM, Friday: 11:00AM - 2:00AM; Saturday: 5:00PM - 2AM; Sunday: Closed."
       },
       "flags": [
         "Operator-site source: hours come from the Pour Guys operator location page rather than a standalone venue website. Flagged for manual review.",
@@ -5071,13 +5071,13 @@
       "address": "100 Connecticut St, San Francisco, CA 94107",
       "officialUrl": "https://showdown.pourguys.com/north-beach-the-showdown-locations",
       "hours": {
-        "Monday": "11:00 AM–11:00 PM",
-        "Tuesday": "11:00 AM–11:00 PM",
-        "Wednesday": "11:00 AM–11:00 PM",
-        "Thursday": "11:00 AM–1:00 AM",
-        "Friday": "11:00 AM–1:00 AM",
-        "Saturday": "11:00 AM–1:00 AM",
-        "Sunday": "11:00 AM–11:00 PM"
+        "Monday": "11:00 AM\u201311:00 PM",
+        "Tuesday": "11:00 AM\u201311:00 PM",
+        "Wednesday": "11:00 AM\u201311:00 PM",
+        "Thursday": "11:00 AM\u20131:00 AM",
+        "Friday": "11:00 AM\u20131:00 AM",
+        "Saturday": "11:00 AM\u20131:00 AM",
+        "Sunday": "11:00 AM\u201311:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -5102,7 +5102,7 @@
       "source": {
         "label": "Official operator location page",
         "url": "https://showdown.pourguys.com/north-beach-the-showdown-locations",
-        "quote": "Connecticut Yankee. Address: 100 Connecticut St, San Francisco, CA 94107, US. Location Hours: Monday, Tuesday, Wednesday: 11:00AM – 11:00PM; Thursday, Friday, Saturday: 11:00AM - 1:00AM; Sunday: 11:00AM - 11:00PM."
+        "quote": "Connecticut Yankee. Address: 100 Connecticut St, San Francisco, CA 94107, US. Location Hours: Monday, Tuesday, Wednesday: 11:00AM \u2013 11:00PM; Thursday, Friday, Saturday: 11:00AM - 1:00AM; Sunday: 11:00AM - 11:00PM."
       },
       "flags": [
         "Operator-site source: hours come from the Pour Guys operator location page rather than a standalone venue website. Flagged for manual review.",
@@ -5117,7 +5117,7 @@
     },
     {
       "id": "the-cafe",
-      "name": "The Café",
+      "name": "The Caf\u00e9",
       "category": "Gay bar / nightclub",
       "neighborhood": "Castro / Upper Market",
       "address": "2369 Market St, San Francisco, CA 94114",
@@ -5126,9 +5126,9 @@
         "Monday": "Closed",
         "Tuesday": "Closed",
         "Wednesday": "Closed",
-        "Thursday": "9:00 PM–2:00 AM",
-        "Friday": "9:00 PM–2:00 AM",
-        "Saturday": "9:00 PM–2:00 AM",
+        "Thursday": "9:00 PM\u20132:00 AM",
+        "Friday": "9:00 PM\u20132:00 AM",
+        "Saturday": "9:00 PM\u20132:00 AM",
         "Sunday": "Special events only; see official feed"
       },
       "qualifyingDays": [
@@ -5228,13 +5228,13 @@
       "address": "116 Clement St, San Francisco, CA 94118",
       "officialUrl": "https://www.theploughandstars.com/",
       "hours": {
-        "Monday": "5:00 PM–2:00 AM",
-        "Tuesday": "5:00 PM–2:00 AM",
-        "Wednesday": "3:00 PM–2:00 AM",
-        "Thursday": "4:00 PM–2:00 AM",
-        "Friday": "3:00 PM–2:00 AM",
-        "Saturday": "2:00 PM–2:00 AM",
-        "Sunday": "11:00 AM–2:00 AM"
+        "Monday": "5:00 PM\u20132:00 AM",
+        "Tuesday": "5:00 PM\u20132:00 AM",
+        "Wednesday": "3:00 PM\u20132:00 AM",
+        "Thursday": "4:00 PM\u20132:00 AM",
+        "Friday": "3:00 PM\u20132:00 AM",
+        "Saturday": "2:00 PM\u20132:00 AM",
+        "Sunday": "11:00 AM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -5257,7 +5257,7 @@
       "source": {
         "label": "Official venue website",
         "url": "https://www.theploughandstars.com/",
-        "quote": "The Plough and Stars official weekly hours: Sunday 11 AM–2 AM; Monday–Tuesday 5 PM–2 AM; Wednesday 3 PM–2 AM; Thursday 4 PM–2 AM; Friday 3 PM–2 AM; Saturday 2 PM–2 AM."
+        "quote": "The Plough and Stars official weekly hours: Sunday 11 AM\u20132 AM; Monday\u2013Tuesday 5 PM\u20132 AM; Wednesday 3 PM\u20132 AM; Thursday 4 PM\u20132 AM; Friday 3 PM\u20132 AM; Saturday 2 PM\u20132 AM."
       },
       "flags": [
         "Live music typically scheduled from 9 PM; closing time is the bar close, not the end of a set."
@@ -5277,13 +5277,13 @@
       "address": "4652 Geary Blvd, San Francisco, CA 94118",
       "officialUrl": "https://www.wouldyoubelievesf.com/",
       "hours": {
-        "Monday": "6:00 PM–12:00 AM",
-        "Tuesday": "6:00 PM–12:00 AM",
-        "Wednesday": "6:00 PM–12:00 AM",
-        "Thursday": "6:00 PM–2:00 AM",
-        "Friday": "6:00 PM–2:00 AM",
-        "Saturday": "6:00 PM–2:00 AM",
-        "Sunday": "6:00 PM–12:00 AM"
+        "Monday": "6:00 PM\u201312:00 AM",
+        "Tuesday": "6:00 PM\u201312:00 AM",
+        "Wednesday": "6:00 PM\u201312:00 AM",
+        "Thursday": "6:00 PM\u20132:00 AM",
+        "Friday": "6:00 PM\u20132:00 AM",
+        "Saturday": "6:00 PM\u20132:00 AM",
+        "Sunday": "6:00 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -5305,7 +5305,7 @@
       "source": {
         "label": "Official venue website",
         "url": "https://www.wouldyoubelievesf.com/",
-        "quote": "Would You Believe official weekly hours: Monday–Wednesday 6 PM–12 AM; Thursday–Saturday 6 PM–2 AM; Sunday 6 PM–12 AM."
+        "quote": "Would You Believe official weekly hours: Monday\u2013Wednesday 6 PM\u201312 AM; Thursday\u2013Saturday 6 PM\u20132 AM; Sunday 6 PM\u201312 AM."
       },
       "flags": [
         "Neighborhood bar; check kitchen hours separately as they may end before the bar closes."
@@ -5325,13 +5325,13 @@
       "address": "4100 Geary Blvd, San Francisco, CA 94118",
       "officialUrl": "https://abbeytavern-sf.com/",
       "hours": {
-        "Monday": "3:00 PM–2:00 AM",
-        "Tuesday": "3:00 PM–2:00 AM",
-        "Wednesday": "3:00 PM–2:00 AM",
-        "Thursday": "3:00 PM–2:00 AM",
-        "Friday": "12:00 PM–2:00 AM",
-        "Saturday": "9:30 AM–2:00 AM",
-        "Sunday": "9:30 AM–2:00 AM"
+        "Monday": "3:00 PM\u20132:00 AM",
+        "Tuesday": "3:00 PM\u20132:00 AM",
+        "Wednesday": "3:00 PM\u20132:00 AM",
+        "Thursday": "3:00 PM\u20132:00 AM",
+        "Friday": "12:00 PM\u20132:00 AM",
+        "Saturday": "9:30 AM\u20132:00 AM",
+        "Sunday": "9:30 AM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -5354,7 +5354,7 @@
       "source": {
         "label": "Official venue website",
         "url": "https://abbeytavern-sf.com/",
-        "quote": "The Abbey Tavern official weekly hours: Monday–Thursday 3 PM–2 AM; Friday 12 PM–2 AM; Saturday and Sunday 9:30 AM–2 AM (weekend early opening may vary with early football)."
+        "quote": "The Abbey Tavern official weekly hours: Monday\u2013Thursday 3 PM\u20132 AM; Friday 12 PM\u20132 AM; Saturday and Sunday 9:30 AM\u20132 AM (weekend early opening may vary with early football)."
       },
       "flags": [
         "Weekend opening time may vary with early football match broadcast."
@@ -5374,13 +5374,13 @@
       "address": "1514 Union St, San Francisco, CA 94123",
       "officialUrl": "https://www.blackhorselondon.com/",
       "hours": {
-        "Monday": "5:00 PM–12:00 AM",
-        "Tuesday": "5:00 PM–12:00 AM",
-        "Wednesday": "5:00 PM–12:00 AM",
-        "Thursday": "5:00 PM–12:00 AM",
-        "Friday": "2:00 PM–11:59 PM",
-        "Saturday": "11:00 AM–12:00 AM",
-        "Sunday": "1:00 PM–12:00 AM"
+        "Monday": "5:00 PM\u201312:00 AM",
+        "Tuesday": "5:00 PM\u201312:00 AM",
+        "Wednesday": "5:00 PM\u201312:00 AM",
+        "Thursday": "5:00 PM\u201312:00 AM",
+        "Friday": "2:00 PM\u201311:59 PM",
+        "Saturday": "11:00 AM\u201312:00 AM",
+        "Sunday": "1:00 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Saturday",
@@ -5404,10 +5404,10 @@
       "source": {
         "label": "Official venue website",
         "url": "https://www.blackhorselondon.com/",
-        "quote": "Black Horse London Pub official weekly hours: Monday–Thursday 5 PM–12 AM; Friday 2 PM–11:59 PM; Saturday 11 AM–12 AM; Sunday 1 PM–12 AM. Cash/Venmo only, tiny bar."
+        "quote": "Black Horse London Pub official weekly hours: Monday\u2013Thursday 5 PM\u201312 AM; Friday 2 PM\u201311:59 PM; Saturday 11 AM\u201312 AM; Sunday 1 PM\u201312 AM. Cash/Venmo only, tiny bar."
       },
       "flags": [
-        "Tiny bar; cash or Venmo only. Friday close of 11:59 PM is after 11 PM but is not a 12 AM–4 AM close, so this record is kept qualifying on Saturday and Sunday which close at midnight."
+        "Tiny bar; cash or Venmo only. Friday close of 11:59 PM is after 11 PM but is not a 12 AM\u20134 AM close, so this record is kept qualifying on Saturday and Sunday which close at midnight."
       ],
       "verification": {
         "status": "verified",
@@ -5426,11 +5426,11 @@
       "hours": {
         "Monday": "Closed",
         "Tuesday": "Closed",
-        "Wednesday": "4:00 PM–12:00 AM",
-        "Thursday": "4:00 PM–12:00 AM",
-        "Friday": "4:00 PM–12:00 AM",
-        "Saturday": "4:00 PM–12:00 AM",
-        "Sunday": "2:00 PM–10:00 PM"
+        "Wednesday": "4:00 PM\u201312:00 AM",
+        "Thursday": "4:00 PM\u201312:00 AM",
+        "Friday": "4:00 PM\u201312:00 AM",
+        "Saturday": "4:00 PM\u201312:00 AM",
+        "Sunday": "2:00 PM\u201310:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -5452,7 +5452,7 @@
       "source": {
         "label": "Official venue contact page",
         "url": "https://alembicsf.com/contact/",
-        "quote": "The Alembic official weekly hours: Wednesday–Saturday 4 PM–12 AM; Sunday 2 PM–10 PM; closed Monday and Tuesday."
+        "quote": "The Alembic official weekly hours: Wednesday\u2013Saturday 4 PM\u201312 AM; Sunday 2 PM\u201310 PM; closed Monday and Tuesday."
       },
       "flags": [
         "Closed Monday and Tuesday; kitchen hours may differ from bar hours."
@@ -5473,12 +5473,12 @@
       "officialUrl": "https://www.leftdoor.com/about",
       "hours": {
         "Monday": "Closed",
-        "Tuesday": "5:00 PM–11:00 PM",
-        "Wednesday": "5:00 PM–11:00 PM",
-        "Thursday": "5:00 PM–12:00 AM",
-        "Friday": "5:00 PM–1:00 AM",
-        "Saturday": "5:00 PM–1:00 AM",
-        "Sunday": "5:00 PM–11:00 PM"
+        "Tuesday": "5:00 PM\u201311:00 PM",
+        "Wednesday": "5:00 PM\u201311:00 PM",
+        "Thursday": "5:00 PM\u201312:00 AM",
+        "Friday": "5:00 PM\u20131:00 AM",
+        "Saturday": "5:00 PM\u20131:00 AM",
+        "Sunday": "5:00 PM\u201311:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -5502,7 +5502,7 @@
       "source": {
         "label": "Official venue about page",
         "url": "https://www.leftdoor.com/about",
-        "quote": "Left Door official weekly hours: Tuesday–Wednesday 5 PM–11 PM; Thursday 5 PM–12 AM; Friday–Saturday 5 PM–1 AM; Sunday 5 PM–11 PM. Kitchen closes nightly at 10 PM. Monday closed."
+        "quote": "Left Door official weekly hours: Tuesday\u2013Wednesday 5 PM\u201311 PM; Thursday 5 PM\u201312 AM; Friday\u2013Saturday 5 PM\u20131 AM; Sunday 5 PM\u201311 PM. Kitchen closes nightly at 10 PM. Monday closed."
       },
       "flags": [
         "Kitchen closes nightly at 10 PM; bar continues. Monday closed."
@@ -5524,10 +5524,10 @@
       "hours": {
         "Monday": "Closed",
         "Tuesday": "Closed",
-        "Wednesday": "6:00 PM–1:30 AM",
-        "Thursday": "6:00 PM–1:30 AM",
-        "Friday": "6:00 PM–1:30 AM",
-        "Saturday": "6:00 PM–1:30 AM",
+        "Wednesday": "6:00 PM\u20131:30 AM",
+        "Thursday": "6:00 PM\u20131:30 AM",
+        "Friday": "6:00 PM\u20131:30 AM",
+        "Saturday": "6:00 PM\u20131:30 AM",
         "Sunday": "Closed"
       },
       "qualifyingDays": [
@@ -5551,10 +5551,10 @@
       "source": {
         "label": "Official venue website",
         "url": "https://www.lionsdenbarandlounge.com/",
-        "quote": "Lion's Den official weekly hours: open Wednesday–Saturday 6 PM–1:30 AM; closed Sunday–Tuesday. Live music 8–11 PM, DJ 11 PM–close."
+        "quote": "Lion's Den official weekly hours: open Wednesday\u2013Saturday 6 PM\u20131:30 AM; closed Sunday\u2013Tuesday. Live music 8\u201311 PM, DJ 11 PM\u2013close."
       },
       "flags": [
-        "Live music 8–11 PM, DJ 11 PM–close. Closed Sunday–Tuesday."
+        "Live music 8\u201311 PM, DJ 11 PM\u2013close. Closed Sunday\u2013Tuesday."
       ],
       "verification": {
         "status": "verified",
@@ -5571,13 +5571,13 @@
       "address": "650 Gough St, San Francisco, CA 94102",
       "officialUrl": "https://www.smugglerscovesf.com/",
       "hours": {
-        "Monday": "5:00 PM–1:15 AM",
-        "Tuesday": "5:00 PM–1:15 AM",
-        "Wednesday": "5:00 PM–1:15 AM",
-        "Thursday": "5:00 PM–1:15 AM",
-        "Friday": "5:00 PM–1:15 AM",
-        "Saturday": "5:00 PM–1:15 AM",
-        "Sunday": "5:00 PM–1:15 AM"
+        "Monday": "5:00 PM\u20131:15 AM",
+        "Tuesday": "5:00 PM\u20131:15 AM",
+        "Wednesday": "5:00 PM\u20131:15 AM",
+        "Thursday": "5:00 PM\u20131:15 AM",
+        "Friday": "5:00 PM\u20131:15 AM",
+        "Saturday": "5:00 PM\u20131:15 AM",
+        "Sunday": "5:00 PM\u20131:15 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -5620,12 +5620,12 @@
       "address": "375 Bush St, San Francisco, CA 94104",
       "officialUrl": "https://www.paganidol.com/",
       "hours": {
-        "Monday": "5:30 PM–11:00 PM",
-        "Tuesday": "4:30 PM–12:00 AM",
-        "Wednesday": "4:30 PM–12:00 AM",
-        "Thursday": "4:30 PM–2:00 AM",
-        "Friday": "4:30 PM–2:00 AM",
-        "Saturday": "4:30 PM–2:00 AM",
+        "Monday": "5:30 PM\u201311:00 PM",
+        "Tuesday": "4:30 PM\u201312:00 AM",
+        "Wednesday": "4:30 PM\u201312:00 AM",
+        "Thursday": "4:30 PM\u20132:00 AM",
+        "Friday": "4:30 PM\u20132:00 AM",
+        "Saturday": "4:30 PM\u20132:00 AM",
         "Sunday": "Closed"
       },
       "qualifyingDays": [
@@ -5668,13 +5668,13 @@
       "address": "501 Jones St, San Francisco, CA 94102",
       "officialUrl": "https://www.bourbonandbranch.com/",
       "hours": {
-        "Monday": "6:00 PM–12:00 AM",
-        "Tuesday": "6:00 PM–12:00 AM",
-        "Wednesday": "6:00 PM–12:00 AM",
-        "Thursday": "6:00 PM–2:00 AM",
-        "Friday": "6:00 PM–2:00 AM",
-        "Saturday": "6:00 PM–2:00 AM",
-        "Sunday": "6:00 PM–12:00 AM"
+        "Monday": "6:00 PM\u201312:00 AM",
+        "Tuesday": "6:00 PM\u201312:00 AM",
+        "Wednesday": "6:00 PM\u201312:00 AM",
+        "Thursday": "6:00 PM\u20132:00 AM",
+        "Friday": "6:00 PM\u20132:00 AM",
+        "Saturday": "6:00 PM\u20132:00 AM",
+        "Sunday": "6:00 PM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -5697,7 +5697,7 @@
       "source": {
         "label": "Official venue website",
         "url": "https://www.bourbonandbranch.com/",
-        "quote": "Bourbon & Branch official hours: 'Sun–Wed 6pm–12am Thurs–Sat 6pm–2am.'"
+        "quote": "Bourbon & Branch official hours: 'Sun\u2013Wed 6pm\u201312am Thurs\u2013Sat 6pm\u20132am.'"
       },
       "flags": [
         "Password/reservation may be required at the entrance; check the venue site before visiting."
@@ -5717,13 +5717,13 @@
       "address": "500 Sacramento St, San Francisco, CA 94111",
       "officialUrl": "https://www.sfirishtimes.com/",
       "hours": {
-        "Monday": "10:00 AM–1:00 AM",
-        "Tuesday": "10:00 AM–2:00 AM",
-        "Wednesday": "10:00 AM–2:00 AM",
-        "Thursday": "10:00 AM–2:00 AM",
-        "Friday": "10:00 AM–2:00 AM",
-        "Saturday": "10:00 AM–2:00 AM",
-        "Sunday": "10:00 AM–12:00 AM"
+        "Monday": "10:00 AM\u20131:00 AM",
+        "Tuesday": "10:00 AM\u20132:00 AM",
+        "Wednesday": "10:00 AM\u20132:00 AM",
+        "Thursday": "10:00 AM\u20132:00 AM",
+        "Friday": "10:00 AM\u20132:00 AM",
+        "Saturday": "10:00 AM\u20132:00 AM",
+        "Sunday": "10:00 AM\u201312:00 AM"
       },
       "qualifyingDays": [
         "Friday",
@@ -5765,13 +5765,13 @@
       "address": "133 Turk St, San Francisco, CA 94102",
       "officialUrl": "https://www.auntcharlieslounge.com/",
       "hours": {
-        "Monday": "12:00 PM–10:30 PM",
-        "Tuesday": "12:00 PM–10:30 PM",
-        "Wednesday": "12:00 PM–10:30 PM",
-        "Thursday": "12:00 PM–10:30 PM",
-        "Friday": "12:00 PM–11:45 PM",
-        "Saturday": "12:00 PM–11:45 PM",
-        "Sunday": "12:00 PM–11:30 PM"
+        "Monday": "12:00 PM\u201310:30 PM",
+        "Tuesday": "12:00 PM\u201310:30 PM",
+        "Wednesday": "12:00 PM\u201310:30 PM",
+        "Thursday": "12:00 PM\u201310:30 PM",
+        "Friday": "12:00 PM\u201311:45 PM",
+        "Saturday": "12:00 PM\u201311:45 PM",
+        "Sunday": "12:00 PM\u201311:30 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -5797,7 +5797,7 @@
         "quote": "Aunt Charlie's Lounge official hours: 'Open Mon + Tue + Wed + Thur - Noon to 10:30pm; Friday + Saturday - Noon to 11:45pm; Sundays - Noon to 11:30pm.' Cash only, 21+."
       },
       "flags": [
-        "Cash only, 21+. Friday/Saturday close at 11:45 PM—after 11 PM."
+        "Cash only, 21+. Friday/Saturday close at 11:45 PM\u2014after 11 PM."
       ],
       "verification": {
         "status": "verified",
@@ -5815,12 +5815,12 @@
       "officialUrl": "https://www.cigarbarandgrill.com/",
       "hours": {
         "Monday": "Closed",
-        "Tuesday": "4:30 PM–10:00 PM",
-        "Wednesday": "4:30 PM–12:00 AM",
-        "Thursday": "4:30 PM–2:00 AM",
-        "Friday": "4:30 PM–2:00 AM",
-        "Saturday": "6:00 PM–2:00 AM",
-        "Sunday": "6:00 PM–11:00 PM"
+        "Tuesday": "4:30 PM\u201310:00 PM",
+        "Wednesday": "4:30 PM\u201312:00 AM",
+        "Thursday": "4:30 PM\u20132:00 AM",
+        "Friday": "4:30 PM\u20132:00 AM",
+        "Saturday": "6:00 PM\u20132:00 AM",
+        "Sunday": "6:00 PM\u201311:00 PM"
       },
       "qualifyingDays": [
         "Friday",
@@ -5843,7 +5843,7 @@
       "source": {
         "label": "Official venue website",
         "url": "https://www.cigarbarandgrill.com/",
-        "quote": "Cigar Bar & Grill official hours (per official listing): Tuesday 4:30 PM–10 PM; Wednesday 4:30 PM–12 AM; Thursday–Friday 4:30 PM–2 AM; Saturday 6 PM–2 AM; Sunday 6 PM–11 PM; Monday closed."
+        "quote": "Cigar Bar & Grill official hours (per official listing): Tuesday 4:30 PM\u201310 PM; Wednesday 4:30 PM\u201312 AM; Thursday\u2013Friday 4:30 PM\u20132 AM; Saturday 6 PM\u20132 AM; Sunday 6 PM\u201311 PM; Monday closed."
       },
       "flags": [
         "Live music / DJ nights can add a cover or change entry conditions. Kitchen may stop earlier on show nights."
@@ -5863,13 +5863,13 @@
       "address": "298 Divisadero St, San Francisco, CA 94117",
       "officialUrl": "https://www.thepagebar.com/",
       "hours": {
-        "Monday": "4:00 PM–2:00 AM",
-        "Tuesday": "4:00 PM–2:00 AM",
-        "Wednesday": "4:00 PM–2:00 AM",
-        "Thursday": "4:00 PM–2:00 AM",
-        "Friday": "1:00 PM–2:00 AM",
-        "Saturday": "1:00 PM–2:00 AM",
-        "Sunday": "1:00 PM–2:00 AM"
+        "Monday": "4:00 PM\u20132:00 AM",
+        "Tuesday": "4:00 PM\u20132:00 AM",
+        "Wednesday": "4:00 PM\u20132:00 AM",
+        "Thursday": "4:00 PM\u20132:00 AM",
+        "Friday": "1:00 PM\u20132:00 AM",
+        "Saturday": "1:00 PM\u20132:00 AM",
+        "Sunday": "1:00 PM\u20132:00 AM"
       },
       "qualifyingDays": [
         "Friday",
