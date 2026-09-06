@@ -1,0 +1,53 @@
+{"name": "La Double T", "hint": "4040 Judah St (Outer Sunset, 24h diner)", "status": "excluded", "note": "no live official source found at 4040 Judah; searches return no current business; appears closed"}
+{"name": "Holy Moly", "hint": "616 Irving St (Inner Richmond)", "status": "excluded", "note": "616 Irving address search returns no live Holy Moly; appears permanently closed"}
+{"name": "KGB", "hint": "2009 Mission St (Mission)", "status": "excluded", "note": "kgbbar.com is the NYC KGB; no evidence the 2009 Mission SF KGB still operates; no official SF site"}
+{"name": "Thee Parkside", "hint": "1600 17th St at Valencia", "status": "excluded", "note": "official site displays 'LAST DAY JULY 5th' banner (closure notice) and lists no closing hours"}
+{"name": "Delarosa Bar", "hint": "1301 Market St (Eureka Valley)", "status": "excluded", "note": "Marina & Downtown Delarosa close 10:30 PM (claimed listings, 2026); Eureka Valley 'Delarosa Bar' at 1301 Market not found live - no evidence of late hours"}
+{"name": "Vegas Lounge", "hint": "1717 Haight St", "status": "excluded", "note": "search polluted by Vegas NV results"}
+{"name": "Honey Honey Cafe", "hint": "669 Geary Blvd (Inner Richmond)", "status": "candidate", "note": ""}
+{"name": "Rintar", "hint": "649 Irving St (Inner Richmond)", "status": "candidate", "note": ""}
+{"name": "Cocobang", "hint": "Union Square Korean", "status": "verified", "note": "cocobang.org (claimed business website via Yelp): Mon-Thu 5pm-2am, Fri/Sat 5pm-4am, Sun 5pm-2am; 550 Taylor St 94102"}
+{"name": "Iron Horse", "hint": "25 Maiden Ln (Downtown)", "status": "verified", "note": "ironhorsesf.com lists two conflicting hours blocks; both show Fri/Sat close at/after midnight; flag conflict"}
+{"name": "Zoë Bar", "hint": "579 Howard St (SoMa/East Cut)", "status": "verified", "note": "zoebarsf.com: Tue-Wed 12pm-11pm; Thu-Fri 12pm-2am; Sat 6pm-2am; Sun-Mon closed; 579 Howard St 94105"}
+{"name": "Taishan Cuisine", "hint": "Fillmore? late-night Chinese", "status": "verified", "note": "taishancuisine2288.com about page: Fri-Wed 11am-3pm/5pm-3am; Thu 5pm-3am; 781 Broadway"}
+{"name": "The Public Izakaya", "hint": "Lower Nob Hill Post St", "status": "verified-with-gap", "note": "official site fetch 500; claimed listing (claimed, 2026): Mon-Thu 4:30pm-2am, Fri/Sat 4:30pm-2am (corner.inc shows 5:30-3), Sun 4:30pm-12am; 700 Post St"}
+{"name": "Taisho", "hint": "Ellis St Lower Nob Hill", "status": "verified", "note": "taishosf.com live but hours not in static text; claimed listing verified 2 weeks ago: Mon-Wed 5pm-12am, Thu-Sat 5pm-2am, Sun 5pm-12am; 1161 Post St (moved from Ellis)"}
+{"name": "Sushi Uma", "hint": "Ellis St", "status": "verified", "note": "thesushiuma.com order page lists Fri/Sat/Sun 11:00am-11:30 (typo pm per Mon-Thu pattern + claimed listing 11:30pm); 2026 Irving St"}
+{"name": "Hinodeya Downtown", "hint": "Geary Blvd 24h Japanese diner", "status": "candidate"}
+{"name": "Presidio Pizza Company", "hint": "2054 Chestnut St (Marina)", "status": "pending-recheck", "note": "presidio-pizza.com live, /hours fetch failed; claimed listing: Thu 12am Fri/Sat 2am Sun 10pm"}
+{"name": "Seniores Pizza", "hint": "4335 Taraval St (Parkside)", "status": "verified", "note": "19th Ave: claimed listing (claimed, Aug 2026): Mon-Thu 11-1am, Fri/Sat 11-3am, Sun 11-1am; official seniorespizza.com lists locations without hours"}
+{"name": "Mr. Szechuan", "hint": "4023? Taraval St (Parkside)", "status": "excluded", "note": "no official website; hours conflict (Fri 11 PM TripAdvisor vs 1 AM claimed listing); threshold not reliably met; exclude"}
+{"name": "Finnegans Wake", "hint": "1254 9th Ave (Cole Valley)", "status": "candidate", "note": ""}
+{"name": "Murio's Trophy Room", "hint": "1423 Haight St", "status": "verified", "note": ""}
+{"name": "Ziryab", "hint": "528 Divisadero St (NoPa)", "status": "excluded", "note": ""}
+{"name": "The Vestry", "hint": "777 Valencia St (Mission)", "status": "excluded", "note": ""}
+{"name": "Noir Lounge", "hint": "581 Hayes St (Hayes Valley)", "status": "excluded", "note": ""}
+{"name": "4505 Burgers & BBQ", "hint": "2316 Mission St", "status": "candidate", "note": ""}
+{"name": "El Toro Taqueria", "hint": "2634 Mission St", "status": "excluded", "note": "official info (order site/TripAdvisor): closes 10 PM / 8 PM; fails threshold"}
+{"name": "La Palma Taqueria", "hint": "3341 24th St (Mission, 24h?)", "status": "excluded", "note": "La Palma Mexicatessen 2884 24th closes 5 PM; no 24h La Palma found; fails threshold"}
+{"name": "The Golden Boy", "hint": "3006 24th St (Mission)", "status": "candidate", "note": ""}
+{"name": "The Picante", "hint": "901 Cole St (Westwood Park)", "status": "candidate", "note": ""}
+{"name": "House of Prime Rib", "hint": "1906 Van Ness Ave (bar hours)", "status": "excluded", "note": "official site houseofprimerib.net: Mon-Fri 5-10pm, Sat/Sun 4-10pm; fails threshold"}
+{"name": "Darts Coffee", "hint": "1160 Folsom St (24h?)", "status": "excluded", "note": ""}
+{"name": "Joyride Pizza", "hint": "3131 16th? (Mission)", "status": "verified", "note": "joyridepizza.com Mission 411 Valencia: SUN-WED 11-11pm, THU 11-12am, FRI-SAT 11am-2am; Fri/Sat qualify"}
+{"name": "Taco Boys", "hint": "1613 Haight? (Duboce/Castro)", "status": "candidate", "note": ""}
+{"name": "Mythic Pizza", "hint": "1550 Haight St", "status": "candidate", "note": ""}
+{"name": "Emmy's Spaghetti Shack", "hint": "1568 Haight St", "status": "excluded", "note": ""}
+{"name": "O'Reilly's Pub", "hint": "1700 Haight St", "status": "candidate", "note": ""}
+{"name": "Bar Jabroni", "hint": "1508 Haight St", "status": "candidate", "note": ""}
+{"name": "The Green Heron", "hint": "1530 Haight St", "status": "candidate", "note": ""}
+{"name": "Wasabi Bistro", "hint": "4121 18th St (Castro)", "status": "excluded", "note": ""}
+{"name": "La Oaxaquena", "hint": "2301 Folsom St (24h)", "status": "verified-with-gap", "note": "laoaxaquenaca.com (claimed business website): Mon-Fri 11am-2am, Sat 11am-11:45pm, Sun 11am-2am; 2128 Mission St; Fri/Sat/Sun qualify; note listing discrepancy 2:30am on Yelp"}
+{"name": "Uncle Benny's Pizza", "hint": "24th St Mission", "status": "candidate", "note": ""}
+{"name": "Fresco Pizza", "hint": "1707 Polk St", "status": "candidate", "note": ""}
+{"name": "The Melt", "hint": "370 Market St? Downtown late", "status": "candidate", "note": ""}
+{"name": "Shelby's Rooftop Lounge", "hint": "Hotel Insigo 1800 Lombard (Marina)", "status": "candidate", "note": ""}
+{"name": "Bite on Sutter", "hint": "Sutter St late-night", "status": "candidate", "note": ""}
+{"name": "Zzan", "status": "verified", "note": "see above", "hint": "643 Post St"}
+{"name": "Quickly SF - Irving", "status": "verified", "note": "see above", "hint": "2116 Irving St"}
+{"name": "Holey Moley Golf Club", "status": "verified", "note": "see above", "hint": "1096 S Van Ness Ave"}
+{"name": "Irving Pizza", "status": "verified", "note": "see above", "hint": "928 Geary St"}
+{"name": "Seniore's Pizza - Haight", "status": "candidate", "hint": "456 Haight St (seniorespizzasanfrancisco.com)"}
+{"name": "Joyride Pizza - Yerba Buena", "status": "candidate", "hint": "730 Howard St; check hours"}
+{"name": "Joyride Pizza - Market St", "status": "candidate", "hint": "685 Market St; check hours"}
+{"name": "Joyride Pizza - Pier 1", "status": "candidate", "hint": "Pier 1 The Embarcadero; check hours"}

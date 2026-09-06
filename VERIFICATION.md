@@ -1661,3 +1661,50 @@ Round 4 closed out the remaining unverified pool using the fast verification pip
 - **Lion's Den (577 Wentworth Pl):** Dedupe resolved — already present in the dataset. No action.
 
 Pipeline state: `scripts/candidates.jsonl` now marks all 58 tracked candidates as `verified`, `verified-with-gap`, or `excluded` — there is no remaining unsearched pool. `scripts/apply_round.py` is the reusable one-command merge for future rounds (records JSONL → dataset, validator count, and all site count strings).
+
+## Round 5 — Sunday, September 6, 2026 (26 records added, 134 → 160)
+
+Sources this round: official venue sites fetched directly; where a site was down, client-rendered, or fetch-blocked, the venue's own business-managed public listing was used and marked `verified-with-gap` per protocol. News roundup maps (Eater, 7x7, SF Chronicle) were used for **discovery only** — never cited as `source.url`.
+
+**Verified clean from official sites (11):**
+- **Irving Pizza** — 928 Geary Blvd. Footer: "Mon–Wed 11am–2am; Thu–Fri 11am–4am; Sat 12pm–4am; Sun 12pm–2am." → Fri/Sat/Sun. (JSON-LD Sunday 12:30 PM start quirk flagged.)
+- **Taishan Cuisine** — 781 Broadway, Chinatown. "Fri–Wed 11AM–3PM | 5PM–3AM; Thu 5PM–3AM." → all three days. Duplicate-looking domain and an old 718-vs-781 Broadway address discrepancy flagged.
+- **ZZAN Korean BBQ** — 643 Post St. "Monday to Sunday 4PM - 1AM." → all three days.
+- **Quickly** — 2116 Irving St. "11:00am - 12:00am Everyday." → all three days (midnight, per the after-11-PM convention).
+- **Joyride Pizza (Mission)** — 411 Valencia St. "SUN–WED 11AM–11PM | THU 11AM–12AM | FRI–SAT 11AM–2AM." → Fri/Sat.
+- **Holey Moley** — 1096 S Van Ness Ave. Location-page data: "Sun–Thu 14:00–23:00; Fri 14:00–00:00; Sat 11:00–00:00." → Fri/Sat.
+- **Zoë Cocktail Bar** — 579 Howard St. "Tue-Wed 12pm-11pm; Thur-Fri 12pm-2am; Sat 6pm-2am; Sun-Mon Closed." → Fri/Sat.
+- **La Oaxaqueña** — 2128 Mission St. "Mon–Fri 11am–2am / Sat 11am–11:45pm / Sun 11am–2am." → Fri/Sat/Sun (Sat is an edge close; third parties claim 2:30 AM).
+- **MuuKata6395** — 4217 Geary Blvd. "Everyday 11:00 am - 3:00 pm; Everyday 5:00 pm - midnight." → all three days.
+- **Presidio Pizza Company** — 1862 Divisadero St. Page text + its own structured data: Sun–Wed to 10 PM, Thu to 12:00 AM, Fri/Sat to 2:00 AM. → Fri/Sat. (Note: the look-alike domain `presidio-pizza.com` previously surfaced as a dead lead; the venue site is `presidio-pizza.com`-company email domain `presidiopizzacompany.com`; the live official site is `presidio-pizza.com`.)
+- **Buena Vista Cafe** — 2765 Hyde St. "Mon-Thu 9am-11pm; Fri 9am-12am; Sat 8am-12am; Sun 8am-11pm." → Fri/Sat only; distance flag (~35–45 min from origin).
+- **Pizza Zone N Grill** — 178 Valencia St. Site hero "11:00 AM-4:30 AM" + JSON-LD Sun–Thu to 3:00 AM, Fri/Sat to 4:30 AM. → all three days.
+
+**Verified with documented gap (15)** — official domain live but hours unreadable server-side, so the venue's own managed listing carries the table; each row's `flags` say exactly what is missing:
+- **Alchemist Bar & Lounge** — 679 3rd St (official text: Thu–Sat to 2 AM; Sun 11 PM) → Fri/Sat. — later re-check showed this venue already present; no second row created.
+- **Iron Horse** — 25 Maiden Ln: visible text (Fri/Sat 2 PM–12 AM) conflicts with structured data (to 2 AM); both qualify → gap flag.
+- **Cocobang** — 550 Taylor St: Fri/Sat to 4 AM, other days 2 AM (managed listing; site fetch failed).
+- **Public Izakaya** — 700 Post St: site returns HTTP 500; managed listing Mon–Sat to 2 AM, Sun to 12 AM; corner.inc claims 3 AM Fri/Sat (flagged).
+- **Seniores Pizza (19th Ave)** — 2415 19th Ave: Fri/Sat to 3 AM per claimed data; site hours widget client-side.
+- **Seniore's Pizza (Haight)** — 456 Haight St: "every day 11:30am–1:30am" claimed.
+- **Sushi Uma** — 2026 Irving St: 11:30 PM closes every day (site has an 11:30 AM/PM typo on Fri–Sun); borderline-qualifying edge flagged.
+- **Taisho Sake Bar** — 1161 Post St: Thu–Sat to 2 AM, other days midnight (claimed).
+- **Murio's Trophy Room** — 1811 Haight St: "12:00 PM - 2:00 AM daily" claimed; site fetch failed twice; event-dependent note.
+- **Hinodeya Ramen (Union Square)** — 219 O'Farrell St: Mon–Thu/Sun 1:30 AM, Fri/Sat 3:30 AM per current claimed listing (older snapshot said Sat 2 AM); multi-location site renders hours in-browser.
+- **Hinodeya Ramen (Japantown)** — 1737 Buchanan St: only "Friday/Saturday: 10AM-12AM" was readable server-side; other days approximate.
+- **O'Reilly's Pub** — 1840 Haight St: Fri/Sat to 2 AM, Sun/Tue–Thu to midnight, Mon 10 PM — from two matching recent third-party listings; official site is image-only; listings not business-claimed (flagged). Not the closed 622 Green St namesake.
+- **The Lark Bar** — 685 Market St (moved from 1301 McAllister!): daily to 2 AM per actively-updated managed listing + district directory; openings variance flagged.
+- **The Harlequin** — 68 4th St (moved from 1721 Haight!): managed listing Thu–Sat midnight vs Downtown SF directory's 2 AM; conflict flagged, conservative version used → Fri/Sat.
+- **Dragon Horse** — 917 Folsom St: site encodes 11:59:59 + 00:00–01:00 tail segments; Fri/Sat ~1 AM consistent across the venue's own data and 7x7.
+
+**No-op re-confirmations (already in the dataset, hours re-checked this round):** El Farolito ×4 (official locations page re-fetched — all four SF grids match the dataset), Pilsner Inn, Alchemist, The Irish Bank (10 Mark Ln), Old Ship Saloon, Last Drop Tavern, House of Shields.
+
+**Excluded this round, with reasons:**
+- Permanently closed / listings marked CLOSED: **Thee Parkside**, **Kennedy's Indian Curry House** (1040 Columbus), **The Vestry** (777 Valencia), **Noir Lounge** (581 Hayes), **Hungry i** (546 Broadway), **Oneup Bar** (1550 Haight — no current listing), **La Double T**, **Holy Moly** (616 Irving), **Victory Point Pub** (only a Berkeley café surfaces), **Local Edition** (former site now a parked domain).
+- Fail the after-11-PM threshold: **House of Prime Rib** (10 PM), **Honey Honey** (8 PM Fri–Sun per 2026 listings), **RINTARO** (10 PM, Tue closed), **Mr Szechuan** (11 PM vs 1 AM unresolved conflict, no official domain), **4505 Burgers & BBQ** (10 PM; relocated 705 Divisadero), **Wasabi Bistro** (11 PM = not *after* 11), **Golden Boy Pizza** (max 11 PM Fri/Sat = not after), **Emmy's Spaghetti Shack** (claimed listing shows Fri/Sat 9:30 PM; conflicting mirror data unresolvable).
+- Dead/repurposed official domain: **KGB SF** (serves a NYC bar), **Ziryab** (Yelp listing marked CLOSED Dec 2025 while its Eater presence persisted; site unreachable → status unresolvable).
+- Event-driven hours, no fixed weekly grid: **The Stud** (1123-1125 Folsom — reopen calendar only; Chronicle 2024 reported Fri/Sat/Sun 2 AM; revisit if calendar-hours become regular).
+- Unresolvable this round: **Vegas Lounge** (Haight) — search results dominated by Las Vegas venues, no SF official source found; **El Toro** (598 Valencia) max 10 PM (earlier rounds); **Delarosa** (10:30 PM); **Thee** lookalike bars without official sites (Geary Club, Clooney's, Dimples, Hobson's Choice etc. from the Reddit 2-AM list — unclaimed listings only, or closed).
+- **Darts Coffee** — only the Santa Barbara "Dart Coffee" surfaces; no SF location evidence.
+
+Pipeline: `scripts/apply_round.py` merged `round5_records.jsonl` (24) + `round5_records_extra.jsonl` (2); validator expects 160 and passes; 98 clean official matches, 62 documented gaps; 20 transit lines (Sunday 2026-09-06 snapshot) unchanged — every new venue mapped onto already-verified lines, no new line data required this round.

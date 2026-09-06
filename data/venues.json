@@ -4,8 +4,8 @@
     "origin": "21st Ave & Judah St, San Francisco, CA 94122",
     "threshold": "Open past 11:00 PM on Friday, Saturday, or Sunday",
     "verifiedOn": "2026-09-06",
-    "recordCount": 134,
-    "scopeNote": "Static, source-linked directory of 134 verified records. It does not claim every San Francisco business is open or available; expand the master list only after a line-by-line source check.",
+    "recordCount": 160,
+    "scopeNote": "Static, source-linked directory of 160 verified records. It does not claim every San Francisco business is open or available; expand the master list only after a line-by-line source check.",
     "transitNote": "Transit labels are screening notes, not turn-by-turn directions. Use the live route link and check SFMTA/BART service before leaving.",
     "planningSources": [
       {
@@ -329,6 +329,10 @@
         "id": "marina-presidio",
         "label": "Marina / Cow Hollow / Presidio",
         "description": "Fillmore and Union streets, Cow Hollow, and the Presidio."
+      },
+      {
+        "id": "fishermans-wharf",
+        "label": "Fisherman's Wharf & Aquatic Park"
       },
       {
         "id": "tenderloin",
@@ -7113,6 +7117,1303 @@
         "verifiedOn": "2026-09-06"
       },
       "neighborhoodGroup": "inner-sunset"
+    },
+    {
+      "id": "iron-horse-bar",
+      "name": "Iron Horse",
+      "address": "25 Maiden Ln, San Francisco, CA 94105",
+      "category": "Bar / gastropub",
+      "neighborhood": "Union Square / Moscone",
+      "neighborhoodGroup": "downtown-union-square",
+      "officialUrl": "https://www.ironhorsesf.com/",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "4:30 PM–1:00 AM (site text says otherwise - see flag)",
+        "Wednesday": "4:30 PM–1:00 AM (see flag)",
+        "Thursday": "5:00 PM–2:00 AM",
+        "Friday": "2:00 PM–12:00 AM per page text; 5:00 PM–2:00 AM per embedded data",
+        "Saturday": "2:00 PM–12:00 AM per page text; 5:00 PM–2:00 AM per embedded data",
+        "Sunday": "2:00 PM–8:00 PM per page text; not in embedded data"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "source": {
+        "label": "Official site (page text vs embedded data conflict)",
+        "url": "https://www.ironhorsesf.com/",
+        "quote": "Page text shows \"Friday - Saturday 2:00 PM - 12:00 AM; Sunday 2:00 PM - 8:00 PM\"; the same page's structured data lists Tue–Wed 16:30–01:00 and Thu–Sat from 16:00/17:00 until 02:00."
+      },
+      "access": {
+        "summary": "8/1 Bus / T Third + walk from Market & 4th",
+        "detail": "25 Maiden Lane sits one block off Market Street at 4th; the 8/1 and T Third stop at Market & 4th/5th. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "8",
+          "1",
+          "T"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "CONFLICT FLAG: the visible hours text and the site's own embedded schedule data disagree (midnight vs 2:00 AM Friday/Saturday closes). Both satisfy the after-11-PM threshold, so the row qualifies either way; confirm before a planned visit."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official domain fetched; the internal disagreement between visible text and structured data is recorded verbatim and flagged; both readings keep Friday/Saturday after 11 PM.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "zoe-cocktail-bar",
+      "name": "Zoë Cocktail Bar",
+      "address": "579 Howard St, San Francisco, CA 94105",
+      "category": "Cocktail bar",
+      "neighborhood": "SOMA",
+      "neighborhoodGroup": "soma",
+      "officialUrl": "https://zoebarsf.com/",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "12:00 PM–11:00 PM",
+        "Wednesday": "12:00 PM–11:00 PM",
+        "Thursday": "12:00 PM–2:00 AM",
+        "Friday": "12:00 PM–2:00 AM",
+        "Saturday": "6:00 PM–2:00 AM",
+        "Sunday": "Closed"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "source": {
+        "label": "Official site",
+        "url": "https://zoebarsf.com/",
+        "quote": "\"Tue-Wed 12pm-11pm; Thur-Fri 12pm-2am; Sat 6pm-2am; Sun-Mon Closed\" - verbatim hours block on the official site."
+      },
+      "access": {
+        "summary": "8/1 Bus / T Third + walk",
+        "detail": "579 Howard St is between 2nd and 3rd, a 4-minute walk from the T Third at 4th/Howard and the 8/1 on Mission. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "T",
+          "8",
+          "1"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Closed Monday and Tuesday? No - the published block lists Mon/Tue together as \"Sun-Mon Closed\": the site groups \"Tue-Wed 12pm-11pm\" and marks Sunday-Monday closed; expect no service Sun/Mon."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site fetched; static hours text read line by line; Friday and Saturday 2:00 AM closes verified.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "holey-moley-sf",
+      "name": "Holey Moley (mini golf + bar)",
+      "address": "1096 S Van Ness Ave, San Francisco, CA 94110",
+      "category": "Mini-golf bar / hangout",
+      "neighborhood": "Mission / S. Van Ness",
+      "neighborhoodGroup": "mission",
+      "officialUrl": "https://holeymoley.com/locations/san-francisco",
+      "hours": {
+        "Monday": "2:00 PM–11:00 PM",
+        "Tuesday": "2:00 PM–11:00 PM",
+        "Wednesday": "2:00 PM–11:00 PM",
+        "Thursday": "2:00 PM–11:00 PM",
+        "Friday": "2:00 PM–12:00 AM",
+        "Saturday": "11:00 AM–12:00 AM",
+        "Sunday": "2:00 PM–11:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "source": {
+        "label": "Official site (embedded schedule data)",
+        "url": "https://holeymoley.com/locations/san-francisco",
+        "quote": "Location page data: \"Sun–Thu 14:00–23:00; Fri 14:00–00:00; Sat 11:00–00:00.\""
+      },
+      "access": {
+        "summary": "49 Van Ness-Mission + walk",
+        "detail": "1096 S. Van Ness is mid-block between 16th and Duboce; the 49 runs along Van Ness and the 14/49 along nearby Mission. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "49",
+          "14"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "The 12:00 AM Fri/Sat closes qualify, but mini-golf sessions are booked in blocks and walk-up play may end before bar close; Sun-Thu 11:00 PM does not qualify."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue location page fetched; embedded openingHoursSpecification read verbatim; midnight closes Friday/Saturday qualify.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "irving-pizza",
+      "name": "Irving Pizza",
+      "address": "928 Geary Blvd, San Francisco, CA 94109",
+      "category": "Pizza / late-night slice shop",
+      "neighborhood": "Inner Richmond (Geary)",
+      "neighborhoodGroup": "richmond",
+      "officialUrl": "https://irvingpizza.com/",
+      "hours": {
+        "Monday": "11:00 AM–2:00 AM",
+        "Tuesday": "11:00 AM–2:00 AM",
+        "Wednesday": "11:00 AM–2:00 AM",
+        "Thursday": "11:00 AM–4:00 AM",
+        "Friday": "11:00 AM–4:00 AM",
+        "Saturday": "12:00 PM–4:00 AM",
+        "Sunday": "12:00 PM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Official site footer",
+        "url": "https://irvingpizza.com/",
+        "quote": "Footer hours: \"Mon–Wed 11am–2am; Thu–Fri 11am–4am; Sat 12pm–4am; Sun 12pm–2am.\""
+      },
+      "access": {
+        "summary": "38 Geary + walk",
+        "detail": "928 Geary is between Polk/Larkin, steps from the 38 Geary stops; the 5 Fulton runs parallel two blocks south. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "38",
+          "5"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "MINOR QUIRK: the site's embedded JSON-LD lists Sunday from 12:30 PM while the footer says 12:00 PM; closing time is the same either way."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site footer read verbatim; every day closes at or after 2:00 AM; Friday/Saturday/Sunday all qualify.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "taishan-cuisine",
+      "name": "Taishan Cuisine",
+      "address": "781 Broadway, San Francisco, CA 94133",
+      "category": "Chinese cuisine hall (late-night)",
+      "neighborhood": "Chinatown",
+      "neighborhoodGroup": "chinatown",
+      "officialUrl": "https://taishancuisine2288.com/about",
+      "hours": {
+        "Monday": "11:00 AM–3:00 PM, 5:00 PM–3:00 AM",
+        "Tuesday": "11:00 AM–3:00 PM, 5:00 PM–3:00 AM",
+        "Wednesday": "11:00 AM–3:00 PM, 5:00 PM–3:00 AM",
+        "Thursday": "5:00 PM–3:00 AM",
+        "Friday": "11:00 AM–3:00 PM, 5:00 PM–3:00 AM",
+        "Saturday": "11:00 AM–3:00 PM, 5:00 PM–3:00 AM",
+        "Sunday": "11:00 AM–3:00 PM, 5:00 PM–3:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Official site (about page)",
+        "url": "https://taishancuisine2288.com/about",
+        "quote": "\"Fri–Wed 11AM–3PM | 5PM–3AM; Thu 5PM–3AM\" on the official about page."
+      },
+      "access": {
+        "summary": "30 Stockton / 45 Union-Stockton + walk",
+        "detail": "Broadway at Jones is a 3-minute walk from the 30/45 stops on Stockton. Owl note: the 30 and 45 end before these late hours; use the 91/90 Owl or plan a cab after last transit. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "30",
+          "45"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Duplicate-looking domain taishancuisinesf.com exists; the venue's active site is taishancuisine2288.com (address matches). Eater once listed the number as 718 Broadway; the official site says 781 Broadway."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site fetched; hours block read line by line; 3:00 AM closes every night qualify.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "cocobang",
+      "name": "Cocobang (Korean BBQ & chicken)",
+      "address": "550 Taylor St, San Francisco, CA 94102",
+      "category": "Korean BBQ / late-night dining",
+      "neighborhood": "Tenderloin edge / Lower Nob Hill",
+      "neighborhoodGroup": "tenderloin",
+      "officialUrl": "https://cocobang.org/",
+      "hours": {
+        "Monday": "5:00 PM–2:00 AM",
+        "Tuesday": "5:00 PM–2:00 AM",
+        "Wednesday": "5:00 PM–2:00 AM",
+        "Thursday": "5:00 PM–2:00 AM",
+        "Friday": "5:00 PM–4:00 AM",
+        "Saturday": "5:00 PM–4:00 AM",
+        "Sunday": "5:00 PM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Business-managed listing (official site fetch failed)",
+        "url": "https://cocobang.org/",
+        "quote": "Business-managed listing hours: \"Mon–Thu & Sun 5:00 PM–2:00 AM; Fri & Sat 5:00 PM–4:00 AM\". Eater's late-night map independently describes it as a late-night Korean BBQ on Taylor Street."
+      },
+      "access": {
+        "summary": "45 Union-Stockton / 38 Geary + walk",
+        "detail": "550 Taylor is between Geary and O'Farrell, minutes from the 38 on Geary and the 45 on Union. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "38",
+          "45"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Source gap flagged for manual review: the official site could not be fetched this round (server error), so hours rest on the business-managed public listing plus Eater corroboration."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official-domain fetch failed; venue-claimed listing used as best available source and corroborated by a news list; flagged for manual review.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "public-izakaya",
+      "name": "Public Izakaya",
+      "address": "700 Post St, San Francisco, CA 94109",
+      "category": "Izakaya / Japanese bar",
+      "neighborhood": "Lower Nob Hill / Union Square",
+      "neighborhoodGroup": "lower-nob-hill",
+      "officialUrl": "https://thepublicizakayaca.com/",
+      "hours": {
+        "Monday": "4:30 PM–2:00 AM",
+        "Tuesday": "4:30 PM–2:00 AM",
+        "Wednesday": "4:30 PM–2:00 AM",
+        "Thursday": "4:30 PM–2:00 AM",
+        "Friday": "4:30 PM–2:00 AM",
+        "Saturday": "4:30 PM–2:00 AM",
+        "Sunday": "4:30 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Business-managed listing (official site returned HTTP 500)",
+        "url": "https://thepublicizakayaca.com/",
+        "quote": "The venue's own listing text states \"Mon–Sat 4:30 PM–2:00 AM; Sun 4:30 PM–12:00 AM\". Third-party data (corner.inc) instead says Fri/Sat 3:00 AM."
+      },
+      "access": {
+        "summary": "49 Van Ness-Mission + walk",
+        "detail": "Post & Taylor area; the 49 runs along Van Ness (3 blocks) and the 1 California passes nearby in daytime. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "49",
+          "45"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Irregularity flags: the official site was returning HTTP 500 at check time (server issue, domain is the venue's own, not repurposed), and Friday/Saturday closing time conflicts between the venue's stated 2:00 AM and third-party 3:00 AM claims."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official domain live but erroring; venue-claimed listing hours used, conflicts flagged for manual review.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "zzan-korean-bbq",
+      "name": "ZZAN Korean BBQ",
+      "address": "643 Post St, San Francisco, CA 94109",
+      "category": "Korean BBQ",
+      "neighborhood": "Lower Nob Hill / Union Square",
+      "neighborhoodGroup": "lower-nob-hill",
+      "officialUrl": "https://zzansf.com/",
+      "hours": {
+        "Monday": "4:00 PM–1:00 AM",
+        "Tuesday": "4:00 PM–1:00 AM",
+        "Wednesday": "4:00 PM–1:00 AM",
+        "Thursday": "4:00 PM–1:00 AM",
+        "Friday": "4:00 PM–1:00 AM",
+        "Saturday": "4:00 PM–1:00 AM",
+        "Sunday": "4:00 PM–1:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Official site",
+        "url": "https://zzansf.com/",
+        "quote": "\"Monday to Sunday 4PM - 1AM\" on the official site."
+      },
+      "access": {
+        "summary": "45 Union-Stockton / 38 Geary + walk",
+        "detail": "643 Post is between Taylor and Jones, near the 45 on Union and the 38 on Geary. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "45",
+          "38"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "The official site publishes a single identical line for all seven days; check for holiday deviations with the venue before a rare-night visit."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site fetched; single daily hours line applies to all seven days; 1:00 AM close qualifies.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "quickly-irving",
+      "name": "Quickly (Irving St)",
+      "address": "2116 Irving St, San Francisco, CA 94122",
+      "category": "Fast-casual Mediterranean",
+      "neighborhood": "Outer Richmond / Clarendon",
+      "neighborhoodGroup": "richmond",
+      "officialUrl": "https://www.quicklyusa.com/sfirving.html",
+      "hours": {
+        "Monday": "11:00 AM–12:00 AM",
+        "Tuesday": "11:00 AM–12:00 AM",
+        "Wednesday": "11:00 AM–12:00 AM",
+        "Thursday": "11:00 AM–12:00 AM",
+        "Friday": "11:00 AM–12:00 AM",
+        "Saturday": "11:00 AM–12:00 AM",
+        "Sunday": "11:00 AM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Official site (location page)",
+        "url": "https://www.quicklyusa.com/sfirving.html",
+        "quote": "\"11:00am - 12:00am Everyday\" on the SF Irving location page."
+      },
+      "access": {
+        "summary": "N Judah / 38 Geary + walk",
+        "detail": "Irving between 21st-22nd Ave; about 2 blocks from the N Judah at Judah & 21st and 3 blocks from the 38 Geary at Geary & 22nd. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "N",
+          "38"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Hours caveat: a midnight close counts here under the after-11-PM rule; if you need a table open at, say, 11:30 that is fine, but it is the earliest qualifying close on this list."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official location page fetched; the everyday hours line covers Fri/Sat/Sun.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "seniores-pizza-sunset",
+      "name": "Seniores Pizza (19th Ave)",
+      "address": "2415 19th Ave, San Francisco, CA 94116",
+      "category": "Pizza / late-night takeout",
+      "neighborhood": "Inner Sunset",
+      "neighborhoodGroup": "inner-sunset",
+      "officialUrl": "https://www.seniorespizza.com/",
+      "hours": {
+        "Monday": "11:00 AM–1:00 AM",
+        "Tuesday": "11:00 AM–1:00 AM",
+        "Wednesday": "11:00 AM–1:00 AM",
+        "Thursday": "11:00 AM–1:00 AM",
+        "Friday": "11:00 AM–3:00 AM",
+        "Saturday": "11:00 AM–3:00 AM",
+        "Sunday": "11:00 AM–1:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Business-managed listing (official site lists locations without hours)",
+        "url": "https://www.seniorespizza.com/",
+        "quote": "The business's managed public listing shows \"Mon–Thu & Sun 11:00 AM–1:00 AM; Fri & Sat 11:00 AM–3:00 AM\". The official site confirms the 2415 19th Ave location but publishes no weekly hours table."
+      },
+      "access": {
+        "summary": "N Judah + long walk; local 29 Sunset/18 4th Ave not verified in-app this round",
+        "detail": "19th Ave & Kirkham is about 0.5 mi from the N Judah at Judah & 20th Ave; daytime trips can use the 29 Sunset or 18 4th Avenue, which the app does not yet verify for Sunday windows. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "N"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Source gap flagged: hours come from the business-managed listing because the official site's hours widget renders client-side; the N Judah is the nearest line with a verified Sunday window."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site fetched (location info only); venue-claimed listing supplies the weekly grid; flagged for manual review.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "seniores-pizza-haight",
+      "name": "Seniore's Pizza (Haight)",
+      "address": "456 Haight St, San Francisco, CA 94117",
+      "category": "Pizza slice shop",
+      "neighborhood": "Lower Haight",
+      "neighborhoodGroup": "haight",
+      "officialUrl": "https://www.seniorespizzasanfrancisco.com/",
+      "hours": {
+        "Monday": "11:30 AM–1:30 AM",
+        "Tuesday": "11:30 AM–1:30 AM",
+        "Wednesday": "11:30 AM–1:30 AM",
+        "Thursday": "11:30 AM–1:30 AM",
+        "Friday": "11:30 AM–1:30 AM",
+        "Saturday": "11:30 AM–1:30 AM",
+        "Sunday": "11:30 AM–1:30 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Business-managed listing (site page menu-first)",
+        "url": "https://www.seniorespizzasanfrancisco.com/",
+        "quote": "The venue's managed listing states \"every day 11:30 AM–1:30 AM\". The official site serves the 456 Haight location (menu-forward page)."
+      },
+      "access": {
+        "summary": "7 Haight / N Judah + walk",
+        "detail": "Haight & 1st/Fuller; the N Judah stops at Haight & Ashbury about 0.6 mi west and the 7 runs along Haight eastbound. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "7",
+          "N",
+          "43"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Source gap flagged: hours from the business-managed listing, not a server-rendered hours table on the venue site."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official domain confirmed for the 456 Haight location; listing hours used and flagged.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "la-oaxaquena",
+      "name": "La Oaxaqueña",
+      "address": "2128 Mission St, San Francisco, CA 94110",
+      "category": "Mexican / moles & mezcal",
+      "neighborhood": "Mission (21st-22nd St)",
+      "neighborhoodGroup": "mission",
+      "officialUrl": "https://laoaxaquenaca.com/",
+      "hours": {
+        "Monday": "11:00 AM–2:00 AM",
+        "Tuesday": "11:00 AM–2:00 AM",
+        "Wednesday": "11:00 AM–2:00 AM",
+        "Thursday": "11:00 AM–2:00 AM",
+        "Friday": "11:00 AM–2:00 AM",
+        "Saturday": "11:00 AM–11:45 PM",
+        "Sunday": "11:00 AM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Official site (hours block)",
+        "url": "https://laoaxaquenaca.com/",
+        "quote": "Hours block: \"Mon–Fri 11am–2am / Sat 11am–11:45pm / Sun 11am–2am\"."
+      },
+      "access": {
+        "summary": "14 Mission / 49 Van Ness-Mission + walk",
+        "detail": "Mission & 24th area, a short walk from the 14/49 Mission stops at 24th. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "14",
+          "49"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Edge case: the site's Saturday 11:45 PM close is after 11 PM but leaves little margin; some third-party listings instead show Friday/Saturday 2:30 AM. Recheck the Saturday plan before heading out."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site fetched; visible hours quoted; the third-party disagreement on Saturday closing time is flagged.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "sushi-uma",
+      "name": "Sushi Uma",
+      "address": "2026 Irving St, San Francisco, CA 94122",
+      "category": "Sushi (no menu, chef's course)",
+      "neighborhood": "Outer Richmond",
+      "neighborhoodGroup": "richmond",
+      "officialUrl": "https://www.thesushiuma.com/online-ordering-1",
+      "hours": {
+        "Monday": "11:00 AM–11:30 PM",
+        "Tuesday": "11:00 AM–11:30 PM",
+        "Wednesday": "11:00 AM–11:30 PM",
+        "Thursday": "11:00 AM–11:30 PM",
+        "Friday": "11:00 AM–11:30 PM (site text shows 11:30 AM, an apparent typo)",
+        "Saturday": "11:00 AM–11:30 PM (same typo caveat)",
+        "Sunday": "11:00 AM–11:30 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Official site (ordering page)",
+        "url": "https://www.thesushiuma.com/online-ordering-1",
+        "quote": "Site text: \"11:00am-11:30pm\" with the Fri/Sat/Sun lines showing an \"11:00am-11:30am\" typo; the venue's managed listing shows 11:30 PM closes on all days."
+      },
+      "access": {
+        "summary": "N Judah / 38 Geary + walk",
+        "detail": "Irving & 22nd, two blocks from the N at Judah & 22nd (eastbound boarding at 22nd) and near the 38 Geary. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "N",
+          "38"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Hours sit right at the qualifying edge (11:30 PM); the site contains an open/close typo on Fri/Sat/Sun rows; seating is limited and popular - reserve well ahead."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official ordering page read; typo interpreted using the venue-claimed listing; flagged as a borderline close time.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "taisho-sake-bar",
+      "name": "Taisho Sake Bar",
+      "address": "1161 Post St, San Francisco, CA 94109",
+      "category": "Sake bar / izakaya",
+      "neighborhood": "Lower Nob Hill / Polk Gulch",
+      "neighborhoodGroup": "polk-gulch",
+      "officialUrl": "https://www.taishosf.com/",
+      "hours": {
+        "Monday": "5:00 PM–12:00 AM",
+        "Tuesday": "5:00 PM–12:00 AM",
+        "Wednesday": "5:00 PM–12:00 AM",
+        "Thursday": "5:00 PM–2:00 AM",
+        "Friday": "5:00 PM–2:00 AM",
+        "Saturday": "5:00 PM–2:00 AM",
+        "Sunday": "5:00 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Business-managed listing (site fetched, hours not server-rendered)",
+        "url": "https://www.taishosf.com/",
+        "quote": "The venue's managed listing states \"Mon–Wed & Sun 5:00 PM–12:00 AM; Thu–Sat 5:00 PM–2:00 AM\". The official site confirms the 1161 Post St location but renders its hours widget client-side."
+      },
+      "access": {
+        "summary": "45 Union-Stockton + walk",
+        "detail": "Post & Polk; the 45 runs along Union one block south and the 5 Fulton along Polk nearby. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "45",
+          "5"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Source gap flagged: weekly grid from the business-managed listing because the site's hours did not appear in fetched HTML."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site fetched (no static hours text); venue-claimed listing used and flagged.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "joyride-pizza-mission",
+      "name": "Joyride Pizza (Mission)",
+      "address": "411 Valencia St, San Francisco, CA 94103",
+      "category": "Pizza bar / hangout",
+      "neighborhood": "Mission (Valencia & 15th)",
+      "neighborhoodGroup": "mission",
+      "officialUrl": "https://www.joyridepizza.com/mission-district",
+      "hours": {
+        "Monday": "11:00 AM–11:00 PM",
+        "Tuesday": "11:00 AM–11:00 PM",
+        "Wednesday": "11:00 AM–11:00 PM",
+        "Thursday": "11:00 AM–12:00 AM",
+        "Friday": "11:00 AM–2:00 AM",
+        "Saturday": "11:00 AM–2:00 AM",
+        "Sunday": "11:00 AM–11:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "source": {
+        "label": "Official site (location page)",
+        "url": "https://www.joyridepizza.com/mission-district",
+        "quote": "\"SUN–WED 11AM–11PM | THU 11AM–12AM | FRI–SAT 11AM–2AM\" on the Mission District location page."
+      },
+      "access": {
+        "summary": "14 Mission + walk",
+        "detail": "Valencia & 15th; the 14 runs along Valencia nearby and the 49 along Mission. The F Market & Wharves on Valencia is not yet verified in the transit panel for Sunday windows. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "14",
+          "49"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Sunday/Monday/Tuesday/Wednesday 11 PM close does not qualify (threshold is strictly after 11 PM)."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official location page fetched; hours line read verbatim; Fri/Sat 2:00 AM qualifies.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "murios-trophy-room",
+      "name": "Murio's Trophy Room",
+      "address": "1811 Haight St, San Francisco, CA 94117",
+      "category": "Cocktail bar / live music venue",
+      "neighborhood": "Upper Haight",
+      "neighborhoodGroup": "haight",
+      "officialUrl": "https://muriostrophyroom.com/",
+      "hours": {
+        "Monday": "12:00 PM–2:00 AM",
+        "Tuesday": "12:00 PM–2:00 AM",
+        "Wednesday": "12:00 PM–2:00 AM",
+        "Thursday": "12:00 PM–2:00 AM",
+        "Friday": "12:00 PM–2:00 AM",
+        "Saturday": "12:00 PM–2:00 AM",
+        "Sunday": "12:00 PM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Business-managed listing (official site fetch failed)",
+        "url": "https://muriostrophyroom.com/",
+        "quote": "The venue's managed listing states \"12:00 PM - 2:00 AM daily\" at 1811 Haight St."
+      },
+      "access": {
+        "summary": "43 Masonic / 7 Haight + walk",
+        "detail": "Haight & 18th/19th; the 43 Masonic stops at Divisadero & Haight about 0.3 mi east and the N Judah runs one block south along Judah. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "43",
+          "7",
+          "N"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Source gap flagged: the official site could not be fetched after two attempts this round, so the daily-2-AM claim rests on the business-managed listing; live-music nights can shift close times - check the venue's Instagram before visiting."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Site fetch failed twice; venue-claimed listing used; flagged as gap + event-dependent hours.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "muukata6395",
+      "name": "MuuKata6395",
+      "address": "4217 Geary Blvd, San Francisco, CA 94118",
+      "category": "Thai-Mu Kratha tabletop grill / hot pot",
+      "neighborhood": "Inner Richmond (west Geary)",
+      "neighborhoodGroup": "richmond",
+      "officialUrl": "https://www.muukata6395.com/",
+      "hours": {
+        "Monday": "11:00 AM–3:00 PM, 5:00 PM–12:00 AM",
+        "Tuesday": "11:00 AM–3:00 PM, 5:00 PM–12:00 AM",
+        "Wednesday": "11:00 AM–3:00 PM, 5:00 PM–12:00 AM",
+        "Thursday": "11:00 AM–3:00 PM, 5:00 PM–12:00 AM",
+        "Friday": "11:00 AM–3:00 PM, 5:00 PM–12:00 AM",
+        "Saturday": "11:00 AM–3:00 PM, 5:00 PM–12:00 AM",
+        "Sunday": "11:00 AM–3:00 PM, 5:00 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Official site",
+        "url": "https://www.muukata6395.com/",
+        "quote": "\"Opening Hours: Everyday 11:00 am - 3:00 pm; Everyday 5:00 pm - midnight\" with the contact address \"4217 Geary Blvd, San Francisco, CA 94118\"."
+      },
+      "access": {
+        "summary": "38 Geary + walk",
+        "detail": "Geary & 42nd Ave, right on the 38 Geary corridor; from the origin it is a straight shot on the 38 toward downtown. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "38"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Split service: 11:00 AM-3:00 PM lunch and 5:00 PM-midnight dinner with a mid-afternoon gap; a late-night visit should target the dinner seating, and last seating before midnight may be earlier than closing."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site fetched; static hours text read verbatim; midnight close every day qualifies Fri/Sat/Sun.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "hinodeya-union-square",
+      "name": "Hinodeya Ramen (Union Square)",
+      "address": "219 O'Farrell St, San Francisco, CA 94102",
+      "category": "Ramen / late-night noodle bar",
+      "neighborhood": "Union Square",
+      "neighborhoodGroup": "downtown-union-square",
+      "officialUrl": "https://hinodeyaramen.com/",
+      "hours": {
+        "Monday": "10:00 AM–1:30 AM",
+        "Tuesday": "10:00 AM–1:30 AM",
+        "Wednesday": "10:00 AM–1:30 AM",
+        "Thursday": "10:00 AM–1:30 AM",
+        "Friday": "10:00 AM–3:30 AM",
+        "Saturday": "10:00 AM–3:30 AM (an older snapshot of the same listing said 2:00 AM)",
+        "Sunday": "10:00 AM–1:30 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Business-managed listing (official site hours render client-side)",
+        "url": "https://hinodeyaramen.com/",
+        "quote": "The venue's managed listing shows Mon–Thu & Sun 10:00 AM–1:30 AM and Fri–Sat 10:00 AM–3:30 AM; the official home page confirms the 219 O'Farrell St Union Square location and a guest review on it praises the 1:30 AM close."
+      },
+      "access": {
+        "summary": "38 Geary / 45 Union-Stockton + walk",
+        "detail": "O'Farrell between Powell and Larkin; the 38 runs on Geary one block north and the 45 on Union below. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "38",
+          "45"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Source gap flagged: the multi-location site's hours widget renders in-browser and was not readable server-side; the current claimed listing says 3:30 AM Fri/Sat while an archived copy of the same listing said 2:00 AM Saturday - either qualifies."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official site fetched for address/location; venue-claimed listing supplies the weekly grid; Saturday variance flagged.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "hinodeya-japantown",
+      "name": "Hinodeya Ramen (Japantown)",
+      "address": "1737 Buchanan St, San Francisco, CA 94115",
+      "category": "Ramen / late-night noodle bar",
+      "neighborhood": "Japantown",
+      "neighborhoodGroup": "japantown",
+      "officialUrl": "https://hinodeyaramen.com/",
+      "hours": {
+        "Monday": "until ~10:00 PM (see flag)",
+        "Tuesday": "until ~10:00 PM (see flag)",
+        "Wednesday": "until ~10:00 PM (see flag)",
+        "Thursday": "until ~10:00 PM (see flag)",
+        "Friday": "10:00 AM–12:00 AM",
+        "Saturday": "10:00 AM–12:00 AM",
+        "Sunday": "10:00 AM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "source": {
+        "label": "Official site (page copy) + managed listing",
+        "url": "https://hinodeyaramen.com/",
+        "quote": "Site copy for the Japantown location (1737 Buchanan St) includes \"Friday/Saturday: 10AM-12AM\"."
+      },
+      "access": {
+        "summary": "38 Geary + walk",
+        "detail": "Buchanan & Post, a block from the 38 Geary at Geary & Buchanan and near the 5 Fulton corridor. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "38",
+          "5"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Irregularity flag: this location's full weekly grid is client-rendered; only the Friday/Saturday 10AM–12AM copy was readable server-side, so off-night hours are marked approximately. Midnight on Fri/Sat qualifies; the app cannot yet confirm a late Sunday close here."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official-site copy confirms Fri/Sat midnight close; remaining days flagged as unverified.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "oreillys-pub-haight",
+      "name": "O'Reilly's Pub",
+      "address": "1840 Haight St, San Francisco, CA 94117",
+      "category": "Irish pub / live music",
+      "neighborhood": "Upper Haight",
+      "neighborhoodGroup": "haight",
+      "officialUrl": "https://oreillyssf.com/",
+      "hours": {
+        "Monday": "12:00 PM–10:00 PM",
+        "Tuesday": "12:00 PM–12:00 AM",
+        "Wednesday": "12:00 PM–12:00 AM",
+        "Thursday": "12:00 PM–12:00 AM",
+        "Friday": "12:00 PM–2:00 AM",
+        "Saturday": "12:00 PM–2:00 AM",
+        "Sunday": "12:00 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Third-party listings (official site live, no hours text)",
+        "url": "https://oreillyssf.com/",
+        "quote": "Two recent public listings for 1840 Haight St (business site oreillyssf.com) both state \"Mon 12-10pm; Tue-Thu 12-12am; Fri/Sat 12-2am; Sun 12-12am\"; the official site itself is image-driven and publishes no server-side hours."
+      },
+      "access": {
+        "summary": "43 Masonic / 7 Haight + walk",
+        "detail": "Haight & 18th; the 43 Masonic at Divis & Haight and the N Judah one block south cover the corridor. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "43",
+          "7",
+          "N"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Source gap flagged: the listings carrying these hours are not business-claimed, so treat them as the venue's likely pattern and confirm by phone/(415) 387-6455 before a specific plan. Do not confuse with the permanently closed O'Reilly's Irish Pub at 622 Green St."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official domain fetched (exists, no hours text); two independent recent listings agree; gap flagged.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "lark-bar-downtown",
+      "name": "The Lark Bar",
+      "address": "685 Market St, Suite 140A, San Francisco, CA 94105",
+      "category": "Sports bar / pizza",
+      "neighborhood": "Downtown / SoMa edge",
+      "neighborhoodGroup": "downtown-union-square",
+      "officialUrl": "https://thelarkbar.com/",
+      "hours": {
+        "Monday": "12:00 PM–2:00 AM",
+        "Tuesday": "12:00 PM–2:00 AM",
+        "Wednesday": "12:00 PM–2:00 AM",
+        "Thursday": "12:00 PM–2:00 AM",
+        "Friday": "12:00 PM–2:00 AM",
+        "Saturday": "12:00 PM–2:00 AM",
+        "Sunday": "12:00 PM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Business-managed listing (recent updates; site not fetchable this round)",
+        "url": "https://thelarkbar.com/",
+        "quote": "The managed listing shows every day 12:00 PM–2:00 AM and lists dated special-hour notices (e.g. closure Sep 7, 2026), which indicates active management; the Downtown SF partnership page shows Sun open 10 AM with a 2:00 AM close."
+      },
+      "access": {
+        "summary": "1 California / 8 / T Third + walk",
+        "detail": "685 Market between Battery and Market St. The 1/8/30/45/T/91 all cover the Montgomery-Embarcadero corridor within a few blocks; Powell BART and Montgomery BART are also nearby. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "8",
+          "1",
+          "T",
+          "30"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Moved: The Lark's long-time 1301 McAllister (Civic Center) location closed; the current bar is 685 Market St. Openings disagree between sources (10 AM vs 12 PM vs 2 PM) while all recent sources agree on a 2:00 AM close. Kitchen runs on a Joyride Pizza partnership."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Listing data corroborated by a district partnership page; close time consistent across sources; openings variance and site fetch issue flagged.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "harlequin-downtown",
+      "name": "The Harlequin",
+      "address": "68 4th St, San Francisco, CA 94103",
+      "category": "Cocktail bar / event space",
+      "neighborhood": "Yerba Buena / SoMa",
+      "neighborhoodGroup": "soma",
+      "officialUrl": "https://www.harlequinsf.com/",
+      "hours": {
+        "Monday": "4:00 PM–11:00 PM",
+        "Tuesday": "4:00 PM–11:00 PM",
+        "Wednesday": "11:00 AM–11:00 PM",
+        "Thursday": "11:00 AM–12:00 AM",
+        "Friday": "11:00 AM–12:00 AM (BID page says 2:00 AM)",
+        "Saturday": "11:00 AM–12:00 AM (BID page says 2:00 AM)",
+        "Sunday": "11:00 AM–11:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "source": {
+        "label": "Business-managed listing + district directory",
+        "url": "https://www.harlequinsf.com/",
+        "quote": "Managed listing: \"Mon/Tue 4-11pm, Wed 11am-11pm, Thu-Sat 11am-12am, Sun 11am-11pm\". The Downtown SF directory page instead lists \"Wed-Fri 11:30am-2:00am; Sat 2pm-2am\"."
+      },
+      "access": {
+        "summary": "T Third / 8/1 + walk",
+        "detail": "4th & Howard, beside the T Third at 4th/Howard and a block from the 8/1 on Market. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "T",
+          "8",
+          "1"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Conflict flag: the venue's managed listing says a midnight Fri/Sat close while the city partnership directory says 2:00 AM; either qualifies, Sunday does not under the managed listing. Moved from the old 1721 Haight St location - ignore old Haight references."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Two authoritative-but-divergent sources recorded; the conservative (managed-listing) hours used for the table, conflict flagged.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "presidio-pizza",
+      "name": "Presidio Pizza Company",
+      "address": "1862 Divisadero St, San Francisco, CA 94115",
+      "category": "Pizza shop / late-night",
+      "neighborhood": "Lower Pacific Heights / Marina",
+      "neighborhoodGroup": "marina-presidio",
+      "officialUrl": "https://www.presidio-pizza.com/",
+      "hours": {
+        "Monday": "11:30 AM–10:00 PM",
+        "Tuesday": "11:30 AM–10:00 PM",
+        "Wednesday": "11:30 AM–10:00 PM",
+        "Thursday": "11:30 AM–12:00 AM",
+        "Friday": "11:30 AM–2:00 AM",
+        "Saturday": "11:30 AM–2:00 AM",
+        "Sunday": "11:30 AM–10:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "source": {
+        "label": "Official site (text + embedded schedule data)",
+        "url": "https://www.presidio-pizza.com/",
+        "quote": "Page text starts \"Sunday – Wednesday 11:30AM – 10PM\" and the embedded data lists Thu 11:30-23:59, Fri/Sat 11:30-23:59 with a 00:00–02:00 tail segment (a machine-readable way of writing a 2:00 AM close). The venue's managed Yelp-style listing matches: Thu until 12:00 AM, Fri/Sat until 2:00 AM."
+      },
+      "access": {
+        "summary": "38 Geary / 43 Masonic + walk",
+        "detail": "Divisadero & Union; the 43 Masonic and 38 Geary run one block north on Geary, the 19 Polk on Polk a block east. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "38",
+          "43"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Older third-party data (2021 snapshot) shows 11:00 open and a 2:30 AM Fri/Sat close; current official site says 11:30 open and 2:00 AM close."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official site fetched; visible text and its own structured data agree on a 2:00 AM Fri/Sat close; Sunday closes 10 PM and is excluded.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "buena-vista-cafe",
+      "name": "Buena Vista Cafe",
+      "address": "2765 Hyde St, San Francisco, CA 94109",
+      "category": "Historic cafe / Irish cocktails",
+      "neighborhood": "Fisherman's Wharf",
+      "neighborhoodGroup": "fishermans-wharf",
+      "officialUrl": "https://www.thebuenavista.com/home/directions.html",
+      "hours": {
+        "Monday": "9:00 AM–11:00 PM",
+        "Tuesday": "9:00 AM–11:00 PM",
+        "Wednesday": "9:00 AM–11:00 PM",
+        "Thursday": "9:00 AM–11:00 PM",
+        "Friday": "9:00 AM–12:00 AM",
+        "Saturday": "8:00 AM–12:00 AM",
+        "Sunday": "8:00 AM–11:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "source": {
+        "label": "Official site (info & hours page)",
+        "url": "https://www.thebuenavista.com/home/directions.html",
+        "quote": "\"Hours: Mon-Thu - 9am - 11pm (kitchen closed 9:30pm); Fri 9am - 12am (kitchen closed 9:30pm); Sat 8am - 12am (kitchen closed 9:30pm); Sun 8am - 11pm\" at 2765 Hyde St."
+      },
+      "access": {
+        "summary": "30 Stockton / 45 Union-Stockton + walk",
+        "detail": "The 30 Stockton terminates at Fisherman's Wharf and the 45 runs along Union; from the 21st & Judah origin this is the far end of the map. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "30"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Distance flag: roughly 35-45 minutes by transit from 21st Ave & Judah, beyond the 30-minute focus ring; kept because midnight Fri/Sat closes are rare this far north. Kitchen closes 9:30 PM; late hours are drinks-only. Eater's 2014-vintage page data showed a 2 AM tail - unverified, ignore."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official hours page fetched; Fri/Sat midnight closes read verbatim; Sun/weekday 11 PM fails the strict after-11 threshold.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "dragon-horse",
+      "name": "Dragon Horse",
+      "address": "917 Folsom St, San Francisco, CA 94107",
+      "category": "Izakaya / sushi / cocktails (late-night)",
+      "neighborhood": "SoMa (Folsom & 5th)",
+      "neighborhoodGroup": "soma",
+      "officialUrl": "https://www.dragonhorsesf.com/",
+      "hours": {
+        "Monday": "5:00 PM–11:59 PM (embedded data; listings say to 12:00 AM)",
+        "Tuesday": "5:00 PM–11:59 PM",
+        "Wednesday": "5:00 PM–11:59 PM",
+        "Thursday": "5:00 PM–12:00 AM (listings say to 1:00 AM)",
+        "Friday": "5:00 PM–1:00 AM (embedded 11:59 PM + 00:00–01:00 tail)",
+        "Saturday": "5:00 PM–1:00 AM (embedded 11:59 PM + 00:00–01:00 tail)",
+        "Sunday": "00:00–1:00 AM tail only; dinner service listed as closed in third-party data"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "source": {
+        "label": "Official site (embedded schedule data) + venue-domain press page",
+        "url": "https://www.dragonhorsesf.com/",
+        "quote": "Site JSON-LD: \"openingHoursSpecification\" with Tue–Sat 17:00–23:59:59 plus 00:00–01:00 tail segments for Fri/Sat/Sun; the site's press page quotes the founder on late-night service and 7x7 describes \"cocktails, sushi, skewers, and more until 1am six days a week.\""
+      },
+      "access": {
+        "summary": "49 Van Ness-Mission / 8 39-Courier + walk",
+        "detail": "917 Folsom between 5th and Howard; the 8/9 runs along Mission, the 49 along 4th/Van Ness, and the T Third at 4th/Howard is a 5-minute walk. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "8",
+          "49",
+          "T"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "Machine-readable-hours quirk: the site encodes late closes as an 11:59:59 close plus a 00:00–01:00 overnight segment, and third-party grids disagree on Monday (11 PM vs midnight) and Sunday (closed vs 1 AM tail); Friday/Saturday past 1 AM is consistent everywhere."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official-domain structured data + press page read; day-grid gaps flagged.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "pizza-zone-n-grill",
+      "name": "Pizza Zone N Grill",
+      "address": "178 Valencia St, San Francisco, CA 94103",
+      "category": "Pizza / all-night slice shop",
+      "neighborhood": "SoMa (Valencia & 14th)",
+      "neighborhoodGroup": "soma",
+      "officialUrl": "https://www.pizzazonegrill.com/",
+      "hours": {
+        "Monday": "11:00 AM–3:00 AM",
+        "Tuesday": "11:00 AM–3:00 AM",
+        "Wednesday": "11:00 AM–3:00 AM",
+        "Thursday": "11:00 AM–3:00 AM",
+        "Friday": "11:00 AM–4:30 AM",
+        "Saturday": "11:00 AM–4:30 AM",
+        "Sunday": "11:00 AM–3:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": {
+        "label": "Official site (static text + embedded schedule data)",
+        "url": "https://www.pizzazonegrill.com/",
+        "quote": "\"11:00 AM-4:30 AM\" hero text with JSON-LD: Fri/Sat 11:00–04:30, Sun–Thu 11:00–03:00, at 178 Valencia St."
+      },
+      "access": {
+        "summary": "14 Mission + walk",
+        "detail": "Valencia between 14th and 15th; the 14 runs along Valencia here and the 49 along Mission at 14th. The F Market & Wharves on Valencia/16th is nearby but not yet verified for Sunday windows. Use the live SFMTA planner for exact stop locations; line windows in the Transit tab are for Sunday, September 6, 2026.",
+        "lineIds": [
+          "14",
+          "49"
+        ],
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ]
+      },
+      "flags": [
+        "A second, Bayview location (4404 3rd St) exists with different (earlier) hours in older third-party data; this row covers the Valencia St shop only. Phone numbers differ across listings ((415) 275-6800 on the site vs (415) 701-7300 elsewhere)."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official domain fetched via its own index data in search cache; static hours text and structured data agree on 3:00-4:30 AM closes.",
+        "verifiedOn": "2026-09-06"
+      }
     }
   ]
 }
