@@ -1880,3 +1880,64 @@ requested. The SF late-night long tail has been largely exhausted by rounds 1–
 the remaining unmined names overwhelmingly fail one of the checks above — most commonly a dead or
 hijacked domain, or a venue that publishes no hours on its own site. Every rejection above is listed so
 the screening can be re-checked by hand.
+
+## Round 8 — added 2026-09-06
+
+Continued mining after the round 7 pass. Two more records cleared verification against the
+venue's own website (address + published hours read on the official domain on 2026-09-06).
+
+| Venue | Address | Official source | Quoted hours evidence |
+| --- | --- | --- | --- |
+| Fly Bar | 762 Divisadero St, SF 94117 | https://www.flybardivis.com/ | "762 Divisadero St … HOURS: Open Everyday to 2 am"; menu block "Mon-Thurs: 2 pm - 2 am / Sat: 12 pm - 2 am / Sun: 10 am - 2 am" |
+| Johnny Foley's | 243 O'Farrell St, SF 94102 | https://www.johnnyfoleys.com/contact | "BAR HOURS … Friday 3:00pm - 1:30am / Saturday 11:00am - 1:30am / Sunday 11:00am - midnight / CLOSED Monday & Tuesday" |
+
+### Flagged irregularity
+
+* **Fly Bar** — the official page states a blanket "Open Everyday to 2 am" but its hours block lists
+  Mon–Thurs, Sat and Sun only, with **no Friday opening time published**. The 2 AM close is explicit
+  for every day, so the record qualifies, but the Friday opening hour is recorded as unpublished
+  rather than guessed. Marked `verified-with-gap`.
+* **Johnny Foley's** — bar runs to 1:30 AM Fri/Sat but the kitchen stops at 10:00 PM nightly, and the
+  venue is closed Monday and Tuesday. Both noted on the record.
+
+### Rejected this round (with reason)
+
+* **Already in the dataset:** Zeitgeist, Smuggler's Cove, The Café, Blackbird Bar, Rock Bar,
+  Buena Vista Cafe, Zombie Village, Bourbon & Branch, Little Shamrock, Emporium SF, Madrone Art Bar.
+* **Closes at or before 11 PM:** Beach Chalet, Java Beach Café, Ocean Beach Café (6 PM),
+  Caffe Trieste (10 PM), The Grove SF (10 PM), The Village (2 PM, brunch only), The Pawn Shop
+  (10 PM Fri/Sat), Rosamunde Sausage Grill, Pizzeria Avellino, PizzaHacker.
+* **Event-calendar only, no published day hours:** Cafe du Nord, Audio SF, Rickshaw Stop, Black Cat,
+  Harmonic Brewing (event listings + a pointer to its Google page, which is not an official source
+  under this project's policy).
+* **Out of scope / wrong entity:** Rocca Pizzeria (Baton Rouge, LA), Hi-Dive (Denver),
+  Bar Darling (Montreal), Pizzeria Delfina (takeout-only Mission listing, no late hours),
+  The Laurel (an apartment building, not a bar), Barebottle (no per-location hours on the landing page).
+* **Temporarily closed:** The Snug (below-floor plumbing failure; official site announces an
+  indefinite closure).
+* **Hijacked, parked, expired or for-sale domains — never cite:** badlandssf.com (Hostinger parked),
+  mikkellerbar.com (GoDaddy $5,000), buenavistacafe.com (GoDaddy — the real site is thebuenavista.com),
+  sunrisedeli.com (GoDaddy), thecinch.com (GoDaddy), hobsonschoice.com (GoDaddy),
+  taqueriacancun.com (HugeDomains), qbarsf.com (Indonesian link-farm), arlequincafe.com (casino spam),
+  thegoldencatsf.com (gambling redirect), hobsons.com (unrelated PowerSchool product),
+  bloodhoundsf.com / thegrandsf.com / dobbsferrysf.com (Squarespace expired),
+  thehearthsf.com / thetradercollective.com (Squarespace "coming soon"),
+  socialkitchenandbrewery.com (Squarespace unclaimed), dearmomsf.com (suspended),
+  originalusrestaurant.com (404), gyrokingsf.com (SEO spam).
+* **Unreachable on 2026-09-06 (HTTP 500 / DNS failure):** muckyducksf.com, teeoffsf.com,
+  pigandwhistlesf.com, irelands32sf.com, martinmackssf.com, mobydicksf.com, polkgulchsf.com,
+  rnmsf.com, thecastroclub.com, hockeyhaven.net, bluesixbar.com, marketbarsf.com, thebeergarden.com,
+  parksidesf.com, thelittleshamrocksf.com, dragonbeauxsf.com, hongkonglounge2.com,
+  sunsetreservoirbrewing.com, thewoodssf.com, hollowsf.com, yanciyssf.com, deliriumsf.com,
+  nihon-sf.com, emperornortonsf.com, twosistersbarandbooks.com, bullittsf.com, theritespotcafe.com,
+  laszlobar.com, thecastrotheatre.com, marlenasbarsf.com, hitopssf.com, streetbarsf.com,
+  thelookoutsf.com, thephoenixsf.com, royalexchangesf.com, puborangesf.com, thetreasuresf.com,
+  thetempletonsf.com, sfbeerhall.com, thecraftybar.com, publicworkssf.com, thebiglebowskibar.com,
+  hogandrocks.com, velvetcantinasf.com, slateyardsf.com, thecavesf.com, thevaultsteakhouse.com,
+  charmaines-sf.com, spectorbar.com, pancholvillasf.com, gangwaybarsf.com, latinbarsf.com,
+  polkstationsf.com, gooddoggiesf.com, tonykansaspizza.com.
+
+**Manual-review note:** across rounds 7 and 8 combined I screened roughly 150 additional candidate
+domains to produce 6 verified additions. The binding constraint is no longer effort — it is that the
+verifiable, venue-published late-night inventory in San Francisco is close to fully enumerated at 206
+records under this project's sourcing rules. Options to genuinely expand are listed in the README.

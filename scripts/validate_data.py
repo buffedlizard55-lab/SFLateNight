@@ -108,8 +108,8 @@ def main() -> None:
     meta = data.get("meta", {})
     if len(venues) != meta.get("recordCount"):
         fail("meta.recordCount does not match the number of venue records")
-    if len(venues) != 204:
-        fail(f"expected exactly 204 records, found {len(venues)}")
+    if len(venues) != 206:
+        fail(f"expected exactly 206 records, found {len(venues)}")
 
     validate_transit(meta, venues)
 

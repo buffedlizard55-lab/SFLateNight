@@ -4,8 +4,8 @@
     "origin": "21st Ave & Judah St, San Francisco, CA 94122",
     "threshold": "Open past 11:00 PM on Friday, Saturday, or Sunday",
     "verifiedOn": "2026-09-06",
-    "recordCount": 204,
-    "scopeNote": "Static, source-linked directory of 204 verified records. It does not claim every San Francisco business is open or available; expand the master list only after a line-by-line source check.",
+    "recordCount": 206,
+    "scopeNote": "Static, source-linked directory of 206 verified records. It does not claim every San Francisco business is open or available; expand the master list only after a line-by-line source check.",
     "transitNote": "Transit labels are screening notes, not turn-by-turn directions. Use the live route link and check SFMTA/BART service before leaving.",
     "planningSources": [
       {
@@ -10599,6 +10599,110 @@
       "verification": {
         "status": "verified",
         "method": "Official venue site checked on 2026-09-06 for the address and the published day-range hours; Friday/Saturday close at midnight and Sunday at 11:30 PM.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "fly-bar-divisadero",
+      "name": "Fly Bar",
+      "category": "Bar",
+      "neighborhood": "Divisadero / NoPa",
+      "neighborhoodGroup": "divisadero-nopa",
+      "address": "762 Divisadero St, San Francisco, CA 94117",
+      "officialUrl": "https://www.flybardivis.com/",
+      "hours": {
+        "Monday": "2:00 PM – 2:00 AM",
+        "Tuesday": "2:00 PM – 2:00 AM",
+        "Wednesday": "2:00 PM – 2:00 AM",
+        "Thursday": "2:00 PM – 2:00 AM",
+        "Friday": "Open until 2:00 AM (site states 'Open Everyday to 2 am')",
+        "Saturday": "12:00 PM – 2:00 AM",
+        "Sunday": "10:00 AM – 2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "N Judah to Duboce/Fillmore, then 24 Divisadero",
+        "detail": "From 21st Ave & Judah take the N Judah inbound to Duboce & Fillmore, then transfer to the 24 Divisadero northbound and exit at Divisadero & Fulton; 762 Divisadero is a short walk. The 5 Fulton along Fulton Street is an alternate. Roughly 35-40 minutes.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "N",
+          "24",
+          "5"
+        ]
+      },
+      "source": {
+        "label": "Official Fly Bar site",
+        "url": "https://www.flybardivis.com/",
+        "quote": "762 Divisadero St, San Francisco, CA 94117 — HOURS: Open Everyday to 2 am. Menu block: Mon-Thurs: 2 pm - 2 am / Sat: 12 pm - 2 am / Sun: 10 am - 2 am"
+      },
+      "flags": [
+        "Irregularity for review: the official site gives a blanket 'Open Everyday to 2 am' plus a menu-hours block that lists Mon-Thurs, Sat and Sun but omits a separate Friday opening time. The 2 AM close is stated for every day; the Friday opening hour is not published."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official venue site checked on 2026-09-06 for address and hours; the 2 AM daily close is explicit, but the Friday opening time is missing from the published block and is flagged rather than guessed.",
+        "verifiedOn": "2026-09-06"
+      }
+    },
+    {
+      "id": "johnny-foleys",
+      "name": "Johnny Foley's",
+      "category": "Irish pub",
+      "neighborhood": "Downtown / Union Square",
+      "neighborhoodGroup": "downtown-union-square",
+      "address": "243 O'Farrell St, San Francisco, CA 94102",
+      "officialUrl": "https://www.johnnyfoleys.com/",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Bar 3:00 PM – 12:00 AM (kitchen 3:00 PM – 10:00 PM)",
+        "Thursday": "Bar 3:00 PM – 12:00 AM (kitchen 3:00 PM – 10:00 PM)",
+        "Friday": "Bar 3:00 PM – 1:30 AM (kitchen 3:00 PM – 10:00 PM)",
+        "Saturday": "Bar 11:00 AM – 1:30 AM (kitchen 11:00 AM – 10:00 PM)",
+        "Sunday": "Bar 11:00 AM – 12:00 AM (kitchen 11:00 AM – 10:00 PM)"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "N Judah to Powell Station, then a two-block walk",
+        "detail": "Take the N Judah inbound from 21st Ave & Judah to Powell Station, then walk two blocks north on Powell to O'Farrell; 243 O'Farrell is between Powell and Cyril Magnin. The 38 Geary also stops one block away. About 35 minutes.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "N",
+          "38",
+          "30",
+          "45"
+        ]
+      },
+      "source": {
+        "label": "Official Johnny Foley's contact page",
+        "url": "https://www.johnnyfoleys.com/contact",
+        "quote": "243 O'Farrell Street between Powell St & Cyril Magnin Lane San Francisco, CA 94102 — BAR HOURS Wednesday 3:00pm - midnight / Thursday 3:00pm - midnight / Friday 3:00pm - 1:30am / Saturday 11:00am - 1:30am / Sunday 11:00am - midnight / CLOSED Monday & Tuesday. Live music in the Main Bar 10:00pm - 1:00am, dueling pianos in The Cellar 9pm - Midnight, every Friday & Saturday."
+      },
+      "flags": [
+        "Kitchen stops at 10:00 PM every night even though the bar runs to 1:30 AM Friday and Saturday — arrive before 10 PM for food.",
+        "Closed Monday and Tuesday. The site also notes occasional special conference hours, so check before a trip during large downtown events."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official contact page checked on 2026-09-06; address, separate bar and kitchen hours, and the Friday/Saturday 1:30 AM close were all transcribed verbatim from the venue's own page.",
         "verifiedOn": "2026-09-06"
       }
     }
