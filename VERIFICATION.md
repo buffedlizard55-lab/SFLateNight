@@ -1941,3 +1941,57 @@ venue's own website (address + published hours read on the official domain on 20
 domains to produce 6 verified additions. The binding constraint is no longer effort — it is that the
 verifiable, venue-published late-night inventory in San Francisco is close to fully enumerated at 206
 records under this project's sourcing rules. Options to genuinely expand are listed in the README.
+
+## Round 9 — added 2026-09-06
+
+Ninth mining pass over the remaining unscreened San Francisco late-night pool. **1 record accepted (206 → 207).** The candidate pool is now demonstrably exhausted at this verification standard; the detail below is the evidence for that claim.
+
+### Accepted
+
+| Venue | Address | Neighborhood | Qualifying nights | Official source | Verbatim evidence | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| Harrington's Bar & Grill | 245 Front St, San Francisco, CA 94111 | Financial District | Friday | https://www.harringtonssf.com/ | "245 Front Street San Francisco, SF 94103 — Hours: MON - FRI: 10am -12am. CLOSED SATURDAYS & SUNDAYS." | verified-with-gap |
+
+**Flagged for manual review (Harrington's):**
+
+1. **Weekend closure.** This is a Financial District after-work pub. Friday is the only qualifying night in scope; Saturday and Sunday it is closed outright. It is listed because Friday midnight clears the 11 PM threshold, but do not plan a Saturday night around it.
+2. **ZIP typo on the venue's own page.** The site footer prints "San Francisco, SF 94103". 245 Front Street is in **94111** (94103 is SoMa). The record stores 94111; the discrepancy is the venue's, not ours, and is recorded here rather than silently corrected.
+3. **Domain warning.** `harringtonsbarandgrill.com` — the address that appears in many third-party listings — is **not** controlled by the business any more. `harringtonssf.com` is the live official Squarespace site and is the only domain cited here.
+
+### Verified as already present (no duplicate created)
+
+Churchill (198 Church St), Beaux (2344 Market St), Jolene's (2700 16th St), Novela, Local Edition, Left Door, SF Eagle, Blondie's Bar. Round 9 independently re-derived hours for Churchill ("sun-thur 4pm-12am fri-sat 4pm-2am"), Local Edition ("Thurs-FRI: 4:30pm - 2am / Sat: 6pm - 2am / Sun: closed") and Left Door ("Friday–Saturday 5pm–1am") from their official sites; all three match the records already in `data/venues.json`. No changes required.
+
+### Rejected in round 9, with the reason
+
+**Closes at or before 11 PM**
+- Pagan Restaurant, 3199 Clement St — official site: "Friday: 5–8:30 PM … Saturday: 11:30 AM–2:30 PM, 5–9 PM … Sunday: 11:30 AM–2:30 PM, 5–9 PM". Nowhere near the threshold.
+
+**Live official site, but no operating hours published anywhere on it**
+- Wildhawk (checked the homepage and the /about-the-birds page — copy, team bios and a Tuesday martini promo, no hours)
+- Tommy's Mexican Restaurant (history and awards only)
+- Marufuku Ramen (menu and franchising only; hours live behind a third-party ordering widget)
+- The Social Study (homepage is a 2020-era archive; the only hours quoted are pandemic "12-6PM" Instagram captions — stale, not usable)
+- Overproof, Jolene's, The Laundromat SF (carried over from earlier in this pass)
+- The Valencia Room (event calendar only, no standing hours)
+- The Cavalier (SoMa; homepage links reservations and menus but publishes no hours)
+
+**Domain is parked, for sale, hijacked, or a different business — never cite these**
+- `hardwaterbar.com` → redirects to `carpaldoctors.com`, an Indonesian gambling/"toto macau" spam page. **Hijacked.**
+- `sfeagle.com` → serves a Tallinn, Estonia hotel-booking site wrapping a scraped copy of a ~2007 Eagle Tavern page. The real SF Eagle record correctly uses `sf-eagle.com`.
+- `blondiesbar.com` → Blondie's Bar in The Villages, **Florida** ("Spanish Springs Town Square", "3PM – 10PM"). The SF record correctly uses `blondiesbarsf.com`.
+- `hongkonglounge.com` → GoDaddy, $1,895.
+- `zombievillage.com` → GoDaddy, $295.
+
+**Unreachable (DNS failure or HTTP 500) on this pass**
+theharlequinsf.com, pierfortythree.com, thebellsf.com, rosenbergssf.com, thetradersf.com, bluebottlebarsf.com, thebrixtonsf.com, thehiddenvinesf.com, oasissf.com, tempestsf.com, moboxsf.com, doublestandardsf.com, thewestbarsf.com, hobsonsbar.com, thebarleysf.com, mothershipsf.com, thecornerstoresf.com, parlorsf.com, thephoenixirishbar.com, mrbings.com, rickhouse-sf.com, hi-topsbar.com, pinecrestdinersf.com, thepublicbarsf.com.
+
+### Why this round returned 1 and not 50
+
+Across rounds 7, 8 and 9 roughly 190 distinct candidate venues have now been screened against the project's rule: *the venue's own website must state, in its own words, a closing time later than 11:00 PM on a Friday, Saturday or Sunday.* The remaining pool fails for three structural reasons, none of which more searching will fix:
+
+1. **Small SF bars have stopped publishing hours on the web.** They post them to Instagram Stories, or to their Google Business Profile — a source this project does not cite.
+2. **A large share of legacy SF bar domains have lapsed** and been bought by domain squatters or, worse, redirected to gambling spam (see the list above). Three separate confirmed hijacks turned up in this round alone.
+3. **The genuinely late, genuinely documented venues are already in the dataset.** Round 9 hit eight already-listed venues in a single batch — the hit rate against existing records is now higher than the hit rate against new ones, which is the clearest possible signal of saturation.
+
+Reaching +50 from here would require relaxing one of the standing rules. The three options previously put to the user remain open and none has been adopted unilaterally: extend the radius past 30 minutes (Oakland Uptown, Daly City), admit venues that close at exactly 11:00 PM, or accept a venue's own Instagram bio as an official source when it is the only page the business operates.
