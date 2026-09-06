@@ -31,7 +31,10 @@ def has_late_close(value: str) -> bool:
     if "24 hour" in text:
         return True
     # This directory uses 12 AM through 4 AM to represent a next-day close.
-    return bool(re.search(r"(?:until\s+)?(?:12|1|2|3|4)(?::\d{2})?\s*am", text))
+    if re.search(r"(?:until\s+)?(?:12|1|2|3|4)(?::\d{2})?\s*am", text):
+        return True
+    # A close of 11:01-11:59 PM also clears the "strictly past 11:00 PM" bar (11:00 PM itself does not).
+    return bool(re.search(r"11:(?:0[1-9]|[1-5]\d)\s*pm", text))
 
 
 def validate_transit(meta: dict, venues: list[dict]) -> None:
@@ -91,8 +94,8 @@ def main() -> None:
     meta = data.get("meta", {})
     if len(venues) != meta.get("recordCount"):
         fail("meta.recordCount does not match the number of venue records")
-    if len(venues) != 54:
-        fail(f"expected exactly 54 records, found {len(venues)}")
+    if len(venues) != 96:
+        fail(f"expected exactly 96 records, found {len(venues)}")
 
     validate_transit(meta, venues)
 
