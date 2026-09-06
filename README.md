@@ -4,7 +4,7 @@ A clean, source-first GitHub Pages directory for late-night restaurants, bars, a
 
 ## What is included
 
-- 134 San Francisco venue records (verified line-by-line against official venue pages).
+- 174 San Francisco venue records (verified line-by-line against official venue pages).
 - Official venue links for manual review.
 - Officially published address and weekly hours transcribed into a searchable table.
 - Inclusion only when the published venue schedule ends after 11:00 PM on at least one Friday, Saturday, or Sunday. Midnight counts as later than 11 PM.
@@ -13,7 +13,7 @@ A clean, source-first GitHub Pages directory for late-night restaurants, bars, a
 - A visible review queue for kitchen cutoffs, grouped hours, missing opening times, 21+ rules, transit gaps, and other operational details.
 - Venue verification in [`VERIFICATION.md`](VERIFICATION.md) and transit verification in [`TRANSIT_VERIFICATION.md`](TRANSIT_VERIFICATION.md).
 
-This is intentionally a **static, source-linked index**, not a fake live-search service or a claim that every San Francisco business is represented. The current master list is exactly 134 verified records; the site never invents hours or implies that a venue is open right now. Hours and transit service can change, so the official source, SFMTA alerts, and day-of route check are part of the product.
+This is intentionally a **static, source-linked index**, not a fake live-search service or a claim that every San Francisco business is represented. The current master list is exactly 174 verified records; the site never invents hours or implies that a venue is open right now. Hours and transit service can change, so the official source, SFMTA alerts, and day-of route check are part of the product.
 
 **Expansion status (round two):** the request aimed for 50 net-new records beyond the original 54. This pass verified **14** from official sources and left the remaining candidates unverified rather than invented — many were already in the list, were event-driven venues that publish no fixed weekly hours, had parked/jacked domains, or closed at exactly 11:00 PM. That gap is documented in [`VERIFICATION.md`](VERIFICATION.md); do not treat the list as exhaustive of every late-night SF spot.
 
@@ -35,7 +35,7 @@ Then open <http://localhost:8000>.
 python3 scripts/validate_data.py
 ```
 
-The guardrail checks that there are exactly 134 records, every record has a seven-day schedule, each official source is HTTPS and not a review directory, qualifying days have a late close, every row carries a neighborhood and mapped transit line, and every transit line has an official service window and source quote for the snapshot date.
+The guardrail checks that there are exactly 174 records, every record has a seven-day schedule, each official source is HTTPS and not a review directory, qualifying days have a late close, every row carries a neighborhood and mapped transit line, and every transit line has an official service window and source quote for the snapshot date.
 
 ## GitHub Pages
 
