@@ -1838,3 +1838,45 @@ closures, domain hijacking/lapse, exactly-11:00 PM closes, event-only schedules,
 official hours text, ordering-platform-only pages, or an existing row. Nothing was
 backfilled from Yelp/Google/Wanderlog; those listings were used only as leads and
 corroboration markers, never as the row's source.
+
+## Round 7 — added 2026-09-06
+
+Four new records passed line-by-line verification against the venue's own website
+(address + published hours read on the official domain on 2026-09-06).
+
+| Venue | Address | Official source | Quoted hours evidence |
+| --- | --- | --- | --- |
+| Lone Star Saloon | 1354 Harrison St, SF 94103 | https://www.lonestarsf.com/ | "1354 Harrison St … **Mon-Sat** 4p–2a **Sun** 2p–2a" |
+| Escape From New York Pizza — Haight | 1737 Haight St, SF 94117 | https://escapefromnewyorkpizza.com/ | "1737 Haight Street … Fri - Sat 10:30a - 1:30a" |
+| Escape From New York Pizza — Downtown | 333 Bush St #104, SF 94104 | https://escapefromnewyorkpizza.com/ | "333 Bush Street #104 … Friday 10:30a - 2:00a / Saturday 5:00p - 2:00a / Sunday 5:00p - 1:00a" |
+| Shotwell's | 3349 20th St, SF 94110 | https://www.shotwellsbar.com/ | "Sunday – Wednesday 3:30 p.m. – 11:30 p.m. / Thursday – Saturday 3:30 p.m. – 12:00 a.m." |
+
+### Rejected this round (with reason)
+
+Candidates screened and **not** added, so they are not re-mined later:
+
+* **Closes at or before 11 PM:** Pagan (9 PM), Southern Pacific Brewing (11 PM), Perry's Union Street
+  (9 PM, all locations same operator), Underdogs Too, Palm City, Golden Boy Pizza, The Dark Horse Inn,
+  Pizzeria Avellino (9:40 PM), PizzaHacker Mission-Bernal (9:30 PM Fri), Rosamunde Sausage Grill (10 PM).
+* **Already in the dataset** (found again during mining): Zeitgeist, Churchill, The Saloon, Bender's,
+  Kilowatt, The Willows, The Sycamore, Pinecrest Diner, Rock Bar, Pilsner Inn, El Rio, Hawthorn.
+* **Sunday-only-late / does not clear threshold:** Last Rites (Sun closes exactly 11 PM; Fri–Sat 6p–2a
+  qualify but the venue is already covered by the Mission cluster pending an address confirmation).
+* **Event-calendar only, no published day hours:** Rickshaw Stop, Black Cat, The Valencia Room,
+  Whitechapel (private events), Dalva, Wildhawk.
+* **Hijacked, parked, expired or wrong-entity domains — never cite:** thecastlesf.com (→ chaturbate.com),
+  harringtonsbarandgrill.com (→ gambling site), harryslounge.com (GoDaddy), thehouseofprimerib.com
+  (expired-domain listing; the real site is houseofprimerib.net), dogpatchsaloon.com (Name.com placeholder),
+  hobsonschoice.com (GoDaddy), taqueriacancun.com (HugeDomains), thegrandsf.com and dobbsferrysf.com
+  (Squarespace expired), gyrokingsf.com (SEO spam), thecrepehousesf.com (redirects to a gambling site),
+  sabrosatacos.com and bardarling.com (different businesses in other cities), hi-dive.com (Denver).
+* **Unreachable on 2026-09-06 (HTTP 500 / DNS):** thelibertiessf.com, playlandsf.com, rooster-sf.com,
+  pinesf.com, johnfoleysirishhouse.com, dellataverna.com, holytidesf.com, thegoldenfleecesf.com,
+  thewreckroomsf.com, thecoinopsf.com, emmysspaghetti.com, jaysbarsf.com, buckshotsf.com, hardwatersf.com,
+  thelaststrawsf.com, marufukuramen.com (no hours block), osharestaurant.com, zaozaosf.com.
+
+**Manual-review note for the user:** this round produced only four additions rather than the fifty
+requested. The SF late-night long tail has been largely exhausted by rounds 1–6 (204 records now), and
+the remaining unmined names overwhelmingly fail one of the checks above — most commonly a dead or
+hijacked domain, or a venue that publishes no hours on its own site. Every rejection above is listed so
+the screening can be re-checked by hand.
