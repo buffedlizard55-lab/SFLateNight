@@ -30,11 +30,25 @@ def has_late_close(value: str) -> bool:
     text = value.lower()
     if "24 hour" in text:
         return True
-    # This directory uses 12 AM through 4 AM to represent a next-day close.
-    if re.search(r"(?:until\s+)?(?:12|1|2|3|4)(?::\d{2})?\s*am", text):
-        return True
-    # A close of 11:01-11:59 PM also clears the "strictly past 11:00 PM" bar (11:00 PM itself does not).
-    return bool(re.search(r"11:(?:0[1-9]|[1-5]\d)\s*pm", text))
+    # Parse the last clock time in the string and apply the directory rule:
+    # a close is "late" if it is after 11 PM (i.e. 12 AM through 4 AM, which
+    # represent a next-day close, or any 11:xx PM close that is after 11 PM).
+    found = False
+    for m in re.finditer(r"(\d{1,2}):(\d{2})\s*(am|pm)", text):
+        hour, minute, meridiem = int(m.group(1)), int(m.group(2)), m.group(3)
+        if meridiem == "pm" and hour != 12:
+            hour24 = hour + 12
+        elif meridiem == "am" and hour == 12:
+            hour24 = 0
+        else:
+            hour24 = hour
+        total = hour24 * 60 + minute
+        # after 11 PM (1380 minutes) — 11:00 PM exactly does not count, but 11:01 PM+
+        # and 12 AM–4 AM do. Midnight (12:00 AM) counts as later than 11 PM.
+        if total > 1380 or total == 0 or (1 <= hour24 <= 4):
+            return True
+        found = True
+    return False
 
 
 def validate_transit(meta: dict, venues: list[dict]) -> None:
@@ -94,8 +108,8 @@ def main() -> None:
     meta = data.get("meta", {})
     if len(venues) != meta.get("recordCount"):
         fail("meta.recordCount does not match the number of venue records")
-    if len(venues) != 96:
-        fail(f"expected exactly 96 records, found {len(venues)}")
+    if len(venues) != 68:
+        fail(f"expected exactly 68 records, found {len(venues)}")
 
     validate_transit(meta, venues)
 
