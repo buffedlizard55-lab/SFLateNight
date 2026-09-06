@@ -4,7 +4,7 @@
     "origin": "21st Ave & Judah St, San Francisco, CA 94122",
     "threshold": "Open past 11:00 PM on Friday, Saturday, or Sunday",
     "verifiedOn": "2026-09-05",
-    "recordCount": 110,
+    "recordCount": 107,
     "scopeNote": "Static, source-linked directory of 110 verified records. It does not claim every San Francisco business is open or available; expand the master list only after a line-by-line source check.",
     "transitNote": "Transit labels are screening notes, not turn-by-turn directions. Use the live route link and check SFMTA/BART service before leaving.",
     "planningSources": [
@@ -5564,55 +5564,6 @@
       "neighborhoodGroup": "financial-district"
     },
     {
-      "id": "smugglers-cove",
-      "name": "Smuggler's Cove",
-      "category": "Tiki bar",
-      "neighborhood": "Hayes Valley",
-      "address": "650 Gough St, San Francisco, CA 94102",
-      "officialUrl": "https://www.smugglerscovesf.com/",
-      "hours": {
-        "Monday": "5:00 PM\u20131:15 AM",
-        "Tuesday": "5:00 PM\u20131:15 AM",
-        "Wednesday": "5:00 PM\u20131:15 AM",
-        "Thursday": "5:00 PM\u20131:15 AM",
-        "Friday": "5:00 PM\u20131:15 AM",
-        "Saturday": "5:00 PM\u20131:15 AM",
-        "Sunday": "5:00 PM\u20131:15 AM"
-      },
-      "qualifyingDays": [
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "access": {
-        "summary": "6 Hayes + walk",
-        "detail": "The 6 Hayes/Parnassus runs near Hayes St; the official route stop is a short walk to Gough St.",
-        "sources": [
-          {
-            "label": "SFMTA route directory",
-            "url": "https://www.sfmta.com/routes"
-          }
-        ],
-        "lineIds": [
-          "6"
-        ]
-      },
-      "source": {
-        "label": "Official venue website",
-        "url": "https://www.smugglerscovesf.com/",
-        "quote": "Smuggler's Cove official site states: 'NOW OPEN SEVEN DAYS A WEEK! Mondays-Sundays 5:00PM-1:15AM.'"
-      },
-      "flags": [
-        "Busy on weekends; a cover or wait is possible during peak hours."
-      ],
-      "verification": {
-        "status": "verified",
-        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
-        "verifiedOn": "2026-09-05"
-      },
-      "neighborhoodGroup": "hayes-valley"
-    },
-    {
       "id": "pagan-idol",
       "name": "Pagan Idol",
       "category": "Tiki bar",
@@ -5661,55 +5612,6 @@
       "neighborhoodGroup": "financial-district"
     },
     {
-      "id": "bourbon-and-branch",
-      "name": "Bourbon & Branch",
-      "category": "Speakeasy / cocktail bar",
-      "neighborhood": "Tenderloin",
-      "address": "501 Jones St, San Francisco, CA 94102",
-      "officialUrl": "https://www.bourbonandbranch.com/",
-      "hours": {
-        "Monday": "6:00 PM\u201312:00 AM",
-        "Tuesday": "6:00 PM\u201312:00 AM",
-        "Wednesday": "6:00 PM\u201312:00 AM",
-        "Thursday": "6:00 PM\u20132:00 AM",
-        "Friday": "6:00 PM\u20132:00 AM",
-        "Saturday": "6:00 PM\u20132:00 AM",
-        "Sunday": "6:00 PM\u201312:00 AM"
-      },
-      "qualifyingDays": [
-        "Friday",
-        "Saturday"
-      ],
-      "access": {
-        "summary": "38 Geary + walk",
-        "detail": "38 Geary runs on Geary Blvd; the venue is near Geary and Jones. Check the live planner for the late-night return.",
-        "sources": [
-          {
-            "label": "SFMTA route directory",
-            "url": "https://www.sfmta.com/routes"
-          }
-        ],
-        "lineIds": [
-          "38",
-          "91"
-        ]
-      },
-      "source": {
-        "label": "Official venue website",
-        "url": "https://www.bourbonandbranch.com/",
-        "quote": "Bourbon & Branch official hours: 'Sun\u2013Wed 6pm\u201312am Thurs\u2013Sat 6pm\u20132am.'"
-      },
-      "flags": [
-        "Password/reservation may be required at the entrance; check the venue site before visiting."
-      ],
-      "verification": {
-        "status": "verified",
-        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
-        "verifiedOn": "2026-09-05"
-      },
-      "neighborhoodGroup": "lower-nob-hill"
-    },
-    {
       "id": "irish-times",
       "name": "The Irish Times",
       "category": "Irish pub",
@@ -5756,55 +5658,6 @@
         "verifiedOn": "2026-09-05"
       },
       "neighborhoodGroup": "financial-district"
-    },
-    {
-      "id": "aunt-charlies",
-      "name": "Aunt Charlie's Lounge",
-      "category": "Gay bar",
-      "neighborhood": "Tenderloin",
-      "address": "133 Turk St, San Francisco, CA 94102",
-      "officialUrl": "https://www.auntcharlieslounge.com/",
-      "hours": {
-        "Monday": "12:00 PM\u201310:30 PM",
-        "Tuesday": "12:00 PM\u201310:30 PM",
-        "Wednesday": "12:00 PM\u201310:30 PM",
-        "Thursday": "12:00 PM\u201310:30 PM",
-        "Friday": "12:00 PM\u201311:45 PM",
-        "Saturday": "12:00 PM\u201311:45 PM",
-        "Sunday": "12:00 PM\u201311:30 PM"
-      },
-      "qualifyingDays": [
-        "Friday",
-        "Saturday"
-      ],
-      "access": {
-        "summary": "49 Van Ness/Mission + walk",
-        "detail": "49 Van Ness/Mission runs nearby; the venue is near Turk and Taylor. Plan a 91 Owl return after midnight.",
-        "sources": [
-          {
-            "label": "SFMTA route directory",
-            "url": "https://www.sfmta.com/routes"
-          }
-        ],
-        "lineIds": [
-          "49",
-          "91"
-        ]
-      },
-      "source": {
-        "label": "Official venue website",
-        "url": "https://www.auntcharlieslounge.com/",
-        "quote": "Aunt Charlie's Lounge official hours: 'Open Mon + Tue + Wed + Thur - Noon to 10:30pm; Friday + Saturday - Noon to 11:45pm; Sundays - Noon to 11:30pm.' Cash only, 21+."
-      },
-      "flags": [
-        "Cash only, 21+. Friday/Saturday close at 11:45 PM\u2014after 11 PM."
-      ],
-      "verification": {
-        "status": "verified",
-        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
-        "verifiedOn": "2026-09-05"
-      },
-      "neighborhoodGroup": "lower-nob-hill"
     },
     {
       "id": "cigar-bar-grill",

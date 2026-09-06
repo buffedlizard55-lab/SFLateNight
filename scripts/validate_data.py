@@ -45,7 +45,7 @@ def has_late_close(value: str) -> bool:
         total = hour24 * 60 + minute
         # after 11 PM (1380 minutes) — 11:00 PM exactly does not count, but 11:01 PM+
         # and 12 AM–4 AM do. Midnight (12:00 AM) counts as later than 11 PM.
-        if total > 1380 or total == 0 or (1 <= hour24 <= 4):
+        if total > 1380 or hour24 == 0 or (1 <= hour24 <= 4):
             return True
         found = True
     return False
@@ -108,8 +108,8 @@ def main() -> None:
     meta = data.get("meta", {})
     if len(venues) != meta.get("recordCount"):
         fail("meta.recordCount does not match the number of venue records")
-    if len(venues) != 110:
-        fail(f"expected exactly 110 records, found {len(venues)}")
+    if len(venues) != 107:
+        fail(f"expected exactly 107 records, found {len(venues)}")
 
     validate_transit(meta, venues)
 
