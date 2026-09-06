@@ -103,6 +103,43 @@ The closest practical rail boarding point for the requested origin is the N Juda
 - **Saturday frequency used in the site:** 30 minutes late night / Owl.
 - **Coverage note:** The 91 page is the official overnight route linked from the T and 30 pages. Its actual path and stop direction should be checked against the destination and return leg.
 
+### 7 Haight/Noriega (added in the second pass)
+
+- **Official route page:** [SFMTA 7 Haight/Noriega](https://www.sfmta.com/routes/7-haightnoriega)
+- **Saturday schedule page:** [7 Saturday schedule](https://www.sfmta.com/routes/schedule/7?direction_id=0&service_id=2&date=20260905)
+- **Published line:** Selected-stop Saturday table shows outbound trips roughly every 12-20 minutes from 5:00 AM, with the final departure at 12:00 AM (Market & Van Ness 12:14 AM; Haight & Masonic 12:24 AM; Lincoln Way & 19th Ave 12:34 AM; Ortega & 48th 12:47 AM).
+- **Saturday frequency used in the site:** every 12-20 minutes.
+- **Coverage note:** Used for the Haight Street cluster (Toronado). The last midnight trip passes within a few blocks of the origin area (Lincoln Way & 19th Ave); nothing later appears on this schedule page.
+
+### 12 Folsom/Pacific (added in the second pass)
+
+- **Official route page:** [SFMTA 12 Folsom/Pacific](https://www.sfmta.com/routes/12-folsompacific)
+- **Saturday schedule page:** [12 Saturday schedule](https://www.sfmta.com/routes/schedule/12?direction_id=0&service_id=2&date=20260905)
+- **Published line:** Selected-stop Saturday table shows outbound service roughly every 10-20 minutes from 6:00 AM with the final trip at 10:00 PM (Pacific Ave & Powell St 10:12 PM; Folsom St & 11th St 10:33 PM; Folsom St & 24th St 10:40 PM).
+- **Saturday frequency used in the site:** every 10-20 minutes.
+- **Coverage note:** Used for Jackson Square/Chinatown edge, the Kearny Street corridor, and the Folsom & 11th Street club cluster. It ends at 10:00 PM — late-night SoMa returns must use another line.
+
+### 19 Polk (added in the second pass)
+
+- **Official route page:** [SFMTA 19 Polk](https://www.sfmta.com/routes/19-polk)
+- **Saturday schedule page:** [19 Saturday schedule](https://www.sfmta.com/routes/schedule/19?direction_id=0&service_id=2&date=20260905)
+- **Published line:** Selected-stop Saturday table shows outbound trips roughly every 20 minutes from 5:05 AM with the final trip at 10:00 PM (Polk & Sacramento 10:08 PM; Polk & Sutter 10:11 PM; 8th & Mission 10:21 PM).
+- **Saturday frequency used in the site:** every 20 minutes.
+- **Coverage note:** Used for the Polk Street record (Bob's Donuts) and as a secondary walk option for Geary/Turk Street Tenderloin records. Ends at 10:00 PM outbound.
+
+### 43 Masonic (added in the second pass)
+
+- **Official route page:** [SFMTA 43 Masonic](https://www.sfmta.com/routes/43-masonic)
+- **Saturday schedule page:** [43 Saturday schedule](https://www.sfmta.com/routes/schedule/43?direction_id=0&service_id=2&date=20260905)
+- **Published line:** Selected-stop Saturday table shows outbound trips roughly every 20 minutes from 5:00 AM with the final trip at 11:50 PM (Presidio Ave & California St 12:13 AM; Masonic Ave & Haight St 12:22 AM; 9th Ave & Judah St 12:27 AM; Munich St & Geneva 12:50 AM).
+- **Saturday frequency used in the site:** every 20 minutes.
+- **Coverage note:** Used for the Presidio (Presidio Bowl) and as a secondary line for Haight/Inner Sunset records; its 9th Ave & Judah stop is close to the origin area's N Judah corridor.
+
+### Lines checked but not added (second pass)
+
+- **41 Union:** SFMTA's schedule page returns "Content Not Found" as of this snapshot, so the Columbus Avenue corridor is served in this directory by the 30 Stockton and 12 Folsom/Pacific instead. No 41-based access text is used.
+- **2 Sutter:** the current 2 runs Steuart St to The Richmond via Sutter Street and Presidio Ave & California St. It was verified but not used by any record; Clement and Geary records use the 38 Geary corridor with a short walk.
+
 ## Re-check policy
 
 The venue hours and this transit snapshot are separate claims. A venue can remain open while a regular line is disrupted, short-turned, or replaced. Before a specific Friday, Saturday, or Sunday trip, open the official venue source, the official SFMTA route page, the [Muni alerts page](https://www.sfmta.com/getting-around/muni/muni-alerts), and the live planner.
@@ -113,7 +150,7 @@ The venue hours and this transit snapshot are separate claims. A venue can remai
 
 Each line below was read from its official SFMTA route page on 2026-09-05 (a Saturday). Frequencies quoted are the weekend rows.
 
-### 1 California
+### 1 California (added by the parallel pass)
 
 - **Official route page:** [1 California](https://www.sfmta.com/routes/1-california)
 - **Saturday schedule page:** [1 Saturday schedule](https://www.sfmta.com/routes/schedule/1?direction_id=0&service_id=2&date=20260905)
@@ -122,7 +159,7 @@ Each line below was read from its official SFMTA route page on 2026-09-05 (a Sat
 - **Saturday frequency used in the site:** Saturday: 10 min morning, midday, and evening west and east of Presidio Ave; 15 min late night. No Owl listed.
 - **Coverage note:** No Owl service is listed on the route page; use the 38 Geary or 90 Owl after midnight.
 
-### 6 Hayes/Parnassus
+### 6 Hayes/Parnassus (added by the parallel pass)
 
 - **Official route page:** [6 Hayes/Parnassus](https://www.sfmta.com/routes/6-hayesparnassus)
 - **Saturday schedule page:** [6 Saturday schedule](https://www.sfmta.com/routes/schedule/6?direction_id=0&service_id=2&date=20260905)
@@ -130,53 +167,4 @@ Each line below was read from its official SFMTA route page on 2026-09-05 (a Sat
 - **Today's window:** 5:00 AM–12:00 AM daily
 - **Saturday frequency used in the site:** Saturday: 20 min morning, midday, evening, and late night. No Owl listed.
 - **Coverage note:** No Owl service is listed; SFMTA shows service ending at midnight on weekends.
-
-### 7 Haight/Noriega
-
-- **Official route page:** [7 Haight/Noriega](https://www.sfmta.com/routes/7-haightnoriega)
-- **Saturday schedule page:** [7 Saturday schedule](https://www.sfmta.com/routes/schedule/7?direction_id=0&service_id=2&date=20260905)
-- **Published line:** “SFMTA lists 7 Haight/Noriega as "5 a.m. - 12 a.m. daily". Its weekend row lists 15 minutes morning, 12 minutes midday and evening, and 25 minutes late night, with no Owl. The inbound stop list includes 22nd Ave & Judah St.”
-- **Today's window:** 5:00 AM–12:00 AM daily
-- **Saturday frequency used in the site:** Saturday: 15 min morning; 12 min midday and evening; 25 min late night. No Owl listed.
-- **Coverage note:** No Owl service is listed on the route page; plan the return leg on the N Owl or 5 Owl.
-
-### 8 Bayshore
-
-- **Official route page:** [8 Bayshore](https://www.sfmta.com/routes/8-bayshore)
-- **Saturday schedule page:** [8 Saturday schedule](https://www.sfmta.com/routes/schedule/8?direction_id=0&service_id=2&date=20260905)
-- **Published line:** “SFMTA lists 8 Bayshore as "5 a.m. - 12 a.m. daily". Its weekend row lists 10 minutes morning, 7 minutes midday, 8 minutes evening, and 15 minutes late night, with no Owl.”
-- **Today's window:** 5:00 AM–12:00 AM daily
-- **Saturday frequency used in the site:** Saturday: 10 min morning; 7 min midday; 8 min evening; 15 min late night. No Owl listed.
-- **Coverage note:** No Owl service is listed; the 90 San Bruno Owl covers part of the corridor overnight.
-
-### 43 Masonic
-
-- **Official route page:** [43 Masonic](https://www.sfmta.com/routes/43-masonic)
-- **Saturday schedule page:** [43 Saturday schedule](https://www.sfmta.com/routes/schedule/43?direction_id=0&service_id=2&date=20260905)
-- **Published line:** “SFMTA lists 43 Masonic as "5 a.m. - 12 a.m. daily". Its weekend row lists 20 minutes morning, midday, and evening and 25 minutes late night, with no Owl. The route page lists the Presidio among its neighborhoods.”
-- **Today's window:** 5:00 AM–12:00 AM daily
-- **Saturday frequency used in the site:** Saturday: 20 min morning, midday, and evening; 25 min late night. No Owl listed.
-- **Coverage note:** No Owl service is listed on the route page; do not plan on the 43 after midnight.
-
-### 45 Union/Stockton
-
-- **Official route page:** [45 Union/Stockton](https://www.sfmta.com/routes/45-unionstockton)
-- **Saturday schedule page:** [45 Saturday schedule](https://www.sfmta.com/routes/schedule/45?direction_id=0&service_id=2&date=20260905)
-- **Published line:** “SFMTA lists 45 Union/Stockton as "5 a.m. - 10 p.m. daily". Its weekend row lists 15 minutes morning, midday, and evening with no late-night or Owl service.”
-- **Today's window:** 5:00 AM–10:00 PM daily
-- **Saturday frequency used in the site:** Saturday: 15 min morning, midday, and evening; no late-night or Owl service listed.
-- **Coverage note:** Service ends at 10 PM; this line cannot be used as a late-night return leg.
-
-### 90 San Bruno Owl
-
-- **Official route page:** [90 San Bruno Owl](https://www.sfmta.com/routes/90-san-bruno-owl)
-- **Saturday schedule page:** [90 Saturday schedule](https://www.sfmta.com/routes/schedule/90?direction_id=0&service_id=2&date=20260905)
-- **Published line:** “SFMTA lists 90 San Bruno Owl as "12 a.m. - 5 a.m. nightly", with 30-minute weekend late-night and Owl service.”
-- **Today's window:** 12:00 AM–5:00 AM nightly
-- **Saturday frequency used in the site:** Saturday: 30 min late night and Owl.
-- **Coverage note:** Overnight Owl route through SoMa, Van Ness, and the Mission listed by SFMTA.
-
-### Late-night warning carried into the venue rows
-
-The 1, 6, 7, 8, and 43 all stop at midnight and the 45 stops at 10 PM, so any venue row that closes at 1 AM or later and maps to those lines carries an explicit transit-gap flag. Only the N Judah, 14 Mission, 22 Fillmore, 24 Divisadero, 38 Geary, T, 90 Owl, and 91 Owl are usable for a post-midnight return leg.
 
