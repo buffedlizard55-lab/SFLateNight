@@ -1,6 +1,6 @@
 # Verification log
 
-This log records the manual source check for the 20 records in [`data/venues.json`](data/venues.json). The snapshot date is **September 5, 2026**. Each row below is linked to the venue-controlled page used for the name, address, and hours. No third-party directory is used as the inclusion source.
+This log records the manual source check for the **68 records** in [`data/venues.json`](data/venues.json), built up across two September 5, 2026 expansion passes (20 original + 34 net-new in round one + 14 net-new in round two). The snapshot date is **September 5, 2026**. Each row below is linked to the venue-controlled page used for the name, address, and hours. No third-party directory is used as the inclusion source.
 
 ## Inclusion test
 
@@ -761,3 +761,168 @@ The request asked for 50 new entries. This pass banked **34** that survive offic
 - **Manual review flags:** Source gap flagged for manual review: the official site advertises late-night service and a 4 AM close in its page title but publishes no day-by-day opening and closing grid, so the hours column records a late close without an opening time. Transit gap: the 1 California ends at midnight; plan an Owl return.
 - **Official link:** [https://www.grubstakesf.com/location/lower-nob-hill](https://www.grubstakesf.com/location/lower-nob-hill)
 
+---
+
+# September 5, 2026 expansion pass (round two)
+
+This round adds **14 net-new records** to the master list of **54** from round one, for a running total of **68**. Every row below was read line by line from the venue's own official page (or, where flagged, the venue operator's official page) on 2026-09-05. No record was invented to reach a count.
+
+## Shortfall against the 50-new-record target (round two)
+
+The request asked for a further **50** new entries on top of the 54. This round banked **14** that survive official-source verification. The remaining gap is documented rather than filled. Common reasons a candidate was not added in this round: the venue was already present in the master list (Zeitgeist, Trick Dog, ABV, The Saloon, Make-Out Room, Specs'), the domain was parked or hijacked for casino spam (Texas Red's, Le Saloon, 21st Amendment), the official source publishes no fixed weekly hours and is event-driven (DNA Lounge, The Knockout, El Rio, 1015, The Midway, 111 Minna, The Fillmore, Public Works, Monarch, Audio, Oasis, Bimbo's, Great American Music Hall, The Independent, The Chapel), the published close was exactly 11:00 PM and therefore does not qualify as after 11 PM (Nopa, Golden Boy Pizza, The Interval), the venue is outside San Francisco (The Lookout Bar, Ottawa; 7 Mile House, Brisbane), or only third-party listings exist with no official page (Li Po, Buddha Lounge, Trad'r Sam, Toronado hours, Whitechapel). Each of these is flagged below and in the venue data rather than padded.
+
+## Record-by-record log (round two)
+
+### The Plough and Stars
+
+- **Status:** Official match.
+- **Category / neighborhood:** Irish pub · Inner Richmond.
+- **Address check:** `116 Clement St, San Francisco, CA 94118` — [official source](https://www.theploughandstars.com/).
+- **Published source line:** "The Plough and Stars official weekly hours: Sunday 11 AM–2 AM; Monday–Tuesday 5 PM–2 AM; Wednesday 3 PM–2 AM; Thursday 4 PM–2 AM; Friday 3 PM–2 AM; Saturday 2 PM–2 AM."
+- **Late-night result:** Friday: 3:00 PM–2:00 AM; Saturday: 2:00 PM–2:00 AM; Sunday: 11:00 AM–2:00 AM.
+- **Transit screen:** 38 Geary + short walk — 38 Geary runs 24 hours; walk to Clement St and use the live planner for the final blocks.
+- **Manual review flags:** Live music typically from 9 PM; closing time is the bar close.
+- **Official link:** [https://www.theploughandstars.com/](https://www.theploughandstars.com/)
+
+### Would You Believe
+
+- **Status:** Official match.
+- **Category / neighborhood:** Cocktail bar · Inner Richmond.
+- **Address check:** `4652 Geary Blvd, San Francisco, CA 94118` — [official source](https://www.wouldyoubelievesf.com/).
+- **Published source line:** "Would You Believe official weekly hours: Monday–Wednesday 6 PM–12 AM; Thursday–Saturday 6 PM–2 AM; Sunday 6 PM–12 AM."
+- **Late-night result:** Friday: 6:00 PM–2:00 AM; Saturday: 6:00 PM–2:00 AM.
+- **Transit screen:** 38 Geary (direct) — the venue sits on Geary Blvd, served 24 hours by the 38.
+- **Manual review flags:** Neighborhood bar; kitchen hours may differ from bar hours.
+- **Official link:** [https://www.wouldyoubelievesf.com/](https://www.wouldyoubelievesf.com/)
+
+### The Abbey Tavern
+
+- **Status:** Official match.
+- **Category / neighborhood:** Irish pub · Inner Richmond.
+- **Address check:** `4100 Geary Blvd, San Francisco, CA 94118` — [official source](https://abbeytavern-sf.com/).
+- **Published source line:** "The Abbey Tavern official weekly hours: Monday–Thursday 3 PM–2 AM; Friday 12 PM–2 AM; Saturday and Sunday 9:30 AM–2 AM (weekend early opening may vary with early football)."
+- **Late-night result:** Friday: 12:00 PM–2:00 AM; Saturday: 9:30 AM–2:00 AM; Sunday: 9:30 AM–2:00 AM.
+- **Transit screen:** 38 Geary (direct) — on Geary Blvd, 24-hour service.
+- **Manual review flags:** Weekend opening time may vary with early football broadcast.
+- **Official link:** [https://abbeytavern-sf.com/](https://abbeytavern-sf.com/)
+
+### Black Horse London Pub
+
+- **Status:** Official match.
+- **Category / neighborhood:** Pub · Marina.
+- **Address check:** `1514 Union St, San Francisco, CA 94123` — [official source](https://www.blackhorselondon.com/).
+- **Published source line:** "Black Horse London Pub official weekly hours: Monday–Thursday 5 PM–12 AM; Friday 2 PM–11:59 PM; Saturday 11 AM–12 AM; Sunday 1 PM–12 AM. Cash/Venmo only, tiny bar."
+- **Late-night result:** Saturday: 11:00 AM–12:00 AM; Sunday: 1:00 PM–12:00 AM. Friday closes at 11:59 PM (after 11 PM) but is not a 12 AM–4 AM close, so the row is kept qualifying on Saturday and Sunday.
+- **Transit screen:** 45 Union/Stockton + walk — the 45 ends service at 10 PM; use the 30 Stockton or a 91 Owl return.
+- **Manual review flags:** Tiny bar; cash or Venmo only.
+- **Official link:** [https://www.blackhorselondon.com/](https://www.blackhorselondon.com/)
+
+### The Alembic
+
+- **Status:** Official match.
+- **Category / neighborhood:** Cocktail bar · Upper Haight.
+- **Address check:** `1725 Haight St, San Francisco, CA 94117` — [official source](https://alembicsf.com/contact/).
+- **Published source line:** "The Alembic official weekly hours: Wednesday–Saturday 4 PM–12 AM; Sunday 2 PM–10 PM; closed Monday and Tuesday."
+- **Late-night result:** Friday: 4:00 PM–12:00 AM; Saturday: 4:00 PM–12:00 AM.
+- **Transit screen:** 7 Haight/Noriega — runs on Haight St; walk the short blocks.
+- **Manual review flags:** Closed Monday and Tuesday; kitchen hours may differ from bar hours.
+- **Official link:** [https://alembicsf.com/contact/](https://alembicsf.com/contact/)
+
+### Left Door
+
+- **Status:** Official match.
+- **Category / neighborhood:** Bar · Cow Hollow.
+- **Address check:** `1905 Union St, San Francisco, CA 94123` — [official source](https://www.leftdoor.com/about).
+- **Published source line:** "Left Door official weekly hours: Tuesday–Wednesday 5 PM–11 PM; Thursday 5 PM–12 AM; Friday–Saturday 5 PM–1 AM; Sunday 5 PM–11 PM. Kitchen closes nightly at 10 PM. Monday closed."
+- **Late-night result:** Friday: 5:00 PM–1:00 AM; Saturday: 5:00 PM–1:00 AM.
+- **Transit screen:** 45 Union/Stockton + walk — the 45 ends at 10 PM; use the 30 Stockton or a 91 Owl return.
+- **Manual review flags:** Kitchen closes nightly at 10 PM; bar continues. Monday closed.
+- **Official link:** [https://www.leftdoor.com/about](https://www.leftdoor.com/about)
+
+### Lion's Den
+
+- **Status:** Official match.
+- **Category / neighborhood:** Bar / live music lounge · Chinatown.
+- **Address check:** `57 Wentworth Pl, San Francisco, CA 94108` — [official source](https://www.lionsdenbarandlounge.com/).
+- **Published source line:** "Lion's Den official weekly hours: open Wednesday–Saturday 6 PM–1:30 AM; closed Sunday–Tuesday. Live music 8–11 PM, DJ 11 PM–close."
+- **Late-night result:** Friday: 6:00 PM–1:30 AM; Saturday: 6:00 PM–1:30 AM.
+- **Transit screen:** 30 Stockton + walk — near Portsmouth Square; 1 California also nearby.
+- **Manual review flags:** Live music 8–11 PM, DJ 11 PM–close. Closed Sunday–Tuesday.
+- **Official link:** [https://www.lionsdenbarandlounge.com/](https://www.lionsdenbarandlounge.com/)
+
+### Smuggler's Cove
+
+- **Status:** Official match.
+- **Category / neighborhood:** Tiki bar · Hayes Valley.
+- **Address check:** `650 Gough St, San Francisco, CA 94102` — [official source](https://www.smugglerscovesf.com/).
+- **Published source line:** "Smuggler's Cove official site states: 'NOW OPEN SEVEN DAYS A WEEK! Mondays-Sundays 5:00PM-1:15AM.'"
+- **Late-night result:** Friday: 5:00 PM–1:15 AM; Saturday: 5:00 PM–1:15 AM; Sunday: 5:00 PM–1:15 AM.
+- **Transit screen:** 6 Hayes + walk — the 6 Hayes/Parnassus runs near Hayes St.
+- **Manual review flags:** Busy on weekends; a cover or wait is possible during peak hours.
+- **Official link:** [https://www.smugglerscovesf.com/](https://www.smugglerscovesf.com/)
+
+### Pagan Idol
+
+- **Status:** Official match.
+- **Category / neighborhood:** Tiki bar · Financial District.
+- **Address check:** `375 Bush St, San Francisco, CA 94104` — [official source](https://www.paganidol.com/).
+- **Published source line:** "Pagan Idol official HOURS block: 'Mon: 5:30pm-11pm Tues/Wed: 4:30pm-12am Thurs-Sat: 4:30pm-2am Sun: Pani/Closed.'"
+- **Late-night result:** Friday: 4:30 PM–2:00 AM; Saturday: 4:30 PM–2:00 AM.
+- **Transit screen:** 1 California + walk — runs on California St.
+- **Manual review flags:** Sunday is listed as closed (marked 'Pani/Closed').
+- **Official link:** [https://www.paganidol.com/](https://www.paganidol.com/)
+
+### Bourbon & Branch
+
+- **Status:** Official match.
+- **Category / neighborhood:** Speakeasy / cocktail bar · Tenderloin.
+- **Address check:** `501 Jones St, San Francisco, CA 94102` — [official source](https://www.bourbonandbranch.com/).
+- **Published source line:** "Bourbon & Branch official hours: 'Sun–Wed 6pm–12am Thurs–Sat 6pm–2am.'"
+- **Late-night result:** Friday: 6:00 PM–2:00 AM; Saturday: 6:00 PM–2:00 AM.
+- **Transit screen:** 38 Geary + walk — near Geary and Jones; plan a 91 Owl return.
+- **Manual review flags:** Password/reservation may be required at the entrance; check the venue site before visiting.
+- **Official link:** [https://www.bourbonandbranch.com/](https://www.bourbonandbranch.com/)
+
+### The Irish Times
+
+- **Status:** Official match.
+- **Category / neighborhood:** Irish pub · Financial District.
+- **Address check:** `500 Sacramento St, San Francisco, CA 94111` — [official source](https://www.sfirishtimes.com/).
+- **Published source line:** "Irish Times official Hours: 'Mon 10:00 AM - 1:00 AM, Tue, Wed, Thur, Fri, Sat 10:00 AM - 2:00 AM, Sun 10:00 AM - 12:00 AM.'"
+- **Late-night result:** Friday: 10:00 AM–2:00 AM; Saturday: 10:00 AM–2:00 AM.
+- **Transit screen:** 1 California + walk — near California St in the Financial District.
+- **Manual review flags:** Kitchen closes earlier than the bar; confirm meal service times separately.
+- **Official link:** [https://www.sfirishtimes.com/](https://www.sfirishtimes.com/)
+
+### Aunt Charlie's Lounge
+
+- **Status:** Official match.
+- **Category / neighborhood:** Gay bar · Tenderloin.
+- **Address check:** `133 Turk St, San Francisco, CA 94102` — [official source](https://www.auntcharlieslounge.com/).
+- **Published source line:** "Aunt Charlie's Lounge official hours: 'Open Mon + Tue + Wed + Thur - Noon to 10:30pm; Friday + Saturday - Noon to 11:45pm; Sundays - Noon to 11:30pm.' Cash only, 21+."
+- **Late-night result:** Friday: 12:00 PM–11:45 PM; Saturday: 12:00 PM–11:45 PM.
+- **Transit screen:** 49 Van Ness/Mission + walk — near Turk and Taylor; plan a 91 Owl return.
+- **Manual review flags:** Cash only, 21+. Friday/Saturday close at 11:45 PM—after 11 PM.
+- **Official link:** [https://www.auntcharlieslounge.com/](https://www.auntcharlieslounge.com/)
+
+### Cigar Bar & Grill
+
+- **Status:** Official match.
+- **Category / neighborhood:** Bar / Latin restaurant / music venue · Jackson Square / North Beach.
+- **Address check:** `850 Montgomery St, San Francisco, CA 94133` — [official source](https://www.cigarbarandgrill.com/).
+- **Published source line:** "Cigar Bar & Grill official hours (per official listing): Tuesday 4:30 PM–10 PM; Wednesday 4:30 PM–12 AM; Thursday–Friday 4:30 PM–2 AM; Saturday 6 PM–2 AM; Sunday 6 PM–11 PM; Monday closed."
+- **Late-night result:** Friday: 4:30 PM–2:00 AM; Saturday: 6:00 PM–2:00 AM.
+- **Transit screen:** 1 California + walk — to Montgomery St in Jackson Square; 30 Stockton also nearby.
+- **Manual review flags:** Live music / DJ nights can add a cover or change entry conditions; kitchen may stop earlier on show nights.
+- **Official link:** [https://www.cigarbarandgrill.com/](https://www.cigarbarandgrill.com/)
+
+### The Page
+
+- **Status:** Official match with documented gap.
+- **Category / neighborhood:** Dive bar / pool hall · Lower Haight / NoPa.
+- **Address check:** `298 Divisadero St, San Francisco, CA 94117` — [official source](https://www.thepagebar.com/).
+- **Published source line:** "The Page official homepage states the bar is 'Open Daily until 2am'. Opening times shown here (4 PM weekdays, 1 PM weekend) come from consistent public listings and are flagged for review."
+- **Late-night result:** Friday: 1:00 PM–2:00 AM; Saturday: 1:00 PM–2:00 AM; Sunday: 1:00 PM–2:00 AM.
+- **Transit screen:** 24 Divisadero (direct) — runs on Divisadero St.
+- **Manual review flags:** Source gap flagged: the official homepage publishes only 'Open Daily until 2am' without a day-by-day opening grid; opening times are transcribed from public listings and are pending confirmation.
+- **Official link:** [https://www.thepagebar.com/](https://www.thepagebar.com/)

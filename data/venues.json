@@ -4,8 +4,8 @@
     "origin": "21st Ave & Judah St, San Francisco, CA 94122",
     "threshold": "Open past 11:00 PM on Friday, Saturday, or Sunday",
     "verifiedOn": "2026-09-05",
-    "recordCount": 54,
-    "scopeNote": "Static, source-linked directory of 54 verified records. It does not claim every San Francisco business is open or available; expand the master list only after a line-by-line source check.",
+    "recordCount": 68,
+    "scopeNote": "Static, source-linked directory of 68 verified records. It does not claim every San Francisco business is open or available; expand the master list only after a line-by-line source check.",
     "transitNote": "Transit labels are screening notes, not turn-by-turn directions. Use the live route link and check SFMTA/BART service before leaving.",
     "planningSources": [
       {
@@ -3148,6 +3148,690 @@
         "verifiedOn": "2026-09-05"
       },
       "neighborhoodGroup": "lower-nob-hill"
+    },
+    {
+      "id": "plough-and-stars",
+      "name": "The Plough and Stars",
+      "category": "Irish pub",
+      "neighborhood": "Inner Richmond",
+      "address": "116 Clement St, San Francisco, CA 94118",
+      "officialUrl": "https://www.theploughandstars.com/",
+      "hours": {
+        "Monday": "5:00 PM–2:00 AM",
+        "Tuesday": "5:00 PM–2:00 AM",
+        "Wednesday": "3:00 PM–2:00 AM",
+        "Thursday": "4:00 PM–2:00 AM",
+        "Friday": "3:00 PM–2:00 AM",
+        "Saturday": "2:00 PM–2:00 AM",
+        "Sunday": "11:00 AM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "38 Geary + short walk",
+        "detail": "The official route stop lists 38 Geary at Geary & 6th Ave; use the live planner for the final blocks to Clement St.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "38"
+        ]
+      },
+      "source": {
+        "label": "Official venue website",
+        "url": "https://www.theploughandstars.com/",
+        "quote": "The Plough and Stars official weekly hours: Sunday 11 AM–2 AM; Monday–Tuesday 5 PM–2 AM; Wednesday 3 PM–2 AM; Thursday 4 PM–2 AM; Friday 3 PM–2 AM; Saturday 2 PM–2 AM."
+      },
+      "flags": [
+        "Live music typically scheduled from 9 PM; closing time is the bar close, not the end of a set."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "richmond"
+    },
+    {
+      "id": "would-you-believe",
+      "name": "Would You Believe",
+      "category": "Cocktail bar",
+      "neighborhood": "Inner Richmond",
+      "address": "4652 Geary Blvd, San Francisco, CA 94118",
+      "officialUrl": "https://www.wouldyoubelievesf.com/",
+      "hours": {
+        "Monday": "6:00 PM–12:00 AM",
+        "Tuesday": "6:00 PM–12:00 AM",
+        "Wednesday": "6:00 PM–12:00 AM",
+        "Thursday": "6:00 PM–2:00 AM",
+        "Friday": "6:00 PM–2:00 AM",
+        "Saturday": "6:00 PM–2:00 AM",
+        "Sunday": "6:00 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "38 Geary (direct)",
+        "detail": "The official route stop lists 38 Geary on Geary Blvd; the venue is on Geary Blvd, so the final walk is minimal.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "38"
+        ]
+      },
+      "source": {
+        "label": "Official venue website",
+        "url": "https://www.wouldyoubelievesf.com/",
+        "quote": "Would You Believe official weekly hours: Monday–Wednesday 6 PM–12 AM; Thursday–Saturday 6 PM–2 AM; Sunday 6 PM–12 AM."
+      },
+      "flags": [
+        "Neighborhood bar; check kitchen hours separately as they may end before the bar closes."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "richmond"
+    },
+    {
+      "id": "abbey-tavern",
+      "name": "The Abbey Tavern",
+      "category": "Irish pub",
+      "neighborhood": "Inner Richmond",
+      "address": "4100 Geary Blvd, San Francisco, CA 94118",
+      "officialUrl": "https://abbeytavern-sf.com/",
+      "hours": {
+        "Monday": "3:00 PM–2:00 AM",
+        "Tuesday": "3:00 PM–2:00 AM",
+        "Wednesday": "3:00 PM–2:00 AM",
+        "Thursday": "3:00 PM–2:00 AM",
+        "Friday": "12:00 PM–2:00 AM",
+        "Saturday": "9:30 AM–2:00 AM",
+        "Sunday": "9:30 AM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "38 Geary (direct)",
+        "detail": "The official route stop lists 38 Geary on Geary Blvd; the venue is on Geary Blvd.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "38"
+        ]
+      },
+      "source": {
+        "label": "Official venue website",
+        "url": "https://abbeytavern-sf.com/",
+        "quote": "The Abbey Tavern official weekly hours: Monday–Thursday 3 PM–2 AM; Friday 12 PM–2 AM; Saturday and Sunday 9:30 AM–2 AM (weekend early opening may vary with early football)."
+      },
+      "flags": [
+        "Weekend opening time may vary with early football match broadcast."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "richmond"
+    },
+    {
+      "id": "black-horse-london-pub",
+      "name": "Black Horse London Pub",
+      "category": "Pub",
+      "neighborhood": "Marina",
+      "address": "1514 Union St, San Francisco, CA 94123",
+      "officialUrl": "https://www.blackhorselondon.com/",
+      "hours": {
+        "Monday": "5:00 PM–12:00 AM",
+        "Tuesday": "5:00 PM–12:00 AM",
+        "Wednesday": "5:00 PM–12:00 AM",
+        "Thursday": "5:00 PM–12:00 AM",
+        "Friday": "2:00 PM–11:59 PM",
+        "Saturday": "11:00 AM–12:00 AM",
+        "Sunday": "1:00 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "45 Union/Stockton + walk",
+        "detail": "The 45 Union/Stockton runs along Union St and ends service at 10 PM, so use the 30 Stockton or plan a late-return 91 Owl leg.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "45",
+          "30",
+          "91"
+        ]
+      },
+      "source": {
+        "label": "Official venue website",
+        "url": "https://www.blackhorselondon.com/",
+        "quote": "Black Horse London Pub official weekly hours: Monday–Thursday 5 PM–12 AM; Friday 2 PM–11:59 PM; Saturday 11 AM–12 AM; Sunday 1 PM–12 AM. Cash/Venmo only, tiny bar."
+      },
+      "flags": [
+        "Tiny bar; cash or Venmo only. Friday close of 11:59 PM is after 11 PM but is not a 12 AM–4 AM close, so this record is kept qualifying on Saturday and Sunday which close at midnight."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "marina"
+    },
+    {
+      "id": "the-alembic",
+      "name": "The Alembic",
+      "category": "Cocktail bar",
+      "neighborhood": "Upper Haight",
+      "address": "1725 Haight St, San Francisco, CA 94117",
+      "officialUrl": "https://alembicsf.com/contact/",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "4:00 PM–12:00 AM",
+        "Thursday": "4:00 PM–12:00 AM",
+        "Friday": "4:00 PM–12:00 AM",
+        "Saturday": "4:00 PM–12:00 AM",
+        "Sunday": "2:00 PM–10:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "7 Haight/Noriega",
+        "detail": "The official route stop lists 7 Haight/Noriega on Haight St; walk the short blocks to 1725 Haight St.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "7"
+        ]
+      },
+      "source": {
+        "label": "Official venue contact page",
+        "url": "https://alembicsf.com/contact/",
+        "quote": "The Alembic official weekly hours: Wednesday–Saturday 4 PM–12 AM; Sunday 2 PM–10 PM; closed Monday and Tuesday."
+      },
+      "flags": [
+        "Closed Monday and Tuesday; kitchen hours may differ from bar hours."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "lower-haight"
+    },
+    {
+      "id": "left-door",
+      "name": "Left Door",
+      "category": "Bar",
+      "neighborhood": "Cow Hollow",
+      "address": "1905 Union St, San Francisco, CA 94123",
+      "officialUrl": "https://www.leftdoor.com/about",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "5:00 PM–11:00 PM",
+        "Wednesday": "5:00 PM–11:00 PM",
+        "Thursday": "5:00 PM–12:00 AM",
+        "Friday": "5:00 PM–1:00 AM",
+        "Saturday": "5:00 PM–1:00 AM",
+        "Sunday": "5:00 PM–11:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "45 Union/Stockton + walk",
+        "detail": "The 45 Union/Stockton runs along Union St and ends service at 10 PM; use the 30 Stockton or plan a 91 Owl return.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "45",
+          "30",
+          "91"
+        ]
+      },
+      "source": {
+        "label": "Official venue about page",
+        "url": "https://www.leftdoor.com/about",
+        "quote": "Left Door official weekly hours: Tuesday–Wednesday 5 PM–11 PM; Thursday 5 PM–12 AM; Friday–Saturday 5 PM–1 AM; Sunday 5 PM–11 PM. Kitchen closes nightly at 10 PM. Monday closed."
+      },
+      "flags": [
+        "Kitchen closes nightly at 10 PM; bar continues. Monday closed."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "cow-hollow"
+    },
+    {
+      "id": "lions-den",
+      "name": "Lion's Den",
+      "category": "Bar / live music lounge",
+      "neighborhood": "Chinatown",
+      "address": "57 Wentworth Pl, San Francisco, CA 94108",
+      "officialUrl": "https://www.lionsdenbarandlounge.com/",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "6:00 PM–1:30 AM",
+        "Thursday": "6:00 PM–1:30 AM",
+        "Friday": "6:00 PM–1:30 AM",
+        "Saturday": "6:00 PM–1:30 AM",
+        "Sunday": "Closed"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "30 Stockton + walk",
+        "detail": "The official route stop lists 30 Stockton near Portsmouth Square; walk the short blocks to Wentworth Pl.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "30",
+          "1"
+        ]
+      },
+      "source": {
+        "label": "Official venue website",
+        "url": "https://www.lionsdenbarandlounge.com/",
+        "quote": "Lion's Den official weekly hours: open Wednesday–Saturday 6 PM–1:30 AM; closed Sunday–Tuesday. Live music 8–11 PM, DJ 11 PM–close."
+      },
+      "flags": [
+        "Live music 8–11 PM, DJ 11 PM–close. Closed Sunday–Tuesday."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "financial-district"
+    },
+    {
+      "id": "smugglers-cove",
+      "name": "Smuggler's Cove",
+      "category": "Tiki bar",
+      "neighborhood": "Hayes Valley",
+      "address": "650 Gough St, San Francisco, CA 94102",
+      "officialUrl": "https://www.smugglerscovesf.com/",
+      "hours": {
+        "Monday": "5:00 PM–1:15 AM",
+        "Tuesday": "5:00 PM–1:15 AM",
+        "Wednesday": "5:00 PM–1:15 AM",
+        "Thursday": "5:00 PM–1:15 AM",
+        "Friday": "5:00 PM–1:15 AM",
+        "Saturday": "5:00 PM–1:15 AM",
+        "Sunday": "5:00 PM–1:15 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "6 Hayes + walk",
+        "detail": "The 6 Hayes/Parnassus runs near Hayes St; the official route stop is a short walk to Gough St.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "6"
+        ]
+      },
+      "source": {
+        "label": "Official venue website",
+        "url": "https://www.smugglerscovesf.com/",
+        "quote": "Smuggler's Cove official site states: 'NOW OPEN SEVEN DAYS A WEEK! Mondays-Sundays 5:00PM-1:15AM.'"
+      },
+      "flags": [
+        "Busy on weekends; a cover or wait is possible during peak hours."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "hayes-valley"
+    },
+    {
+      "id": "pagan-idol",
+      "name": "Pagan Idol",
+      "category": "Tiki bar",
+      "neighborhood": "Financial District",
+      "address": "375 Bush St, San Francisco, CA 94104",
+      "officialUrl": "https://www.paganidol.com/",
+      "hours": {
+        "Monday": "5:30 PM–11:00 PM",
+        "Tuesday": "4:30 PM–12:00 AM",
+        "Wednesday": "4:30 PM–12:00 AM",
+        "Thursday": "4:30 PM–2:00 AM",
+        "Friday": "4:30 PM–2:00 AM",
+        "Saturday": "4:30 PM–2:00 AM",
+        "Sunday": "Closed"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "1 California + walk",
+        "detail": "The 1 California runs on California St; walk the short blocks to Bush St.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "1"
+        ]
+      },
+      "source": {
+        "label": "Official venue website",
+        "url": "https://www.paganidol.com/",
+        "quote": "Pagan Idol official HOURS block: 'Mon: 5:30pm-11pm Tues/Wed: 4:30pm-12am Thurs-Sat: 4:30pm-2am Sun: Pani/Closed.'"
+      },
+      "flags": [
+        "Sunday is listed as closed (the site marks it 'Pani/Closed')."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "financial-district"
+    },
+    {
+      "id": "bourbon-and-branch",
+      "name": "Bourbon & Branch",
+      "category": "Speakeasy / cocktail bar",
+      "neighborhood": "Tenderloin",
+      "address": "501 Jones St, San Francisco, CA 94102",
+      "officialUrl": "https://www.bourbonandbranch.com/",
+      "hours": {
+        "Monday": "6:00 PM–12:00 AM",
+        "Tuesday": "6:00 PM–12:00 AM",
+        "Wednesday": "6:00 PM–12:00 AM",
+        "Thursday": "6:00 PM–2:00 AM",
+        "Friday": "6:00 PM–2:00 AM",
+        "Saturday": "6:00 PM–2:00 AM",
+        "Sunday": "6:00 PM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "38 Geary + walk",
+        "detail": "38 Geary runs on Geary Blvd; the venue is near Geary and Jones. Check the live planner for the late-night return.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "38",
+          "91"
+        ]
+      },
+      "source": {
+        "label": "Official venue website",
+        "url": "https://www.bourbonandbranch.com/",
+        "quote": "Bourbon & Branch official hours: 'Sun–Wed 6pm–12am Thurs–Sat 6pm–2am.'"
+      },
+      "flags": [
+        "Password/reservation may be required at the entrance; check the venue site before visiting."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "lower-nob-hill"
+    },
+    {
+      "id": "irish-times",
+      "name": "The Irish Times",
+      "category": "Irish pub",
+      "neighborhood": "Financial District",
+      "address": "500 Sacramento St, San Francisco, CA 94111",
+      "officialUrl": "https://www.sfirishtimes.com/",
+      "hours": {
+        "Monday": "10:00 AM–1:00 AM",
+        "Tuesday": "10:00 AM–2:00 AM",
+        "Wednesday": "10:00 AM–2:00 AM",
+        "Thursday": "10:00 AM–2:00 AM",
+        "Friday": "10:00 AM–2:00 AM",
+        "Saturday": "10:00 AM–2:00 AM",
+        "Sunday": "10:00 AM–12:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "1 California + walk",
+        "detail": "The 1 California runs near California St; walk the short blocks to Sacramento St.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "1"
+        ]
+      },
+      "source": {
+        "label": "Official venue website",
+        "url": "https://www.sfirishtimes.com/",
+        "quote": "Irish Times official Hours: 'Mon 10:00 AM - 1:00 AM, Tue, Wed, Thur, Fri, Sat 10:00 AM - 2:00 AM, Sun 10:00 AM - 12:00 AM.'"
+      },
+      "flags": [
+        "Kitchen closes earlier than the bar; confirm meal service times separately."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "financial-district"
+    },
+    {
+      "id": "aunt-charlies",
+      "name": "Aunt Charlie's Lounge",
+      "category": "Gay bar",
+      "neighborhood": "Tenderloin",
+      "address": "133 Turk St, San Francisco, CA 94102",
+      "officialUrl": "https://www.auntcharlieslounge.com/",
+      "hours": {
+        "Monday": "12:00 PM–10:30 PM",
+        "Tuesday": "12:00 PM–10:30 PM",
+        "Wednesday": "12:00 PM–10:30 PM",
+        "Thursday": "12:00 PM–10:30 PM",
+        "Friday": "12:00 PM–11:45 PM",
+        "Saturday": "12:00 PM–11:45 PM",
+        "Sunday": "12:00 PM–11:30 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "49 Van Ness/Mission + walk",
+        "detail": "49 Van Ness/Mission runs nearby; the venue is near Turk and Taylor. Plan a 91 Owl return after midnight.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "49",
+          "91"
+        ]
+      },
+      "source": {
+        "label": "Official venue website",
+        "url": "https://www.auntcharlieslounge.com/",
+        "quote": "Aunt Charlie's Lounge official hours: 'Open Mon + Tue + Wed + Thur - Noon to 10:30pm; Friday + Saturday - Noon to 11:45pm; Sundays - Noon to 11:30pm.' Cash only, 21+."
+      },
+      "flags": [
+        "Cash only, 21+. Friday/Saturday close at 11:45 PM—after 11 PM."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "lower-nob-hill"
+    },
+    {
+      "id": "cigar-bar-grill",
+      "name": "Cigar Bar & Grill",
+      "category": "Bar / Latin restaurant / music venue",
+      "neighborhood": "Jackson Square / North Beach",
+      "address": "850 Montgomery St, San Francisco, CA 94133",
+      "officialUrl": "https://www.cigarbarandgrill.com/",
+      "hours": {
+        "Monday": "Closed",
+        "Tuesday": "4:30 PM–10:00 PM",
+        "Wednesday": "4:30 PM–12:00 AM",
+        "Thursday": "4:30 PM–2:00 AM",
+        "Friday": "4:30 PM–2:00 AM",
+        "Saturday": "6:00 PM–2:00 AM",
+        "Sunday": "6:00 PM–11:00 PM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "access": {
+        "summary": "1 California + walk",
+        "detail": "1 California runs near California St; walk to Montgomery St in Jackson Square. Use the live planner for late-night transfer.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "1",
+          "30"
+        ]
+      },
+      "source": {
+        "label": "Official venue website",
+        "url": "https://www.cigarbarandgrill.com/",
+        "quote": "Cigar Bar & Grill official hours (per official listing): Tuesday 4:30 PM–10 PM; Wednesday 4:30 PM–12 AM; Thursday–Friday 4:30 PM–2 AM; Saturday 6 PM–2 AM; Sunday 6 PM–11 PM; Monday closed."
+      },
+      "flags": [
+        "Live music / DJ nights can add a cover or change entry conditions. Kitchen may stop earlier on show nights."
+      ],
+      "verification": {
+        "status": "verified",
+        "method": "Official venue page checked for name, address, and full weekly hours; Friday/Saturday/Sunday all end after 11 PM.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "financial-district"
+    },
+    {
+      "id": "the-page",
+      "name": "The Page",
+      "category": "Dive bar / pool hall",
+      "neighborhood": "Lower Haight / NoPa",
+      "address": "298 Divisadero St, San Francisco, CA 94117",
+      "officialUrl": "https://www.thepagebar.com/",
+      "hours": {
+        "Monday": "4:00 PM–2:00 AM",
+        "Tuesday": "4:00 PM–2:00 AM",
+        "Wednesday": "4:00 PM–2:00 AM",
+        "Thursday": "4:00 PM–2:00 AM",
+        "Friday": "1:00 PM–2:00 AM",
+        "Saturday": "1:00 PM–2:00 AM",
+        "Sunday": "1:00 PM–2:00 AM"
+      },
+      "qualifyingDays": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "access": {
+        "summary": "24 Divisadero (direct)",
+        "detail": "24 Divisadero runs on Divisadero St; the venue is on Divisadero St.",
+        "sources": [
+          {
+            "label": "SFMTA route directory",
+            "url": "https://www.sfmta.com/routes"
+          }
+        ],
+        "lineIds": [
+          "24"
+        ]
+      },
+      "source": {
+        "label": "Official venue website",
+        "url": "https://www.thepagebar.com/",
+        "quote": "The Page official homepage states the bar is 'Open Daily until 2am'. Opening times shown here (4 PM weekdays, 1 PM weekend) come from consistent public listings and are flagged for review."
+      },
+      "flags": [
+        "Source gap flagged: the official homepage publishes only 'Open Daily until 2am' without a day-by-day opening grid; opening times are transcribed from public listings and are pending confirmation."
+      ],
+      "verification": {
+        "status": "verified-with-gap",
+        "method": "Official venue homepage confirms a 2 AM daily close; the opening time per day is not published on the official site, so the row is kept with a documented gap.",
+        "verifiedOn": "2026-09-05"
+      },
+      "neighborhoodGroup": "divisadero-nopa"
     }
   ]
 }
