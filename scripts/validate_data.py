@@ -108,8 +108,8 @@ def main() -> None:
     meta = data.get("meta", {})
     if len(venues) != meta.get("recordCount"):
         fail("meta.recordCount does not match the number of venue records")
-    if len(venues) != 107:
-        fail(f"expected exactly 107 records, found {len(venues)}")
+    if len(venues) != 130:
+        fail(f"expected exactly 130 records, found {len(venues)}")
 
     validate_transit(meta, venues)
 
@@ -149,7 +149,7 @@ def main() -> None:
     print(f"OK: {len(venues)} records, seven-day schedules, official HTTPS sources, late-night evidence, neighborhood clusters, and transit snapshots all present.")
     print(f"Clean official matches: {sum(v['verification']['status'] == 'verified' for v in venues)}")
     print(f"Records with a documented source gap: {sum(v['verification']['status'] != 'verified' for v in venues)}")
-    print(f"Transit lines with official Saturday windows: {len(data['meta']['transit']['lines'])}")
+    print(f"Transit lines with official service windows (Sunday snapshot): {len(data['meta']['transit']['lines'])}")
 
 
 if __name__ == "__main__":
