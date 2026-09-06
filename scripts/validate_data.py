@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "venues.json"
 DAYS = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}
 LATE_DAYS = {"Friday", "Saturday", "Sunday"}
+EXPECTED_RECORDS = 70
 BLOCKED_DOMAINS = {"yelp.com", "tripadvisor.com", "restaurantji.com", "wanderlog.com", "google.com"}
 
 
@@ -31,7 +32,8 @@ def has_late_close(value: str) -> bool:
     if "24 hour" in text:
         return True
     # This directory uses 12 AM / 1 AM / 2 AM / 3 AM to represent a next-day close.
-    return bool(re.search(r"(?:until\s+)?(?:12|1|2|3)(?::\d{2})?\s*am", text))
+    # The negative lookbehind stops "11:00 am" or "10:30 am" opening times from matching as "1:00 am".
+    return bool(re.search(r"(?<![\d:])(?:12|1|2|3)(?::\d{2})?\s*am", text))
 
 
 def validate_transit(meta: dict, venues: list[dict]) -> None:
@@ -91,8 +93,8 @@ def main() -> None:
     meta = data.get("meta", {})
     if len(venues) != meta.get("recordCount"):
         fail("meta.recordCount does not match the number of venue records")
-    if len(venues) != 20:
-        fail(f"expected exactly 20 new records, found {len(venues)}")
+    if len(venues) != EXPECTED_RECORDS:
+        fail(f"expected exactly {EXPECTED_RECORDS} records (20 original + 50 added 2026-09-05), found {len(venues)}")
 
     validate_transit(meta, venues)
 

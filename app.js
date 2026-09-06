@@ -168,11 +168,11 @@ function renderNeighborhoodHeader(groupId, venues) {
   const lineIds = [...new Set(venues.flatMap((venue) => venue.access.lineIds || []))];
   return `
     <tr class="neighborhood-row">
-      <th colspan="6" scope="rowgroup">
+      <th colspan="6" scope="rowgroup" id="cluster-${escapeHtml(groupId)}">
         <div class="neighborhood-heading-line">
           <div><span class="neighborhood-kicker">Neighborhood cluster</span><strong>${escapeHtml(info.label)}</strong></div>
           <span class="neighborhood-count">${venues.length} ${venues.length === 1 ? 'place' : 'places'}</span>
-          <span class="neighborhood-lines">Muni: ${escapeHtml(lineIds.join(' · ') || 'live planner')}</span>
+          <span class="neighborhood-lines">Muni: ${escapeHtml(lineIds.join(' · ') || 'live planner')}<a class="neighborhood-back" href="#directory">↑ clusters</a></span>
         </div>
         <span class="neighborhood-description">${escapeHtml(info.description)}</span>
       </th>
@@ -258,15 +258,26 @@ function renderVenueRows(venues) {
   if (!venues.length) {
     tbody.innerHTML = '';
     $('#empty-state').hidden = false;
+    renderClusterNav([]);
     return;
   }
   $('#empty-state').hidden = true;
   let index = 0;
-  tbody.innerHTML = groupVenues(venues).map(([groupId, group]) => {
+  const grouped = groupVenues(venues);
+  tbody.innerHTML = grouped.map(([groupId, group]) => {
     const header = renderNeighborhoodHeader(groupId, group);
     const rows = group.map((venue) => renderVenueRow(venue, ++index)).join('');
     return `${header}${rows}`;
   }).join('');
+  renderClusterNav(grouped);
+}
+
+function renderClusterNav(grouped) {
+  const nav = $('#cluster-nav');
+  if (!nav) return;
+  nav.innerHTML = grouped.map(([groupId, group]) => `
+    <a href="#cluster-${escapeHtml(groupId)}">${escapeHtml(neighborhoodLabel(groupId))} <span>${group.length}</span></a>
+  `).join('');
 }
 
 function renderFlags() {
@@ -314,7 +325,11 @@ function renderTransitDirectory() {
   if (!isCurrentSnapshot) {
     alert.innerHTML = `<strong>This is a dated service snapshot.</strong> The route table was checked ${escapeHtml(snapshotDate)}; your current local date is ${escapeHtml(formatSnapshotDate(currentDate))}. Use the official route pages and alerts before treating any window as current.`;
   }
-  $('#transit-grid').innerHTML = transit.lines.map((line) => `
+  const orderedLines = [...transit.lines].sort((a, b) => {
+    const rank = (line) => (/24 hours/i.test(line.todayWindow) ? 0 : /nightly/i.test(line.todayWindow) ? 1 : 2);
+    return rank(a) - rank(b) || String(a.id).localeCompare(String(b.id), undefined, { numeric: true });
+  });
+  $('#transit-grid').innerHTML = orderedLines.map((line) => `
     <article class="transit-card">
       <div class="transit-card-top">
         <a class="transit-route-id" href="${escapeHtml(line.routeUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(line.id)}</a>
