@@ -135,7 +135,7 @@ The closest practical rail boarding point for the requested origin is the N Juda
 - **Saturday frequency used in the site:** every 20 minutes.
 - **Coverage note:** Used for the Presidio (Presidio Bowl) and as a secondary line for Haight/Inner Sunset records; its 9th Ave & Judah stop is close to the origin area's N Judah corridor.
 
-### Lines checked but not added
+### Lines checked but not added (second pass)
 
 - **41 Union:** SFMTA's schedule page returns "Content Not Found" as of this snapshot, so the Columbus Avenue corridor is served in this directory by the 30 Stockton and 12 Folsom/Pacific instead. No 41-based access text is used.
 - **2 Sutter:** the current 2 runs Steuart St to The Richmond via Sutter Street and Presidio Ave & California St. It was verified but not used by any record; Clement and Geary records use the 38 Geary corridor with a short walk.
@@ -143,3 +143,28 @@ The closest practical rail boarding point for the requested origin is the N Juda
 ## Re-check policy
 
 The venue hours and this transit snapshot are separate claims. A venue can remain open while a regular line is disrupted, short-turned, or replaced. Before a specific Friday, Saturday, or Sunday trip, open the official venue source, the official SFMTA route page, the [Muni alerts page](https://www.sfmta.com/getting-around/muni/muni-alerts), and the live planner.
+
+---
+
+## September 5, 2026 expansion pass — additional lines
+
+Each line below was read from its official SFMTA route page on 2026-09-05 (a Saturday). Frequencies quoted are the weekend rows.
+
+### 1 California (added by the parallel pass)
+
+- **Official route page:** [1 California](https://www.sfmta.com/routes/1-california)
+- **Saturday schedule page:** [1 Saturday schedule](https://www.sfmta.com/routes/schedule/1?direction_id=0&service_id=2&date=20260905)
+- **Published line:** “SFMTA lists 1 California as "5 a.m. - 12 a.m. daily". Its weekend rows list 10 minutes morning, midday, and evening and 15 minutes late night, with no Owl service.”
+- **Today's window:** 5:00 AM–12:00 AM daily
+- **Saturday frequency used in the site:** Saturday: 10 min morning, midday, and evening west and east of Presidio Ave; 15 min late night. No Owl listed.
+- **Coverage note:** No Owl service is listed on the route page; use the 38 Geary or 90 Owl after midnight.
+
+### 6 Hayes/Parnassus (added by the parallel pass)
+
+- **Official route page:** [6 Hayes/Parnassus](https://www.sfmta.com/routes/6-hayesparnassus)
+- **Saturday schedule page:** [6 Saturday schedule](https://www.sfmta.com/routes/schedule/6?direction_id=0&service_id=2&date=20260905)
+- **Published line:** “SFMTA lists 6 Hayes/Parnassus as "Weekdays 5 a.m. - 12 a.m.; Weekends 5 a.m. - 12 a.m." Its weekend row lists 20 minutes across morning, midday, evening, and late night with no Owl.”
+- **Today's window:** 5:00 AM–12:00 AM daily
+- **Saturday frequency used in the site:** Saturday: 20 min morning, midday, evening, and late night. No Owl listed.
+- **Coverage note:** No Owl service is listed; SFMTA shows service ending at midnight on weekends.
+

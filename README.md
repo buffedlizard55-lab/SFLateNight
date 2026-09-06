@@ -4,7 +4,7 @@ A clean, source-first GitHub Pages directory for late-night restaurants, bars, a
 
 ## What is included
 
-- 70 San Francisco venue records (20 launch records + 50 added in the second verification pass).
+- 96 San Francisco venue records (20 launch records, 50 added in the second verification pass, and 26 more merged from a parallel verification pass).
 - Official venue links for manual review.
 - Officially published address and weekly hours transcribed into a searchable table.
 - Inclusion only when the published venue schedule ends after 11:00 PM on at least one Friday, Saturday, or Sunday. Midnight counts as later than 11 PM.
@@ -13,7 +13,7 @@ A clean, source-first GitHub Pages directory for late-night restaurants, bars, a
 - A visible review queue for kitchen cutoffs, grouped hours, missing opening times, 21+ rules, transit gaps, and other operational details.
 - Venue verification in [`VERIFICATION.md`](VERIFICATION.md) and transit verification in [`TRANSIT_VERIFICATION.md`](TRANSIT_VERIFICATION.md).
 
-This is intentionally a **static, source-linked index**, not a fake live-search service or a claim that every San Francisco business is represented. The current master list is exactly 70 verified records; the site never invents hours or implies that a venue is open right now. Hours and transit service can change, so the official source, SFMTA alerts, and day-of route check are part of the product.
+This is intentionally a **static, source-linked index**, not a fake live-search service or a claim that every San Francisco business is represented. The current master list is exactly 96 verified records; the site never invents hours or implies that a venue is open right now. Hours and transit service can change, so the official source, SFMTA alerts, and day-of route check are part of the product.
 
 ## Run locally
 
@@ -31,7 +31,7 @@ Then open <http://localhost:8000>.
 python3 scripts/validate_data.py
 ```
 
-The guardrail checks that there are exactly 70 records, every record has a seven-day schedule, each official source is HTTPS and not a review directory, qualifying days have a late close, every row carries a neighborhood and mapped transit line, and every transit line has an official Saturday service window and source quote.
+The guardrail checks that there are exactly 96 records, every record has a seven-day schedule, each official source is HTTPS and not a review directory, qualifying days have a late close, every row carries a neighborhood and mapped transit line, and every transit line has an official Saturday service window and source quote.
 
 ## GitHub Pages
 
